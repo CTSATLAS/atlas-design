@@ -1,85 +1,174 @@
 <?php
-/**
- * @author Daniel Nolan
+/** 
+ * @author Brandon Cordell
  * @copyright Complete Technology Solutions 2011
  * @link http://ctsfla.com
- * @package ATLAS V3
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-	<?php echo $this->Html->charset(); ?>
-	<title>
-	    <?php __('ATLAS V3'); ?>
-	    <?php echo $title_for_layout; ?>
-	</title>
-	<?php
-	echo $this->Html->meta('icon');
-	
-	echo $this->Html->css('reset');
-	
-	echo $this->Html->css('ui-redmond/jquery-ui-1.8.10.custom');
+        <!-- meta -->
+        <?php echo $this->Html->charset(); ?>
+        <meta name="description" content="" />
+        <meta name="KEYWORDS" content="" />
+        <meta name="Copyright" content="" />
+        <meta name="Language" content="English" />
 
-	echo $this->Html->css('style');
+        <!-- css -->
+        <?php
+		    echo $this->Html->css('ui-darkness/jquery-ui-1.8.5.custom');
+			echo $this->Html->css('style');
+			echo $this->Html->css('superfish');
+			echo $this->Html->script('jquery');
+			echo $this->Html->script('jquery-ui-1.8.5.custom.min');
+			echo $this->Html->script('superfish/hoverIntent.js');
+			echo $this->Html->script('superfish/superfish.js');
+			echo $this->Html->script('dd_roundies');
+			echo $scripts_for_layout;
+		?>
 
-	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js');
-	
-	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js');
-
-	echo $scripts_for_layout;
-	?>
-	<?php echo $this->Html->scriptBlock(
-		"$(document).ready(function(){
-			$('.message').fadeOut(10000);
-			$('.datepicker').datepicker();
-			if($('.actions ul').text() == '') {
-			    $('div.actions').hide();
-			}
-	    });"
+        <!--[if lte IE 7]>
+            <link rel="stylesheet" type="text/css" href="/css/ie.css" />
+        <![endif]-->
+        
+        <!--[if IE 8]>
+            <?php echo $this->Html->scriptBlock(
+            	"DD_roundies.addRule('#maincontent', 8, true);"
+            ) ?>
+		<![endif]-->
+		
+        <!-- js -->   
+        <?php echo $this->Html->scriptBlock(
+			"$(document).ready(function(){
+				$('.message').fadeOut(10000);
+				if($('.actions ul').text() == '') {
+				    $('div.actions').hide();
+				}
+				
+				$('#search_field').focus(function() {
+                    if ($(this).val() == 'KEYWORD SEARCH') {   
+                        $(this).val('');
+                    }
+                    $(this).removeClass('field_blur').addClass('field_focus');
+                }).blur(function() {
+                   if ($(this).val() == '') {
+                       $(this).val('KEYWORD SEARCH');
+                   }
+                   $(this).removeClass('field_focus').addClass('field_blur');
+                });
+		    });"
 	    )?>
+
+        <!-- favicon -->
+		<?php echo $this->Html->meta('icon'); ?>
+
+        <!-- title -->
+		<title>
+		    <?php __('Tampa Bay Workforce Alliance'); ?>
+		    <?php echo $title_for_layout; ?>
+		</title>
     </head>
     <body>
-	<div id="container">
-	    <div id="header">
-		<div id="logo" class="left">
-		    <?php echo $this->Html->link($this->Html->image('/img/default/default_header_logo.jpg'),
-				array('controller' => 'pages',
-					'action' => 'display',
-					'admin' => false, 'home'), array('escape' => false));
-			    ?>
-		</div>
-		<div id="logoLogout" class="right">
-		    <?php echo $this->Html->image('atlas_logo_100.jpg') ?>
-		    <br />
-		   <p>
-		   <?php
-			if ($session->read('Auth.User')) {
-                printf(__('<strong>Logged in as: %s %s</strong> | ', true), $this->Session->read('Auth.User.firstname'), $this->Session->read('Auth.User.lastname'));
-				echo $this->Html->link(__('Edit Profile', true), array('controller' => 'users', 'action' => 'edit', 'kiosk' => false, $this->Session->read('Auth.User.id'))) . ' | ';
-				echo $this->Html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout', 'kiosk' => false, 'web'));
-            }
-			?>
-		   </p>
-		</div>
-	    </div>
-            <div id="navigation"><?php echo $this->Nav->links('Top') ?></div>
-	    <div id="content">
-		<h1 class="left"><?php echo $title_for_layout; ?></h1>
-		<?php echo $this->Session->flash(); ?>
-		<?php echo $session->flash('auth'); ?>
-		<br class="clear"/>
-		<?php echo $content_for_layout; ?>
-	    </div>
-            <div id="bottom_navigation"><?php echo $this->Nav->links('Bottom') ?></div>
-	    <div  id="footer">
-        <p>
-            <?php printf(__('%s is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711.', true), Configure::read('Company.name')) ?>
-            <?php printf(__('Copyright &copy; %s - %s. All Rights Reserved. Developed &amp; Hosted by Complete Technology Solutions', true), date('Y'), Configure::read('Company.name')) ?>
-		</p>
-	    </div>
-	</div>
-	<?php echo $this->Js->writeBuffer(); ?>
+        <div class="container">
+            <div class="header">
+                <h1><a href="/">Tampa Bay Workforce Alliance</a></h1>
+                <form action="#" method="post">
+                    <p>
+                        <label for="search_field">Search</label>
+                        <input type="text" class="field_blur" id="search_field" name="search_field" value="KEYWORD SEARCH" />
+                    </p>
+                    <p><input type="submit" id="search_submit" value="Go" /></p>
+                </form>
+	            <?php if (!$session->read('Config.language')): ?>
+		    		<a class="translate-button" href="/kiosk/kiosks/set_language/es">Español</a>
+		    	<?php else: ?>
+		    		<a class="translate-button" href="/kiosk/kiosks/set_language/en">English</a>
+		    	<?php endif ?>
+            </div> <!-- end .header -->
+            <div class="clear"></div>
+            
+            <div class="content">
+                <div class="topNav">
+                	<?php echo $this->Nav->links('Top', true) ?>
+                </div> <!-- end .topNav -->
+                <div class="clear"></div>
+                
+                <div id="aside">
+	                <div class="leftNav">
+	                	<?php echo $this->Nav->links('Left', true) ?>
+	                </div> <!-- end .leftNav -->
+	                
+	                <div class="feedback">
+	                    <h3><?php __('Tell Us What You Think') ?></h3>
+	                    <p><?php __('Overall, in terms of resources and information, how effective is this website in meeting your employment
+	                    needs?') ?></p>
+	                    <form action="#" method="post">
+	                        <p>
+	                            <input type="radio" value="Very Effective" name="very_effective" />
+	                            <label for="very_effective"><?php __('Very Effective') ?></label>
+	                        </p>
+	                        <p>
+	                            <input type="radio" value="Somewhat Effective" name="somewhat_effective" />
+	                            <label for="somewhat_effective"><?php __('Somewhat Effective') ?></label>
+	                        </p>
+	                        <p>
+	                            <input type="radio" value="not_very_effective" name="not_very_effective" />
+	                            <label for="very_effetive"><?php __('Not Very Effective') ?></label>
+	                        </p>
+	                        <p><input type="submit" id="feedback_submit" value="<?php __('Select') ?>" /></p>
+	                    </form>
+	                </div> <!-- end .feedback -->
+	            </div> <!-- end #aside -->
+	            
+	            <?php if ($this->params['action'] == 'display' && $this->params['controller'] == 'pages'): ?>
+	            <div id="maincontent" class="homebg">
+	                <div>
+	            	<?php else: ?>
+	            <div id="maincontent">
+	                <div class="sub_content">
+		            <?php endif; ?>
+		                <?php $controller = Inflector::camelize($this->params['controller']) ?>
+		                <?php if (Configure::read("{$controller}.title")) {
+		                    $title = Configure::read("{$controller}.title");
+		                } else {
+		                    $title = $title_for_layout;
+		                } ?>
+		                <h1><?php echo $title ?></h1>
+		                <?php if (Configure::read("{$controller}.description")) {
+		                    echo Configure::read("{$controller}.description");
+		                } ?>
+		            	<?php echo $this->Session->flash(); ?>
+						<?php echo $session->flash('auth'); ?>
+		            	<?php echo $content_for_layout; ?>
+	                </div>
+                </div> <!-- end #maincontent -->
+            </div> <!-- end .content -->
 
+            <div class="footer">
+                <div class="left last">
+                    <h4>OneStop Locations</h4>
+                    <ul>
+                        <li><a href="/locations#WorkForce_Brandon_Career_Center">Workforce Brandon</a></li>
+                        <li><a href="/locations#WorkForce_Plant_City_Career_Center">Workforce Plant City</a></li>
+                        <li><a href="/locations#WorkForce_Tampa_Career_Center">Workforce Tampa</a></li>
+                    </ul>
+                </div> <!-- end .last -->
+            </div> <!-- end .footer -->
+        </div> <!-- end .container -->
+        <script type="text/javascript">
+
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-24254812-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+
+        </script>
     </body>
 </html>

@@ -1,148 +1,667 @@
-/*
-    Document   : style
-    Created on : Dec 13, 2010, 3:06:41 PM
-    Author     : Daniel Nolan
-    Description: main site style sheet
-    Copyright  : Complete Technology Solutions
-
-*/
+/** 
+ * @author Brandon Cordell
+ * @copyright Complete Technology Solutions 2011
+ * @link http://ctsfla.com
+ */
 
 /* HTML Elements */
-
-html {
-	background: #1875BB;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
 }
 
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET */
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    overflow-y: scroll;
+    background: #dcdddf url(../img/shadow_bg.png) center 90px no-repeat;
+    color: #006699;
+    font: normal normal normal 14px/18px Tahoma, Arial, sans-serif;
+    text-align: center;
 }
 
+p {
+	margin: 0 0 18px;
+}
 
 a {
-    color: #3B71A0;
-    text-decoration: none;
+    color: #006699;
 }
 
-a:hover {
-    text-decoration: underline;
+.container {
+    text-align: left;
+    width: 800px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 20px auto -4em;
 }
 
-h1 {
-    color: orange;
-    font-size: 15px;
-    font-weight: bold;
+.header {
+    height: 49px;
+    line-height: 49px;
+    margin: 0 0 12px;
+    padding: 0 0 0 29px;
 }
 
-h2 {
-    color: orange;
-    font-size: 12px;
-    font-weight: bold;
+.header h1, ul, form {
+    float: left;
 }
 
-strong {
-    font-weight: bold;
+.header h1 {
+    background: url(../img/tbwa_logo.png) 0 0 no-repeat;
+    height: 49px;
+    margin: 0 108px 0 0;
+    width: 184px;
 }
 
-
-/* Text */
-.small {
-    font-size: 11px;
+.header h1 a {
+    display: block;
+    height: 49px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 184px;
 }
 
-.normal {
-    font-weight: normal;
+.header ul {
+    list-style: none;
 }
 
-/* Margin Classes */
-.bot-mar-10 {
-    margin-bottom: 10px;
+.header ul li {
+    float: left;
+    margin: 0 20px 0 0;
+}
+.header form {
+    margin: 0 0 0 37px;
+	width: 270px;
+}
+.header form #search_field {
+    background: transparent url(../img/search_bg.png) 0 0 no-repeat;
+    border: 0;
+    height: 19px;
+    padding: 5px 10px 5px 10px;
+    width: 207px;
+}
+.header form label {
+    display: none;
+}
+.header form p {
+    float: left;
+}
+.header form input[type=text] {
+    width: 225px;
+}
+.content {
+    background: #fff url(../img/gradient_bg.png) 0 0 repeat-x;
+    padding: 25px 0 0;
+    min-height: 558px;
+    overflow: auto;
 }
 
-.right-mar-10 {
-    margin-right: 10px;
+a.translate-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0e0e0), color-stop(1, #ababab) );
+	background:-moz-linear-gradient( center top, #e0e0e0 5%, #ababab 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#ababab');
+	background-color:#e0e0e0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #a1a1a1;
+	color:#424242;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+	margin: 10px 0 0 65px;
 }
 
-.left-mar-10 {
-    margin-left: 10px;
+a.translate-button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ababab), color-stop(1, #e0e0e0) );
+	background:-moz-linear-gradient( center top, #ababab 5%, #e0e0e0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ababab', endColorstr='#e0e0e0');
+	background-color:#ababab;
+}
+
+a.translate-button:active {
+	position:relative;
+	top:1px;
+}
+
+/**
+ * START: Top Navigation **************************************************************
+ */
+
+.content .topNav {
+	float: left;
+	width: 576px;
+    height: 41px;
+    line-height: 40px;
+    padding-left: 224px;
+}
+
+.content .topNav + ul {
+	float: right;
+    margin: 0 35px 0 0;
+    padding: 0;
+    list-style: none;
+}
+.content .topNav li {
+	background: url(../img/nav_left.png) no-repeat left top;
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.content .topNav li ul {
+	background: #006699;
+	display: none;
+	position: absolute;
+	top: 4em;
+	left: 0;
+}
+.content .topNav li ul a {
+	background: #006699;
+	color: #fff;
+	display: block;
+	font-size: 13px;
+	font-weight: normal;
+	text-transform: capitalize;
+	width: 100%;
+}
+
+.content .topNav li ul li:hover,
+.content .topNav li ul a:hover {
+	background: #1781B2;
 }
 
 .top-mar-10 {
 	margin-top: 10px;
 }
 
-.top-mar-20 {
-	margin-top: 20px;
-}
-
 /* Structure Elements */
 
-#container {
-    margin: 0 auto;
-    width: 977px;
+.content .topNav li > ul {
+	left: auto;
 }
 
-#header {
-    width: 970px;
-    color: #333;
-    padding: 0 0 0 0;
-    height: 90px;
-    margin: 0;
-    background: #FFF;
+.content .topNav li:hover ul {
+	display: block;
 }
 
-#nav {
-    color: white;
-    background-color: #333;
-    height: 30px;
-
+.topNav a {
+	background: url(../img/nav_right.png) no-repeat right top;
+	float: left;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+/*	margin: 0 0 0 5px;*/
+	padding: 1px 15px 0 10px;
+	display: block;
+	text-decoration: none;
 }
 
-#nav li {
+/*.topNav li:hover {background-position: 0 -40px}
+.topNav a:hover {background-position: right -40px}*/
+
+/**
+ * START: Superfish styles
+ */
+
+/*** ESSENTIAL STYLES ***/
+/*.sf-menu, .sf-menu * {
+	margin:	0;
+	padding: 0;
+	list-style:	none;
+}*/
+
+.topNav .sf-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 150px;
+	/* left offset of submenus need to match (see below) */
+}
+.topNav .sf-menu ul li {
+	width: 100%;
+}
+.topNav .sf-menu li:hover {
+	visibility: inherit;
+	/* fixes IE7 'sticky bug' */
+}
+.topNav .sf-menu li {
+	float: left;
+	position: relative;
+}
+.topNav .sf-menu a {
+	display: block;
+	position: relative;
+}
+.topNav .sf-menu li:hover ul, .topNav .sf-menu li.sfHover ul {
+	left:			1px;
+	top:			40px;
+	/* match top ul list item height */
+	z-index:		9999;
+}
+.topNav ul.sf-menu li:hover li ul, .topNav ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+.topNav ul.sf-menu li li:hover ul, .topNav ul.sf-menu li li.sfHover ul {
+	left:			40px;
+	/* match ul width */
+	top:			0;
+}
+.topNav ul.sf-menu li li:hover li ul, .topNav ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+.topNav ul.sf-menu li li li:hover ul, .topNav ul.sf-menu li li li.sfHover ul {
+	left:			40px;
+	/* match ul width */
+	top:			0;
+}
+
+/*** shadows for all but IE6 ***/
+.topNav .sf-shadow ul {
+	background:	url(../img/shadow.png) no-repeat bottom right;
+	padding: 0 8px 9px 0;
+	-moz-border-radius-bottomleft: 17px;
+	-moz-border-radius-topright: 17px;
+	-webkit-border-top-right-radius: 17px;
+	-webkit-border-bottom-left-radius: 17px;
+}
+.topNav .sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+/**
+ * END: Superfish styles
+ */
+
+/**
+ * END: Top Navigation **************************************************************
+ */
+ 
+.content #aside {
     float: left;
-    margin: 8px 10px 0 ;
+    width: 175px;
+}
+
+.content #aside li ul li.current a {
+	font-weight: bold;
+}
+
+.content #maincontent {
+	float: left;
+	margin: 0 0 0 9px;
+	width: 607px;
+}
+
+.content .leftNav {
 
 }
 
-#nav a {
-    color: white;
-
+.content .leftNav a {
+    font-weight: 500;
+    text-decoration: none;
 }
 
-#content {
-    width: 950px;
-    color: #333;
-    background: #fff;
-    margin: 0px 0px 5px 0px;
-    padding: 10px;
-    min-height: 400px;
-    overflow: hidden;
+.content .leftNav ul {
+    width: 190px;
 }
 
-#footer {
-    background-color: #fff;
-    font-size: 10px;
+.content .leftNav ul li{
+    border-bottom: 1px solid #cdd5de;
+    padding: 3px 15px;
+}
+
+.content .leftNav ul li.last {
+    border: 0;
+}
+
+.content .leftNav ul li ul {
+	display: none;
+}
+
+.content .leftNav ul li.current ul {
+	display: block;
+}
+
+.content .leftNav ul li ul li{
+	border: 0;
+	margin: 5px 0;
+}
+
+.content .leftNav ul li ul li a {
+	color: #454545;
+	font-size:12px;
+}
+
+.content .leftNav ul li.current ul li a:hover {
+	text-decoration: underline;
+}
+
+.secondary .content .leftNav {
+    margin-top: 40px !important;
+}
+
+.content .testimonial {
+    background: transparent url(../img/testimonial_bg.png) 0 0 no-repeat;
+    float: left;
+    height: 166px;
+    padding: 25px 0 0 25px;
+    width: 579px;
+}
+
+.content .testimonial p {
+    color: #006699;
+    font-family: "Times New Roman";
+    font-style: italic;
+    margin: 0 0 8px;
+    width: 300px;
+}
+
+.content .testimonial p.signed {
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    width: 275px;
+}
+.content .testimonial p.signed span {
+    display: block;
     font-weight: normal;
-    color: #000;
-    width: 950px;
-    border: none;
-    margin: 0px 0px 10px 0px;
-    padding: 10px;
 }
 
-.left {
+.content .feedback {
+    float: left;
+    font-size: 11px;
+    margin: 50px 10px 0;
+    width: 155px;
+}
+.content .feedback p {
+    margin: 0 0 8px;
+}
+.content .feedback form p {
+    margin: 0 !important;
+}
+.content .feedback form input[type=submit] {
+    margin: 8px 0 0;
+}
+
+#maincontent {
+	background: #fff;
+	behavior:url(/css/ie-css3.htc);
+    border-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    -moz-border-radius-topright: 8px;
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+}
+
+.homebg {
+	background: transparent !important;
+}
+
+.content .sub_content {
+	margin: 0 8px 0 0;
+    padding: 18px 20px;
+    min-height: 600px;
+    height: auto !important;
+    height: 600px;
+}
+
+.content .sub_content h1 {
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.content .sub_content p {
+    color: #454545;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.content .sub_content h2,
+.content .sub_content p {
+    margin-bottom: 18px;
+}
+
+.content div.employers,
+.content .career_seekers,
+.content div.programs {
+    background: transparent url(../img/blue_bg.png) 0 0 no-repeat;
+    color: #fff;
+    height: 112px;
+    float: left;
+    margin: 25px 0 0;
+    width: 195px;
+}
+.content div.employers ul,
+.content .career_seekers ul,
+.content div.programs ul {
+    width: 180px;
+}
+.content div.employers li,
+.content .career_seekers li,
+.content div.programs li {
+    font-size: 12px;
+    text-align: right;
+}
+.content div.employers a,
+.content .career_seekers a,
+.content div.programs a {
+    color: #fff;
+    text-decoration: none;
+}
+.content div.employers a:hover,
+.content .career_seekers a:hover,
+.content div.programs a:hover {
+    text-decoration: underline;
+}
+.content div.employers,
+.content .career_seekers {
+    margin-right: 11px;
+}
+.content div.employers h3,
+.content .career_seekers h3,
+.content div.programs h3 {
+    margin: 4px 0 0 8px;
+}
+
+.content .links ul {
+	height: 110px;
+	margin: 15px 0 0 -15px;
+	width: 625px;
+}
+
+.content .links ul li {
+    border-right: 1px solid #ccc;
+    display: block;
+    float: left;
+    margin: 25px 0 0;
+    padding: 15px 20px 30px 95px;
+    width: 201px;
+}
+.content .links ul li a {
+    font-weight: bold;
+}
+.content .links .last {
+    border: 0;
+}
+
+.content .links .calendar {
+	background: transparent url(../img/icons/calendar-of-events.png) 20px 9px no-repeat;
+}
+
+.content .links .locations {
+	background: transparent url(../img/icons/gps.png) 20px 17px no-repeat;
+}
+
+.content .terms {
+    font-size: 10px;
+    line-height: 12px;
+    margin: 20px 25px 0 0;
+    padding: 0 0 18px 0;
+}
+.footer {
+    background: #598cbf url(../img/footer_bg.jpg) center bottom no-repeat;
+    color: #fff;
+    font-size: 10px;
+    height: 100px;
+    line-height: 16px;
+}
+.footer a {
+	color: #342;
+}
+.footer a {
+    color: #fff;
+}
+.footer h4 {
+    font-size: 12px;
+}
+.footer div {
     float: left;
 }
 
-.right {
-    float: right;
+.footer div.first {
+    margin: 0 50px 0 40px;
+}
+.footer .powered {
+	margin: 0;
+}
+.footer div.last {
+    margin: 8px 0 0 665px;
+    text-align: right;
+}
+.footer div.last ul {
+width: 100%;
+}
+.active_nav {
+    background: #ff3333;
+}
+
+.field_focus {
+    color: #006699;
+}
+
+.field_blur {
+    color: #888;
 }
 
 .clear {
     clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
 }
+
+#search_submit {
+    background: transparent url(../img/go_button.png) 0 0 no-repeat;
+    border: 0px solid #fff;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    height: 37px;
+    width:35px;
+	line-height: 999px; /* Set it higher than your image height */
+	overflow: hidden; /* Hide the text */
+	font-size: 0; /* FF2 doesn’t like the above */
+}
+
+#feedback_submit {
+    background: transparent url(../img/survey_button.png) 0 0 no-repeat;
+    border: 0;
+    cursor: pointer;
+    height: 29px;
+    margin: 12px 0 0 5px;
+    padding: 0 0 0 0;
+    width:94px;
+	line-height: 999px; /* Set it higher than your image height */
+	overflow: hidden; /* Hide the text */
+	font-size: 0; /* FF2 doesn’t like the above */
+}
+
+a:focus {
+    outline: 1px dotted #006699;
+}
+
+.pressReleases table,
+.chairmanReports table {width: 100%;}
+
+.pressReleases table tr th,
+.chairmanReports table tr th,
+.pressReleases table tr td,
+.chairmanReports table tr td {padding: 4px 8px;}
+
+.pressReleases table tr th,
+.chairmanReports table tr th {
+	border-bottom: 1px solid #263240;
+	padding: 4px 8px 8px;
+	margin: 0 0 8px 0;
+}
+
+.pressReleases table tr td,
+.chairmanReports table tr td {
+	border-bottom: 1px solid #AAAAAA;
+	padding: 8px;
+}
+.pressReleases table .created,
+.chairmanReports table .created {
+	text-align: right;
+}
+.pressReleases .counter,
+.chairmanReports .counter {
+	color: #777 !important;
+	margin: 8px 0 0 0;
+}
+
+
 
 /*Specific Styles */
 
@@ -239,11 +758,25 @@ strong {
     text-decoration: none;
 }
 
-.hotJobs .job, .featuredEmployers .featuredEmployer,
+.featuredEmployers .featuredEmployer,
 .rfps .rfp {
-	border-bottom: 1px solid #3366CC;
-	margin: 8px 0 18px;
-	padding: 0 0 12px;
+	border-bottom: 1px solid #D0E0EE;
+	margin: 0 0 16px;
+	padding: 8px 0 22px;
+}
+
+.rfps .rfp {
+	position: relative;
+}
+
+.rfp .rfp_download {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.rfp_download:hover {
+	background-color: #efefef;
 }
 
 .hotJobs .job h2,
@@ -258,10 +791,14 @@ strong {
 	margin: 0 0 12px;
 }
 
-.hotJobs .job ul,
+.hotJobs .job ul {
+	float: none;
+}
+
 .featuredEmployers .featuredEmployer ul, 
 .rfps .rfp ul{
 	margin: 0 0 12px 10px;
+	float: none;
 }
 
 .rfp_download {
@@ -269,7 +806,7 @@ strong {
 	margin-left: 10px;
 	width: 96px;
 }
-.rfp_download:hover {
+.rfp_download {
 	text-decoration: none;
 }
 .rfp_download img {
@@ -283,9 +820,9 @@ strong {
 
 .inTheNews .article,
 .helpfulArticles .article {
-	border-top: 1px solid #D0E0EE;
-	margin: 0 0 18px;
-	padding: 8px 0;
+	border-bottom: 1px solid #D0E0EE;
+	margin: 0 0 16px;
+	padding: 8px 0 22px;
 }
 
 .inTheNews .article .date,
@@ -325,15 +862,318 @@ strong {
 
 .locations .location {
 	border-top: 1px solid #D0E0EE;
-	height: 200px;
 	margin: 0 0 18px;
 	padding: 25px 0;
+}
+
+.location .left {
+	width: 300px;	
 }
 
 .location_facilities {
 	border-top: 1px solid #D0E0EE;
 	margin: 0 0 18px;
 	padding: 25px 0;
+}
+
+.event {
+	position: relative;
+}
+
+.event .category {
+	position: absolute;
+	right: 10px;
+	top: 6px;
+	font-size: 12px;
+	color: #86898C;
+}
+
+.event, .job {
+	background: #E6EBF1;
+	border: 1px solid #D0E0EE;
+	margin: 0 0 16px;
+	padding: 8px 20px;
+}
+
+.event .description {
+	padding: 10px 0 0;
+}
+
+.event .location,
+.event .event_url,
+.event .event_links {
+	margin: 0 !important;
+}
+
+.event .datetime {
+	color: #676767;
+	font-size: 13px;
+}
+
+body.js #category_submit { display: none; }
+
+.event .sponsor {
+	font-style: italic;
+}
+
+.event .event_links a {
+	margin-right: 8px;
+}
+
+.event .location .label {
+	color: #000;
+}
+
+form.event_categories {
+	float: none;
+}
+
+form p.label {
+	margin-bottom: 0 !important;
+}
+
+form .rating {
+
+}
+
+form .rating label {
+	color: #454545;
+}
+
+form .rating input {
+	margin: 18px 7px !important;
+}
+
+#EmployersSurveyAddForm, #CareerSeekersSurveyAddForm {
+	margin-top: 18px;
+}
+
+#EmployersSurveyAddForm fieldset, .employersSurveys fieldset, #CareerSeekersSurveyAddForm fieldset,
+.careerSeekersSurveys fieldset {
+	border: none !important;
+}
+
+.employersSurveys legend, .careerSeekersSurveys legend {
+	margin-left: 0 !important;
+}
+
+#EmployersSurveyAddForm label, 
+#CareerSeekersSurveyAddForm label {
+	display: block;
+	font-weight: bold;
+	margin: 0 0 6px;
+}
+
+#EmployersSurveyAddForm .input, 
+#CareerSeekersSurveyAddForm .input {
+	border-bottom: none !important;
+}
+
+#EmployersSurveyAddForm .input p.left,
+#CareerSeekersSurveyAddForm .input p.left {
+	text-align: left !important;
+	width: auto !important;
+}
+
+#EmployersSurveyAddForm .rating label, 
+#CareerSeekersSurveyAddForm .rating label,
+#EmployersSurveyAddForm .supertall label, 
+#CareerSeekersSurveyAddForm .supertall label {
+	display: inline;
+	font-weight: normal;
+}
+
+#EmployersSurveyAddForm .textarea label,
+#CareerSeekersSurveyAddForm .textarea label {
+	font-weight: bold !important;
+	margin: 0 0 6px !important;
+}
+
+#EmployersSurveyAddForm .wide, 
+#CareerSeekersSurveyAddForm .wide {
+	color: #999999
+}
+
+#EmployersSurveyAddForm .rating, 
+#CareerSeekersSurveyAddForm .rating {
+	margin: 18px 0;
+}
+
+#EmployersSurveyAddForm p.left, 
+#CareerSeekersSurveyAddForm p.left {
+	float: none;
+}
+
+.events .event_categories ol {
+	width: 95%;
+}
+
+.events .event_categories ol li {
+	display: block;
+}
+
+.events .event_categories ol li.top {
+	margin: 0 0 18px;
+	text-align: right;
+}
+
+.events .event_categories ol li.bottom {
+
+}
+
+p.calnav {
+	font-size: 16px !important;
+	margin: 0 0 18px;
+	text-align: center;
+}
+
+p.calnav  a {
+	text-decoration: none;
+}
+
+
+.event_categories_label {
+	color: #454545;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.no-events {
+	background: #E6EBF1;
+	border: 1px solid #D0E0EE;
+	margin: 0 0 16px;
+	padding: 18px 20px;
+	text-align: center;
+}
+
+.no-events p {
+	font-size: 15px;
+	margin: 10px 0 0;
+}
+
+.left {
+	float: left;
+}
+
+br.clear {
+	clear: both;
+}
+
+/* styles to make sure ckeditor formats content correctly */
+
+.sub_content ul, .sub_content ol {
+	float: none;
+	margin-bottom: 18px;
+	margin-left: 30px;
+}
+
+.sub_content ul {
+	list-style: disc
+}
+
+.sub_content ol {
+	list-style: decimal
+}
+
+sub {
+	font-size: xx-small;
+	vertical-align: bottom;
+}
+
+sup {
+	font-size: xx-small;
+	vertical-align: top;
+}
+
+.location .right {
+	border: 10px solid #efefef;
+	float: right;
+	width: 230px;
+}
+
+#ContactBapReferralForm { margin-top: 18px; }
+
+#ContactIndexForm .error-message,
+#ContactBapReferralForm .error-message {
+	float: left;
+	font-size: 11px;
+	font-style: italic;
+}
+
+#ContactIndexForm p.label {
+	margin: 0 10px 0;
+	text-align: right;
+	width: 150px;
+}
+
+#ContactBapReferralForm p.label {
+	margin: 0 10px 0;
+	text-align: right;
+	width: 135px;
+}
+
+#ContactIndexForm .textarea .error-message,
+#ContactBapReferralForm .textarea .error-message {
+	float: none !important;
+	margin-left: 200px;
+}
+
+#ContactIndexForm .submit,
+#ContactBapReferralForm .submit {
+	margin: 18px 0 36px 169px;
+}
+
+.notice {
+	background: #F7EEB2 url(../img/icons/notice.png) 15px center no-repeat;
+	border: 1px solid #E6E49F;
+	color: #666;
+	margin: 0 0 18px;
+	padding: 6px 10px 6px 23px;
+	text-shadow: rgba(255,255,255,0.5) 0px 1px 2px;
+}
+
+.notice a {
+	font-weight: 300;
+	margin: 0 0 0 5px;
+	text-decoration: underline;
+	text-shadow: none;
+}
+
+.notice h3 {
+	color: #232323;
+	font-weight: bold;
+	margin-bottom: 2px !important;
+}
+
+.most-registration p {
+  width: 220px;
+}
+
+.most-registration p.label {
+  margin-right: 15px;
+  text-align: right;
+  width: 164px;
+}
+
+.no-ast span {
+  color: #fff !important;
+}
+
+.most-registration p label {
+  text-align: right;
+}
+.mostRegistrations div.input p {
+  margin-bottom: 0;
+  margin-top: 18px;
+}
+.most-registration .error-message {
+  color: #600;
+  font-size: 11px;
+  margin: 0 0 0 181px;
+}
+
+.mostRegistrations .submit {
+  margin: 18px 0 30px 181px;
 }
 
 .survey form {
@@ -375,13 +1215,9 @@ legend {
     margin-left: 10px;
 }
 
-.input {
-    height: 18px;
-
-}
-
 .input label {
     font-weight: bold;
+		color: #454545;
 }
 
 .input input  {
@@ -402,12 +1238,11 @@ br.clear {
 }
 
 .form .tall {
-	height: 50px;
+
 }
 
 .form .supertall {
 	padding: 18px 0 0;
-	height: 150px;
 }
 
 .form fieldset {
@@ -497,15 +1332,15 @@ div.required label:after {
 
 /* Registration */
 
-#password_UserSsn1, #password_UserSsn1Confirm  {
+#UserSsn1, #UserSsn1Confirm  {
 	width: 25px;
 }
 
-#password_UserSsn2Confirm, #password_UserSsn2 {
+#UserSsn2Confirm, #UserSsn2 {
 	width: 20px;
 }
 
-#password_UserSsn3, #password_UserSsn3Confirm {
+#UserSsn3, #UserSsn3Confirm {
 	width: 30px;
 }
 
@@ -516,7 +1351,8 @@ div.required label:after {
 
 #ChildRegistrationForm fieldset,
 #WebRegistrationForm fieldset{
-	width: 600px;
+	margin-bottom: 18px;
+	width: 550px;
 }
 
 #ChildRegistrationForm .error-message,
@@ -571,9 +1407,4 @@ div.required label:after {
 
 #RequiredDocs .error-message {
 	margin-left: 0;
-}
-
-#ResponseComplete .label {
-	width:110px; 
-	text-align: right;
 }
