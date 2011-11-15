@@ -54,7 +54,7 @@ table {
 /* END RESET */
 
 body {
-    background: #dcdddf url(../img/shadow_bg.png) center 90px no-repeat;
+    background: #dcdddf url(../img/default/shadow_bg.png) center 105px no-repeat;
     color: #006699;
     font: normal normal normal 14px/18px Tahoma, Arial, sans-serif;
     text-align: center;
@@ -74,7 +74,7 @@ a {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 20px auto -4em;
+	margin: 35px auto -4em;
 }
 
 .header {
@@ -89,7 +89,7 @@ a {
 }
 
 .header h1 {
-    background: url(../img/tbwa_logo.png) 0 0 no-repeat;
+    background: url(../img/default/tbwa_logo.png) 0 0 no-repeat;
     height: 49px;
     margin: 0 108px 0 0;
     width: 184px;
@@ -116,7 +116,7 @@ a {
 	width: 270px;
 }
 .header form #search_field {
-    background: transparent url(../img/search_bg.png) 0 0 no-repeat;
+    background: transparent url(../img/default/search_bg.png) 0 0 no-repeat;
     border: 0;
     height: 19px;
     padding: 5px 10px 5px 10px;
@@ -132,7 +132,7 @@ a {
     width: 225px;
 }
 .content {
-    background: #fff url(../img/gradient_bg.png) 0 0 repeat-x;
+    background: #fff url(../img/default/gradient_bg.png) 0 0 repeat-x;
     padding: 25px 0 0;
     min-height: 558px;
     overflow: auto;
@@ -157,7 +157,7 @@ a.translate-button {
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
-	margin: 10px 0 0 65px;
+	margin: 10px 0 0 63px;
 }
 
 a.translate-button:hover {
@@ -191,7 +191,7 @@ a.translate-button:active {
     list-style: none;
 }
 .content .topNav li {
-	background: url(../img/nav_left.png) no-repeat left top;
+	background: url(../img/default/nav_left.png) no-repeat left top;
     float: left;
     position: relative;
     padding: 0;
@@ -235,7 +235,7 @@ a.translate-button:active {
 }
 
 .topNav a {
-	background: url(../img/nav_right.png) no-repeat right top;
+	background: url(../img/default/nav_right.png) no-repeat right top;
 	float: left;
 	color: #fff;
 	text-transform: uppercase;
@@ -306,7 +306,7 @@ a.translate-button:active {
 
 /*** shadows for all but IE6 ***/
 .topNav .sf-shadow ul {
-	background:	url(../img/shadow.png) no-repeat bottom right;
+	background:	url(../img/default/shadow.png) no-repeat bottom right;
 	padding: 0 8px 9px 0;
 	-moz-border-radius-bottomleft: 17px;
 	-moz-border-radius-topright: 17px;
@@ -389,7 +389,7 @@ a.translate-button:active {
 }
 
 .content .testimonial {
-    background: transparent url(../img/testimonial_bg.png) 0 0 no-repeat;
+    background: transparent url(../img/default/testimonial_bg.png) 0 0 no-repeat;
     float: left;
     height: 166px;
     padding: 25px 0 0 25px;
@@ -473,7 +473,7 @@ a.translate-button:active {
 .content div.employers,
 .content .career_seekers,
 .content div.programs {
-    background: transparent url(../img/blue_bg.png) 0 0 no-repeat;
+    background: transparent url(../img/default/blue_bg.png) 0 0 no-repeat;
     color: #fff;
     height: 112px;
     float: left;
@@ -534,11 +534,11 @@ a.translate-button:active {
 }
 
 .content .links .calendar {
-	background: transparent url(../img/icons/calendar-of-events.png) 20px 9px no-repeat;
+	background: transparent url(../img/default/icons/calendar-of-events.png) 20px 9px no-repeat;
 }
 
 .content .links .locations {
-	background: transparent url(../img/icons/gps.png) 20px 17px no-repeat;
+	background: transparent url(../img/default/icons/gps.png) 20px 17px no-repeat;
 }
 
 .content .terms {
@@ -548,7 +548,7 @@ a.translate-button:active {
     padding: 0 0 18px 0;
 }
 .footer {
-    background: #598cbf url(../img/footer_bg.jpg) center bottom no-repeat;
+    background: #598cbf url(../img/default/footer_bg.jpg) center bottom no-repeat;
     color: #fff;
     font-size: 10px;
     height: 100px;
@@ -602,7 +602,7 @@ width: 100%;
 }
 
 #search_submit {
-    background: transparent url(../img/go_button.png) 0 0 no-repeat;
+    background: transparent url(../img/default/go_button.png) 0 0 no-repeat;
     border: 0px solid #fff;
     cursor: pointer;
     padding: 0;
@@ -615,7 +615,7 @@ width: 100%;
 }
 
 #feedback_submit {
-    background: transparent url(../img/survey_button.png) 0 0 no-repeat;
+    background: transparent url(../img/default/survey_button.png) 0 0 no-repeat;
     border: 0;
     cursor: pointer;
     height: 29px;
@@ -1124,7 +1124,7 @@ sup {
 }
 
 .notice {
-	background: #F7EEB2 url(../img/icons/notice.png) 15px center no-repeat;
+	background: #F7EEB2 url(../img/default/icons/notice.png) 15px center no-repeat;
 	border: 1px solid #E6E49F;
 	color: #666;
 	margin: 0 0 18px;
@@ -1370,12 +1370,12 @@ div.required label:after {
  /* Programs */
 
 #Instructions {
-	width: 600px;
+	width: 500px;
 	margin-bottom: 10px;
 } 
 
 #ProgramForm fieldset {
-	width: 600px
+	width: 500px;
 }
 
 #ProgramForm .input {
@@ -1388,7 +1388,7 @@ div.required label:after {
 }
 
 #ProgramForm .field-instructions {
-	width: 600px;
+	width: 500px;
 	margin: 5px;
 }
 
