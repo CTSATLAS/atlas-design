@@ -577,3 +577,96 @@ div.required label:after {
 	width:110px; 
 	text-align: right;
 }
+
+.job-order-form {
+    margin-left: 85px;
+    margin-top: 18px;
+}
+
+.job-order-form p.label {
+    margin-right: 20px;
+    text-align: right;
+    width: 250px !important;
+}
+
+.job-order-form .input {
+    margin: 5px 0;
+}
+
+.job-order-form label.normal {
+    font-weight: normal;
+}
+
+.job-order-form .no-label {
+    margin-left: 170px;
+}
+
+.job-order-form label span {
+    font-style: italic;
+}
+
+.job-order-form .applicant-info {
+    margin-top: 50px;
+}
+
+.job-order-form .wage-schedule {
+    margin-top: 36px;
+}
+
+.job-order-form .shifts {
+    margin-top: 60px;
+}
+
+.job-order-form .shift-days {
+    margin-top: 71px;
+}
+
+.job-order-form .benefits {
+    margin-top: 140px;
+}
+
+.job-order-form .hiring-requirements {
+    margin-top: 118px;
+}
+
+.job-order-form .checkboxgroup .left.label {
+    width: 25px !important;
+}
+
+.job-order-form .checkboxgroup .left.label.other-benefits {
+    margin-top: 5px;
+    width: 96px !important; 
+}
+
+.job-order-form .checkboxgroup .left.other-benefits {
+    margin-top: 3px;
+}
+
+.job-order-form .checkboxgroup .left.label.mvr-check {
+    margin: 1px 18px 1px 0;
+    width: 79px !important; 
+}
+
+.job-order-form .checkboxgroup .left.mvr-check {
+    margin-top: 3px;
+}
+
+.job-order-form .checkboxgroup .left.label.cdl-class {
+    margin: 1px 18px 1px 0;
+    width: 79px !important; 
+}
+
+.job-order-form .checkboxgroup .left.cdl-class {
+    margin-top: 3px;
+}
+
+.job-order-form .input.radio input[type=radio] {
+    margin: 0;
+    width: 20px;
+}
+
+/*.job-order-form p.label label*/
+
+.submit-button {
+    margin: 18px 0 0 270px;
+}
