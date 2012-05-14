@@ -54,7 +54,7 @@ table {
 /* END RESET */
 
 body {
-    background: #dcdddf url(../img/default/shadow_bg.png) center 105px no-repeat;
+    background: #dcdddf url(../img/default/shadow_bg.png) center 125px no-repeat;
     color: #006699;
     font: normal normal normal 14px/18px Tahoma, Arial, sans-serif;
     text-align: center;
@@ -74,7 +74,7 @@ a {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 35px auto -4em;
+	margin: 15px auto -4em;
 }
 
 .header {
@@ -1500,4 +1500,10 @@ div.required label:after {
 
 .submit-button {
     margin: 18px 0 0 270px;
+}
+
+div.social-icons {
+  margin-bottom: 10px;
+  text-align: right;
+  width: 100%;
 }

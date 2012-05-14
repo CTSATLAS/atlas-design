@@ -72,6 +72,12 @@
     </head>
     <body>
         <div class="container">
+            <div class="social-icons">
+              <a href="http://facebook.com/TampaBayWorkforceAlliance"><img src="/img/facebook.png" alt="Facebook Icon" title="Like TBWA On Facebook" /></a>
+              <a href="http://twitter.com/#!/TBWorkAlliance"><img src="/img/twitter.png" alt="Twitter Icon" title="Follow TBWA On Twitter" /></a>
+              <a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><img src="/img/linkedin.png" alt="LinkedIn Icon" title="Visit TBWA On LinkedIn" /></a>
+              <a href="http://youtube.com/user/tbwavideos"><img src="/img/youtube.png" alt="YouTube Icon" title="Watch TBWA Videos on YouTube" /></a>
+            </div>
             <div class="header">
                 <h1><a href="/">Tampa Bay Workforce Alliance</a></h1>
                 <form action="#" method="post">
@@ -135,7 +141,6 @@
 		                } else {
 		                    $title = $title_for_layout;
 		                } ?>
-		                <h1><?php echo $title ?></h1>
 		                <?php if (Configure::read("{$controller}.description")) {
 		                    echo Configure::read("{$controller}.description");
 		                } ?>
