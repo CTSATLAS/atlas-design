@@ -5,9 +5,13 @@
  * @link http://ctsfla.com
  */
 ?>
-                <div class="testimonial">
-                    <p style="padding-top: 10px;">&ldquo;<?php __('We will continue to work with Tampa Bay WorkForce Alliance in the future for all of our jobs and recruitment needs. We are very pleased that you were able to offer your professional recruitment services in a very timely manner.') ?>&rdquo;</p>
-                    <p class="signed">- Aldi Foods</p>
+                <div class="testimonial event">
+                    <h3>Job Fair on Thursday, June 7th</h3>
+                    <p style="padding-top: 12px;">
+                      TBWA will be hosting a job fair on Thursday, June 7th from 1–4pm at 9215 N.
+                      Florida Avenue. Employers and Job Seekers, 
+                      <a href="https://www.workforcetampa.com/pages/TBWA_job_fair">click here for more information.</a>
+                    </p>
                 </div> <!-- end .testimonial -->
                 <div class="clear"></div>
 				

@@ -396,6 +396,17 @@ a.translate-button:active {
     width: 579px;
 }
 
+.content .testimonial.event {
+  background transparent url(../img/default/event_bg.pg) 0 0 no-repeat;
+  border: none !important;
+}
+
+.content .testimonial.event p {
+  color: #112233;
+  font-style: normal;
+  line-height: 22px;
+}
+
 .content .testimonial p {
     color: #006699;
     font-family: "Times New Roman";
