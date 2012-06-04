@@ -397,7 +397,7 @@ a.translate-button:active {
 }
 
 .content .testimonial.event {
-  background transparent url(../img/default/event_bg.pg) 0 0 no-repeat;
+  background: transparent url(../img/default/event_bg.png) 0 0 no-repeat !important;
   border: none !important;
 }
 
