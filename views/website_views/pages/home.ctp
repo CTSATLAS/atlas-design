@@ -6,11 +6,11 @@
  */
 ?>
                 <div class="testimonial event">
-                    <h3>Job Fair on Thursday, June 7th</h3>
+                    <h3>Tampa Bay Job and Career Fair</h3>
                     <p style="padding-top: 12px;">
-                      TBWA will be hosting a job fair on Thursday, June 7th from 1–4pm at 9215 N.
-                      Florida Avenue. Employers and Job Seekers, 
-                      <a href="https://www.workforcetampa.com/pages/TBWA_job_fair">click here for more information.</a>
+                      TBWA will be participating in a Job & Career Fair <em>(presented by the Tampa Bay Times)</em> on Monday,
+                      June 18th from 10am –3pm at the Tampa Bay Times Forum. FREE admission to Job Seekers.<br />
+                      <a href="http://tampabayjobfair.com/">click here for more information.</a>
                     </p>
                 </div> <!-- end .testimonial -->
                 <div class="clear"></div>
