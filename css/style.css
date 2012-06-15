@@ -8,7 +8,6 @@ Copyright  : Complete Technology Solutions
  */
 
 /* HTML Elements */
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 html {
   background: #1875BB;
@@ -488,19 +487,16 @@ div.required label:after {
   display:inline;
 }
 
-div.required label.normal:after {
-  content: '';
-  color: #fff;
-  display:inline;
-}
-
 /* Login */
 
-#ChildLoginForm #UserPassword {width: 30px}
-#ChildLoginForm { width: 350px;}
-#ChildLoginForm label { margin-right: 10px;}
-#ChildLoginForm .input {margin-bottom: 10px;}
-#ChildLoginForm .error-message {margin: 0}
+#ChildLoginForm #UserPassword, 
+#UserLoginForm #UserPassword {width: 30px}
+#ChildLoginForm label,
+#UserLoginForm label {margin-right: 10px;}
+#ChildLoginForm .input,
+#UserLoginForm .input {margin-bottom: 10px;}
+#ChildLoginForm .error-message,
+#UserLoginForm .error-message {margin: 0}
 
 /* Registration */
 
@@ -841,97 +837,4 @@ li.step span.action a {
 #ResponseComplete .label {
   width:110px;
   text-align: right;
-}
-
-.job-order-form {
-  margin-left: 85px;
-  margin-top: 18px;
-}
-
-.job-order-form p.label {
-  margin-right: 20px;
-  text-align: right;
-  width: 250px !important;
-}
-
-.job-order-form .input {
-  margin: 5px 0;
-}
-
-.job-order-form label.normal {
-  font-weight: normal;
-}
-
-.job-order-form .no-label {
-  margin-left: 170px;
-}
-
-.job-order-form label span {
-  font-style: italic;
-}
-
-.job-order-form .applicant-info {
-  margin-top: 50px;
-}
-
-.job-order-form .wage-schedule {
-  margin-top: 36px;
-}
-
-.job-order-form .shifts {
-  margin-top: 60px;
-}
-
-.job-order-form .shift-days {
-  margin-top: 71px;
-}
-
-.job-order-form .benefits {
-  margin-top: 140px;
-}
-
-.job-order-form .hiring-requirements {
-  margin-top: 118px;
-}
-
-.job-order-form .checkboxgroup .left.label {
-  width: 25px !important;
-}
-
-.job-order-form .checkboxgroup .left.label.other-benefits {
-  margin-top: 5px;
-  width: 96px !important;
-}
-
-.job-order-form .checkboxgroup .left.other-benefits {
-  margin-top: 3px;
-}
-
-.job-order-form .checkboxgroup .left.label.mvr-check {
-  margin: 1px 18px 1px 0;
-  width: 79px !important;
-}
-
-.job-order-form .checkboxgroup .left.mvr-check {
-  margin-top: 3px;
-}
-
-.job-order-form .checkboxgroup .left.label.cdl-class {
-  margin: 1px 18px 1px 0;
-  width: 79px !important;
-}
-
-.job-order-form .checkboxgroup .left.cdl-class {
-  margin-top: 3px;
-}
-
-.job-order-form .input.radio input[type=radio] {
-  margin: 0;
-  width: 20px;
-}
-
-/*.job-order-form p.label label*/
-
-.submit-button {
-  margin: 18px 0 0 270px;
 }
