@@ -1,490 +1,497 @@
 /*
-    Document   : style
-    Created on : Dec 13, 2010, 3:06:41 PM
-    Author     : Daniel Nolan
-    Description: main site style sheet
-    Copyright  : Complete Technology Solutions
+Document   : style
+Created on : Dec 13, 2010, 3:06:41 PM
+Author     : Daniel Nolan
+Description: main site style sheet
+Copyright  : Complete Technology Solutions
 
-*/
+ */
 
 /* HTML Elements */
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 html {
-	background: #1875BB;
+  background: #1875BB;
 }
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-    overflow-y: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  overflow-y: scroll;
 }
 
 
 a {
-    color: #3B71A0;
-    text-decoration: none;
+  color: #3B71A0;
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-    color: orange;
-    font-size: 15px;
-    font-weight: bold;
+  color: orange;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 h2 {
-    color: orange;
-    font-size: 12px;
-    font-weight: bold;
+  color: orange;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 
 /* Text */
 .small {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .normal {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 /* Margin Classes */
 .bot-mar-10 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .right-mar-10 {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .left-mar-10 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .top-mar-10 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .top-mar-20 {
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 /* Structure Elements */
 
 #container {
-    margin: 0 auto;
-    width: 977px;
+  margin: 0 auto;
+  width: 977px;
 }
 
 #header {
-    width: 970px;
-    color: #333;
-    padding: 0 0 0 0;
-    height: 90px;
-    margin: 0;
-    background: #FFF;
+  width: 970px;
+  color: #333;
+  padding: 0 0 0 0;
+  height: 90px;
+  margin: 0;
+  background: #FFF;
 }
 
 #nav {
-    color: white;
-    background-color: #333;
-    height: 30px;
+  color: white;
+  background-color: #333;
+  height: 30px;
 
 }
 
 #nav li {
-    float: left;
-    margin: 8px 10px 0 ;
+  float: left;
+  margin: 8px 10px 0 ;
 
 }
 
 #nav a {
-    color: white;
+  color: white;
 
 }
 
 #content {
-    width: 950px;
-    color: #333;
-    background: #fff;
-    margin: 0px 0px 5px 0px;
-    padding: 10px;
-    min-height: 400px;
-    overflow: hidden;
+  width: 950px;
+  color: #333;
+  background: #fff;
+  margin: 0px 0px 5px 0px;
+  padding: 10px;
+  min-height: 400px;
+  overflow: hidden;
 }
 
 #footer {
-    background-color: #fff;
-    font-size: 10px;
-    font-weight: normal;
-    color: #000;
-    width: 950px;
-    border: none;
-    margin: 0px 0px 10px 0px;
-    padding: 10px;
+  background-color: #fff;
+  font-size: 10px;
+  font-weight: normal;
+  color: #000;
+  width: 950px;
+  border: none;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
 }
 
 .left {
-    float: left;
+  float: left;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .clear {
-    clear: both;
+  clear: both;
 }
 
 /*Specific Styles */
 
 #logo{
-    font-size: 40px;
-    margin: 10px 0 0 10px;
+  font-size: 40px;
+  margin: 10px 0 0 10px;
 }
 
 #logoLogout {
-    text-align: right;
-    margin: 0 10px 10px 0;
+  text-align: right;
+  margin: 0 10px 10px 0;
 }
 
 #logoLogout img{
-    margin-top: 15px;
-    margin-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 #logoLogout p{
-    height: 15px;
-    width: 300px;
+  height: 15px;
+  width: 300px;
 }
 
 #content h1 {
-    margin: 5px 10px 5px 0;
+  margin: 5px 10px 5px 0;
 }
 
 
 /* nav */
 #navigation {
-    background: #fff;
-    margin: 5px 0;
-    padding: 0 10px;
-    height: 40px;
-    line-height: 40px;
-    width: 950px;
+  background: #fff;
+  margin: 5px 0;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  width: 950px;
 }
 
 #navigation ul {
-    background: #fff;
-    width: 775px;
-    margin: 0 auto;
+  background: #fff;
+  width: 775px;
+  margin: 0 auto;
 }
 
 #navigation ul li {
-    background: #fff;
-    float: left;
-    margin-right: 25px;
+  background: #fff;
+  float: left;
+  margin-right: 25px;
 }
 
 #navigation ul li a {
-    font-size: 14px;
-    display: block;
-    padding: 0 10px;
+  font-size: 14px;
+  display: block;
+  padding: 0 10px;
 }
 
 #navigation ul li a:hover {
-    background-color: #1875BB;
-    color: #fff;
-    text-decoration: none;
+  background-color: #1875BB;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* nav */
 #bottom_navigation {
-    background: #fff;
-    margin: 5px 0;
-    padding: 0 10px;
-    height: 40px;
-    line-height: 40px;
-    width: 950px;
+  background: #fff;
+  margin: 5px 0;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  width: 950px;
 }
 
 #bottom_navigation ul {
-    background: #fff;
-    width: 775px;
-    margin: 0 auto;
+  background: #fff;
+  width: 775px;
+  margin: 0 auto;
 }
 
 #bottom_navigation ul li {
-    background: #fff;
-    float: left;
-    margin-right: 25px;
+  background: #fff;
+  float: left;
+  margin-right: 25px;
 }
 
 #bottom_navigation ul li a {
-    font-size: 14px;
-    display: block;
-    padding: 0 10px;
+  font-size: 14px;
+  display: block;
+  padding: 0 10px;
 }
 
 #bottom_navigation ul li a:hover {
-    background-color: #1875BB;
-    color: #fff;
-    text-decoration: none;
+  background-color: #1875BB;
+  color: #fff;
+  text-decoration: none;
 }
 
 .hotJobs .job, .featuredEmployers .featuredEmployer,
 .rfps .rfp {
-	border-bottom: 1px solid #3366CC;
-	margin: 8px 0 18px;
-	padding: 0 0 12px;
+  border-bottom: 1px solid #3366CC;
+  margin: 8px 0 18px;
+  padding: 0 0 12px;
 }
 
 .hotJobs .job h2,
 .featuredEmployers .featuredEmployer h2,
 .rfps .rfp h2 {
-	margin: 0 0 12px 0;
+  margin: 0 0 12px 0;
 }
 
 .hotJobs .job p,
 .featuredEmployers .featuredEmployer p,
 .rfps .rfp p {
-	margin: 0 0 12px;
+  margin: 0 0 12px;
 }
 
 .hotJobs .job ul,
-.featuredEmployers .featuredEmployer ul, 
+.featuredEmployers .featuredEmployer ul,
 .rfps .rfp ul{
-	margin: 0 0 12px 10px;
+  margin: 0 0 12px 10px;
 }
 
 .rfp_download {
-	display: block;
-	margin-left: 10px;
-	width: 96px;
+  display: block;
+  margin-left: 10px;
+  width: 96px;
 }
 .rfp_download:hover {
-	text-decoration: none;
+  text-decoration: none;
 }
 .rfp_download img {
-	margin: 0 0 0 16px;
+  margin: 0 0 0 16px;
 }
 
 .inTheNews,
 .helpfulArticles {
-	margin: 12px 0 0;
+  margin: 12px 0 0;
 }
 
 .inTheNews .article,
 .helpfulArticles .article {
-	border-top: 1px solid #D0E0EE;
-	margin: 0 0 18px;
-	padding: 8px 0;
+  border-top: 1px solid #D0E0EE;
+  margin: 0 0 18px;
+  padding: 8px 0;
 }
 
 .inTheNews .article .date,
 .helpfulArticles .article .date {
-	color: #666;
-	margin: 0 0 12px;
+  color: #666;
+  margin: 0 0 12px;
 }
 
 .inTheNews .article h2,
 .helpfulArticles .article h2 {
-	font-size: 13px;
-	margin: 0 0 2px;
+  font-size: 13px;
+  margin: 0 0 2px;
 }
 
 .inTheNews .article .reporter,
 .helpfulArticles .article .reporter {
-	color: #888888;
-	display: block;
-	font-style: italic;
-	margin: 0 0 12px;
+  color: #888888;
+  display: block;
+  font-style: italic;
+  margin: 0 0 12px;
 }
 
 .inTheNews .article .summary,
 .helpfulArticles .article .summary {
-	line-height: 1.4em;
-	margin: 0 0 18px;
-	width: 450px;
+  line-height: 1.4em;
+  margin: 0 0 18px;
+  width: 450px;
 }
 
 .counter {
-	color: #A4A4A4;
+  color: #A4A4A4;
 }
 
 .locations {
-	margin: 15px 0 0;
+  margin: 15px 0 0;
 }
 
 .locations .location {
-	border-top: 1px solid #D0E0EE;
-	height: 200px;
-	margin: 0 0 18px;
-	padding: 25px 0;
+  border-top: 1px solid #D0E0EE;
+  height: 200px;
+  margin: 0 0 18px;
+  padding: 25px 0;
 }
 
 .location_facilities {
-	border-top: 1px solid #D0E0EE;
-	margin: 0 0 18px;
-	padding: 25px 0;
+  border-top: 1px solid #D0E0EE;
+  margin: 0 0 18px;
+  padding: 25px 0;
 }
 
 .survey form {
-	margin: 18px 0;
+  margin: 18px 0;
 }
 
 .survey fieldset {
-	border: 1px solid #BBB;
-	padding: 8px 18px;
+  border: 1px solid #BBB;
+  padding: 8px 18px;
 }
 .survey fieldset legend {
-	font-style: italic;
-	margin: 0 0 0 15px;
+  font-style: italic;
+  margin: 0 0 0 15px;
 }
 
 .survey .input {
-	border-bottom: 1px solid #dedede;
-	padding: 0 0 10px;
+  border-bottom: 1px solid #dedede;
+  padding: 0 0 10px;
 }
 
 .survey label {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .survey .rating label {
-	display: inline;
+  display: inline;
 }
 
 .survey .rating input {
-	width: 12px;
+  width: 12px;
 }
 
 fieldset {
-    padding: 10px;
-    border: 1px solid #000;
+  padding: 10px;
+  border: 1px solid #000;
 }
 
 legend {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .input {
-    height: 18px;
+  height: 18px;
 
 }
 
 .input label {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .input input  {
-    width: 200px;
+  width: 200px;
 }
 
 .input input[type=submit] {
-    width: 100px;
-    padding: 2px;
+  width: 100px;
+  padding: 2px;
 }
 
 .input input[type=submit]:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 br.clear {
-	clear: both;
+  clear: both;
 }
 
 .form .tall {
-	height: 50px;
+  height: 50px;
 }
 
 .form .supertall {
-	padding: 18px 0 0;
-	height: 150px;
+  padding: 18px 0 0;
+  height: 150px;
 }
 
 .form fieldset {
-    display: inline;
-    min-width: 500px;
+  display: inline;
+  min-width: 500px;
 }
 
 .form legend {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 .form p{
-    line-height: 25px;
-    margin-right: 10px;
-    width: 250px;
+  line-height: 25px;
+  margin-right: 10px;
+  width: 250px;
 }
 .form p.date {
-	width: 400px;
+  width: 400px;
 }
 
 .form .wide {
-width: 100%
+  width: 100%
 }
 
 .form .label {
-    text-align: right;
+  text-align: right;
 }
 
 .form label {
-	line-height: 15px;
+  line-height: 15px;
 }
 
 .survey p.wide {
-	padding: 0 0 10px;
-	border-bottom: 1px solid #dedede;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #dedede;
 }
 
 .input input[type=radio] {
-	margin: 0 4px 0 18px;
+  margin: 0 4px 0 18px;
 }
 
 .input input[type=checkbox] {
-	width: 20px;
+  width: 20px;
 }
 
 .survey .rating {
-	padding: 5px 0 0;
+  padding: 5px 0 0;
 }
 
 .error-message {
-    color: red;
-    font-size: 11px;
-    margin-left: 120px;
-    margin-top: 2px;
-    float: left;
+  color: red;
+  font-size: 11px;
+  margin-left: 120px;
+  margin-top: 2px;
+  float: left;
 }
 
 .message {
-    background-color: #fff;
-    margin: 0 0 0 0;
-    padding: 2px 5px 2px 5px;
-    font-size: 20px;
-    float: left;
+  background-color: #fff;
+  margin: 0 0 0 0;
+  padding: 2px 5px 2px 5px;
+  font-size: 20px;
+  float: left;
 }
 
 .flash-failure .ui-icon{
-    margin: 5px 10px 0 0;
+  margin: 5px 10px 0 0;
 }
 
 .flash-success .ui-icon{
-    margin: 5px 10px 0 0;
+  margin: 5px 10px 0 0;
 }
 
 
 div.required label:after {
-    content: ' *';
-    color: #990000;
-    display:inline;
+  content: ' *';
+  color: #990000;
+  display:inline;
+}
+
+div.required label.normal:after {
+  content: '';
+  color: #fff;
+  display:inline;
 }
 
 /* Login */
@@ -498,62 +505,320 @@ div.required label:after {
 /* Registration */
 
 #password_UserSsn1, #password_UserSsn1Confirm  {
-	width: 25px;
+  width: 25px;
 }
 
 #password_UserSsn2Confirm, #password_UserSsn2 {
-	width: 20px;
+  width: 20px;
 }
 
 #password_UserSsn3, #password_UserSsn3Confirm {
-	width: 30px;
+  width: 30px;
 }
 
 #ChildRegistrationForm form,
 #WebRegistrationForm form{
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 #ChildRegistrationForm fieldset,
 #WebRegistrationForm fieldset{
-	width: 600px;
+  width: 600px;
 }
 
 #ChildRegistrationForm .error-message,
 #WebRegistrationForm .error-message {
-	margin: 0;
+  margin: 0;
 }
 
 #ChildRegistrationForm .input,
 #WebRegistrationForm .input{
-	height: auto;
-	margin-bottom: 20px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 
- /* Programs */
+/* Programs */
 
-#Instructions {
-	width: 600px;
-	margin-bottom: 10px;
-} 
+#instructions {
+  background: #fefdd3;
+  border: 1px solid #e4debf;
+  margin: 10px 0;
+  padding: 10px;
+  width: 97.7%;
+}
+
+#instructions .hide-instructions {
+  margin: 12px 0 0;
+}
+
+.show-instructions {
+}
+
+.hide-instructions {
+}
+
+.show-instructions,
+.hide-instructions {
+  display: none;
+  font-size: 11px;
+}
+
+
+.show-instructions a {
+}
+
+.hide-instructions a {
+  color: #cdba64;
+}
+
+.show-instructions a,
+.hide-instructions a {
+  cursor: pointer;
+}
+
+.steps-container a {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  color: #3B8DBD;
+}
+
+.steps-container {
+  margin: 18px 0;
+}
+
+.steps-container li.module .details {
+  background: #fafafa; /* Old browsers */
+  border: 1px solid #eff1ed;
+  height: 40px;
+  line-height: 1.7em;
+  padding: 8px 15px;
+}
+
+li.module .details h3 {
+  color: #3B8DBD;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+
+li.module .details p {
+  color: #8899aa;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+}
+
+li.module span.status {
+  float: right;
+  font-size: 14px;
+  margin: -37px 20px 0 0;
+}
+
+li.module.complete span.status {
+  color: #60b05a;
+}
+
+li.module.incomplete span.status {
+  color: #b32222;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.steps-container ol.steps {
+  background: transparent url(../img/progress-well.png) 7px 0 no-repeat;
+  clear: both;
+  margin-left: 20px;
+  width: 929px;
+}
+
+.steps-container li.module {
+  padding-left: 40px;
+}
+
+.steps-container li.module.current {
+  background: transparent url(../img/current-step-indicator.png) 0 18px no-repeat !important;
+}
+
+.steps-container li.module.incomplete {
+  background: transparent url(../img/future-step-indicator.png) 0 18px no-repeat;
+}
+
+.steps-container li.module.complete {
+  background: transparent url(../img/completed-step-indicator.png) 0 18px no-repeat;
+}
+
+.steps-container li.module ol {
+  margin-left: -40px;
+}
+
+.steps-container li.module ol div.inner-container {
+  border-bottom: 1px solid #dedede;
+  margin-left: 40px;
+  padding: 15px;
+}
+
+.steps-container li.step {
+}
+
+.steps-container li.step.current {
+  background: transparent url(../img/current-step-indicator.png) 0 10px no-repeat !important;
+}
+
+.steps-container li.step.certificate {
+  background: none;
+}
+
+.steps-container li.step.complete {
+  background: transparent url(../img/completed-step-indicator.png) 0 10px no-repeat;
+}
+
+.steps-container li.step.incomplete {
+  background: transparent url(../img/future-step-indicator.png) 0 10px no-repeat;
+}
+
+
+li.step span.action {
+  float: right;
+}
+
+li.step a,
+li.step span.action a {
+  padding: 7px 5px 8px !important;
+}
+
+.steps-container li.step.current a {
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  color: #fff;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 150px;
+}
+
+.steps-container li.step.current a:hover {
+  background-color: #76b347;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+  background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: linear-gradient(top, #76b347, #5e9e2e);
+  -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+  box-shadow: inset 0 1px 0 0 #8dbf67;
+  cursor: pointer; 
+}
+
+.steps-container li.step.current a:active {
+  border: 1px solid #5b992b;
+  border-bottom: 1px solid #538c27;
+  -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; 
+}
+
+.steps-container .incomplete a:hover,
+.steps-container .complete a:hover {
+  background-color: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: linear-gradient(top, #dddddd, #bbbbbb);
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+  text-shadow: 0 1px 0 #ddd;
+}
+
+.steps-container .incomplete a:active,
+.steps-container .complete a:active {
+  border: 1px solid #aaa;
+  border-bottom: 1px solid #888;
+  -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+  -moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+  box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}
+
+.steps-container .complete a,
+.steps-container .incomplete a {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: linear-gradient(top, #eeeeee, #cccccc);
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #eee;
+  width: 150px;
+}
+
+.steps-container li.step.complete {}
+
+.steps-container li.step.certificate div.inner-container,
+.steps-container li.step.incomplete.current div.inner-container {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie8 */
+    filter: alpha(opacity=100); /* ie5-7 */
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+
+.steps-container li.step.complete div.inner-container,
+.steps-container li.step.incomplete div.inner-container {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* ie8 */
+    filter: alpha(opacity=50); /* ie5-7 */
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
 
 #ProgramForm fieldset {
-	width: 600px
+  width: 600px
 }
 
 #ProgramForm .input {
-	height: auto;
-	margin-bottom: 5px;
+  height: auto;
+  margin-bottom: 5px;
 }
 
 #ProgramForm .error-message {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 #ProgramForm .field-instructions {
-	width: 600px;
-	margin: 5px;
+  width: 600px;
+  margin: 5px;
 }
 
 #ProgramForm .checkbox input { float: left}
@@ -562,111 +827,111 @@ div.required label:after {
 
 
 #Acknowledge label {
-	margin-left: 10px
+  margin-left: 10px
 }
 
 #Acknowledge .error-message {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 #RequiredDocs .error-message {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 #ResponseComplete .label {
-	width:110px; 
-	text-align: right;
+  width:110px;
+  text-align: right;
 }
 
 .job-order-form {
-    margin-left: 85px;
-    margin-top: 18px;
+  margin-left: 85px;
+  margin-top: 18px;
 }
 
 .job-order-form p.label {
-    margin-right: 20px;
-    text-align: right;
-    width: 250px !important;
+  margin-right: 20px;
+  text-align: right;
+  width: 250px !important;
 }
 
 .job-order-form .input {
-    margin: 5px 0;
+  margin: 5px 0;
 }
 
 .job-order-form label.normal {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .job-order-form .no-label {
-    margin-left: 170px;
+  margin-left: 170px;
 }
 
 .job-order-form label span {
-    font-style: italic;
+  font-style: italic;
 }
 
 .job-order-form .applicant-info {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .job-order-form .wage-schedule {
-    margin-top: 36px;
+  margin-top: 36px;
 }
 
 .job-order-form .shifts {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .job-order-form .shift-days {
-    margin-top: 71px;
+  margin-top: 71px;
 }
 
 .job-order-form .benefits {
-    margin-top: 140px;
+  margin-top: 140px;
 }
 
 .job-order-form .hiring-requirements {
-    margin-top: 118px;
+  margin-top: 118px;
 }
 
 .job-order-form .checkboxgroup .left.label {
-    width: 25px !important;
+  width: 25px !important;
 }
 
 .job-order-form .checkboxgroup .left.label.other-benefits {
-    margin-top: 5px;
-    width: 96px !important; 
+  margin-top: 5px;
+  width: 96px !important;
 }
 
 .job-order-form .checkboxgroup .left.other-benefits {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .job-order-form .checkboxgroup .left.label.mvr-check {
-    margin: 1px 18px 1px 0;
-    width: 79px !important; 
+  margin: 1px 18px 1px 0;
+  width: 79px !important;
 }
 
 .job-order-form .checkboxgroup .left.mvr-check {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .job-order-form .checkboxgroup .left.label.cdl-class {
-    margin: 1px 18px 1px 0;
-    width: 79px !important; 
+  margin: 1px 18px 1px 0;
+  width: 79px !important;
 }
 
 .job-order-form .checkboxgroup .left.cdl-class {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .job-order-form .input.radio input[type=radio] {
-    margin: 0;
-    width: 20px;
+  margin: 0;
+  width: 20px;
 }
 
 /*.job-order-form p.label label*/
 
 .submit-button {
-    margin: 18px 0 0 270px;
+  margin: 18px 0 0 270px;
 }
