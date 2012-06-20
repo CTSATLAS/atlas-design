@@ -6,12 +6,9 @@
  */
 ?>
                 <div class="testimonial event">
-                    <h3>Tampa Bay Job and Career Fair</h3>
-                    <p style="padding-top: 12px;">
-                      TBWA will be participating in a Job & Career Fair <em>(presented by the Tampa Bay Times)</em> on Monday,
-                      June 18th from 10am –3pm at the Tampa Bay Times Forum. FREE admission to Job Seekers.<br />
-                      <a href="http://tampabayjobfair.com/">click here for more information.</a>
-                    </p>
+                  <iframe src="http://files.bannersnack.com/iframe/embed.html?hash=bu84uqaf&bgcolor=%233D3D3D&wmode=opaque&t=1340208597"
+                          seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true">
+                  </iframe>
                 </div> <!-- end .testimonial -->
                 <div class="clear"></div>
 				

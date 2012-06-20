@@ -389,15 +389,19 @@ a.translate-button:active {
 }
 
 .content .testimonial {
-    background: transparent url(../img/default/testimonial_bg.png) 0 0 no-repeat;
     float: left;
-    height: 166px;
-    padding: 25px 0 0 25px;
+    height: 180px;
+    padding: 0 !important;
     width: 579px;
 }
 
+.content .testimonial iframe {
+  height: 180px;
+  margin-top: -1px;
+  width: 599px;
+}
+
 .content .testimonial.event {
-  background: transparent url(../img/default/event_bg.png) 0 0 no-repeat !important;
   border: none !important;
 }
 
