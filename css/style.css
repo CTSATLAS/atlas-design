@@ -582,6 +582,14 @@ div.required label:after {
   margin: 18px 0;
 }
 
+.steps-container li.program .details {
+  background: #fafafa; /* Old browsers */
+  border: 1px solid #eff1ed;
+  height: 40px;
+  line-height: 3em;
+  padding: 8px 15px;
+}
+
 .steps-container li.module .details {
   background: #fafafa; /* Old browsers */
   border: 1px solid #eff1ed;
@@ -590,6 +598,11 @@ div.required label:after {
   padding: 8px 15px;
 }
 
+.steps-container.enrollment li.module .details {
+  line-height: 3em !important;
+}
+
+li.program .details h3,
 li.module .details h3 {
   color: #3B8DBD;
   font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
@@ -597,6 +610,7 @@ li.module .details h3 {
   font-weight: 400 !important;
 }
 
+li.program .details p,
 li.module .details p {
   color: #8899aa;
   font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
@@ -605,16 +619,27 @@ li.module .details p {
   line-height: 1.2em;
 }
 
+li.module span.steps.status {
+  color: #8899aa !important;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 13.5px;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+}
+
+li.program span.status,
 li.module span.status {
   float: right;
   font-size: 14px;
   margin: -37px 20px 0 0;
 }
 
+li.program.complete span.status,
 li.module.complete span.status {
   color: #60b05a;
 }
 
+li.program.incomplete span.status,
 li.module.incomplete span.status {
   color: #b32222;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -630,37 +655,47 @@ li.module.incomplete span.status {
   width: 929px;
 }
 
+.steps-container li.program {
+  margin-bottom: 25px;
+}
+
+.steps-container li.program,
 .steps-container li.module {
   padding-left: 40px;
 }
 
+.steps-container li.program.current,
 .steps-container li.module.current {
   background: transparent url(../img/current-step-indicator.png) 0 18px no-repeat !important;
 }
 
+.steps-container li.program.incomplete,
 .steps-container li.module.incomplete {
   background: transparent url(../img/future-step-indicator.png) 0 18px no-repeat;
 }
 
+.steps-container li.program.complete,
 .steps-container li.module.complete {
   background: transparent url(../img/completed-step-indicator.png) 0 18px no-repeat;
 }
 
+.steps-container li.program ol,
 .steps-container li.module ol {
   margin-left: -40px;
 }
 
+.steps-container li.program ol div.inner-container,
 .steps-container li.module ol div.inner-container {
   border-bottom: 1px solid #dedede;
   margin-left: 40px;
-  padding: 15px;
+  padding: 25px 15px;
 }
 
 .steps-container li.step {
 }
 
 .steps-container li.step.current {
-  background: transparent url(../img/current-step-indicator.png) 0 10px no-repeat !important;
+  background: transparent url(../img/current-step-indicator.png) 0 22px no-repeat !important;
 }
 
 .steps-container li.step.certificate {
@@ -668,11 +703,11 @@ li.module.incomplete span.status {
 }
 
 .steps-container li.step.complete {
-  background: transparent url(../img/completed-step-indicator.png) 0 10px no-repeat;
+  background: transparent url(../img/completed-step-indicator.png) 0 22px no-repeat;
 }
 
 .steps-container li.step.incomplete {
-  background: transparent url(../img/future-step-indicator.png) 0 10px no-repeat;
+  background: transparent url(../img/future-step-indicator.png) 0 22px no-repeat;
 }
 
 
