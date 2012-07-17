@@ -633,7 +633,7 @@ li.module span.status {
   font-size: 14px;
   margin: -37px 20px 0 0;
 }
-
+.complete
 li.program.complete span.status,
 li.module.complete span.status {
   color: #60b05a;
@@ -720,6 +720,7 @@ li.step span.action a {
   padding: 7px 5px 8px !important;
 }
 
+.steps-container li.step.required_docs a,
 .steps-container li.step.current a {
   background-color: #7fbf4d;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
@@ -745,6 +746,7 @@ li.step span.action a {
   width: 150px;
 }
 
+.steps-container li.step.required_docs a:hover,
 .steps-container li.step.current a:hover {
   background-color: #76b347;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
@@ -759,6 +761,7 @@ li.step span.action a {
   cursor: pointer; 
 }
 
+.steps-container li.step.required_docs a:active,
 .steps-container li.step.current a:active {
   border: 1px solid #5b992b;
   border-bottom: 1px solid #538c27;
@@ -816,6 +819,7 @@ li.step span.action a {
 
 .steps-container li.step.complete {}
 
+.steps-container li.step.required_docs.complete div.inner-container,
 .steps-container li.step.certificate div.inner-container,
 .steps-container li.step.incomplete.current div.inner-container {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie8 */
