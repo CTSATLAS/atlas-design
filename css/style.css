@@ -590,6 +590,7 @@ div.required label:after {
   padding: 8px 15px;
 }
 
+.steps-container li.program .details,
 .steps-container li.module .details {
   background: #fafafa; /* Old browsers */
   border: 1px solid #eff1ed;
@@ -633,7 +634,7 @@ li.module span.status {
   font-size: 14px;
   margin: -37px 20px 0 0;
 }
-.complete
+
 li.program.complete span.status,
 li.module.complete span.status {
   color: #60b05a;
@@ -649,39 +650,35 @@ li.module.incomplete span.status {
 }
 
 .steps-container ol.steps {
-  background: transparent url(../img/progress-well.png) 7px 0 no-repeat;
   clear: both;
-  margin-left: 20px;
-  width: 929px;
 }
 
 .steps-container li.program {
   margin-bottom: 25px;
 }
 
-.steps-container li.program,
 .steps-container li.module {
   padding-left: 40px;
 }
 
-.steps-container li.program.current,
 .steps-container li.module.current {
   background: transparent url(../img/current-step-indicator.png) 0 18px no-repeat !important;
 }
 
-.steps-container li.program.incomplete,
 .steps-container li.module.incomplete {
   background: transparent url(../img/future-step-indicator.png) 0 18px no-repeat;
 }
 
-.steps-container li.program.complete,
 .steps-container li.module.complete {
   background: transparent url(../img/completed-step-indicator.png) 0 18px no-repeat;
 }
 
-.steps-container li.program ol,
+.steps-container li.program ol {
+  margin-left: 40px;
+}
+
 .steps-container li.module ol {
-  margin-left: -40px;
+  margin-left: 0px;
 }
 
 .steps-container li.program ol div.inner-container,
@@ -703,7 +700,7 @@ li.module.incomplete span.status {
 }
 
 .steps-container li.step.complete {
-  background: transparent url(../img/completed-step-indicator.png) 0 22px no-repeat;
+  background: transparent url(../img/completed-step-indicator.png) 0 28px no-repeat;
 }
 
 .steps-container li.step.incomplete {
@@ -713,11 +710,18 @@ li.module.incomplete span.status {
 
 li.step span.action {
   float: right;
+  text-align: right;
 }
 
 li.step a,
 li.step span.action a {
   padding: 7px 5px 8px !important;
+}
+
+span.action span.completed-date {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
 }
 
 .steps-container li.step.required_docs a,
@@ -818,6 +822,11 @@ li.step span.action a {
 }
 
 .steps-container li.step.complete {}
+
+.steps-container li.step.complete div.inner-container {
+  height: 28px;
+  line-height: 28px;
+}
 
 .steps-container li.step.required_docs.complete div.inner-container,
 .steps-container li.step.certificate div.inner-container,
