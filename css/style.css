@@ -849,6 +849,11 @@ span.action span.completed-date {
     opacity: 0.5;
 }
 
+li.step div.inner-container img.ico {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
+
 #ProgramForm fieldset {
   width: 600px
 }
