@@ -1277,6 +1277,15 @@ li.step div.inner-container img.ico {
   text-shadow: 0 1px 3px #246AE2;
 }
 
+#dashboard .widget-header h2 i {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-right: 10px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
 #dashboard .widget-content {}
 
 #dashboard .widget-content ul {
