@@ -23,6 +23,14 @@
 
 	echo $this->Html->css('style');
 
+	echo $this->Html->css('font-awesome.min');
+	?>
+
+	<!--[if IE 7]>
+		<?php echo $this->Html->css('font-awesome-ie7.min') ?>
+	<![endif]-->
+
+	<?php
 	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js');
 	
 	echo $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js');
