@@ -937,7 +937,8 @@ li.step div.inner-container img.ico {
 
 #events .calnav {
   margin: 18px 0 18px;
-  padding: 10px 20px;
+  padding: 15px 20px;
+  position: relative;
   text-align: center;
 }
 
@@ -951,12 +952,23 @@ li.step div.inner-container img.ico {
   font-size: 16px;
 }
 
-#events .calnav.events h2 {
-  margin: 0 100px;
+#events .calnav #previous-week,
+#events .calnav #previous-month,
+#events .calnav #next-week,
+#events .calnav #next-month {
+  position: absolute;
 }
 
-#events .calnav.workshop h2 {
-  margin: 0 80px;
+#events .calnav #previous-week,
+#events .calnav #previous-month {
+  left: 20px;
+  top: 10px;
+}
+
+#events .calnav #next-week,
+#events .calnav #next-month {
+  right: 20px;
+  top: 10px;
 }
 
 #events .no-events p {
