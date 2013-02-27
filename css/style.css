@@ -489,6 +489,8 @@ div.required label:after {
 
 /* Login */
 
+#ChildLoginForm #UserPassword,
+#UserLoginForm #UserPassword {width: 30px;}
 #ChildLoginForm label,
 #UserLoginForm label {margin-right: 10px;}
 #ChildLoginForm .input,
@@ -1408,6 +1410,7 @@ li.step div.inner-container img.ico {
   top: 30px;
 }
 
+#dashboard #online-ecourses li .title,
 #dashboard #online-registrations li .title,
 #dashboard #online-orientations li .title,
 #dashboard #online-enrollments li .title {
@@ -1418,6 +1421,10 @@ li.step div.inner-container img.ico {
 #dashboard #online-orientations li .action,
 #dashboard #online-enrollments li .action {
   top: 23px;
+}
+
+#dashboard #online-ecourses li .action {
+  top: 35px;
 }
 
 span.label {
@@ -1439,3 +1446,9 @@ span.label {
 span.label a {
   color: #fff;
 }
+
+#ecourse-quiz {}
+#ecourse-quiz .question { margin-bottom: 18px }
+#ecourse-quiz .question p { margin-bottom: 10px }
+#ecourse-quiz .question ol { margin-left: 10px }
+#ecourse-quiz .question input { margin-bottom: 4px }
