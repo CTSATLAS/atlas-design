@@ -489,8 +489,6 @@ div.required label:after {
 
 /* Login */
 
-#ChildLoginForm #UserPassword,
-#UserLoginForm #UserPassword {width: 30px;}
 #ChildLoginForm label,
 #UserLoginForm label {margin-right: 10px;}
 #ChildLoginForm .input,
