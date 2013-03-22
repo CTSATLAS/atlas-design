@@ -1192,7 +1192,7 @@ li.step div.inner-container img.ico {
 .pagination ul > li > a.prev,
 .pagination ul > li > span.next,
 .pagination ul > li.disabled > span {
-  padding: 8px;
+  padding: 0px;
 }
 
 .pagination ul > li > a:hover,
