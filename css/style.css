@@ -1445,8 +1445,56 @@ span.label a {
   color: #fff;
 }
 
-#ecourse-quiz {}
+#ecourse-quiz form {
+  margin-top: 18px;
+}
+
 #ecourse-quiz .question { margin-bottom: 18px }
-#ecourse-quiz .question p { margin-bottom: 10px }
-#ecourse-quiz .question ol { margin-left: 10px }
-#ecourse-quiz .question input { margin-bottom: 4px }
+
+#ecourse-quiz li.question label.main-label {
+  display: block;
+  font-weight: bold;
+}
+
+#ecourse-quiz li.question .answer { margin-left: 10px }
+
+#ecourse-quiz li.question input[type=radio] { margin-right: 8px }
+
+#ecourse-quiz li.question input[type=radio],
+#ecourse-quiz li.question input[type=radio] + label {
+  margin-top: 10px;
+}
+
+#ecourse-quiz li.question input[type=radio] + label {
+  color: #555;
+}
+
+#ecourse-quiz label.error {
+  color: #F00;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#ecourse-quiz-results h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#ecourse-quiz-results li {
+  margin-bottom: 10px;
+}
+
+#ecourse-quiz-results p {
+  margin-bottom: 4px;
+  padding-left: 25px;
+}
+
+#ecourse-quiz-results p.correct-answer {
+  background: url(../img/icons/accept.png) 0 0 no-repeat;
+}
+
+#ecourse-quiz-results p.incorrect-answer {
+  background: url(../img/icons/exclamation.png) 0 0 no-repeat;
+}
+
