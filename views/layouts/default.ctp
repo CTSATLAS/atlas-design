@@ -21,6 +21,14 @@
 		    echo $this->Html->css('ui-darkness/jquery-ui-1.8.5.custom');
 			echo $this->Html->css('style');
 			echo $this->Html->css('superfish');
+            echo $this->Html->css('font-awesome.min');
+        ?>
+
+        <!--[if IE 7]>
+            <?= $this->Html->css('font-awesome-ie7.min') ?>
+        <![endif]-->
+
+        <?php
 			echo $this->Html->script('jquery');
 			echo $this->Html->script('jquery-ui-1.8.5.custom.min');
 			echo $this->Html->script('superfish/hoverIntent.js');
