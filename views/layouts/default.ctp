@@ -19,6 +19,7 @@
         <!-- css -->
         <?php
 		    echo $this->Html->css('ui-darkness/jquery-ui-1.8.5.custom');
+            echo $this->Html->css('ui-redmond/jquery-ui-1.8.10.custom');
 			echo $this->Html->css('style');
 			echo $this->Html->css('superfish');
             echo $this->Html->css('font-awesome.min');
