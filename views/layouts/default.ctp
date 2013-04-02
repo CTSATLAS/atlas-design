@@ -87,6 +87,21 @@
               <a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><img src="/img/default/linkedin.png" alt="LinkedIn Icon" title="Visit TBWA On LinkedIn" /></a>
               <a href="http://youtube.com/user/tbwavideos"><img src="/img/default/youtube.png" alt="YouTube Icon" title="Watch TBWA Videos on YouTube" /></a>
             </div>
+            <div id="logoLogout" style="float: right;">
+                <p style="font-size: 13px; width: 600px;">
+                <?php
+                if ($session->read('Auth.User')) {
+                printf(__('<strong>Logged in as: %s %s</strong> | ', true), $this->Session->read('Auth.User.firstname'), $this->Session->read('Auth.User.lastname'));
+                if ($this->Session->read('Auth.User.role_id') == 1) {
+                echo $this->Html->link(__('My Dashboard', true), array('controller' => 'users', 'action' => 'dashboard', 'kiosk' => false)) . ' | ';
+                }
+                echo $this->Html->link(__('Edit Profile', true), array('controller' => 'users', 'action' => 'edit', 'kiosk' => false, $this->Session->read('Auth.User.id'))) . ' | ';
+                echo $this->Html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout', 'kiosk' => false, 'web'));
+                }
+                ?>
+                </p>
+            </div>
+            <div class="clear"></div>
             <div class="header">
                 <h1><a href="/">Tampa Bay Workforce Alliance</a></h1>
                 <form action="#" method="post">
@@ -155,6 +170,7 @@
 		                } ?>
 		            	<?php echo $this->Session->flash(); ?>
 						<?php echo $session->flash('auth'); ?>
+                        <div class="clear"></div>
 		            	<?php echo $content_for_layout; ?>
 	                </div>
                 </div> <!-- end #maincontent -->

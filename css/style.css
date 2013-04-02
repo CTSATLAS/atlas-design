@@ -54,7 +54,7 @@ table {
 /* END RESET */
 
 body {
-    background: #dcdddf url(../img/default/shadow_bg.png) center 125px no-repeat;
+    background: #dcdddf url(../img/default/shadow_bg.png) center 170px no-repeat;
     color: #006699;
     font: normal normal normal 14px/18px Tahoma, Arial, sans-serif;
     text-align: center;
@@ -1319,6 +1319,7 @@ width: 100%
     margin: 0 0 0 0;
     padding: 2px 5px 2px 5px;
     font-size: 20px;
+    float: left;
 }
 
 .flash-failure .ui-icon{
