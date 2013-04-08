@@ -1,204 +1,247 @@
 <?php
-/** 
+/**
  * @author Brandon Cordell
  * @copyright Complete Technology Solutions 2011
  * @link http://ctsfla.com
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <!-- meta -->
-        <?php echo $this->Html->charset(); ?>
-        <meta name="description" content="" />
-        <meta name="KEYWORDS" content="" />
-        <meta name="Copyright" content="" />
-        <meta name="Language" content="English" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Your description">
+	<meta name="keywords" content="Your keywords">
+	<meta name="author" content="Your name">
 
-        <!-- css -->
-        <?php
-		    echo $this->Html->css('ui-darkness/jquery-ui-1.8.5.custom');
-            echo $this->Html->css('ui-redmond/jquery-ui-1.8.10.custom');
-			echo $this->Html->css('style');
-			echo $this->Html->css('superfish');
-            echo $this->Html->css('font-awesome.min');
-        ?>
+	<!-- css -->
+	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
+	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/camera.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
 
-        <!--[if IE 7]>
-            <?= $this->Html->css('font-awesome-ie7.min') ?>
-        <![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/css/font-awesome-ie7.min.css" type="text/css">
+	<![endif]-->
 
-        <?php
-			echo $this->Html->script('jquery');
-			echo $this->Html->script('jquery-ui-1.8.5.custom.min');
-			echo $this->Html->script('superfish/hoverIntent.js');
-			echo $this->Html->script('superfish/superfish.js');
-			echo $this->Html->script('dd_roundies');
-			echo $scripts_for_layout;
-		?>
+	<!--[if lt IE 9]>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/css/docs.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen">
+	<![endif]-->
 
-        <!--[if lte IE 7]>
-            <link rel="stylesheet" type="text/css" href="/css/ie.css" />
-        <![endif]-->
-        
-        <!--[if IE 8]>
-            <?php echo $this->Html->scriptBlock(
-            	"DD_roundies.addRule('#maincontent', 8, true);"
-            ) ?>
-		<![endif]-->
-		
-        <!-- js -->   
-        <?php echo $this->Html->scriptBlock(
-			"$(document).ready(function(){
-				$('.message').fadeOut(10000);
-				if($('.actions ul').text() == '') {
-				    $('div.actions').hide();
-				}
-				
-				$('#search_field').focus(function() {
-                    if ($(this).val() == 'KEYWORD SEARCH') {   
-                        $(this).val('');
-                    }
-                    $(this).removeClass('field_blur').addClass('field_focus');
-                }).blur(function() {
-                   if ($(this).val() == '') {
-                       $(this).val('KEYWORD SEARCH');
-                   }
-                   $(this).removeClass('field_focus').addClass('field_blur');
-                });
-		    });"
-	    )?>
+	<!-- js -->
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/superfish.js"></script>
+	<script type="text/javascript" src="/js/camera.js"></script>
+	<script type="text/javascript" src="/js/jquery.ui.totop.js"></script>
 
-        <!-- favicon -->
-		<?php echo $this->Html->meta('icon'); ?>
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
 
-        <!-- title -->
-		<title>
-		    <?php __('Tampa Bay Workforce Alliance'); ?>
-		    <?php echo $title_for_layout; ?>
-		</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="social-icons">
-              <a href="http://facebook.com/TampaBayWorkforceAlliance"><img src="/img/default/facebook.png" alt="Facebook Icon" title="Like TBWA On Facebook" /></a>
-              <a href="http://twitter.com/#!/TBWorkAlliance"><img src="/img/default/twitter.png" alt="Twitter Icon" title="Follow TBWA On Twitter" /></a>
-              <a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><img src="/img/default/linkedin.png" alt="LinkedIn Icon" title="Visit TBWA On LinkedIn" /></a>
-              <a href="http://youtube.com/user/tbwavideos"><img src="/img/default/youtube.png" alt="YouTube Icon" title="Watch TBWA Videos on YouTube" /></a>
-            </div>
-            <div id="logoLogout" style="float: right;">
-                <p style="font-size: 13px; width: 600px;">
-                <?php
-                if ($session->read('Auth.User')) {
-                printf(__('<strong>Logged in as: %s %s</strong> | ', true), $this->Session->read('Auth.User.firstname'), $this->Session->read('Auth.User.lastname'));
-                if ($this->Session->read('Auth.User.role_id') == 1) {
-                echo $this->Html->link(__('My Dashboard', true), array('controller' => 'users', 'action' => 'dashboard', 'kiosk' => false)) . ' | ';
-                }
-                echo $this->Html->link(__('Edit Profile', true), array('controller' => 'users', 'action' => 'edit', 'kiosk' => false, $this->Session->read('Auth.User.id'))) . ' | ';
-                echo $this->Html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout', 'kiosk' => false, 'web'));
-                }
-                ?>
-                </p>
-            </div>
-            <div class="clear"></div>
-            <div class="header">
-                <h1><a href="/">Tampa Bay Workforce Alliance</a></h1>
-                <form action="#" method="post">
-                    <p>
-                        <label for="search_field">Search</label>
-                        <input type="text" class="field_blur" id="search_field" name="search_field" value="KEYWORD SEARCH" />
-                    </p>
-                    <p><input type="submit" id="search_submit" value="Go" /></p>
-                </form>
-	            <?php if (!$session->read('Config.language')): ?>
-		    		<a class="translate-button" href="/kiosk/kiosks/set_language/es">Español</a>
-		    	<?php else: ?>
-		    		<a class="translate-button" href="/kiosk/kiosks/set_language/en">English</a>
-		    	<?php endif ?>
-            </div> <!-- end .header -->
-            <div class="clear"></div>
-            
-            <div class="content">
-                <div class="topNav">
-                	<?php echo $this->Nav->links('Top', true) ?>
-                </div> <!-- end .topNav -->
-                <div class="clear"></div>
-                
-                <div id="aside">
-	                <div class="leftNav">
-	                	<?php echo $this->Nav->links('Left', true) ?>
-	                </div> <!-- end .leftNav -->
-	                
-	                <div class="feedback">
-	                    <h3><?php __('Tell Us What You Think') ?></h3>
-	                    <p><?php __('Overall, in terms of resources and information, how effective is this website in meeting your employment
-	                    needs?') ?></p>
-	                    <form action="#" method="post">
-	                        <p>
-	                            <input type="radio" value="Very Effective" name="very_effective" />
-	                            <label for="very_effective"><?php __('Very Effective') ?></label>
-	                        </p>
-	                        <p>
-	                            <input type="radio" value="Somewhat Effective" name="somewhat_effective" />
-	                            <label for="somewhat_effective"><?php __('Somewhat Effective') ?></label>
-	                        </p>
-	                        <p>
-	                            <input type="radio" value="not_very_effective" name="not_very_effective" />
-	                            <label for="very_effetive"><?php __('Not Very Effective') ?></label>
-	                        </p>
-	                        <p><input type="submit" id="feedback_submit" value="<?php __('Select') ?>" /></p>
-	                    </form>
-	                </div> <!-- end .feedback -->
-	            </div> <!-- end #aside -->
-	            
-	            <?php if ($this->params['action'] == 'display' && $this->params['controller'] == 'pages'): ?>
-	            <div id="maincontent" class="homebg">
-	                <div>
-	            	<?php else: ?>
-	            <div id="maincontent">
-	                <div class="sub_content">
-		            <?php endif; ?>
-		                <?php $controller = Inflector::camelize($this->params['controller']) ?>
-		                <?php if (Configure::read("{$controller}.title")) {
-		                    $title = Configure::read("{$controller}.title");
-		                } else {
-		                    $title = $title_for_layout;
-		                } ?>
-		                <?php if (Configure::read("{$controller}.description")) {
-		                    echo Configure::read("{$controller}.description");
-		                } ?>
-		            	<?php echo $this->Session->flash(); ?>
-						<?php echo $session->flash('auth'); ?>
-                        <div class="clear"></div>
-		            	<?php echo $content_for_layout; ?>
-	                </div>
-                </div> <!-- end #maincontent -->
-            </div> <!-- end .content -->
+	<?= $scripts_for_layout ?>
 
-            <div class="footer">
-                <div class="left last">
-                    <h4>OneStop Locations</h4>
-                    <ul>
-                        <li><a href="/locations#WorkForce_Brandon_Career_Center">Workforce Brandon</a></li>
-                        <li><a href="/locations#WorkForce_Plant_City_Career_Center">Workforce Plant City</a></li>
-                        <li><a href="/locations#WorkForce_Tampa_Career_Center">Workforce Tampa</a></li>
-                    </ul>
-                </div> <!-- end .last -->
-            </div> <!-- end .footer -->
-        </div> <!-- end .container -->
-        <script type="text/javascript">
+	<!--[if (gt IE 9)|!(IE)]><!-->
+		<script type="text/javascript" src="/js/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
 
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-24254812-1']);
-          _gaq.push(['_trackPageview']);
+	<!-- favicon -->
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+	<!--[if lt IE 9]>
+		<div style="clear: both; height: 59px; padding:0 0 0 15px; position: relative; text-align: center;"> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
+	<![endif]-->
 
-        </script>
-    </body>
+	<!-- title -->
+	<title>
+		<?= $title_for_layout ?>
+		&mdash;
+		<?php __('Tampa Bay Workforce Alliance') ?>
+	</title>
+</head>
+<body>
+	<header class="p0">
+		<div class="container">
+			<div class="row">
+				<div class="span6 offset6 welcome">
+				<?php if ($this->Session->read('Auth.User')): ?>
+					<?php
+						$firstname = $this->Session->read('Auth.User.firstname');
+						$lastname = $this->Session->read('Auth.User.lastname');
+						printf(__('<strong>Logged in as: %s %s</strong>', true), $firstname, $lastname);
+					?>
+					<span class="login-or-register">
+						<?= $this->Html->link(__('Dashboard', true), array(
+							'controller' => 'users',
+							'action' => 'dashboard',
+							'admin' => false,
+						)) ?>
+						or
+						<?= $this->Html->link(__('Edit Profile', true), array(
+							'controller' => 'users',
+							'action' => 'edit',
+							'kiosk' => false,
+							$this->Session->read('Auth.User.id')
+						)) ?>
+						or
+						<?= $this->Html->link(__('Logout', true), array(
+							'controller' => 'users',
+							'action' => 'logout',
+							'kiosk' => false,
+							'web'
+						)) ?>
+					</span>
+				<?php else: ?>
+					<strong>Welcome, Guest</strong>
+					<span class="login-or-register">
+					<?= $this->Html->link(__('Login', true), array(
+						'controller' => 'users',
+						'action' => 'login',
+						'kiosk' => false
+					)) ?>
+					or
+					<?= $this->Html->link(__('Register', true), array(
+						'controller' => 'users',
+						'action' => 'registration',
+						'kiosk' => false
+					)) ?>
+					</span>
+				<?php endif ?>
+				</div>
+			</div>
+			<div class="row">
+				<div class="span12">
+					<div class="header-block clearfix">
+						<div class="clearfix header-block-pad">
+							<h1 class="brand">
+								<a href="/"><img src="/img/logo.png" alt=""></a>
+							</h1>
+							<form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
+								<input type="text" name="s" onBlur="if(this.value=='') this.value=''" onFocus="if(this.value =='' ) this.value=''"  >
+								<a href="#" onClick="document.getElementById('search-form').submit()"></a>
+							</form>
+							<span class="contacts">Call Us Toll Free:  <span>+1 234 567 89 90</span><br>E-mail: <a href="#">company@demolink.org</a></span>
+						</div>
+						<div class="navbar navbar_ clearfix">
+							<div class="navbar-inner navbar-inner_">
+								<div class="container">
+									<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">MENU</a>
+									<div class="nav-collapse nav-collapse_ collapse">
+										<?= $this->Nav->links('Top', true, 'nav sf-menu') ?>
+									</div>
+									<ul class="social-icons">
+										<li><a href="http://facebook.com/TampaBayWorkforceAlliance" class="social-icon facebook" title="Like TBWA on Facebook">Facebook</a></li>
+										<li><a href="http://twitter.com/#!/TBWorkAlliance" class="social-icon twitter" title="Follow TBWA on Twitter">Twitter</a></li>
+										<li><a href="http://linkedin.com/company/tampa-bay-workforce-alliance" class="social-icon linkedin" class="Visit TBWA on LinkedIn">LinkedIn</a></li>
+										<li><a href="http://youtube.com/user/tbwavideos" class="social-icon youtube" title="Watch TBWA videos on YouTube">YouTube</a></li>
+									</ul>
+								</div>
+							</div>
+						 </div>
+					</div>
+				</div>
+			 </div>
+			 <?php if (!empty($this->params['pass']) && $this->params['pass'][0] == 'home'): ?>
+				 <div class="row">
+				   <div class="span12">
+					  <div class="slider">
+						  <div class="camera_wrap">
+							  <div data-src="img/slide1.jpg">
+								  <div class="camera_caption fadeIn">
+									  <div>
+										  <h5>our capabilities:</h5>
+										  <h2>global</h2>
+										  <h1>solutions</h1>
+										  <a href="#" class="btn btn_ btn-large_"><span>start now</span></a>
+									  </div>
+								  </div>
+							  </div>
+							  <div data-src="img/slide2.jpg">
+								  <div class="camera_caption fadeIn">
+									  <div>
+										  <h5>our capabilities:</h5>
+										  <h2>online 24/7</h2>
+										  <h1>support</h1>
+										  <a href="#" class="btn btn_ btn-large_"><span>start now</span></a>
+									  </div>
+								  </div>
+							  </div>
+							  <div data-src="img/slide3.jpg">
+								  <div class="camera_caption fadeIn">
+									  <div>
+										  <h5>our capabilities:</h5>
+										  <h2>premium</h2>
+										  <h1>services</h1>
+										  <a href="#" class="btn btn_ btn-large_"><span>start now</span></a>
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			   </div>
+			<?php endif; ?>
+		</div>
+	</header>
+
+	<section id="content">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<?php if ($title_for_layout !== 'Home'): ?>
+						<h3><?= $title_for_layout ?></h3>
+					<?php endif ?>
+					<?= $content_for_layout ?>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="span4 float2">
+					<form id="newsletter" method="post">
+						<label>Newsletter</label>
+						<div class="clearfix">
+							<input type="text" onFocus="if(this.value =='Enter e-mail here' ) this.value=''" onBlur="if(this.value=='') this.value='Enter e-mail here'" value="Enter e-mail here" >
+							<a href="#" onClick="document.getElementById('newsletter').submit()" class="btn btn_">subscribe</a>
+						</div>
+					</form>
+				</div>
+				<div class="span8 float">
+					<ul class="footer-menu">
+						<li><a href="index.html" class="current">Home Page</a>|</li>
+						<li><a href="index-1.html">Company</a>|</li>
+						<li><a href="index-2.html">Services</a>|</li>
+						<li><a href="index-3.html">Solutions</a>|</li>
+						<li><a href="index-4.html">Projects</a>|</li>
+						<li><a href="index-5.html">Contacts</a></li>
+					</ul>
+					Expert   ©  2012  |   <a href="index-6.html">Privacy Policy</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		$(function () {
+			$('.camera_wrap').camera();
+			$('ul.nav li:first').addClass('li-first');
+			$('.message').fadeOut(10000);
+
+			if($('.actions ul').text() == '') {
+				$('div.actions').hide();
+			}
+		});
+	</script>
+</body>
 </html>
