@@ -1498,3 +1498,18 @@ span.label a {
   background: url(../img/icons/exclamation.png) 0 0 no-repeat;
 }
 
+#ecourse-external-url {
+  background: url(../img/icons/link.png) 0 2px no-repeat;
+  margin: 24px 0 18px;
+  padding-left: 24px;
+}
+
+#ecourse-external-url h1 {
+  color: #343434;
+}
+
+#ecourse-external-url i {
+  color: #999;
+  display: inline-block;
+  margin-top: 4px;
+}
