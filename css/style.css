@@ -1513,3 +1513,11 @@ span.label a {
   display: inline-block;
   margin-top: 4px;
 }
+
+#dashboard #online-esignature .widget-content li {
+  padding-top: 20px;
+}
+
+#dashboard #online-esignature .widget-content li .action {
+  top: 24px;
+}
