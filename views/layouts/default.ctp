@@ -85,7 +85,7 @@
               <a href="http://facebook.com/TampaBayWorkforceAlliance"><img src="/img/default/facebook.png" alt="Facebook Icon" title="Like TBWA On Facebook" /></a>
               <a href="http://twitter.com/#!/TBWorkAlliance"><img src="/img/default/twitter.png" alt="Twitter Icon" title="Follow TBWA On Twitter" /></a>
               <a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><img src="/img/default/linkedin.png" alt="LinkedIn Icon" title="Visit TBWA On LinkedIn" /></a>
-              <a href="http://youtube.com/user/tbwavideos"><img src="/img/default/youtube.png" alt="YouTube Icon" title="Watch TBWA Videos on YouTube" /></a>
+              <a href="http://www.youtube.com/TBWorkForceAlliance"><img src="/img/default/youtube.png" alt="YouTube Icon" title="Watch TBWA Videos on YouTube" /></a>
             </div>
             <div id="logoLogout" style="float: right;">
                 <p style="font-size: 13px; width: 600px;">
