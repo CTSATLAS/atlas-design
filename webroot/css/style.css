@@ -319,7 +319,7 @@ header {
   z-index: 999;
 }
 .header-block {
-  background: url(../img/header-block.jpg) 0 0 repeat-x #2c2c2c;
+  background: url(../img/header-block-blue.png) 0 0 repeat-x #00529c;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -335,7 +335,7 @@ header {
 }
 h1.brand {
   display: inline-block;
-  margin: 0px;
+  margin: 24px 0 0;
   padding: 0;
   text-transform: none;
 }
@@ -372,8 +372,6 @@ h1.brand span {
   color: #fff;
 }
 /* search-form */.navbar-form {
-  background: url(../img/form-search.jpg) 0 0 repeat-x #313131;
-  border-bottom: #585858 1px solid;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -381,7 +379,7 @@ h1.brand span {
   float: right;
 }
 .navbar-form input {
-  background: none;
+  background: #fff;
   border: none;
   box-shadow: none;
   line-height: 18px;
@@ -399,7 +397,7 @@ h1.brand span {
   display: inline-block;
   width: 40px;
   height: 33px;
-  background: url(../img/search.png) 0 0 no-repeat;
+  background: url(../img/search.png) 0 -2px no-repeat;
   float: right;
 }
 .navbar-form a:hover {
@@ -411,9 +409,9 @@ h1.brand span {
   margin: 0px 0 0 0;
 }
 .navbar_ .navbar-inner_ {
-  padding: 18px 0px 19px 45px;
+  padding: 10px 0px 14px 45px;
   margin: 0;
-  background: url(../img/navbar.png) 0 0 repeat-x;
+  background: url(../img/navbar-blue.png) 0 0 repeat-x;
   border: none;
   min-height: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
