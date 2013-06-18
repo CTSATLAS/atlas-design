@@ -90,14 +90,18 @@
             <div id="logoLogout" style="float: right;">
                 <p style="font-size: 13px; width: 600px;">
                 <?php
-                if ($session->read('Auth.User')) {
-                printf(__('<strong>Logged in as: %s %s</strong> | ', true), $this->Session->read('Auth.User.firstname'), $this->Session->read('Auth.User.lastname'));
-                if ($this->Session->read('Auth.User.role_id') == 1) {
-                echo $this->Html->link(__('My Dashboard', true), array('controller' => 'users', 'action' => 'dashboard', 'kiosk' => false)) . ' | ';
-                }
-                echo $this->Html->link(__('Edit Profile', true), array('controller' => 'users', 'action' => 'edit', 'kiosk' => false, $this->Session->read('Auth.User.id'))) . ' | ';
-                echo $this->Html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout', 'kiosk' => false, 'web'));
-                }
+					if ($session->read('Auth.User')) {
+						printf(__('<strong>Logged in as: %s %s</strong> | ', true), $this->Session->read('Auth.User.firstname'), $this->Session->read('Auth.User.lastname'));
+
+						if ($this->Session->read('Auth.User.role_id') == 1) {
+							echo $this->Html->link(__('My Dashboard', true), array('controller' => 'users', 'action' => 'dashboard', 'kiosk' => false)) . ' | ';
+						}
+						echo $this->Html->link(__('Edit Profile', true), array('controller' => 'users', 'action' => 'edit', 'kiosk' => false, $this->Session->read('Auth.User.id'))) . ' | ';
+						echo $this->Html->link(__('Logout', true), array('controller' => 'users', 'action' => 'logout', 'kiosk' => false, 'web'));
+					} else {
+						echo $loginLink = $this->Html->link(__('Login', true), array('controller' => 'users', 'action' => 'login', 'kiosk' => false)) . ' | ';
+						echo $registerLink = $this->Html->link(__('Register', true), array('controller' => 'users', 'action' => 'registration', 'kiosk' => false));
+					}
                 ?>
                 </p>
             </div>
@@ -109,7 +113,7 @@
                         <label for="search_field">Search</label>
                         <input type="text" class="field_blur" id="search_field" name="search_field" value="KEYWORD SEARCH" />
                     </p>
-                    <p><input type="submit" id="search_submit" value="Go" /></p>
+                    <p style="height: 35px;"><input type="submit" id="search_submit" value="Go" /></p>
                 </form>
 	            <?php if (!$session->read('Config.language')): ?>
 		    		<a class="translate-button" href="/kiosk/kiosks/set_language/es">Español</a>
