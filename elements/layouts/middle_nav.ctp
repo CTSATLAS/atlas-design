@@ -2,7 +2,7 @@
 	<div class="span12">
 		<div class="slider">
 			<div class="camera_wrap">
-				<div data-src="img/slide1.jpg">
+				<div data-src="/img/theme/slide1.jpg">
 					<div class="camera_caption fadeIn">
 						<div>
 							<h5>our capabilities:</h5>
@@ -12,7 +12,7 @@
 						</div>
 					</div>
 				</div>
-				<div data-src="img/slide2.jpg">
+				<div data-src="/img/theme/slide2.jpg">
 					<div class="camera_caption fadeIn">
 						<div>
 							<h5>our capabilities:</h5>
@@ -22,7 +22,7 @@
 						</div>
 					</div>
 				</div>
-				<div data-src="img/slide3.jpg">
+				<div data-src="/img/theme/slide3.jpg">
 					<div class="camera_caption fadeIn">
 						<div>
 							<h5>our capabilities:</h5>
