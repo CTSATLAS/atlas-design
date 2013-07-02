@@ -98,7 +98,7 @@ a.lead:hover {
   line-height: 20px;
   font-weight: bold;
   display: inline-block;
-  background: url(../img/link.gif) right 7px no-repeat;
+  background: url(../../img/theme/link.gif) right 7px no-repeat;
   padding-right: 10px;
   margin-top: 20px;
   text-decoration: none;
@@ -174,7 +174,7 @@ ul.list-2 {
 }
 ul.list li {
   padding: 5px 0 5px 13px;
-  background: url(../img/marker.gif) 0 12px no-repeat;
+  background: url(../../img/theme/marker.gif) 0 12px no-repeat;
   font-size: 12px;
   line-height: 20px;
 }
@@ -187,7 +187,7 @@ ul.list li a:hover {
 }
 ul.list-2 li {
   padding: 5px 0 5px 13px;
-  background: url(../img/marker.gif) 0 12px no-repeat;
+  background: url(../../img/theme/marker.gif) 0 12px no-repeat;
   font-size: 12px;
   line-height: 20px;
 }
@@ -279,11 +279,11 @@ ul.list-2 li a:hover {
 .btn-large_ span {
   padding: 0px 50px 4px 0px;
   display: block;
-  background: url(../img/btn-marker.png) right 2px no-repeat;
+  background: url(../../img/theme/btn-marker.png) right 2px no-repeat;
 }
 .btn-small_ {
   padding: 8px 18px 8px 18px;
-  background: url(../img/btn.jpg) 0 0 repeat-x #2c2c2c;
+  background: url(../../img/theme/btn.jpg) 0 0 repeat-x #2c2c2c;
   color: #ffffff;
 }
 .btn_:hover {
@@ -297,7 +297,7 @@ ul.list-2 li a:hover {
   width: 37px;
   height: 37px;
   overflow: hidden;
-  background: url(../img/totop.png) 0 0 no-repeat;
+  background: url(../../img/theme/totop.png) 0 0 no-repeat;
   position: fixed;
   margin-right: -640px !important;
   right: 50%;
@@ -314,12 +314,12 @@ ul.list-2 li a:hover {
 /*------ header ------- */
 header {
   padding: 15px 0 41px 0;
-  background: url(../img/header.jpg) 0 0 repeat-x #d2d2d2;
+  background: url(../../img/theme/header.jpg) 0 0 repeat-x #d2d2d2;
   position: relative;
   z-index: 999;
 }
 .header-block {
-  background: url(../img/header-block-blue.png) 0 0 repeat-x #00529c;
+  background: url(../../img/theme/header-block-blue.png) 0 0 repeat-x #00529c;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -361,7 +361,7 @@ h1.brand span {
   padding: 6px 45px 10px 0;
   color: #ffffff;
   line-height: 22px;
-  background: url(../img/line-1.png) right 0 repeat-y;
+  background: url(../../img/theme/line-1.png) right 0 repeat-y;
 }
 .contacts span,
 .contacts a {
@@ -397,11 +397,11 @@ h1.brand span {
   display: inline-block;
   width: 40px;
   height: 33px;
-  background: url(../img/search.png) 0 -2px no-repeat;
+  background: url(../../img/theme/search.png) 0 -2px no-repeat;
   float: right;
 }
 .navbar-form a:hover {
-  background: url(../img/search.png) right 0 no-repeat;
+  background: url(../../img/theme/search.png) right 0 no-repeat;
 }
 /**/
 /* navbar */
@@ -411,7 +411,7 @@ h1.brand span {
 .navbar_ .navbar-inner_ {
   padding: 10px 0px 14px 45px;
   margin: 0;
-  background: url(../img/navbar-blue.png) 0 0 repeat-x;
+  background: url(../../img/theme/navbar-blue.png) 0 0 repeat-x;
   border: none;
   min-height: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
@@ -431,7 +431,7 @@ h1.brand span {
   zoom: 1;
 }
 .nav-collapse_ .nav > li {
-  background: url(../img/line-1.png) 0 0 repeat-y;
+  background: url(../../img/theme/line-1.png) 0 0 repeat-y;
   padding: 0 18px 0 18px;
   line-height: 17px;
 }
@@ -447,7 +447,7 @@ ul.nav li:first-child {
   border-bottom: 1px solid #cdcdcd;
   font-size: 14px;
   padding: 8px 0 8px 20px;
-  background: url(../img/marker.gif) 0 15px no-repeat;
+  background: url(../../img/theme/marker.gif) 0 15px no-repeat;
 }
 .nav-collapse_ .nav li a {
   line-height: 17px;
@@ -486,7 +486,7 @@ ul.nav li:first-child {
 .nav-collapse_ .nav > li.sub-menu > a:before {
   content: " ";
   position: absolute;
-  background: url('../img/li-marker.png') left top no-repeat;
+  background: url('../../img/theme/li-marker.png') left top no-repeat;
   width: 7px;
   height: 5px;
   right: 50%;
@@ -502,14 +502,14 @@ ul.nav li:first-child {
   list-style: none;
   zoom: 1;
   z-index: 9;
-  background: url(../img/nav-ul.jpg) 0 0 repeat-x #383838;
+  background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;
   padding: 20px 0 24px 0;
   margin: 0;
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
   content: " ";
   position: absolute;
-  background: url('../img/li-marker.png') left top no-repeat;
+  background: url('../../img/theme/li-marker.png') left top no-repeat;
   width: 7px;
   height: 5px;
   right: 10px;
@@ -537,7 +537,7 @@ ul.nav li:first-child {
   height: auto;
   list-style: none;
   z-index: 111;
-  background: url(../img/nav-ul.jpg) 0 0 repeat-x #383838;
+  background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;
   padding: 20px 0 24px 0;
   margin: 0;
 }
@@ -554,7 +554,7 @@ ul.nav li:first-child {
   margin-left: 3px;
 }
 .social-icons li a {
-  background: transparent url(../img/social-media-logos.png) no-repeat;
+  background: transparent url(../../img/theme/social-media-logos.png) no-repeat;
   display: block;
   height: 32px;
   text-indent: -9999px;
@@ -658,7 +658,7 @@ ul.nav li:first-child {
   padding-bottom: 28px;
 }
 .sub-content {
-  background: url(../img/content.jpg) 0 0 repeat-x #f0f0f0 !important;
+  background: url(../../img/theme/content.jpg) 0 0 repeat-x #f0f0f0 !important;
 }
 #middle-nav {
   padding-bottom: 28px;
@@ -1439,7 +1439,7 @@ footer .copyright { margin-top: 18px }
     zoom: 1;
     z-index: 999;
     width: 168px;
-    background: url(../img/nav-ul.jpg) 0 0 repeat-x #383838;
+    background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;
     padding: 20px 0 24px 0;
     margin: 0;
   }
@@ -1490,7 +1490,7 @@ footer .copyright { margin-top: 18px }
   .nav-collapse_ .nav > li li.sub-menu > a:before {
     content: "";
     position: absolute;
-    background: url(../img/li-marker.png) left top no-repeat;
+    background: url(../../img/theme/li-marker.png) left top no-repeat;
     width: 7px;
     height: 5px;
     right: 10px ;
@@ -1861,13 +1861,12 @@ span.label a {
 }
 
 #ecourse-quiz-results p.correct-answer {
-  background: url(../img/icons/accept.png) 0 0 no-repeat;
+  background: url(../../img/theme/icons/accept.png) 0 0 no-repeat;
 }
 
 #ecourse-quiz-results p.incorrect-answer {
-  background: url(../img/icons/exclamation.png) 0 0 no-repeat;
+  background: url(../../img/theme/icons/exclamation.png) 0 0 no-repeat;
 }
-
 
 .pagination {
   margin: 20px 0;
