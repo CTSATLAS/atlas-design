@@ -6,7 +6,7 @@
 					<div class="clearfix header-block-pad">
 						<div class="span6">
 							<h1 class="brand">
-								<a href="/"><img src="/img/logo.png" alt=""></a>
+								<a href="/"><img src="/img/theme/logo.png" alt=""></a>
 							</h1>
 						</div>
 						<div class="span3 hidden-phone hidden-tablet" id="login-or-register">
