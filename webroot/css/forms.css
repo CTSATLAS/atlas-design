@@ -1,0 +1,105 @@
+/* CONTACT FORM
+========================================================================= */
+#confirm {
+	position: relative;
+	height: auto;
+	padding-bottom: 30px;
+}
+#confirm  label {
+	display: block;
+	position: relative;
+	min-height: 39px;
+	width: 200px;
+}
+#confirm  label.message {
+	min-height: 286px;
+}
+#confirm input {
+	display: block;
+	margin: 0;
+	outline: none;
+	box-shadow: none !important;
+	padding: 0 5px;
+	width: 258px;
+	height: 22px;
+	font: 13px/18px Arial, sans-serif;
+	color: #8a8d91;
+	background: transparent;
+	border: 1px solid #8f9194;
+}
+#confirm textarea {
+	resize: none;
+	overflow: auto;
+	display: block;
+	margin: 0;
+	outline: none;
+	box-shadow: none !important;
+	padding: 5px 5px;
+	width: 258px;
+	height: 238px;
+	font: 13px/18px Arial, sans-serif;
+	color: #8a8d91;
+	background: transparent;
+	border: 1px solid #8f9194;
+}
+#confirm label > span {
+	color: #009ee0;
+	position:relative;
+	left: 10px;
+}
+#confirm .success {
+	display:none;
+	margin-bottom:10px;
+	font: bold 10px/12px Arial, sans-serif;
+	color:#009ee0;
+}
+#confirm  .empty, #confirm  .error {
+	font: 11px/14px Arial, sans-serif;
+	display:none;
+	color:#009ee0;
+}
+#confirm .btns {
+	position: absolute;
+	right: 0;
+}
+#confirm .btns a {
+	margin-left: 10px;
+}
+
+/* MAP
+========================================================================= */
+dl.adress {
+	display: block;
+	margin-bottom:16px;
+}
+dl.adress.last-col {margin-bottom:0;}
+dl.adress dd span {
+	float: right;
+}
+
+/* MEDIA */
+/*==========================================*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+	#confirm input {
+		width: 214px;
+	}
+	#confirm textarea {
+		width: 214px;
+	}
+}
+@media only screen and (max-width: 767px) {
+	#confirm input {
+		width: 288px;
+	}
+	#confirm textarea {
+		width: 288px;
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#confirm input {
+		width: 408px;
+	}
+	#confirm textarea {
+		width: 408px;
+	}
+}

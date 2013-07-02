@@ -84,10 +84,10 @@
 		hoverClass	: 'sfHover',
 		pathClass	: 'overideThisToUse',
 		pathLevels	: 2,
-		delay		: 800,
+		delay		: 1000,
 		animation	: {height:'show'},
 		speed		: 'normal',
-		autoArrows	: false,
+		autoArrows	: true,
 		dropShadows : false,
 		disableHI	: false,		// true disables hoverIntent detection
 		onInit		: function(){}, // callback functions

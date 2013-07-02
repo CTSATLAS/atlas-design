@@ -1,17 +1,19 @@
-.navbar_ .nav-collapse_ , .navbar_ collapse {
-    overflow: visible;
-  }
-  body {
-  	min-width: 980px;
-  }
- #panel .nav-collapse.collapse {
- 	overflow: visible;
-  }
-  #advanced span.trigger strong{filter:alpha(opacity=0);}
-#advanced.closed span.trigger strong{filter:alpha(opacity=100);}
-
-#advanced .dropdown-menu li li a {
-  display: inline-block;
+body {
+	width:100%;
+	min-width:1000px;
 }
 
-/*******/
+.main {width:990px; overflow:hidden;}
+#confirm input {line-height:22px;}
+
+#newsletter-form > input {line-height:26px;}
+
+div.col-green, div.col-blue, div.col-light-blue {
+	behavior: url('js/PIE.htc');
+	position:relative;
+}
+
+
+.list-soc {margin-right:25px;}
+
+.sf-menu {margin-right:30px;}
