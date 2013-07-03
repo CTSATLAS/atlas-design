@@ -7,7 +7,7 @@
  * @package ATLAS V3
  */
 ?>
-<?php echo $this->Html->script('users/login', array('inline' => 'false')) ?>
+<?php echo $this->Html->script('theme/users/login', array('inline' => 'false')) ?>
 <div id="UserLoginForm">
 	<p>
         <?php printf(__("Welcome to the %s Online Services System. To begin, please log in with
