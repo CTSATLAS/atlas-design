@@ -9,7 +9,7 @@ img{
 	border:none;	
 } 
 body{
-	background:url(../images/backgroundBar.jpg) repeat-x;
+	background:url(../../img/theme/backgroundBar.jpg) repeat-x;
 }
 #wrapper{
 	width:100%;
@@ -63,7 +63,7 @@ body{
 }
 .logo{
 	float:left;
-	padding-top:.5%;
+	padding-top:1.25%;
 	width:14%;
 }
 .logo img{
@@ -91,7 +91,7 @@ body{
 .footerNav{
 	padding-top:4px;	
 	float:right;
-	width:45%;	
+	width:52%;
 }
 .footerNav ul li{
 	display:inline;	
