@@ -1,0 +1,319 @@
+/*------ Global -----*/
+*{
+	font-family: helvetica, arial, sans-serif;
+	font-size:16px;
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;	
+} 
+body{
+	background:url(../images/backgroundBar.jpg) repeat-x;
+}
+#wrapper{
+	width:100%;
+}
+#container{
+	width:100%;
+}
+#navigation{
+	width:100%;
+	background:#8b8989;
+	height:40px;
+	min-width:800px;
+}
+.navContainer{
+	margin:0 auto;
+	max-width:1280px;
+	width:80%;
+	height:40px;
+}
+.nav{
+	list-style:none;
+	height:30px;
+	border-right:solid 1px #7b7b7b;
+	float:left;
+	text-align:center;
+	padding-top:10px;
+	overflow:hidden;
+}
+.nav a{
+	color:#FFF;
+	text-decoration:none;
+	padding-left:20px;
+	padding-right:20px;	
+	font-weight:bold;
+	font-size:75%;
+}
+.nav a:hover{
+	color:#f5c01e;
+}	
+.careerSeekerDropNav{
+	
+}
+#navFirst{
+	border-left:solid 1px #7b7b7b;
+}
+#header{
+	margin:0 auto;
+	max-width:1280px;
+	width:80%;
+	height:143px;
+}
+.logo{
+	float:left;
+	padding-top:.5%;
+	width:14%;
+}
+.logo img{
+	width:100%;	
+}
+.socialMedia{
+	margin-top:50px;
+	margin-right:100px;
+	float:right;	
+}
+#footer{
+	padding-top:10px;
+	background:#e4e4e4;
+	margin:0 auto;
+	width:80%;
+	max-width:1280px;
+	height:30px;
+	border-radius:5px;
+}
+.copyright{
+	float:left;
+	padding-left:1%;
+	padding-top:4px;	
+}
+.footerNav{
+	padding-top:4px;	
+	float:right;
+	width:45%;	
+}
+.footerNav ul li{
+	display:inline;	
+	margin-right:1.5%;
+}
+.clear{
+	clear:both;	
+}
+/* ----- Homepage ----- */
+.homeContent{
+	margin:0 auto;
+	max-width:1280px;
+	width:80%;
+}
+.selector{
+	margin:30px auto;
+	background:#e6e6e6;
+	width:93%;
+	border-radius:10px;
+	padding:10px;
+	overflow:hidden;
+	position:relative;
+}
+/* ----- Job Seeker ----- */	
+.jobSeeker{
+	position:relative;
+	float:left;
+	width:33%;
+	margin-right:.5%;
+}
+.jobSeeker img{
+	float:left;
+	width:100%;	
+}
+.jobSeekerWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineJobs{
+	position:absolute;
+	text-align:center;
+	font-size:350%;
+	line-height:90%;
+	margin-top:20%;
+	right:5%;
+	color:#FFF;
+	width:161px;
+	font-family: "iskra";
+}	
+.linkTextJobs{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:125%;
+	font-family: "iskra";
+	color:#000;
+}
+.linkTextJobs h1{
+	font-size:139%;
+	font-weight:normal;
+	color:#000;
+	font-family: "iskra";
+	line-height:75%;
+}
+/* ----- Employeer ----- */	
+.employer{
+	position:relative;
+	float:left;
+	width:33%;
+	margin-right:.5%;
+}
+.employer img{
+	float:left;
+	width:100%;	
+}
+.employerWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineEmployer{
+	position:absolute;
+	text-align:center;
+	font-size:275%;
+	line-height:100%;
+	margin-top:20%;
+	right:5%;
+	color:#FFF;
+	width:200px;
+	font-family: "iskra";
+}	
+.linkTextEmployer{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:125%;
+	font-family: "iskra";
+	color:#000;
+}
+.linkTextEmployer h1{
+	font-size:139%;
+	font-weight:normal;
+	font-family: "iskra";
+	color:#000;
+	line-height:75%;
+}
+/* ----- Resources ----- */	
+.resources{
+	position:relative;
+	float:left;	
+	width:33%;
+}
+.resources img{
+	float:left;
+	width:100%;
+}
+.resourcesWords{
+	position:absolute;
+	float:left;
+	top:0;
+	width:100%;
+}
+.tagLineResources{
+	position:absolute;
+	text-align:center;
+	font-size:250%;
+	line-height:90%;
+	margin-top:20%;
+	right:-3%;
+	color:#FFF;
+	width:245px;
+	font-family: "iskra";
+}	
+.linkTextResources{
+	position:absolute;
+	right:7%;
+	margin-top:70%;
+	text-align:right;
+	font-size:110%;
+	font-family: "iskra";
+	color:#000;
+	line-height:100%;
+}
+/* ------ Content Page -----*/
+.contentArea{
+	margin:0 auto;
+	max-width:1280px;
+	width:80%;
+}
+.bannerContainer{
+	width:100%;
+}
+.bannerContainerContent{
+	margin-top:1%;
+}
+.bannerContainerContent img{
+	float:left;
+	width:100%;	
+}
+.bannerContainerWords{
+	float:left;
+	margin-top:-6%;	
+	margin-left:2%;
+}
+.pageHeader{
+	font-family: "iskra";
+	color:#FFF;
+	font-size:350%;	
+	font-weight:normal;
+}
+.dynamicContent{
+	background:#FFF;
+	margin-top:15px;
+	width:100%;
+	border-radius:5px;
+	color:#000 ;
+	min-height:200px;
+	margin-bottom:15px;
+}
+.dynamicContent h1{
+	font-family: "iskra";
+	color:#C63;
+	font-size:250%;
+	font-weight:normal
+}
+.dynamicContent h2{
+	font-family: "iskra";
+	color:#C00;
+	font-size:175%;
+	font-weight:normal
+}
+.dynamicContent h3{
+	font-family: "iskra";
+	color:#09F;
+	font-size:125%;
+	font-weight:normal
+}
+.dynamicContent ul{
+	list-style:none;
+}
+.dynamicContent li{
+	padding-left:2%;
+}
+.dynamicContent a{
+	
+}
+.dynamicContent p{
+	font-size:95%;
+	color:#666;
+	line-height:160%;
+}
+
+@media only screen and (max-width: 1280px){
+/* IPAD RESOLUTION */
+
+}
+@media only screen and (max-device-width: 759px), only screen and (max-width: 759px)  {
+/* IPhone RESOLUTION */
+
+}
