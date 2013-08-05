@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title><?= $title_for_layout ?> &mdash; Job Smart Tampa Bay</title>
+	<!-- meta -->
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+	<!-- css -->
+	<link rel="stylesheet" href="/css/font-awesome.min.css" media="screen" />
 	<link rel="stylesheet" href="/css/theme/style.css" media="screen" />
 	<link rel="icon" href="images/favicon.ico" />
-	<link rel="shortcut icon" href="images/favicon.ico" />
-
-	<!--[if lt IE 8]><?= $this->element('layouts/ie_warning') ?><![endif]-->
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/css/font-awesome-ie7.min" media="screen" />
+	<![endif]-->
 	<!--[if lt IE 9]>
-		<script src="/js/theme/html5.js"></script>
-		<script src="/js/theme/jquery.hoverIntent.minified.js"></script>
 		<link rel="stylesheet" href="/css/theme/ie.css"> 
 	<![endif]-->
+
+	<link rel="shortcut icon" href="images/favicon.ico" />
+
+	<title><?= $title_for_layout ?> &mdash; Job Smart Tampa Bay</title>
 </head>
 <body>
+	<!--[if lt IE 8]><?= $this->element('layouts/ie_warning') ?><![endif]-->
 	<div class="body-glow">
 		<div class="main">
 			<!-- header -->
@@ -79,6 +85,10 @@
 	<script src="/js/theme/camera.js"></script>
 	<script src="/js/theme/jquery.easing.1.3.js"></script>
 	<!--[if (gt IE 9)|!(IE)]><!--><script src="/js/theme/jquery.mobile.customized.min.js"></script><!--<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="/js/theme/html5.js"></script>
+		<script src="/js/theme/jquery.hoverIntent.minified.js"></script>
+	<![endif]-->
 	<script src="/js/theme/jquery.equalheights-rt.js"></script>
 	<script src="/js/theme/script.js"></script>
 	<?= $scripts_for_layout ?>
