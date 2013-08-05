@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>About us</title>
+	<title><?= $title_for_layout ?> &mdash; Job Smart Tampa Bay</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
 	<link rel="stylesheet" href="/css/theme/style.css" media="screen" />
@@ -26,28 +26,25 @@
 				<div>
 					<div class="col-green maxheight">
 						<div class="inner-indernt">
-							<h3 class="indent-bot-11">strategies</h3>
+							<h3 class="indent-bot-11">Confidence</h3>
 							<div>
-								<p><b>Fusce feugiat malesuada odio</b> </p>
-								<p>Morbi nuncodio, gravida atcursus nectus lorem. Maecenas tris tique <a href="#">...</a></p>
+								<p>Reliance on one's ability to succeed.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-blue maxheight">
 						<div class="inner-indernt">
-							<h3 class="indent-bot-11">support</h3>
+							<h3 class="indent-bot-11">Knowledge</h3>
 							<div>
-								<p><b>Fusce feugiat malesuada odio</b> </p>
-								<p>Morbi nuncodio, gravida atcursus nectus lorem. Maecenas tris tique <a href="#">...</a></p>
+								<p>Increasing one’s information, experiences and understanding</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-light-blue last-col maxheight">
 						<div class="inner-indernt">
-							<h3 class="indent-bot-11">experience </h3>
+							<h3 class="indent-bot-11">Independence</h3>
 							<div>
-								<p><b>Fusce feugiat malesuada odio</b> </p>
-								<p>Morbi nuncodio, gravida atcursus nectus lorem. Maecenas tris tique <a href="#">...</a></p>
+								<p>Reliance on one’s own actions and abilities</p>
 							</div>
 						</div>
 					</div>
@@ -72,8 +69,6 @@
 				<?php endif ?>
 			</section>
 			<div class="clear"></div>
-			
-			<?= $this->element('layouts/footer') ?>
 		</div>
 	</div>
 

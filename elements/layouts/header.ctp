@@ -1,5 +1,5 @@
 <div class="head-block">
-	<h1><a href="index.html">Perfecto creative</a></h1>
+	<h1><a href="/">Job Smart Tampa Bay</a></h1>
 	<ul class="list-soc">
 		<li class="soc-1"><a href="#"></a></li>
 		<li class="soc-2"><a href="#"></a></li>

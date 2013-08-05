@@ -147,16 +147,16 @@ strong.l-blue {
 	height:30px;
 }
 .list-soc li.soc-1 a {
-	background: url('../../img/theme/twitter-hover.png') no-repeat;
+	/*background: url('../../img/theme/twitter-hover.png') no-repeat;*/
 }
 .list-soc li.soc-2 a {
-	background: url('../../img/theme/facebook-hover.png') no-repeat;
+	/*background: url('../../img/theme/facebook-hover.png') no-repeat;*/
 }
 .list-soc li.soc-3 a {
-	background: url('../../img/theme/stumbleupon-hover.png') no-repeat;
+	/*background: url('../../img/theme/stumbleupon-hover.png') no-repeat;*/
 }
 .list-soc li.soc-4 a {
-	background: url('../../img/theme/rss-hover.png') no-repeat;
+	/*background: url('../../img/theme/rss-hover.png') no-repeat;*/
 }
 .list-soc li.soc-1 a:hover,
 .list-soc li.soc-2 a:hover,
@@ -250,13 +250,13 @@ div.col-light-blue {
 }
 
 div.col-green .inner-indernt {
-	background: url('../../img/theme/icon1.png') no-repeat 100% 0;
+	/*background: url('../../img/theme/icon1.png') no-repeat 100% 0;*/
 }
 div.col-blue .inner-indernt {
-	background: url('../../img/theme/icon2.png') no-repeat 100% 0;
+	/*background: url('../../img/theme/icon2.png') no-repeat 100% 0;*/
 }
 div.col-light-blue .inner-indernt {
-	background: url('../../img/theme/icon3.png') no-repeat 100% 0;
+	/*background: url('../../img/theme/icon3.png') no-repeat 100% 0;*/
 }
 
 .img-1 {
