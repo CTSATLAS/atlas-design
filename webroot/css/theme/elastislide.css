@@ -4,7 +4,7 @@
     padding: 15px 130px 0 79px;
     position: relative;
     z-index: 99;
-	background: url('../images/banners-bg.png') no-repeat;
+	background: url('../../img/theme/banners-bg.png') no-repeat;
 	height:80px;
 }
 .es-carousel {
@@ -32,11 +32,11 @@
     z-index: 99;
 }
 .es-nav span.es-nav-next {
-    background-image: url("../images/marker_right.png");
+    background-image: url("../../img/theme/marker_right.png");
     right: 79px;
 }
 .es-nav span.es-nav-prev {
-    background-image: url("../images/marker_left.png");
+    background-image: url("../../img/theme/marker_left.png");
     left: 20px;
 }
 .es-nav span:hover {

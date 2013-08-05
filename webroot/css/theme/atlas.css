@@ -1,0 +1,248 @@
+.error-message {
+  color: red;
+  font-size: 11px;
+  margin-left: 120px;
+  margin-top: 2px;
+  float: left;
+}
+
+.message {
+  background-color: #fff;
+  margin: 0 0 0 0;
+  padding: 2px 5px 2px 5px;
+  font-size: 20px;
+  float: left;
+}
+
+.flash-failure .ui-icon{
+  margin: 5px 10px 0 0;
+}
+
+.flash-success .ui-icon{
+  margin: 5px 10px 0 0;
+}
+
+/* Forms */
+div.required label:after {
+  content: ' *';
+  color: #990000;
+  display:inline;
+}
+
+.input.error input,
+.input.error select {
+  margin-bottom: 0px !important;
+}
+
+.input.error span.help-block {
+  color: #900;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/*Dashboard*/
+#dashboard {
+  padding-top: 10px;
+}
+
+#dashboard .widget {
+  margin-bottom: 24px;
+}
+
+#dashboard .widget-header {
+  background: #7abcff; /* Old browsers */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhYmNmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzYwYWJmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDk2ZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+  border: 1px solid #60abf8;
+  border-bottom: 1px solid #2588EA;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-8 */
+  padding: 8px 0;
+
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+     -moz-border-radius-topleft: 5px;
+     -moz-border-radius-topright: 5px;
+          border-top-left-radius: 5px;
+          border-top-right-radius: 5px;
+
+  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+          box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
+}
+
+#dashboard .widget-header h2 {
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  text-shadow: 0 1px 3px #246AE2;
+}
+
+#dashboard .widget-header h2 i {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  margin-right: 10px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+
+#dashboard .widget-content {}
+
+#dashboard .widget-content ul {
+  width: 100%;
+}
+
+#dashboard .widget-content li {
+  border-bottom: 1px solid #efefef;
+  line-height: 20px;
+  padding: 10px 10px 10px 0;
+  position: relative;
+}
+
+#dashboard .widget-content li .title {
+  color: #454545;
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  padding-left: 10px;
+}
+
+#dashboard .widget-content li .details {
+  color: #9a9a9a;
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 5px 0 5px 8px;
+}
+
+#dashboard .widget-content li .details i {
+  color: #2588EA;
+  font-size: 14px;
+}
+
+#dashboard .widget-content li .action {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+}
+
+#dashboard #online-ecourses li .title,
+#dashboard #online-registrations li .title,
+#dashboard #online-orientations li .title,
+#dashboard #online-enrollments li .title {
+  margin-top: 8px;
+}
+
+#dashboard #online-registrations li .action,
+#dashboard #online-orientations li .action,
+#dashboard #online-enrollments li .action {
+  top: 23px;
+}
+
+#dashboard #online-ecourses li .action {
+  top: 35px;
+}
+
+span.label {
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 11.844px;
+  font-weight: bold;
+  line-height: 14px;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+  vertical-align: baseline;
+  background-color: #999;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+}
+
+span.label a {
+  color: #fff;
+}
+
+#ecourse-quiz form {
+  margin-top: 18px;
+}
+
+#ecourse-quiz .question { margin-bottom: 18px }
+
+#ecourse-quiz li.question label.main-label {
+  display: block;
+  font-weight: bold;
+}
+
+#ecourse-quiz li.question .answer { margin-left: 10px }
+
+#ecourse-quiz li.question input[type=radio] { margin-right: 8px }
+
+#ecourse-quiz li.question input[type=radio],
+#ecourse-quiz li.question input[type=radio] + label {
+  margin-top: 10px;
+}
+
+#ecourse-quiz li.question input[type=radio] + label {
+  color: #555;
+}
+
+#ecourse-quiz label.error {
+  color: #F00;
+  display: block;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#ecourse-quiz-results h5 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#ecourse-quiz-results li {
+  margin-bottom: 10px;
+}
+
+#ecourse-quiz-results p {
+  margin-bottom: 4px;
+  padding-left: 25px;
+}
+
+#ecourse-quiz-results p.correct-answer {
+  background: url(../img/icons/accept.png) 0 0 no-repeat;
+}
+
+#ecourse-quiz-results p.incorrect-answer {
+  background: url(../img/icons/exclamation.png) 0 0 no-repeat;
+}
+
+#ecourse-external-url {
+  background: url(../img/icons/link.png) 0 2px no-repeat;
+  margin: 24px 0 18px;
+  padding-left: 24px;
+}
+
+#ecourse-external-url h1 {
+  color: #343434;
+}
+
+#ecourse-external-url i {
+  color: #999;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+#dashboard #online-esignature .widget-content li {
+  padding-top: 20px;
+}
+
+#dashboard #online-esignature .widget-content li .action {
+  top: 24px;
+}

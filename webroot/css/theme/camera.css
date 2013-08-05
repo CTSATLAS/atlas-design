@@ -98,14 +98,14 @@
 	z-index: 2;
 }
 .camera_target_content .camera_link {
-    background: url(../images/blank.gif);
+    background: url(../../img/theme/blank.gif);
 	display: block;
 	height: 100%;
 	text-decoration: none;
 }
 .camera_loader {
-    background: #fff url(../images/camera-loader.gif) no-repeat center;
-	background: rgba(255, 255, 255, 0.9) url(../images/camera-loader.gif) no-repeat center;
+    background: #fff url(../../img/theme/camera-loader.gif) no-repeat center;
+	background: rgba(255, 255, 255, 0.9) url(../../img/theme/camera-loader.gif) no-repeat center;
 	border: 1px solid #ffffff;
 	-webkit-border-radius: 18px;
 	-moz-border-radius: 18px;
@@ -174,7 +174,7 @@
 	z-index: 10;
 }
 .camera_prevThumbs div {
-	background: url(../images/camera_skins.png) no-repeat -160px 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat -160px 0;
 	display: block;
 	height: 40px;
 	margin-top: -20px;
@@ -193,7 +193,7 @@
 	z-index: 10;
 }
 .camera_nextThumbs div {
-	background: url(../images/camera_skins.png) no-repeat -190px 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat -190px 0;
 	display: block;
 	height: 40px;
 	margin-top: -20px;
@@ -293,7 +293,7 @@
 	left: 0;
 }
 .camera_prev > span {
-	background: url(../images/camera_skins.png) no-repeat 0 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat 0 0;
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -302,7 +302,7 @@
 	right: 0;
 }
 .camera_next > span {
-	background: url(../images/camera_skins.png) no-repeat -40px 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat -40px 0;
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -311,12 +311,12 @@
 	right: 41px;
 }
 .camera_commands > .camera_play {
-	background: url(../images/camera_skins.png) no-repeat -80px 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat -80px 0;
 	height: 40px;
 	width: 40px;
 }
 .camera_commands > .camera_stop {
-	background: url(../images/camera_skins.png) no-repeat -120px 0;
+	background: url(../../img/theme/camera_skins.png) no-repeat -120px 0;
 	display: block;
 	height: 40px;
 	width: 40px;
@@ -395,34 +395,34 @@
 *
 **************************/
 .pattern_1 .camera_overlayer {
-	background: url(../images/patterns/overlay1.png) repeat;
+	background: url(../../img/theme/patterns/overlay1.png) repeat;
 }
 .pattern_2 .camera_overlayer {
-	background: url(../images/patterns/overlay2.png) repeat;
+	background: url(../../img/theme/patterns/overlay2.png) repeat;
 }
 .pattern_3 .camera_overlayer {
-	background: url(../images/patterns/overlay3.png) repeat;
+	background: url(../../img/theme/patterns/overlay3.png) repeat;
 }
 .pattern_4 .camera_overlayer {
-	background: url(../images/patterns/overlay4.png) repeat;
+	background: url(../../img/theme/patterns/overlay4.png) repeat;
 }
 .pattern_5 .camera_overlayer {
-	background: url(../images/patterns/overlay5.png) repeat;
+	background: url(../../img/theme/patterns/overlay5.png) repeat;
 }
 .pattern_6 .camera_overlayer {
-	background: url(../images/patterns/overlay6.png) repeat;
+	background: url(../../img/theme/patterns/overlay6.png) repeat;
 }
 .pattern_7 .camera_overlayer {
-	background: url(../images/patterns/overlay7.png) repeat;
+	background: url(../../img/theme/patterns/overlay7.png) repeat;
 }
 .pattern_8 .camera_overlayer {
-	background: url(../images/patterns/overlay8.png) repeat;
+	background: url(../../img/theme/patterns/overlay8.png) repeat;
 }
 .pattern_9 .camera_overlayer {
-	background: url(../images/patterns/overlay9.png) repeat;
+	background: url(../../img/theme/patterns/overlay9.png) repeat;
 }
 .pattern_10 .camera_overlayer {
-	background: url(../images/patterns/overlay10.png) repeat;
+	background: url(../../img/theme/patterns/overlay10.png) repeat;
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
 	background: #b7b7b7;
@@ -1101,7 +1101,7 @@
 	text-indent:-999em;
 	width:15px;
 	height:15px;
-	background: url('../images/pagination.png') no-repeat 100% 0;
+	background: url('../../img/theme/pagination.png') no-repeat 100% 0;
 	margin:0;
 	margin-right:3px;
 }

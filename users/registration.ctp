@@ -29,19 +29,14 @@ $(document).ready(function() {
 <?php if(isset($instructions)) : ?>
 	<p><?php echo $instructions ?></p>
 <?php endif ?>
-
+	<br/>
 	<div class="required"><label style="display: inline;"></label> <?php __('indicates required fields.') ?></div>
-
+<br/>
   <div id="WebRegistrationForm">
 	<?= $this->Form->create('User',
 		array(
 			'action' => 'registration',
 			'inputDefaults' => array(
-				'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
-				'div' => array('class' => 'control-group input'),
-				'label' => array('class' => 'control-label'),
-				'between' => '<div class="controls">',
-				'after' => '</div>',
 				'error' => array(
 					'attributes' => array(
 						'wrap' => 'span',
@@ -52,7 +47,6 @@ $(document).ready(function() {
 		))
 	?>
 	<fieldset>
-		<legend>Register</legend>
 	    <?php
 	    echo $this->Form->hidden('role_id', array('value' => '1'));
 	    echo $this->Form->input('firstname', array(
