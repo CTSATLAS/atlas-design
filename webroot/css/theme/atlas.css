@@ -1,3 +1,13 @@
+.button {
+  color: #444;
+  font-size: 11px;
+  font-style: normal;
+
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+      box-shadow: none;
+}
+
 .error-message {
   color: red;
   font-size: 11px;
@@ -61,7 +71,7 @@ div.required label:after {
   border: 1px solid #60abf8;
   border-bottom: 1px solid #2588EA;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-8 */
-  padding: 8px 0;
+  padding: 2px 0;
 
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
@@ -75,6 +85,7 @@ div.required label:after {
 }
 
 #dashboard .widget-header h2 {
+  border: none !important;
   color: #fff;
   font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
   font-size: 16px;
@@ -114,6 +125,10 @@ div.required label:after {
   padding-left: 10px;
 }
 
+#dashboard .widget-content li .title a {
+  color: #4c4f52;
+}
+
 #dashboard .widget-content li .details {
   color: #9a9a9a;
   font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;
@@ -143,11 +158,11 @@ div.required label:after {
 #dashboard #online-registrations li .action,
 #dashboard #online-orientations li .action,
 #dashboard #online-enrollments li .action {
-  top: 23px;
+  top: 15px;
 }
 
 #dashboard #online-ecourses li .action {
-  top: 35px;
+  top: 22px;
 }
 
 span.label {
@@ -244,5 +259,5 @@ span.label a {
 }
 
 #dashboard #online-esignature .widget-content li .action {
-  top: 24px;
+  top: 15px;
 }
