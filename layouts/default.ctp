@@ -27,38 +27,52 @@
 			<!-- header -->
 			<header>
 				<?= $this->element('layouts/header') ?>
-				<?= $this->element('layouts/slider') ?>
 				
-				<div>
-					<div class="col-green maxheight">
-						<div class="inner-indernt">
-							<h3 class="indent-bot-11">Confidence</h3>
-							<div>
-								<p>Reliance on one's ability to succeed.</p>
+				<?php if ($this->here === '/'): ?>
+					<?= $this->element('layouts/slider') ?>
+					<div>
+						<div class="col-green maxheight">
+							<div class="inner-indernt">
+								<h3 class="indent-bot-11">Confidence</h3>
+								<div>
+									<p>Reliance on one's ability to succeed.</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-blue maxheight">
-						<div class="inner-indernt">
-							<h3 class="indent-bot-11">Knowledge</h3>
-							<div>
-								<p>Increasing one’s information, experiences and understanding</p>
+						<div class="col-blue maxheight">
+							<div class="inner-indernt">
+								<h3 class="indent-bot-11">Knowledge</h3>
+								<div>
+									<p>Increasing one’s information, experiences and understanding</p>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-light-blue last-col maxheight">
-						<div class="inner-indernt">
-							<h3 class="indent-bot-11">Independence</h3>
-							<div>
-								<p>Reliance on one’s own actions and abilities</p>
+						<div class="col-light-blue last-col maxheight">
+							<div class="inner-indernt">
+								<h3 class="indent-bot-11">Independence</h3>
+								<div>
+									<p>Reliance on one’s own actions and abilities</p>
+								</div>
 							</div>
 						</div>
+						<div class="clear"></div>
 					</div>
-					<div class="clear"></div>
-				</div>
+				<?php endif ?>
 			</header><!-- end header -->
-			
+
+			<?php echo $this->Session->flash('email') ?>
+
 			<section id="content">
+				<div class="container_24">
+					<div class="wrapper">
+						<div class="grid_24">
+							<div class="rt-indent-1">
+								<?= $this->Session->flash() ?>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<?php if ($this->here === '/'): ?>
 					<?= $content_for_layout ?>
 				<?php else: ?>
