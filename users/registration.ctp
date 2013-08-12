@@ -139,6 +139,13 @@ $(document).ready(function() {
 			'label' => __('Phone', true)));
 		echo $this->Form->input('email', array(
 			'label' => __('Email Address', true)));
+
+		if ($usePassword) {
+			echo $this->Form->input('password', array(
+				'label' => __('Password', true),
+			));
+		}
+
 		echo $this->Form->input('language', array(
 			'label' => __('Primary Spoken Language', true),
 			'type' => 'select',
