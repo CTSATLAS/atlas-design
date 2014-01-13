@@ -2,99 +2,134 @@
 
 
 */
+
+
 /**********************
 colors
 ***********************/
+
+@green: #54B948;
+@blue: #0D76BD;
+@orange: #F26122;
+@grey: #6A737B;
+@lightgreen: #A0CF67;
+@orangeone: #FDB913;
+@orangetwo: #FAA634;
+@lightblue: #16A0DB;
+@darkblue: #002B54;
+
 /************************/
+
 .color.white {
   color: #FFF;
 }
 .color.green {
-  color: #54b948;
+  color: @green;
 }
-.color.blue {
-  color: #0d76bd;
+
+.color.blue{
+  color: @blue;
 }
-.color.orange {
-  color: #f26122;
+.color.orange{
+  color: @orange;
 }
-.color.grey {
-  color: #6a737b;
+.color.grey{
+  color: @grey;
 }
-.green.background {
-  background-color: #54b948;
+
+.green.background{
+  background-color: @green;
 }
+
 .orange.background {
-  background-color: #f26122;
+  background-color: @orange;
 }
-.blue.background {
-  background-color: #0d76bd;
+
+.blue.background{
+  background-color: @blue;
 }
+
 .grey.background {
-  background-color: #6a737b;
+  background-color: @grey;
 }
+
+
 .light.green {
-  color: #a0cf67;
+  color: @lightgreen;
 }
-.orange.one {
-  color: #fdb913;
+
+.orange.one{
+   color: @orangeone;
 }
-.orange.two {
-  color: #faa634;
+.orange.two{
+   color: @orangetwo;
 }
-.dark.blue {
-  color: #002b54;
+
+.dark.blue{
+   color: @darkblue;
 }
-.light.blue {
-  color: #16a0db;
+.light.blue{
+   color: @lightblue;
 }
+
 /**********
 Styles
 ***********/
 body {
-  padding-top: 20px;
-  color: #6a737b;
+ padding-top: 20px;
+ color: @grey;
 }
+
 header.top {
   min-height: 150px;
 }
+
 figure {
   margin-bottom: 20px;
 }
-header ul li {
+
+header ul li{
   font-size: 18px;
 }
+
 .default #cover {
   min-height: 100px;
   margin-bottom: 40px;
 }
+
 #cover .cover > div {
   min-height: 580px;
   margin-bottom: 40px;
 }
+
 #cover .main {
   background-image: url("../images/inside-slug-bg_03.jpg");
   background-size: cover;
   min-height: 100px;
 }
+
 #cover .cover-1 {
   background-image: url("../images/feature-bg-1_10.jpg");
   background-size: cover;
 }
+
 #cover .cover-2 {
   background-image: url("../images/feature-bg-2_11.jpg");
   background-size: cover;
 }
+
 #cover .slug div {
   min-height: 100px;
 }
+
 .row.cover > div {
   padding: 0;
 }
-.cover .cover-1,
-.cover .cover-2 {
+
+.cover .cover-1, .cover .cover-2 {
   position: relative;
 }
+
 #cover .cover .copy {
   position: absolute;
   bottom: 20px;
@@ -105,63 +140,80 @@ header ul li {
   padding-left: 40px;
   padding-right: 40px;
 }
+
 #content {
   margin-bottom: 40px;
 }
-#content .col-md-9 {
+
+#content .col-md-9{
   padding-left: 0;
 }
+
 #content article {
+//  padding-top: 20px;
   padding-bottom: 20px;
   max-width: 95%;
 }
+
 .slug .green {
   background-image: url("../images/slug-bg-green.png");
   background-size: cover;
 }
+
 .slug .blue {
   background-image: url("../images/slug-bg-blue.png");
   background-size: cover;
 }
-.slug .green p {
-  color: #a0cf67;
+
+.slug .green p{
+  color: @lightgreen;
 }
+
 .slug p {
   margin-bottom: 20px;
 }
-.slug .blue p {
-  color: #16a0db;
+.slug .blue p{
+  color: @lightblue;
 }
+
 #feature {
   min-height: 200px;
 }
-#feature .row .col-md-5 {
+
+#feature .row .col-md-5{
   padding: 0;
 }
+
 footer {
   min-height: 120px;
   text-align: center;
   padding-bottom: 40px;
 }
+
 footer img.logo {
   margin-right: 40px;
 }
+
 footer nav {
   margin-top: 20px;
 }
+
 footer .ajobs {
   vertical-align: text-bottom;
 }
-.menu li {
-  list-style: none;
-  display: inline-block;
-  border-right: dotted 1px #6a737b;
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+  border-right: dotted 1px @grey;
   padding-left: 10px;
   padding-right: 10px;
 }
+
 .menu li:first-child {
   padding-left: 0;
 }
+
 ul.list-inline li {
   line-height: 60px;
   height: 60px;

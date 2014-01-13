@@ -39,7 +39,6 @@
 	</div>
 </div>
 
-
 <?php if (isset($page['Page']['footer_content'])): ?>
 	<div class="row">
 		<div class="span12">
