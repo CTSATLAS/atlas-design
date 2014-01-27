@@ -56,7 +56,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('Tampa Bay Workforce Alliance - BETA') ?>
+		<?php __('Tampa Bay Workforce Alliance') ?>
 	</title>
 </head>
 <body>
