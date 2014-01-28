@@ -2,9 +2,12 @@
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<?= $this->Nav->links('Bottom', true, 'footer-menu') ?>
+				<?php echo $this->Nav->links('Bottom', true, 'footer-menu') ?>
 			</div>
 		</div>
+	</div>
+	<div style="width:100%;background-color:#A0CF67;padding-bottom:20px">
+	<div class="container">
 		<div class="row">
 			<div class="span4">
 				<h5>Workforce Tampa Career Center</h5>
@@ -25,6 +28,9 @@
 				</a>
 			</div>
 		</div>
+	</div>
+</div>
+	<div class="container">
 		<div class="row copyright">
 			<div class="span12 centered">
 				<p>Tampa Bay WorkForce Alliance   ©  <?= date('Y') ?></p>
