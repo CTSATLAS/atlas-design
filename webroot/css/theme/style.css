@@ -109,7 +109,7 @@ div.required label:after {
   display:inline;
 }
 p.eoe {
-  color: #787878;
+  color: #444;
   font-size: 12px;
 }
 .link-2 {
@@ -587,8 +587,15 @@ ul.nav li:first-child {
   height: 442px;
 }
 .maps-holder {
+  width:100%;
   background-color:#A0CF67;
-  position:absolute;
+  padding-bottom:20px;
+}
+.maps-holder img {
+  border:5px solid #FFF;
+}
+.maps-holder h5 {
+  color:#FFF;
 }
 .camera_wrap {
   margin-bottom: 0 !important;
@@ -659,7 +666,7 @@ ul.nav li:first-child {
 /*--- header end ------*/
 /*------ content ------- */
 #content {
-  background: #f0f0f0;
+  background: #FCFCFC;
   padding-bottom: 28px;
 }
 .sub-content {
@@ -1037,7 +1044,7 @@ address span {
 /*------ footer ------- */
 footer {
   padding: 26px 0 38px 0;
-  background-color: #d8d8d9;
+  /*background-color: #d8d8d9;*/
   background-image: -moz-linear-gradient(top, #d2d2d2, #e2e1e3);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d2d2d2), to(#e2e1e3));
   background-image: -webkit-linear-gradient(top, #d2d2d2, #e2e1e3);
@@ -1047,6 +1054,8 @@ footer {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd2d2d2', endColorstr='#ffe2e1e3', GradientType=0);
   behavior: url('js/PIE.htc');
   position: relative;
+
+  background:#FCFCFC;
 }
 footer .span8 > a {
   text-decoration: underline;
