@@ -76,7 +76,7 @@
 						</form>
 						<div class="span4" style="margin-left: 170px;">
 							<?php $events = $this->requestAction('/events/upcoming') ?>
-							<h6 style='color: #fff; margin-bottom: 0;'>Upcoming Events</h6>
+							<h6 style='margin-bottom: 0;'>Upcoming Events</h6>
 							<div id="events-slider" class="hide" style="text-align: right;">
 							<?php foreach ($events as $event): ?>
 								<div class="event">

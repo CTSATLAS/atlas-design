@@ -319,7 +319,8 @@ header {
   z-index: 999;
 }
 .header-block {
-  background: url(../../img/theme/header-block-blue.png) 0 0 repeat-x #00529c;
+  background-color:#FFF;
+  /*background: url(../../img/theme/header-block-blue.png) 0 0 repeat-x #00529c;*/
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -380,7 +381,7 @@ h1.brand span {
 }
 .navbar-form input {
   background: #fff;
-  border: none;
+  border: 1px solid #CCC;
   box-shadow: none;
   line-height: 18px;
   width: 288px;
