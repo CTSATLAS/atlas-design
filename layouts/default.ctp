@@ -56,7 +56,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('Career Source Tampa Bay') ?>
+		<?php __('CareerSource Tampa Bay') ?>
 	</title>
 </head>
 <body>
