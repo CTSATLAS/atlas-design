@@ -41,7 +41,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="span6 offset3">
-				<p>
+				<p style="margin-bottom:0px">
 					<a href="careersourceflorida.com" target="_blank">
 						<img src="/img/theme/florida.jpg" alt="" style="width:150px;display:inline-block">
 					</a>
@@ -51,7 +51,10 @@
 		</div>
 		<div class="row copyright">
 			<div class="span12 centered">
-				<p>CareerSource Tampa Bay  ©  <?= date('Y') ?></p>
+				<!--<p>CareerSource Tampa Bay  ©  <?= date('Y') ?></p>-->
+				<p>
+					CareerSource Tampa Bay is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © <?= date('Y') ?> - CareerSource Tampa Bay. All Rights Reserved. Developed & Hosted by Complete Technology Solutions
+				</p>
 				<p class="eoe">ATLAS is a trademark of Complete Technology Solutions Copyright © <?= date('Y') ?> - Complete Technology Solutions. All Rights Reserved.</p>
 			</div>
 		</div>
