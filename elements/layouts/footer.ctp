@@ -43,7 +43,7 @@
 			<div class="span6 offset3">
 				<p style="margin-bottom:0px">
 					<a href="careersourceflorida.com" target="_blank">
-						<img src="/img/theme/florida.jpg" alt="" style="width:150px;display:inline-block">
+						<img src="/img/theme/florida.png" alt="" style="width:150px;display:inline-block">
 					</a>
 					A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
 				</p>
