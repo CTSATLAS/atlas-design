@@ -6,10 +6,10 @@
 				<?= $this->Nav->links('Top', true, 'nav sf-menu') ?>
 			</div>
 			<ul class="social-icons">
-				<li><a href="http://facebook.com/TampaBayWorkforceAlliance" class="social-icon facebook" title="Like TBWA on Facebook">Facebook</a></li>
-				<li><a href="http://twitter.com/#!/TBWorkAlliance" class="social-icon twitter" title="Follow TBWA on Twitter">Twitter</a></li>
-				<li><a href="http://linkedin.com/company/tampa-bay-workforce-alliance" class="social-icon linkedin" class="Visit TBWA on LinkedIn">LinkedIn</a></li>
-				<li><a href="http://youtube.com/user/tbwavideos" class="social-icon youtube" title="Watch TBWA videos on YouTube">YouTube</a></li>
+				<li><a target="_blank" href="https://www.facebook.com/CareerSourcePinellas" class="social-icon facebook" title="Like TBWA on Facebook">Facebook</a></li>
+				<li><a target="_blank" href="https://twitter.com/CareerSourcePinellase" class="social-icon twitter" title="Follow TBWA on Twitter">Twitter</a></li>
+				<li><a target="_blank" href="http://www.linkedin.com/company/CareersSource-Pinellas" class="social-icon linkedin" class="Visit TBWA on LinkedIn">LinkedIn</a></li>
+				<li><a target="_blank" href="http://www.youtube.com/CareerSourcePinellas" class="social-icon youtube" title="Watch TBWA videos on YouTube">YouTube</a></li>
 			</ul>
 		</div>
 	</div>
