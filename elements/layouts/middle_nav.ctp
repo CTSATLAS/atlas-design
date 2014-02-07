@@ -22,7 +22,7 @@
 						</div>
 					</div>
 				</div>
-				<div data-src="/img/theme/slideshow-6.jpg">
+				<div data-src="/img/theme/slideshow-5.jpg">
 					<div class="camera_caption fadeIn">
 						<div>
 							<h5>services:</h5>
