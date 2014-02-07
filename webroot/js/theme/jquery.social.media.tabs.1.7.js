@@ -221,7 +221,7 @@
 				classSlide: 'dcsmt-slide',
 				active: 'active',
 				zopen: 1000,
-				imagePath: '/img/social-stream/icons/'
+				imagePath: '/img/theme/social-stream/icons/'
 			};
 			this.o = {};
 			this.timer_on = 0;
