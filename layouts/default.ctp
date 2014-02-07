@@ -158,6 +158,7 @@
 				youtubeId: 'tbwavideos',
 				twitter: {
 					thumb: true
+                                        
 				}
 			});
 		});
