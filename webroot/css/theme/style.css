@@ -485,7 +485,18 @@ color:#EF9C2B;
   padding: 0;
   position: relative;
   zoom: 1;
+/*   display: inline-block; */
+  /* float: left; */
+  /* width: 160px; */
 }
+
+.nav-collapse_ .nav li ul li {
+  width: 160px;
+  display:block;
+  float: left;
+  vertical-align: mi;
+}
+
 .nav-collapse_ .nav > li {
   background: url(../../img/theme/line-1.png) 0 0 repeat-y;
   padding: 0 18px 0 18px;
@@ -552,7 +563,8 @@ ul.nav li:first-child {
 .nav-collapse_ .nav ul {
   position: absolute;
   display: none;
-  width: 158px;
+  width: 320px;
+  max-width: 320px;
   left: 0px;
   top: 42px;
   list-style: none;
@@ -561,6 +573,7 @@ ul.nav li:first-child {
   background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;
   padding: 20px 0 24px 0;
   margin: 0;
+  max-height: 400px;
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
   content: " ";
@@ -570,6 +583,11 @@ ul.nav li:first-child {
   height: 5px;
   right: 10px;
   top: 10px;
+}
+
+.nav-collapse_ .nav > li li.sub-menu li {
+  width: 160px;
+  display: inline-block;
 }
 .nav-collapse_ .nav ul li a {
   display: block;
@@ -582,7 +600,12 @@ ul.nav li:first-child {
 .nav-collapse_ .nav > li > ul li > a:hover,
 .nav-collapse_ .nav > li > ul li.sfHover > a {
   text-decoration: none;
-  background: #a9a9a9;
+  /* background: #a9a9a9; */
+  /* color: #E85E02; */
+}
+
+.nav-collapse_ .nav > li > ul li > a:hover {
+  color: #E85E02;
 }
 .nav-collapse_ .nav ul ul {
   position: absolute;
