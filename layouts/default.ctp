@@ -3,6 +3,7 @@
  * @author Brandon Cordell
  * @copyright Complete Technology Solutions 2011
  * @link http://ctsfla.com
+ * @since 02/06/2014
  */
 ?>
 <!DOCTYPE html>
@@ -20,9 +21,11 @@
 	<link rel="stylesheet" href="/css/theme/bootstrap.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/responsive.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
+        <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
+
 
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
@@ -149,7 +152,7 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'facebook,twitter,youtube',
+				widgets: 'twitter,facebook,youtube',
 				facebookId: 132438623509873,
 				twitterId: 'TBWorkAlliance',
 				youtubeId: 'tbwavideos',
