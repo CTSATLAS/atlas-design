@@ -59,7 +59,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pinellas') ?>
+		<?php __('CareerSource Chipola') ?>
 	</title>
 </head>
 <body>
@@ -152,10 +152,9 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
-				facebookId: 132438623509873,
-				twitterId: 'TBWorkAlliance',
-				youtubeId: 'tbwavideos',
+				widgets: 'twitter,facebook',
+				facebookId: 671888709517814,
+				twitterId: 'cschipola',
 				twitter: {
 					thumb: true
                                         
