@@ -59,7 +59,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pinellas') ?>
+		<?php __('CareerSource Pasco | Hernando') ?>
 	</title>
 </head>
 <body>
