@@ -23,6 +23,7 @@
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
 
