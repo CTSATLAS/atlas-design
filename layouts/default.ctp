@@ -152,7 +152,7 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook',
+				widgets: 'facebook',
 				facebookId: '104480452068',
 				twitterId: 'CareerSourcePH',
 				youtubeId: 'tbwavideos',
