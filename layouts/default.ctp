@@ -152,9 +152,9 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
-				facebookId: 132438623509873,
-				twitterId: 'TBWorkAlliance',
+				widgets: 'twitter,facebook',
+				facebookId: '104480452068',
+				twitterId: 'CareerSourcePH',
 				youtubeId: 'tbwavideos',
 				twitter: {
 					thumb: true

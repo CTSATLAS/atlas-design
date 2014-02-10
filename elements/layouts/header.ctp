@@ -6,7 +6,7 @@
                     <div class="row masthead">
                         <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><img src="/img/theme/pinellas.png" alt=""></a>
+                                <a href="/"><img src="/img/theme/hernando.png" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
