@@ -152,7 +152,7 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook',
+				widgets: 'facebook',
 				facebookId: 671888709517814,
 				twitterId: 'cschipola',
 				twitter: {
