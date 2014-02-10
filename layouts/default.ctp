@@ -59,7 +59,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pinellas') ?>
+		<?php __('CareerSource Okaloosa | Walton') ?>
 	</title>
 </head>
 <body>
@@ -152,8 +152,8 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
-				facebookId: 132438623509873,
+				widgets: 'facebook',
+				facebookId: 136700043064540,
 				twitterId: 'TBWorkAlliance',
 				youtubeId: 'tbwavideos',
 				twitter: {
