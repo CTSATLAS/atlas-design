@@ -152,10 +152,10 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
+				widgets: 'facebook,youtube',
 				facebookId: 132438623509873,
 				twitterId: 'TBWorkAlliance',
-				youtubeId: 'tbwavideos',
+				youtubeId: 'WorkNetPinellas',
 				twitter: {
 					thumb: true
                                         
