@@ -2355,3 +2355,277 @@ span.label a {
 	color: #fff;
 	margin: 0 !important;
 }
+
+/* New junk from main webroot style.css */
+.steps-container {
+  margin: 18px 0;
+}
+
+.steps-container li.program .details {
+  background: #fafafa; /* Old browsers */
+  border: 1px solid #eff1ed;
+  height: 40px;
+  line-height: 3em;
+  padding: 8px 15px;
+}
+
+.steps-container li.program .details,
+.steps-container li.module .details {
+  background: #fafafa; /* Old browsers */
+  border: 1px solid #eff1ed;
+  height: 40px;
+  line-height: 1.7em;
+  padding: 8px 15px;
+}
+
+.steps-container.enrollment li.module .details {
+  line-height: 3em !important;
+}
+li.program .details h3,
+li.module .details h3 {
+  color: #3B8DBD;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400 !important;
+}
+
+li.program .details p,
+li.module .details p {
+  color: #8899aa;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 12px;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+}
+
+li.module span.steps.status {
+  color: #8899aa !important;
+  font-family: 'Lato', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 13.5px;
+  font-weight: 300 !important;
+  line-height: 1.2em;
+}
+
+li.program span.status,
+li.module span.status {
+  float: right;
+  font-size: 14px;
+  margin: -37px 20px 0 0;
+}
+
+li.program.complete span.status,
+li.module.complete span.status {
+  color: #60b05a;
+}
+
+li.program.incomplete span.status,
+li.module.incomplete span.status {
+  color: #b32222;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.steps-container ol.steps {
+  clear: both;
+}
+
+.steps-container li.program {
+  margin-bottom: 25px;
+}
+
+.steps-container li.module {
+  padding-left: 40px;
+}
+
+.steps-container li.module.current {
+  background: transparent url(../img/current-step-indicator.png) 0 18px no-repeat !important;
+}
+
+.steps-container li.module.incomplete {
+  background: transparent url(../img/future-step-indicator.png) 0 18px no-repeat;
+}
+
+.steps-container li.module.complete {
+  background: transparent url(../img/completed-step-indicator.png) 0 18px no-repeat;
+}
+
+.steps-container li.program ol {
+  margin-left: 40px;
+}
+
+.steps-container li.module ol {
+  margin-left: 0px;
+}
+
+.steps-container li.program ol div.inner-container,
+.steps-container li.module ol div.inner-container {
+  border-bottom: 1px solid #dedede;
+  margin-left: 40px;
+  padding: 25px 15px;
+}
+
+.steps-container li.step {
+}
+
+.steps-container li.step.current {
+  background: transparent url(../img/current-step-indicator.png) 0 22px no-repeat !important;
+}
+
+.steps-container li.step.certificate {
+  background: none;
+}
+
+.steps-container li.step.complete {
+  background: transparent url(../img/completed-step-indicator.png) 0 28px no-repeat;
+}
+
+.steps-container li.step.incomplete {
+  background: transparent url(../img/future-step-indicator.png) 0 22px no-repeat;
+}
+
+
+li.step span.action {
+  float: right;
+  text-align: right;
+}
+
+li.step a,
+li.step span.action a {
+  padding: 7px 5px 8px !important;
+}
+
+span.action span.completed-date {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.steps-container li.step.required_docs a,
+.steps-container li.step.current a {
+  background-color: #7fbf4d;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #7fbf4d), color-stop(100%, #63a62f));
+  background-image: -webkit-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -moz-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -ms-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: -o-linear-gradient(top, #7fbf4d, #63a62f);
+  background-image: linear-gradient(top, #7fbf4d, #63a62f);
+  border: 1px solid #63a62f;
+  border-bottom: 1px solid #5b992b;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #96ca6d;
+  -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
+  box-shadow: inset 0 1px 0 0 #96ca6d;
+  color: #fff;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 7px 0 8px 0;
+  text-align: center;
+  text-shadow: 0 -1px 0 #4c9021;
+  width: 150px;
+}
+
+.steps-container li.step.required_docs a:hover,
+.steps-container li.step.current a:hover {
+  background-color: #76b347;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #76b347), color-stop(100%, #5e9e2e));
+  background-image: -webkit-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -moz-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -ms-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: -o-linear-gradient(top, #76b347, #5e9e2e);
+  background-image: linear-gradient(top, #76b347, #5e9e2e);
+  -webkit-box-shadow: inset 0 1px 0 0 #8dbf67;
+  -moz-box-shadow: inset 0 1px 0 0 #8dbf67;
+  box-shadow: inset 0 1px 0 0 #8dbf67;
+  cursor: pointer; 
+}
+
+.steps-container li.step.required_docs a:active,
+.steps-container li.step.current a:active {
+  border: 1px solid #5b992b;
+  border-bottom: 1px solid #538c27;
+  -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; 
+}
+
+.steps-container .incomplete a:hover,
+.steps-container .complete a:hover {
+  background-color: #dddddd;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #bbbbbb));
+  background-image: -webkit-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -moz-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -ms-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: -o-linear-gradient(top, #dddddd, #bbbbbb);
+  background-image: linear-gradient(top, #dddddd, #bbbbbb);
+  border: 1px solid #bbb;
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+  text-shadow: 0 1px 0 #ddd;
+}
+
+.steps-container .incomplete a:active,
+.steps-container .complete a:active {
+  border: 1px solid #aaa;
+  border-bottom: 1px solid #888;
+  -webkit-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+  -moz-box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+  box-shadow: inset 0 0 5px 2px #aaaaaa, 0 1px 0 0 #eeeeee;
+}
+
+.steps-container .complete a,
+.steps-container .incomplete a {
+  background-color: #eeeeee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -ms-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: -o-linear-gradient(top, #eeeeee, #cccccc);
+  background-image: linear-gradient(top, #eeeeee, #cccccc);
+  border: 1px solid #ccc;
+  border-bottom: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #333;
+  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1;
+  padding: 8px 0;
+  text-align: center;
+  text-shadow: 0 1px 0 #eee;
+  width: 150px;
+}
+
+.steps-container li.step.complete {}
+
+.steps-container li.step.complete div.inner-container {
+  height: 28px;
+  line-height: 28px;
+}
+
+.steps-container li.step.required_docs.complete div.inner-container,
+.steps-container li.step.certificate div.inner-container,
+.steps-container li.step.incomplete.current div.inner-container {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; /* ie8 */
+    filter: alpha(opacity=100); /* ie5-7 */
+    -moz-opacity: 1.0;
+    -khtml-opacity: 1.0;
+    opacity: 1.0;
+}
+
+.steps-container li.step.complete div.inner-container,
+.steps-container li.step.incomplete div.inner-container {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* ie8 */
+    filter: alpha(opacity=50); /* ie5-7 */
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+li.step div.inner-container img.ico {
+  margin-left: 10px;
+  vertical-align: text-bottom;
+}
