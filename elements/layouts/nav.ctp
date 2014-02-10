@@ -7,10 +7,10 @@
 			</div>
                         <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="http://www.twitter.com/cspinellas"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="http://www.facebook.com/careersourcepinellas"><span class="icon-facebook"></span> </a></li>
- <!-- {#                                <li><a href=""><span class="icon-linkedin"></span> </a></li>#} -->
-                                <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li>
+                                <li> <a href="http://www.twitter.com/cstampabay"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="http://facebook.com/TampaBayWorkforceAlliance"><span class="icon-facebook"></span> </a></li>
+<!-- <li><a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><span class="icon-linkedin"></span> </a></li> -->
+                                <li><a href="http://www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>
                             </ul>
 
 

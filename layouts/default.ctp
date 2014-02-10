@@ -59,7 +59,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pinellas') ?>
+		<?php __('CareerSource Tampa Bay') ?>
 	</title>
 </head>
 <body>
@@ -152,10 +152,10 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
+				widgets: 'facebook,youtube',
 				facebookId: 132438623509873,
-				twitterId: 'TBWorkAlliance',
-				youtubeId: 'tbwavideos',
+				twitterId: 'careersourcetampabay',
+				youtubeId: 'careersourcetampabay',
 				twitter: {
 					thumb: true
                                         
