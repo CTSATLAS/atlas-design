@@ -46,7 +46,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>-->
 
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -62,6 +62,13 @@
 		&mdash;
 		<?php __('CareerSource Chipola') ?>
 	</title>
+
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
+
+	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
+
+	
 </head>
 <body>
 	<?= $this->element('layouts/header') ?>
@@ -81,6 +88,7 @@
 
 	<?= $this->element('layouts/footer') ?>
 
+	<!--
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
@@ -93,6 +101,17 @@
 	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+-->
+
+<script type="text/javascript" src="/js/theme/camera.js"></script>
+<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 
 	<?= $scripts_for_layout ?>
 
