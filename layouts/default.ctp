@@ -27,6 +27,8 @@
 	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
 
+	<script type="text/javascript" src="/js/swfobject.js"></script>
+
 
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
