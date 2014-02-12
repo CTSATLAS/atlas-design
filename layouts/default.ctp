@@ -63,20 +63,32 @@
 	</title>
 </head>
 <body>
-	<?= $this->element('layouts/header') ?>
+	<?php echo $this->element('layouts/header') ?>
 
-	<section id="content">
-		<div class="container">
-			<div class="row">
-				<div class="span12" id="main-content">
-					<?php if ($title_for_layout !== 'Home'): ?>
-						<h1 id="page-title"><?= $title_for_layout ?></h1>
-					<?php endif ?>
-					<?= $content_for_layout ?>
-				</div>
-			</div>
-		</div>
-	</section>
+        <section id="content">
+            <div class="container">			                       
+                <?php if ($title_for_layout === 'Home'): //display home ?>
+                <div class="row"> 
+                    <div class="span12" id="main-content">
+                        <div class="post">
+                            <?php echo $content_for_layout ?> 
+                        </div>
+                    </div>                         
+                </div>
+                <?php else: ///display content page ?>
+                <div class="row-fluid">                                                  
+                    <div class="span10 offset2" id="main-content">
+                        <?php if ($title_for_layout !== 'Home'): ?>  
+                        <h1 id="page-title"><?= $title_for_layout ?></h1>
+                        <?php endif ?>
+                        <div class="post">
+                            <?php echo $content_for_layout ?> 
+                        </div>
+                    </div>                         
+                </div>
+                <?php endif ?> 
+            </div>
+        </section>
 
 	<?= $this->element('layouts/footer') ?>
 
