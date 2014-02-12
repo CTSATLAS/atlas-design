@@ -70,10 +70,8 @@
                 <?php if ($title_for_layout === 'Home'): //display home ?>
                 <div class="row"> 
                     <div class="span12" id="main-content">
-                        <div class="post">
-                            <?php echo $content_for_layout ?> 
-                        </div>
-                    </div>                         
+                        <?php echo $content_for_layout ?> 
+                    </div>
                 </div>
                 <?php else: ///display content page ?>
                 <div class="row-fluid">                                                  
