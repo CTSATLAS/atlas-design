@@ -88,7 +88,6 @@
 
 	<?= $this->element('layouts/footer') ?>
 
-	<!--
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
@@ -101,8 +100,8 @@
 	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
--->
 
+<!--
 <script type="text/javascript" src="/js/theme/camera.js"></script>
 <script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 <script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
@@ -112,7 +111,7 @@
 <script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
 <script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
-
+-->
 	<?= $scripts_for_layout ?>
 
 	<!--[if (gt IE 9)|!(IE)]><!-->
