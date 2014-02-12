@@ -2407,6 +2407,10 @@ padding-right: 40px;
   font-weight: normal;
   color: #494949;
 }
+
+#main-content p strong {
+  color: #0056B4;
+}
 #main-content table {
   background-color: transparent;
   background-image: none;
@@ -2425,3 +2429,14 @@ padding-right: 40px;
 }
 
 /* browser issue fix resize to 1180 */
+@media (max-width: 1201px) {
+  .hide-social, #social-stream.dcsmt-content {
+    display: none;
+    visible: hidden;
+  }
+  
+ #main-content .home-content {
+    width: 100%
+  }
+  
+}
