@@ -562,12 +562,13 @@ ul.nav li:first-child {
 .nav-collapse_ .nav > li.sub-menu > a:before {
   content: " ";
   position: absolute;
-  background: url('../../img/theme/li-marker.png') left top no-repeat;
+/*   background: url('../../img/theme/li-marker.png') left top no-repeat; */
   width: 7px;
   height: 5px;
   right: 50%;
   top: 50%;
   margin: 10px -3px 0 0;
+  border-right: 1px solid #fff;
 }
 .nav-collapse_ .nav ul {
   position: absolute;
@@ -2388,6 +2389,13 @@ span.label a {
 #main-content h1 {
   font-size: 42px;
   font-weight: normal;
+}
+
+
+#main-content h2 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #E85E02;
 }
 
 #main-content h1#page-title {
