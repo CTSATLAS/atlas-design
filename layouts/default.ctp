@@ -172,9 +172,9 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'facebook',
+				widgets: 'twitter,facebook',
 				facebookId: 671888709517814,
-				twitterId: 'cschipola',
+				twitterId: 'flynnarite',
 				twitter: {
 					thumb: true
                                         
