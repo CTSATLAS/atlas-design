@@ -1,3 +1,7 @@
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
 a[href^="tel:"] {
   color: inherit;
   text-decoration: none;
@@ -14,6 +18,7 @@ h6 {
   color: #383838;
   font-weight: bold;
   line-height: 1.2em;
+  font-weight:normal !important;
 }
 h1 {
   font-size: 28px;
@@ -67,6 +72,8 @@ p {
   color: #494949;
   margin: 20px 0 20px;
   text-decoration: none;
+  font-weight:normal !important;
+  -webkit-font-smoothing: antialiased;
 }
 
 .lead {
@@ -562,13 +569,13 @@ ul.nav li:first-child {
 .nav-collapse_ .nav > li.sub-menu > a:before {
   content: " ";
   position: absolute;
-/*   background: url('../../img/theme/li-marker.png') left top no-repeat; */
+  background: url('../../img/theme/li-marker.png') left top no-repeat;
   width: 7px;
   height: 5px;
   right: 50%;
   top: 50%;
   margin: 10px -3px 0 0;
-  border-right: 1px solid #fff;
+/*   border-right: 1px solid #fff; */
 }
 .nav-collapse_ .nav ul {
   position: absolute;
@@ -2396,6 +2403,13 @@ span.label a {
   font-size: 28px;
   font-weight: normal;
   color: #E85E02;
+}
+
+
+#main-content h3 {
+  font-size: 21px;
+  font-weight: normal;
+  color: #A8D52A;
 }
 
 #main-content h1#page-title {
