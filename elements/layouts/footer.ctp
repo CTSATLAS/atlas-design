@@ -10,29 +10,27 @@
 		<div class="container">
 			<div class="row">
 				<div class="span3">
-					<h5>CareerSource Pinellas, Clearwater Center</h5>
-					<a href="//maps.google.com/maps?q=16432 US Highway 19 N. Clearwater, FL 33764" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.9208719,-82.7302986&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9208719,-82.7302986">
+					<h5 style="font-size:12pt">CareerSource Chipola, Marianna Center</h5>
+					<a href="//maps.google.com/maps?q=4636 Hwy 90 East, Suite E Marianna, Fl 32446" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=30.7676015,-85.2036886&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7676015,-85.2036886">
 					</a>
 				</div>
 				<div class="span3">
-					<h5>CareerSource Pinellas, Gulf-to-Bay Center</h5>
-					<a href="//maps.google.com/maps?q=2312 Gulf-To-Bay Boulevard Clearwater, FL 33765" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.9611490,-82.7414570&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9611490,-82.7414570">
+					<h5 style="font-size:12pt">CareerSource Chipola, Blountstown Center</h5>
+					<a href="//maps.google.com/maps?q=16908 NE Pear Street, Suite 2 Blountstown, Fl 32424" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=30.4448940,-85.0452100&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.4448940,-85.0452100">
 					</a>
 				</div>
 				<div class="span3">
-					<h5>CareerSource Pinellas, South County Center</h5>
-					<a href="//maps.google.com/maps?q=3420 8th Avenue South St. Petersburg, FL 33711" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.7619456,-82.6804225&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7619456,-82.6804225">
+					<h5 style="font-size:12pt">CareerSource Chipola, Chipley Center</h5>
+					<a href="//maps.google.com/maps?q=680 Second Street, Room 7 Chipley, Fl 32428" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=30.7814890,-85.5459540&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7814890,-85.5459540">
 					</a>
 				</div>
 				<div class="span3">
-					<h5>
-						CareerSource Pinellas, Tarpon Springs Center
-					</h5>
-					<a href="//maps.google.com/maps?q=St. Petersburg College Campus 682 E. Klosterman Road Tarpon Springs, FL 34689" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.1229205,-82.7454361" />
+					<h5 style="font-size:12pt">CareerSource Chipola, Management Office</h5>
+					<a href="//maps.google.com/maps?q=4636 Highway 90 East, Suite K Marianna, FL 32446" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=30.7709378,-85.2091299&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7709378,-85.2091299">
 					</a>
 				</div>
 			</div>
@@ -52,8 +50,8 @@
 		<div class="row copyright">
 			<div class="span12 centered">
 				<p>
-					CareerSource Pinellas is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © <?= date('Y') ?> - CareerSource Pinellas. All Rights Reserved. Developed & Hosted by Complete Technology Solutions
-				</p>
+				CareerSource Chipola is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © 2014 - CareerSource Chipola. All Rights Reserved. Developed & Hosted by Complete Technology Solutions
+                                </p>
 				<p class="eoe">ATLAS is a trademark of Complete Technology Solutions Copyright © <?= date('Y') ?> - Complete Technology Solutions. All Rights Reserved.</p>
 			</div>
 		</div>

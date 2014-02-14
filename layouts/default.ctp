@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
 
@@ -45,7 +47,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>-->
 
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -59,8 +61,15 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pinellas') ?>
+		<?php __('CareerSource Chipola') ?>
 	</title>
+
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
+
+	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
+
+	
 </head>
 <body>
 	<?php echo $this->element('layouts/header') ?>
@@ -95,7 +104,7 @@
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
@@ -103,6 +112,17 @@
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
 
+<!--
+<script type="text/javascript" src="/js/theme/camera.js"></script>
+<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
+-->
 	<?= $scripts_for_layout ?>
 
 	<!--[if (gt IE 9)|!(IE)]><!-->
@@ -162,10 +182,9 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'twitter,facebook,youtube',
-				facebookId: 132438623509873,
-				twitterId: 'TBWorkAlliance',
-				youtubeId: 'tbwavideos',
+				widgets: 'twitter,facebook',
+				facebookId: 671888709517814,
+				twitterId: 'flynnarite',
 				twitter: {
 					thumb: true
                                         

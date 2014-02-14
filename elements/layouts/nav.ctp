@@ -7,10 +7,10 @@
 			</div>
                         <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="http://www.twitter.com/cspinellas"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="http://www.facebook.com/careersourcepinellas"><span class="icon-facebook"></span> </a></li>
- <!-- {#                                <li><a href=""><span class="icon-linkedin"></span> </a></li>#} -->
-                                <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li>
+                                <li> <a href="https://twitter.com/CSChipola"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="https://www.facebook.com/CareerSourceChipola"><span class="icon-facebook"></span> </a></li>
+                                 <li><a href="http://www.linkedin.com/company/careersource-chipola"><span class="icon-linkedin"></span> </a></li>
+                           <!--      <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> -->
                             </ul>
 
 

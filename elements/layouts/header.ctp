@@ -6,21 +6,10 @@
                     <div class="row masthead">
                         <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><img src="/img/theme/pinellas.png" alt=""></a>
+                                <a href="/"><img src="/img/theme/chipola.png" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
-                            <div class="row search">
-                                <div class="span8">
-                                    <div>
-                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
-                                            <input type="text" placeholder="Search" name="s">
-                                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
-                                        </form>
-                                    </div>
-                                </div>
-                                <!--search form-->
-                            </div>
                             <div class="row">
                                 <div class="span8">
                                     <div class="">
@@ -29,7 +18,7 @@
                                             $firstname = $this->Session->read('Auth.User.firstname');
                                             $lastname = $this->Session->read('Auth.User.lastname');
                                             ?>
-                                            <div class="btn-group">
+                                            <div class="btn-group" style="margin-right:15px">
                                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                                     <?php printf(__('Logged in as: <strong>%s %s</strong>', true), ucwords($firstname), ucwords($lastname)) ?>
                                                     <span class="caret"></span>
@@ -91,6 +80,18 @@
 <?php endif ?>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="row search">
+                                <div class="span8">
+                                    <div>
+                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
+                                            <input type="text" placeholder="Search" name="s">
+                                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--search form-->
                             </div>
                             
                         </div>

@@ -156,7 +156,8 @@ $(document).ready(function() {
 			'empty' => 'Please Select',
 			'options' => array(
 				'Hispanic or Latino' => 'Hispanic or Latino',
-				'Not Hispanic or Latino' => 'Not Hispanic or Latino')));
+				'Not Hispanic or Latino' => 'Not Hispanic or Latino',
+				'I do not wish to answer' => 'I do not wish to answer')));
 		echo $this->Form->input('race', array(
 			'label' => __('Race', true),
 			'type' => 'select',
@@ -166,7 +167,9 @@ $(document).ready(function() {
 				'Asian' => 'Asian',
 				'Black or African American' => 'Black or African American',
 				'Hawaiian or Other Pacific Islander' => 'Hawaiian or Other Pacific Islander',
-				'White' => 'White')));
+				'White' => 'White',
+				'Other' => 'Other',
+				'I do not wish to answer' => 'I do not wish to answer')));
 		echo $this->Form->input('veteran', array(
 			'label' => __('Are you a US veteran', true),
 			'type' => 'select',
