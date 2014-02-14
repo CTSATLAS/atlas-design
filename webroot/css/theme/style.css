@@ -2408,18 +2408,16 @@ span.label a {
   font-weight: normal;
 }
 
-
-#main-content h2 {
+#main-content .post h2 {
   font-size: 28px;
   font-weight: normal;
   color: #E85E02;
 }
 
-
-#main-content h3 {
-  /* font-size: 21px; */
+#main-content .post h3 {
+  font-size: 21px;
   font-weight: normal;
-  /* color: #A8D52A; */
+  color: #A8D52A;
 }
 
 #main-content h1#page-title {
@@ -2462,9 +2460,9 @@ padding-right: 40px;
 
 /* browser issue fix resize to 1180 */
 @media (max-width: 1201px) {
-  .hide-social, #social-stream.dcsmt-content {
-    display: none;
-    visible: hidden;
+  #twitter-widget-0 {
+    display: none !important;
+    
   }
   
  #main-content .home-content {
