@@ -2417,9 +2417,9 @@ span.label a {
 
 
 #main-content h3 {
-  font-size: 21px;
+  /* font-size: 21px; */
   font-weight: normal;
-  color: #A8D52A;
+  /* color: #A8D52A; */
 }
 
 #main-content h1#page-title {
