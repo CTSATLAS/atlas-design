@@ -53,8 +53,12 @@
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 
 
+<div class="row-fluid">
+	<div class="span3 hide-social">
+		<div id="social-stream"></div>
 	</div>
-	<div class="span9">
+	<div class="span9 home-content">
+            
 		<?php echo $this->element('homepage') ?>
 	</div>
 </div>
