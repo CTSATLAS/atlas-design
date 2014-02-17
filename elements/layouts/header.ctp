@@ -18,7 +18,7 @@
                                             $firstname = $this->Session->read('Auth.User.firstname');
                                             $lastname = $this->Session->read('Auth.User.lastname');
                                             ?>
-                                            <div class="btn-group">
+                                            <div class="btn-group" style="margin-right:15px">
                                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                                     <?php printf(__('Logged in as: <strong>%s %s</strong>', true), ucwords($firstname), ucwords($lastname)) ?>
                                                     <span class="caret"></span>
