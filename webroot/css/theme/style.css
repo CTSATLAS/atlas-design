@@ -397,11 +397,15 @@ h1.brand span {
 .contacts a:hover {
   color: #fff;
 }
+#search-form
+{
+  margin-left:10px;
+}
 /* search-form */.navbar-form {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  margin: 30px 23px 30px 0;
+  margin: 30px 10px 30px 0;
   float: right;
   height: 80px;
 }
@@ -1276,7 +1280,7 @@ footer p.logos {
   }
   .camera_caption h5 {
     margin: 0;
-    color: #FDFAFA;
+    color: #A8D52A;
     font-size: 18px;
   }
   .camera_caption h2 {
@@ -2357,4 +2361,8 @@ span.label a {
 #events-slider p {
 	color: #fff;
 	margin: 0 !important;
+}
+.field-instructions
+{
+  margin:0px 0 5px;
 }

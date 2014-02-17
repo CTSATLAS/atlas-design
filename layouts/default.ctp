@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
 
@@ -46,7 +47,12 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>-->
+
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
+
+	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
 
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -86,7 +92,7 @@
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/bootstrap.js"></script>
+	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
