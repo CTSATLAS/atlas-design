@@ -42,11 +42,12 @@
 	</div>
 </div>
 
-<div class="row">
-	<div class="span3">
+<div class="row-fluid">
+    <div class="span3 hide-social  hidden-phone hidden-tablet">
 		<div id="social-stream"></div>
 	</div>
-	<div class="span9">
+        <div class="span9 home-content">
+
 		<?php echo $this->element('homepage') ?>
 	</div>
 </div>
