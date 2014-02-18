@@ -565,7 +565,7 @@ ul.nav li:first-child {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  color: #6d6d6d;
+  color: #A0CF67;
   background: none;
 }
 .sub-menu > a {
@@ -592,10 +592,11 @@ ul.nav li:first-child {
   list-style: none;
   zoom: 1;
   z-index: 9;
-  background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;
+  /* background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838; */
   padding: 20px 0 24px 0;
   margin: 0;
   max-height: 400px;
+  background-color: #6a737b;
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
   content: " ";
@@ -627,7 +628,7 @@ ul.nav li:first-child {
 }
 
 .nav-collapse_ .nav > li > ul li > a:hover {
-  color: #E85E02;
+  color: #A0CF67;
 }
 .nav-collapse_ .nav ul ul {
   position: absolute;
@@ -819,6 +820,7 @@ ul.nav li:first-child {
   border: none;
   margin: 28px 0 0 0;
   padding: 0;
+  /* background-color: #f1f1f1; */
 }
 .thumbnails .thumbnail .caption {
   padding: 20px 20px 20px 21px;
@@ -1296,8 +1298,11 @@ footer p.logos {
   .camera_caption h5 {
     margin: 0;
     color: #A8D52A;
-    font-size: 18px;
-  }
+    font-size: 21px;
+  
+    font-weight: bold !important;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
   .camera_caption h2 {
     margin: 42px 0 0px 0;
     font-size: 40px;
@@ -2458,12 +2463,38 @@ padding-right: 40px;
   font-size: 16px;
 }
 
+.btn-group-1 a {
+  color:#0D76BD;
+}
+
+.btn-group-1 a:hover, .btn-group-1 a:active {
+  color:#F26122;
+}
+
 /* browser issue fix resize to 1180 */
 @media (max-width: 1201px) {
   #twitter-widget-0 {
     display: none !important;
     
   }
+  
+  header .search {
+    display: none;
+  }
+  
+#header-login.span8 {
+    width:467px;
+    float: right;
+  }
+  
+  #login-or-register {
+    margin-left:0px
+    
+  }
+  
+  .masthead .btn-group-1 {
+    float: right;
+    width: 200px}
   
  #main-content .home-content {
     width: 100%
