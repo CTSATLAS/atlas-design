@@ -9,10 +9,10 @@
                                 <a href="/"><img src="/img/theme/chipola.png" alt=""></a>
                             </h1>
                         </div>
-                        <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
+                        <div class="span8" id="login-or-register">
                             <div class="row">
                             <div class="row search">
-                                <div class="span8">
+                                <div class="span8 hidden-phone hidden-tablet">
                                     <div>
                                         <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
                                             <input type="text" placeholder="Search" name="s">
@@ -22,8 +22,8 @@
                                 </div>
                                 <!--search form-->
                             </div>
-                                <div class="span8">
-                                    <div class="">
+                                <div id="header-login" class="span8">
+                                    <div class="row-fluid">
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
