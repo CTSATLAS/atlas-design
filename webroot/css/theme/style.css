@@ -702,6 +702,7 @@ ul.nav li:first-child {
 .maps-holder h5 {
   color:#FFF;
   margin-bottom: 20px;
+  font-weight: bold !important;
 }
 .camera_wrap {
   margin-bottom: 0 !important;
