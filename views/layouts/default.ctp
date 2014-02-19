@@ -74,7 +74,22 @@
 		   </p>
 		</div>
 	    </div>
-            <div id="navigation"><?php echo $this->Nav->links('Top') ?></div>
+            <div id="navigation"><?php echo $this->Nav->links('Top') ?>
+
+		<?php 
+            	$settings = Cache::read('settings');
+            	if(isset($settings['translation']['active']) && $settings['translation']['active'] == 1): ?>
+            	<div id="google_translate_element"></div>
+            	<script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: "<?php echo $settings['translation']['mode'] == 'spanish' ? 'es' : 'fr' ?>", layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+					}
+					</script>
+					<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+					</script>
+				<?php endif ?>
+
+	    </div>
 	    <div id="content">
 		<h1 class="left"><?php echo $title_for_layout; ?></h1>
 		<?php echo $this->Session->flash(); ?>
