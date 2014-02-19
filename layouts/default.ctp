@@ -47,7 +47,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>-->
+	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>-->
 
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
 	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
@@ -69,19 +69,29 @@
 	</title>
 </head>
 <body>
-	<?= $this->element('layouts/header') ?>
+	<?php echo $this->element('layouts/header') ?>
 
 	<section id="content">
 		<div class="container">
+                <?php if ($title_for_layout === 'Home'): //display home ?>
 			<div class="row">
 				<div class="span12" id="main-content">
+                        <?php echo $content_for_layout ?> 
+                    </div>
+                </div>
+                <?php else: ///display content page ?>
+                <div class="row-fluid">                                                  
+                    <div class="span10 offset2" id="main-content">
 					<?php if ($title_for_layout !== 'Home'): ?>
 						<h1 id="page-title"><?= $title_for_layout ?></h1>
 					<?php endif ?>
-					<?= $content_for_layout ?>
+                        <div class="post">
+                            <?php echo $content_for_layout ?> 
 				</div>
 			</div>
 		</div>
+                <?php endif ?> 
+            </div>
 	</section>
 
 	<?= $this->element('layouts/footer') ?>
