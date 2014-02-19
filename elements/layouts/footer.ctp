@@ -31,8 +31,8 @@
 					<h5>
 						CareerSource Tampa Bay, Ruskin Center
 					</h5>
-					<a href="//maps.google.com/maps?q=2810 John Sherman Way, Ruskin, FL 33570" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.6720560,-82.4724503&amp;zoom=13&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|27.6720560,-82.4724503">
+					<a href="https://www.google.com/maps/place/5100+W+Kennedy+Blvd+%23300/@27.9443398,-82.529766,17z/data=!3m1!4b1!4m2!3m1!1s0x88c2c2effa698c5f:0xd10bfa3d21f22242" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=27.9443398,-82.5297660&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9443398,-82.5297660">
 					</a>
 				</div>
 			</div>
