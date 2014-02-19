@@ -31,8 +31,8 @@
 					<h5>
 						CareerSource Tampa Bay, Ruskin Center
 					</h5>
-					<a href="https://www.google.com/maps/place/5100+W+Kennedy+Blvd+%23300/@27.9443398,-82.529766,17z/data=!3m1!4b1!4m2!3m1!1s0x88c2c2effa698c5f:0xd10bfa3d21f22242" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.9443398,-82.5297660&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9443398,-82.5297660">
+					<a href="https://www.google.com/maps/place/201+14th+Ave+SE/@27.704905,-82.432703,17z/data=!3m1!4b1!4m2!3m1!1s0x88c32777c29f8989:0x79209c5bc80ea8c1" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=27.7049050,-82.4327030&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7049050,-82.4327030">
 					</a>
 				</div>
 			</div>
