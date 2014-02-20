@@ -2474,7 +2474,7 @@ padding-right: 40px;
 
 /* browser issue fix resize to 1180 */
 @media (max-width: 1201px) {
-  #twitter-widget-0 {
+  #twitter-widget-0, #social-stream {
     display: none !important;
     
   }
