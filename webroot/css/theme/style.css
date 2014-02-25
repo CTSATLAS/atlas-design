@@ -2420,6 +2420,15 @@ span.label a {
   font-weight: normal;
 }
 
+#main-content a:link, #main-content a:link  {
+  color: #0056B4;
+}
+
+
+#main-content a:hover, #main-content a:focus {
+  color:  #E85E02;
+}
+
 #main-content .post h2 {
   font-size: 28px;
   font-weight: normal;
