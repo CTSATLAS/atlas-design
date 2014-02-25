@@ -168,7 +168,7 @@ $(document).ready(function() {
 				'Asian' => 'Asian',
 				'Black or African American' => 'Black or African American',
 				'Hawaiian or Other Pacific Islander' => 'Hawaiian or Other Pacific Islander',
-				'White' => 'White'
+				'White' => 'White',
 				'I do not wish to answer' => 'I do not wish to answer',
 				'Other' => 'Other')));
 		echo $this->Form->input('veteran', array(
