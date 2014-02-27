@@ -70,6 +70,7 @@
 	</title>
 </head>
 <body>
+	<?= $this->element('no_javascript') ?>
 	<?php echo $this->element('layouts/header') ?>
 
 	<section id="content">
