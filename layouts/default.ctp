@@ -12,9 +12,9 @@
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
+	<meta name="description" content="CareerSource Pinellas develops and leads an effective, efficient and integrated business driven workforce system, providing comprehensive and responsive services to the County’s citizens and business community.">
+	<meta name="keywords" content="CareerSource Pinellas,jobs,careers,workforce,worknet pinellas">
+	<meta name="author" content="Complete Technology Solutions">
 
 	<!-- css -->
 	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
@@ -66,7 +66,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Chipola') ?>
+		<?php __('CareerSource Pinellas') ?>
 	</title>
 </head>
 <body>
