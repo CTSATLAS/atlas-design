@@ -44,25 +44,7 @@
 
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
- <div id="tab-container" class="tab-container">
-  <ul class='etabs'>
-    <li class='tab'><a href="#tabs1-html">HTML Markup</a></li>
-    <li class='tab'><a href="#tabs1-js">Required JS</a></li>
-    <li class='tab'><a href="#tabs1-css">Example CSS</a></li>
-  </ul>
-  <div id="tabs1-html">
-    <h2>HTML Markup for these tabs</h2>
-    <!-- content -->
-  </div>
-  <div id="tabs1-js">
-    <h2>JS for these tabs</h2>
-    <!-- content -->
-  </div>
-  <div id="tabs1-css">
-    <h2>CSS Styles for these tabs</h2>
-    <!-- content -->
-  </div>
-</div>
+ 
         <div id="social-stream"></div>
         <!-- <p>
             <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
