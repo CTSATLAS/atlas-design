@@ -46,24 +46,45 @@
     <div class="span3 hide-social  hidden-phone hidden-tablet">
  <div id="tab-container" class="tab-container">
   <ul class='etabs'>
-    <li class='tab'><a href="#tabs1-html">HTML Markup</a></li>
-    <li class='tab'><a href="#tabs1-js">Required JS</a></li>
-    <li class='tab'><a href="#tabs1-css">Example CSS</a></li>
+    <li class='tab'><a href="#twitter">Twitter</a></li>
+    <li class='tab'><a href="#tabs1-js">Facebook</a></li>
+    <li class='tab'><a href="#tabs1-css">Youtube</a></li>
   </ul>
-  <div id="tabs1-html">
-    <h2>HTML Markup for these tabs</h2>
+  <div id="twitter">
+    <p>
+            <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }
+            }(document, "script", "twitter-wjs");</script></p>
+        <p>
+            <br />
+            <script>!function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, "script", "twitter-wjs");</script>
+</p>
     <!-- content -->
   </div>
   <div id="tabs1-js">
-    <h2>JS for these tabs</h2>
+    <h2>Facebook</h2>
     <!-- content -->
   </div>
   <div id="tabs1-css">
-    <h2>CSS Styles for these tabs</h2>
+    <h2>Youtube</h2>
     <!-- content -->
   </div>
 </div>
-        <div id="social-stream"></div>
+       <!-- <div id="social-stream"></div> -->
         <!-- <p>
             <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
                 var js, fjs = d.getElementsByTagName(s)[0];
@@ -92,6 +113,7 @@
             <?php echo $this->element('homepage') ?>
         </div>
     </div>
+
  <?php 
         // Create curl resource 
 $ch = curl_init(); 
