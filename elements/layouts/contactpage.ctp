@@ -159,24 +159,19 @@ if(isset($_POST['submit'])) {
 
             <div class="form-group">
               <label for="name">Your Name<span class="help-required">*</span></label>
-              <input type="text" name="contactname" id="contactname" value="" class="form-control required" role="input" aria-required="true" />
+              <input type="text" name="contactname" id="contactname" value="" class="form-control required" role="input" aria-required="true" placeholder="First Lastname" />
             </div>
 
             <div class="form-group">
               <label for="phone">Your Phone Number<span class="help-required">*</span></label>
-              <input type="text" name="phone" id="phone" value="" class="form-control required" role="input" aria-required="true" />
+              <input placeholder="000 000 0000" type="text" name="phone" id="phone" value="" class="form-control required" role="input" aria-required="true" />
             </div>
 
 
             <div class="form-group">
               <label for="email">Your Email<span class="help-required">*</span></label>
-              <input type="text" name="email" id="email" value="" class="form-control required email" role="input" aria-required="true" />
-            </div>
-
-            <div class="form-group">
-              <label for="weburl">Your Website<span class="help-required">*</span></label>
-              <input type="text" name="weburl" id="weburl" value="" class="form-control required url" role="input" aria-required="true" />
-            </div>
+              <input placeholder="youremail@domain.com" type="text" name="email" id="email" value="" class="form-control required email" role="input" aria-required="true" />
+            </div>     
 
 
             <div class="form-group">
