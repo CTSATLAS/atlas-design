@@ -2401,7 +2401,7 @@ span.label a {
 
  margin-right: auto;
 /*  padding-left:160px; */
- font-size: 16px;
+ font-size: 14px;
  font-family: Arial;
  padding-top: 20px;
  color: #8E8E8E;
@@ -2459,7 +2459,7 @@ padding-right: 40px;
 }
 
 #main-content p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   font-weight: normal;
