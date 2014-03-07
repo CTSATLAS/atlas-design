@@ -876,6 +876,9 @@ li.step div.inner-container img.ico {
 
 #ProgramForm .checkbox label {margin-left: 10px}
 
+#ProgramForm label {
+  color:#333;
+}
 
 #Acknowledge label {
   margin-left: 10px
