@@ -46,9 +46,9 @@
     <div class="span3 hide-social  hidden-phone hidden-tablet">
  <div id="tab-container" class="tab-container">
   <ul class='etabs'>
-    <li class='tab'><a href="#twitter"><span class="icon-twitter"></span>/a></li>
-    <li class='tab'><a href="#tabs1-js"><span class="icon-facebook"></a></li>
-    <li class='tab'><a href="#tabs1-css"><span class="icon-youtube"></a></li>
+    <li class='tab'><a href="#twitter">Twitter</a></li>
+    <li class='tab'><a href="#tabs1-js">Facebook</a></li>
+    <li class='tab'><a href="#tabs1-css">Youtube</a></li>
   </ul>
   <div id="twitter">
     <p>
