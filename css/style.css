@@ -880,6 +880,10 @@ li.step div.inner-container img.ico {
   color:#333;
 }
 
+#ProgramForm label {
+  display:block;
+}
+
 #Acknowledge label {
   margin-left: 10px
 }
