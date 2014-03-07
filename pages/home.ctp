@@ -44,7 +44,7 @@
 
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
- 
+
         <div id="social-stream"></div>
         <!-- <p>
             <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
@@ -74,6 +74,7 @@
             <?php echo $this->element('homepage') ?>
         </div>
     </div>
+
  <?php 
         // Create curl resource 
 $ch = curl_init(); 

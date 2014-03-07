@@ -2525,10 +2525,16 @@ padding-right: 40px;
  width: 50%;
  font-size: 16px;
  min-width: 250px;
+
     
 }
-#content select {
+#content select, #content textarea {
     width: 50%;
+   
+}
+
+#contactform .form-group {
+    margin-bottom: 20px;
 }
 
 #content label {
@@ -2554,6 +2560,15 @@ padding-right: 40px;
 li.module span.steps.status {
 color: #484F57 !important;
 }
+//etabs
+ul.etabs{} 
+.etabs { margin: 0; padding: 0; }
+.tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+.tab a { font-size: 12px; line-height: 1.5em; display: block; padding: 0 10px; outline: none; }
+.tab a:hover { text-decoration: underline; }
+.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+.tab a.active { font-weight: bold; }
+.tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
 
 /* browser issue fix resize to 1180 */
 @media (max-width: 1201px) {
@@ -2586,4 +2601,8 @@ color: #484F57 !important;
   
 }
 
+#tab-container li.tab a {  
+  font-size: 12px;
+  /* color: red; */  
+}
 

@@ -90,14 +90,20 @@
                         <?php endif ?>
                         <div class="post">
                             <?php echo $content_for_layout ?> 
+                            <?php if($title_for_layout === "Contact"): ?>
+                        <?php echo $this->element('layouts/contactpage'); ?>
+                        <?php endif ; ?>
                         </div>
+                        
                     </div>                         
+                    
+                    
                 </div>
                 <?php endif ?> 
             </div>
         </section>
 
-	<?= $this->element('layouts/footer') ?>
+	<?= $this->element('layouts/footer'); ?>
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
