@@ -52,37 +52,15 @@
     <li class='tab'><a href="#tabs1-css">Youtube</a></li>
   </ul>
   <div id="twitter">
-    <p>
-            <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (!d.getElementById(id)) {
-                    js = d.createElement(s);
-                    js.id = id;
-                    js.src = "//platform.twitter.com/widgets.js";
-                    fjs.parentNode.insertBefore(js, fjs);
-                }
-            }(document, "script", "twitter-wjs");</script></p>
-        <p>
-            <br />
-            <script>!function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (!d.getElementById(id)) {
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
-        }
-    }(document, "script", "twitter-wjs");</script>
-</p>
-    <!-- content -->
+    <?php echo $this->element('social/twitter');  ?>
   </div>
   <div id="tabs1-js">
-    <h2>Facebook</h2>
     <!-- content -->
+    <?php echo $this->element('social/facebook');  ?>
   </div>
-  <div id="tabs1-css">
-    <h2>Youtube</h2>
+  <div id="tabs1-css">    
     <!-- content -->
+    <?php echo $this->element('social/youtube');  ?>
   </div>
 </div>
        <!-- <div id="social-stream"></div> -->

@@ -2468,6 +2468,7 @@ span.label a {
 #main-content a:active, #main-content a:visited {
     color: #0056B4;
     border-bottom: none;
+    text-decoration: none;
 }
 
 #main-content a:hover {
@@ -2605,14 +2606,16 @@ ul.etabs {
 .etabs {
     margin: 0;
     padding: 0;
+    /* margin-bottom: 10px; */
+    background-color: rgb(230, 230, 230);
 }
 .tab {
     display: inline-block;
     zoom: 1;
-    display: inline;
-    background: #eee;
-    border: solid 3px #999;
+    /* background: #eee; */
+    /* border: solid 1px #999; */
     border-bottom: none;
+    padding: 5px;
 }
 .tab a {
     font-size: 12px;
@@ -2675,6 +2678,8 @@ ul.etabs {
 }
 
 #tab-container li.tab a {
-    font-size: 12px;
+    font-size: 14px;
     /* color: red; */
+    text-decoration: none;
+    border: none;
 }
