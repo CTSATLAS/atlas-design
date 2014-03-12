@@ -49,7 +49,7 @@
   <ul class='etabs'>
     <li class='tab'><a href="#twitter">Twitter</a></li>
     <li class='tab'><a href="#tabs1-js">Facebook</a></li>
-    <li class='tab'><a href="#tabs1-css">Youtube</a></li>
+   <!--  <li class='tab'><a href="#tabs1-css">Youtube</a></li> -->
   </ul>
   <div id="twitter">
     <?php echo $this->element('social/twitter');  ?>
@@ -60,7 +60,7 @@
   </div>
   <div id="tabs1-css">    
     <!-- content -->
-    <?php echo $this->element('social/youtube');  ?>
+    <?php // echo $this->element('social/youtube');  ?>
   </div>
 </div>
        <!-- <div id="social-stream"></div> -->
