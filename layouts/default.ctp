@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="/css/theme/responsive.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
+        <link rel="stylesheet" href="/css/theme/jtwt.css" type="text/css">
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
@@ -74,36 +75,45 @@
 <body>
 	<?php echo $this->element('layouts/header') ?>
 
-	<section id="content">
-		<div class="container">
+        <section id="content">
+            <div class="container">			                       
                 <?php if ($title_for_layout === 'Home'): //display home ?>
-			<div class="row">
-				<div class="span12" id="main-content">
+                <div class="row"> 
+                    <div class="span12" id="main-content">
                         <?php echo $content_for_layout ?> 
                     </div>
                 </div>
                 <?php else: ///display content page ?>
                 <div class="row-fluid">                                                  
-                    <div class="span10 offset2" id="main-content">
-					<?php if ($title_for_layout !== 'Home'): ?>
-						<h1 id="page-title"><?= $title_for_layout ?></h1>
-					<?php endif ?>
+                    <div class="span11 offset1" id="main-content">
+                        <?php if ($title_for_layout !== 'Home'): ?>  
+                        <h1 id="page-title"><?= $title_for_layout ?></h1>
+                        <?php endif ?>
                         <div class="post">
                             <?php echo $content_for_layout ?> 
-				</div>
-			</div>
-		</div>
+                            <?php if($title_for_layout === "Contact"): ?>
+                        <?php echo $this->element('layouts/contactpage'); ?>
+                        <?php endif ; ?>
+                        </div>
+                        
+                    </div>                         
+                    
+                    
+                </div>
                 <?php endif ?> 
             </div>
-	</section>
+        </section>
 
-	<?= $this->element('layouts/footer') ?>
+	<?= $this->element('layouts/footer'); ?>
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
+        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>
+        <script type="text/javascript" src="/js/theme/jtwt.min.js"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
@@ -130,6 +140,8 @@
 	<!--<![endif]-->
 
 	<script>
+            $('#tab-container').easytabs();
+         
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
@@ -192,5 +204,13 @@
 			});
 		});
 	</script>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=308546102522973";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
