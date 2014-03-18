@@ -601,7 +601,7 @@ ul.nav li:first-child {
   /* background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838; */
   padding: 20px 0 24px 0;
   margin: 0;
-  max-height: 400px;
+  max-height: 450px;
   background-color: #6a737b;
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
