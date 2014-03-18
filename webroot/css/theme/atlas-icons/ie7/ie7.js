@@ -18,6 +18,7 @@
 		'icon-youtube': '&#x78;',
 		'icon-moviestar': '&#x2010;',
 		'icon-linkedin': '&#x69;',
+		'icon-blogger': '&#xe600;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'atlas-icons';
-	src:url('fonts/atlas-icons.eot?-38y5hz');
-	src:url('fonts/atlas-icons.eot?#iefix-38y5hz') format('embedded-opentype'),
-		url('fonts/atlas-icons.woff?-38y5hz') format('woff'),
-		url('fonts/atlas-icons.ttf?-38y5hz') format('truetype'),
-		url('fonts/atlas-icons.svg?-38y5hz#atlas-icons') format('svg');
+	src:url('fonts/atlas-icons.eot?-g8hcip');
+	src:url('fonts/atlas-icons.eot?#iefix-g8hcip') format('embedded-opentype'),
+		url('fonts/atlas-icons.woff?-g8hcip') format('woff'),
+		url('fonts/atlas-icons.ttf?-g8hcip') format('truetype'),
+		url('fonts/atlas-icons.svg?-g8hcip#atlas-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -37,4 +37,7 @@
 }
 .icon-linkedin:before {
 	content: "\69";
+}
+.icon-blogger:before {
+	content: "\e600";
 }

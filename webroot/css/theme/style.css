@@ -480,10 +480,13 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
 }
 
 .social-icn a [class^="icon-"], .social-icn a [class*=" icon-"] {
-color:#EF9C2B;
-    
+color:#EF9C2B;    
 color:#FFF;
 font-size: 41px;
+}
+
+.social-icn a .icon-blogger {
+font-size: 29px;
 }
 
 
