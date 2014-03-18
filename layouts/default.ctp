@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="/css/theme/responsive.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
+        <link rel="stylesheet" href="/css/theme/jtwt.css" type="text/css">
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
@@ -110,8 +111,9 @@
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
-        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>	
+	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.js"></script>
+        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.js"></script>
+        <script type="text/javascript" src="/js/theme/jtwt.min.js"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
@@ -139,6 +141,7 @@
 
 	<script>
             $('#tab-container').easytabs();
+         
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
@@ -201,5 +204,13 @@
 			});
 		});
 	</script>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=308546102522973";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
