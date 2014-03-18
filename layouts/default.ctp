@@ -111,8 +111,8 @@
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
-        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>
+	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.js"></script>
+        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.js"></script>
         <script type="text/javascript" src="/js/theme/jtwt.min.js"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
