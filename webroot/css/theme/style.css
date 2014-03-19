@@ -804,6 +804,7 @@ ul.nav li:first-child {
 /* thumbnails */
 .thumbnails {
   margin-bottom: 0;
+  display: table;
 }
 .thumbnails li {
   margin-bottom: 0px;
@@ -828,6 +829,7 @@ ul.nav li:first-child {
   margin: 28px 0 0 0;
   padding: 0;
   background-color: #3475BE;
+  display: table-cell;
 }
 .thumbnails .thumbnail .caption {
   padding: 20px 20px 20px 21px;
