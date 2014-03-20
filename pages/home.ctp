@@ -46,7 +46,7 @@
     <div class="span3 hide-social  hidden-phone hidden-tablet">
 		<div id="social-stream"></div>
                 <div class="sponsor-logo">
-                    <a href="http://www.hccfl.edu/">
+                    <a href="http://www.hccfl.edu/" target="_blank">
                         <img src="img/theme/hcc-seal.png" alt="Sponsor logo">
                     </a>
                     </br>
