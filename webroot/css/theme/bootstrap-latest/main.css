@@ -1,0 +1,45 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html, body {
+    height: 100% !important;
+}
+
+header, section, footer {
+    min-height: 20%;
+}
+
+.vtable {
+    display: table;
+    height: 200px;
+    width: 100% !important;
+}
+
+.table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer .footer p {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
