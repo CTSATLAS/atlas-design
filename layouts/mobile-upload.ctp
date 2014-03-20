@@ -28,9 +28,8 @@
     <header>
         <div class="container vtable">
             <div class="row table-cell">
-                <h1><img src="/img/theme/cs-logo.png" alt=""></h1>
-                <h3>Upload Center</h3>
-                <p class="text-primary">1 Enter Verification 2. Click upload select camera 3. Snap photo 4. Hit send</p>
+                <h1><img src="/img/theme/cs-logo.png" alt=""></h1>              
+                
             </div>
         </div>
     </header>
@@ -52,7 +51,7 @@
                       <div class="vtable">
                           <div class="table-cell">
                               <div class="footer">
-                                  <p>&copy; Company 2013</p>
+                                  <p><small>&copy; Company 2013 ATLAS is a trademark of Complete Technology Solutions Copyright © 2014 - Complete Technology Solutions. All Rights Reserved.</small></p>
                               </div>
                           </div>
                       </div>
