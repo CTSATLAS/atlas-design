@@ -45,6 +45,14 @@
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
 		<div id="social-stream"></div>
+                <div class="sponsor-logo">
+                    <a href="http://www.hccfl.edu/">
+                        <img src="img/theme/hcc-seal.png" alt="Sponsor logo">
+                    </a>
+                    </br>
+                      <small>Sponsor</small>  
+                   
+                </div>
 	</div>
         <div class="span9 home-content">
 
