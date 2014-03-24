@@ -1,4 +1,5 @@
 <h3>Verification</h3>
+<?php echo strtotime("now") . " \n " ; echo strtotime("+1 day") ?>
 <p class="text-primary">Please enter your upload verification code. </p>
 <p class="text-primary">Get verification code here. </p>
 <form role="form" action="" method="post">
