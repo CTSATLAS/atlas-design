@@ -1,13 +1,19 @@
+<?php if($key_data == 'success') : ?>
 <h3>Verification Key:</h3>
 <span id="vkey" class="btn btn-danger">
-    <h1>V010101Y</h1> 
+    <h1><?php echo $key ?></h1> 
 </span>
 
-<p class="text-primary">1. Write down the verication code (above). </br>2. Enter you mobile phone number and select your provider. </br>3. Hit "Send me link" to recieve a text with upload instructions.</p>
+<p class="text-primary">1. Write down the verification code (above). </br>2. Check your phone for our text message. </br>3. Click the link in the text message and wil be take to our mobile upload page.</p>
 
-<form role="form" action="" method="post">
+<?php else : ?>
+<h3>Mobile Upload Access:</h3>
+
+<p class="text-primary">1. Enter you mobile phone number and select your provider. </br>2. Hit "Send me link" to receive your verification key and a text with upload link / instructions.</p>
+<form role="form" action="key_save" method="post">
+    <input type="hidden" name="user_id" value="<?php echo $user_id ?>" readonly="readonly" />
     <div class="form-group">
-        <label for="">Pelase Enter Your Mobile Phone Number</label>
+        <label for="">Please Enter Your Mobile Phone Number</label>
         <input class="form-control" type="text" placeholder="Mobile Number">
     </div>
     <div class="form-group">
@@ -22,3 +28,4 @@
     </div>   
     <button type="submit" class="btn btn-primary btn-large">Send Me Link</button>
 </form>
+<?php endif; ?>
