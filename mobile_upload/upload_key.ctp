@@ -9,10 +9,8 @@
 <?php else : ?>
 <h3>Mobile Upload Access:</h3>
 
-<p class="text-primary">1. Enter you mobile phone number and select your provider. </br>2. Hit "Send me link" to receive your verification key and a text with upload link / instructions.</p>
+<p class="text-primary">1. Enter your mobile phone number and select your mobile provider. </br>2. Click "Text Me The Link" to receive your verification key and a text with upload link and instructions.</p>
 <?php echo $this->Form->create() ?>
-
-
     <input type="hidden" name="" value="<?php echo $user_id ?>" readonly="readonly" />
     <div class="form-group">
         <?php echo $this->Form->input('mobile_number', array('class' => 'form-control',
@@ -21,6 +19,6 @@
     <div class="form-group">
         <?php echo $this->Form->input('field', array('type'=>'select','label' => "Select your Mobile Provider", 'options' => array('Verizon','tMobile','Metro PCS','Sprint','AT&T'), 'class' => 'form-control')); ?>
     </div>
-<?php echo $this->Form->button('Text Me the Link', array('class' => 'btn btn-primary btn-lg')) ?>
+<?php echo $this->Form->button('<bold>Text Me The Link</bold>', array('class' => 'btn btn-primary btn-lg')); ?>
 <?php  echo $this->Form->end(); ?>
 <?php endif; ?>
