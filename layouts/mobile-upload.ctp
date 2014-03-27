@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title><?php __('CareerSource Chipola') ?> | Mobile Upload App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <style>
@@ -28,7 +28,7 @@
     <header>
         <div class="container vtable">
             <div class="row table-cell">
-                <h1><img src="/img/theme/cs-logo.png" alt=""></h1>              
+                <h1><img src="/img/theme/florida-logo.png" alt=""></h1>
                 
             </div>
         </div>
