@@ -5,7 +5,7 @@
 * @link http://ctsfla.com
 */
 ?>
-<div class="row">
+<!--<div class="row">
     <div class="span12" id="middle-nav">
         <ul class="thumbnails">
             <li class="span4">
@@ -40,7 +40,7 @@
             </li>
         </ul>
     </div>
-</div>
+</div>-->
 
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
