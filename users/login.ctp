@@ -25,8 +25,10 @@
 		<p><?php echo __($instructions) ?></p>
 	<?php endif ?>
 
+	<?php var_dump($this->Html->url()) ?>
 	<?= $this->Form->create('User',
 		array(
+			'url' => $this->Html->url(),
 			'inputDefaults' => array(
 				'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
 				'div' => array('class' => 'control-group input'),
@@ -49,11 +51,9 @@
 			echo $form->input('username', array(
 				'label' =>__('Lastname', true)));
 		    echo $form->input('password', array(
-				'label' => __('9 Digit SSN', true),
-				'maxlength' => 9
+				'label' => __($ssn_length . ' Digit SSN', true),
+				'maxlength' => $ssn_length
 			));
-
-		   echo $form->hidden('User.login_type', array('value' => $loginType));
 
 			if(isset($this->params['pass'][0]) && $this->params['pass'][0] === 'program') {
 				echo $form->hidden('User.program_id', array('value' => $this->params['pass'][1]));
