@@ -49,10 +49,18 @@
 		<?php
 			echo $form->input('username', array(
 				'label' =>__('Lastname', true)));
-		    echo $form->input('password', array(
-				'label' => __($ssn_length . ' Digit SSN', true),
-				'maxlength' => $ssn_length
-			));
+
+			if($ssn_length != 9) {
+				echo $form->input('password', array(
+					'label' => __('The last ' . $ssn_length . ' digits of your SSN', true),
+					'maxlength' => $ssn_length
+				));
+			} else {
+				echo $form->input('password', array(
+					'label' => __('Social Security Number', true),
+					'maxlength' => $ssn_length
+				));
+			}
 
 			if(isset($this->params['pass'][0]) && $this->params['pass'][0] === 'program') {
 				echo $form->hidden('User.program_id', array('value' => $this->params['pass'][1]));
