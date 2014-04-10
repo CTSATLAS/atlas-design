@@ -25,10 +25,9 @@
 		<p><?php echo __($instructions) ?></p>
 	<?php endif ?>
 
-	<?php var_dump($this->Html->url()) ?>
 	<?= $this->Form->create('User',
 		array(
-			'url' => $this->Html->url(),
+			'url' => $this->here,
 			'inputDefaults' => array(
 				'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
 				'div' => array('class' => 'control-group input'),
