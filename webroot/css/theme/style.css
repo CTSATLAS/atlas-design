@@ -1985,19 +1985,31 @@ span.label a {
 #ecourse-quiz li.question label.main-label {
   display: block;
   font-weight: bold;
+  border-bottom: 1px solid #EEECEC;
 }
 
 #ecourse-quiz li.question .answer { margin-left: 10px }
 
-#ecourse-quiz li.question input[type=radio] { margin-right: 8px }
+#ecourse-quiz li.question input[type=radio] { margin-right: 8px}
 
 #ecourse-quiz li.question input[type=radio],
 #ecourse-quiz li.question input[type=radio] + label {
-  margin-top: 10px;
+  margin-top: 5px;
+  /* float: left; */
+}
+#ecourse-quiz label.main-label {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+#ecourse-quiz .required.answer {
+    float: left;
+    padding: 0;
 }
 
 #ecourse-quiz li.question input[type=radio] + label {
   color: #555;
+  margin: 0;
 }
 
 #ecourse-quiz label.error {
@@ -2029,9 +2041,26 @@ span.label a {
   background: url(../../img/theme/icons/exclamation.png) 0 0 no-repeat;
 }
 
+
+p.incorrect-answer {
+    padding: 0;
+    margin: 0;
+}
+
+p.correct-answer {
+    margin: 0;
+}
+
+#ecourse-quiz-results li {
+/*     margin-bottom: 40px; */
+    padding-bottom: 10px;
+}
+
 .pagination {
   margin: 20px 0;
 }
+
+
 
 .pagination ul {
   display: inline-block;
