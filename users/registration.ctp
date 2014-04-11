@@ -15,17 +15,17 @@ $(document).ready(function() {
 });
 <?php echo $this->Html->scriptEnd() ?>
 
-	<p><?php __('We currently do not have a record for you.') ?></p>
-	<p><?php __('Please register your information using the following form.') ?></p>
 	<p>
-		<?php __('If you have already created a login, please') ?>
-		<?php $options = array('controller' => 'users', 'action' => 'login')?>
-		<?php if(isset($this->params['pass'][2]) && $this->params['pass']['2'] === 'program') :?>
-			<?php array_push($options, $this->params['pass'][2], $this->params['pass'][3]); ?>
-		<?php endif ?>
-		<?php echo $this->Html->link(__('click here', true), $options); ?>
-		<?php __('to return to the login page and try your login information again.') ?>
-	</p>
+    <?php __('We currently do not have a record for you.') ?>
+	<br />	 
+    <?php __('Please register your information using the following form.') ?>
+	<br />	
+    <?php __('If you have already created a login, please') ?>
+
+	<?php echo $this->Html->link('click here', '/users/login/' . $type . '/' . $program_id); ?>
+    
+    <?php __('to return to the login page and try your login information again.') ?>
+</p>
 <?php if(isset($instructions)) : ?>
 	<p><?php echo $instructions ?></p>
 <?php endif ?>
