@@ -2582,12 +2582,12 @@ padding-right: 40px;
     font-size: 22px;
 }
 .steps-container div.inner-container {
-  color: #575757; 
+    color: #575757; 
 }
 
 
 li.module span.steps.status {
-color: #484F57 !important;
+    color: #484F57 !important;
 }
 //etabs
 ul.etabs{} 
