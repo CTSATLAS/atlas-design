@@ -1994,7 +1994,7 @@ span.label a {
 
 #ecourse-quiz li.question input[type=radio],
 #ecourse-quiz li.question input[type=radio] + label {
-  margin-top: 5px;
+  margin-top: 0px;
   /* float: left; */
 }
 #ecourse-quiz label.main-label {
@@ -2537,6 +2537,11 @@ padding-right: 40px;
     width: 50%;
     margin: 0;
 }
+
+#content form p.left {
+  margin: 0;
+  padding: 0;
+}
 #content input[type="text"], 
 #content input[type="password"],
 #content input[type="datetime"],
@@ -2555,10 +2560,9 @@ padding-right: 40px;
  margin: 0;
  width: 50%;
  font-size: 16px;
- min-width: 250px;
-
-    
+ min-width: 250px;    
 }
+
 #content select, #content textarea {
     width: 50%;
    

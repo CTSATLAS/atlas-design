@@ -1,0 +1,1 @@
+<div class="fb-like-box" width='270' data-href="http://www.facebook.com/CareerSourceChipola" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
