@@ -804,6 +804,7 @@ ul.nav li:first-child {
 /* thumbnails */
 .thumbnails {
   margin-bottom: 0;
+  display: table;
 }
 .thumbnails li {
   margin-bottom: 0px;
@@ -1983,19 +1984,30 @@ span.label a {
 #ecourse-quiz li.question label.main-label {
   display: block;
   font-weight: bold;
+  border-bottom: 1px solid #EEECEC;
 }
 
 #ecourse-quiz li.question .answer { margin-left: 10px }
 
-#ecourse-quiz li.question input[type=radio] { margin-right: 8px }
+#ecourse-quiz li.question input[type=radio] { margin-right: 8px}
 
 #ecourse-quiz li.question input[type=radio],
 #ecourse-quiz li.question input[type=radio] + label {
   margin-top: 10px;
 }
+#ecourse-quiz label.main-label {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+#ecourse-quiz .required.answer {
+    float: left;
+    padding: 0;
+}
 
 #ecourse-quiz li.question input[type=radio] + label {
   color: #555;
+  margin: 0;
 }
 
 #ecourse-quiz label.error {
@@ -2025,6 +2037,21 @@ span.label a {
 
 #ecourse-quiz-results p.incorrect-answer {
   background: url(../../img/theme/icons/exclamation.png) 0 0 no-repeat;
+}
+
+
+p.incorrect-answer {
+    padding: 0;
+    margin: 0;
+}
+
+p.correct-answer {
+    margin: 0;
+}
+
+#ecourse-quiz-results li {
+/*     margin-bottom: 40px; */
+    padding-bottom: 10px;
 }
 
 .pagination {
@@ -2401,7 +2428,7 @@ span.label a {
 
  margin-right: auto;
 /*  padding-left:160px; */
- font-size: 16px;
+ font-size: 14px;
  font-family: Arial;
  padding-top: 20px;
  color: #8E8E8E;
@@ -2459,7 +2486,7 @@ padding-right: 40px;
 }
 
 #main-content p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   font-weight: normal;
@@ -2506,6 +2533,11 @@ padding-right: 40px;
     width: 50%;
     margin: 0;
 }
+
+#content form p.left {
+  margin: 0;
+  padding: 0;
+}
 #content input[type="text"], 
 #content input[type="password"],
 #content input[type="datetime"],
@@ -2525,10 +2557,14 @@ padding-right: 40px;
  width: 50%;
  font-size: 16px;
  min-width: 250px;
-    
 }
-#content select {
+    
+#content select, #content textarea {
     width: 50%;
+}
+
+#contactform .form-group {
+    margin-bottom: 20px;
 }
 
 #content label {
@@ -2554,6 +2590,15 @@ padding-right: 40px;
 li.module span.steps.status {
 color: #484F57 !important;
 }
+//etabs
+ul.etabs{} 
+.etabs { margin: 0; padding: 0; }
+.tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
+.tab a { font-size: 12px; line-height: 1.5em; display: block; padding: 0 10px; outline: none; }
+.tab a:hover { text-decoration: underline; }
+.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }
+.tab a.active { font-weight: bold; }
+.tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }
 
 /* browser issue fix resize to 1180 */
 @media (max-width: 1201px) {
