@@ -24,7 +24,9 @@
                             </div>
                                 <div id="header-login" class="span8">
                                     <div class="row-fluid">
-                                        <span class="subscribe"><a href="#"><?php echo $this->Html->image('theme/SignUp_Button.png') ?></a></span>
+                                        <span class="subscribe"><a href="http://www.careersourcetampabay.com/pages/enewsletter">
+                                            <?php echo $this->Html->image('theme/SignUp_Button.png') ?>
+                                            </a></span>
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
