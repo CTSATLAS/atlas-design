@@ -221,10 +221,6 @@ ul.list-2 li a:hover {
   
 }
 
-.subscribe {
-  padding-right: 30px;
-}
-
 @media (max-width: 1199px) and (min-width: 980px) {
   #login-or-register {
     margin-left: 210px;

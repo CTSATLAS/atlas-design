@@ -24,20 +24,17 @@
                             </div>
                                 <div id="header-login" class="span8">
                                     <div class="row-fluid">
-                                        <span class="subscribe"><a href="#"><?php echo $this->Html->image('theme/SignUp_Button.png') ?></a></span>
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
                                             $lastname = $this->Session->read('Auth.User.lastname');
                                             ?>
-                                        
                                             <div class="btn-group" style="margin-right:15px">
                                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                                     <?php printf(__('Logged in as: <strong>%s %s</strong>', true), ucwords($firstname), ucwords($lastname)) ?>
                                                     <span class="caret"></span>
                                                 </a>
                                                 <ul class="dropdown-menu pull-right">
-                                                    
                                                     <li>
                                                         <?=
                                                         $this->Html->link(__('My Dashboard', true), array(
@@ -71,7 +68,6 @@
                                                 </ul>
                                             </div>
                                             <?php else: ?>
-                                        
                                             <div class="btn-group-1">
                                                 <?=
                                                 $this->Html->link(__('Login', true), array(
