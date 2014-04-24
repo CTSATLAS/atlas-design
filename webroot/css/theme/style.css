@@ -263,6 +263,10 @@ ul.list-2 li a:hover {
 .btn-group {
   padding-right: 40px;
 }
+
+header .btn-group {
+  padding-right: 20px;
+}
 .btn_ {
   background-color: #3b3b3b;
   background-image: -moz-linear-gradient(top, #454545, #2c2c2c);
