@@ -1901,7 +1901,9 @@ footer p.logos {
   margin: 0;
 }
 
-#dashboard .widget-content {}
+#dashboard .widget-content {
+  background-color: rgba(160, 207, 103, 0.2);
+}
 
 #dashboard .widget-content ul {
   list-style: none;
