@@ -26,7 +26,9 @@
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
+        <?php echo $this->Html->css('theme/sg-grid'); ?>
 
 
 	<!--[if IE 7]>
