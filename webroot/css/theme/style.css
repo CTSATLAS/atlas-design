@@ -1890,12 +1890,12 @@ footer p.logos {
 
 #dashboard .widget-header h2 i {
   color: #fff;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 500;
   letter-spacing: 0.1em;
 /*   margin-right: 10px; */
   text-shadow: 0 1px 3px rgba(0,0,0,0.25);
-  display: none;
+  /* display: none; */
 }
 
 #dashboard .widget-header h2 i {
@@ -1904,7 +1904,7 @@ footer p.logos {
 
 #dashboard .widget-content {
   background-color: rgba(160, 207, 103, 0.2);
-  min-height: 300px;
+  height: 300px;
   -webkit-border-bottom-left-radius: 5px; 
   -webkit-border-bottom-right-radius: 5px; 
   -moz-border-radius-bottomleft: 5px; 

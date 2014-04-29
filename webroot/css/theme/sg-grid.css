@@ -85,7 +85,7 @@
   overflow: hidden;
 }
 .grid-buttons {
-    text-align: right ;
+    /*text-align: right ;*/
     display: block;
     margin-bottom: 20px;
     margin-left: 10px;
@@ -115,7 +115,7 @@
 #main-content .grid-buttons a:link, 
 #main-content .grid-buttons a:visited,
  .grid-buttons a:active {
-    color: #fff;
+    color: #A8CC7C;
     padding: 5px;
     /*height: 60px;*/
     /*line-height: 30px;*/
@@ -129,5 +129,5 @@
 
 #main-content .grid-buttons a:hover {
     color: #E85F02;
-    color: #EF9C2B;
+    color: #FFFFFF;
 }
