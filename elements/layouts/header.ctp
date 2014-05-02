@@ -13,12 +13,14 @@
                             <div class="row">
                             <div class="row search">
                                 <div class="span8 hidden-phone hidden-tablet">
-                                    <div>
-                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
-                                            <input type="text" placeholder="Search" name="s">
-                                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
-                                        </form>
-                                    </div>
+                                    <div class="social-icn pull-right">
+                            <ul>
+                                <li> <a href="https://twitter.com/CSChipola" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="https://www.facebook.com/CareerSourceChipola" target="_blank"><span class="icon-facebook"></span> </a></li>
+                                 <li><a href="http://www.linkedin.com/company/careersource-chipola" target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                 <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> 
+                            </ul>
+                        </div>
                                 </div>
                                 <!--search form-->
                             </div>
