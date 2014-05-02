@@ -5,14 +5,19 @@
 			<div class="nav-collapse nav-collapse_ collapse">
 				<?= $this->Nav->links('Top', true, 'nav sf-menu') ?>
 			</div>
-                        <div class="social-icn pull-right">
+<!--                        <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="https://www.twitter.com/CSPinellas"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="http://www.facebook.com/pages/WorkNet-Pinellas/113688846974?ref=ts#!/pages/WorkNet-Pinellas/113688846974"><span class="icon-facebook"></span> </a></li>
-                                <li><a href="http://www.linkedin.com/company/97333"><span class="icon-linkedin"></span> </a></li>
-                                <li><a href="https://www.youtube.com/channel/UCl0pnrMdiVY2Sa9JZZbSEiA"><span class="icon-youtube"></span> </a></li>
+                                <li> <a href="http://www.twitter.com/cstampabay"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="http://facebook.com/TampaBayWorkforceAlliance"><span class="icon-facebook"></span> </a></li>
+ <li><a href="http://linkedin.com/company/tampa-bay-workforce-alliance"><span class="icon-linkedin"></span> </a></li> 
+                                <li><a href="http://www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>
                             </ul>
-                        </div>
+
+
+
+                        </div>-->
+
+
 		</div>
 	</div>
  </div>

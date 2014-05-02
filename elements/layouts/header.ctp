@@ -6,19 +6,23 @@
                     <div class="row masthead">
                         <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><?php echo $this->Html->image('theme/tampa-bay.png') ;?></a>
+                                <a href="/">
+                                   <img src="/img/theme/pinellas.png" alt="">
+                                </a>
                             </h1>
                         </div>
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
                             <div class="row">
                             <div class="row search">
                                 <div class="span8 hidden-phone hidden-tablet">
-                                    <div>
-                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
-                                            <input type="text" placeholder="Search" name="s">
-                                            <a href="#" onClick="document.getElementById('search-form').submit()"></a>
-                                        </form>
-                                    </div>
+                                    <div class="social-icn pull-right">
+                            <ul>
+                                <li> <a href="https://www.twitter.com/CSPinellas" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="http://www.facebook.com/pages/WorkNet-Pinellas/113688846974?ref=ts#!/pages/WorkNet-Pinellas/113688846974" target="_blank"><span class="icon-facebook"></span> </a></li>
+                                 <li><a href="http://www.linkedin.com/company/97333" target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                 <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> 
+                            </ul>
+                        </div>
                                 </div>
                                 <!--search form-->
                             </div>
