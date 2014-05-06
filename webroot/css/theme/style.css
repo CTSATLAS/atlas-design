@@ -2679,7 +2679,7 @@ ul.etabs{}
 
 #social-stream a:link {
     text-decoration: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 0px solid #ccc;
 }
 
 #social-stream h3 a {
