@@ -2668,3 +2668,28 @@ ul.etabs{}
   /* color: red; */  
 }
 
+#social-stream .dcsmt-btn {
+  /* background-color: transparent; */
+}
+
+#social-stream .dcsmt-btn .btn-type-twitter {
+  /*background-color:none;*/
+  
+}
+
+#social-stream a:link {
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+}
+
+#social-stream h3 a {
+    font-size: 12px;
+}
+
+.tab-inner .profile h3 {
+margin: 0;
+padding: 3px 0 3px 3px;
+position: relative;
+font-size: 14px;
+line-height: 20px;
+}
