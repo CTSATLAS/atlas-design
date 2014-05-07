@@ -2680,9 +2680,32 @@ ul.etabs{}
 #social-stream a:link {
     text-decoration: none;
     border-bottom: 0px solid #ccc;
+    color: #fff;
 }
 
-#social-stream h3 a {
+#social-stream h3 a:link {
+    text-decoration: none;
+    border-bottom: 0px solid #ccc;
+    color: #A3A1A1;
+}
+
+#social-stream .profile a { 
+  color: #fff important!;
+}
+
+#social-stream .profile a:link { 
+  color: #fff important!;
+}
+
+#social-stream .profile a:visited { 
+  color: #fff important!;
+}
+
+#social-stream .profile a:active { 
+  color: #fff important!;
+}
+
+#social-stream h3 a,#social-stream h3 a:active {
     font-size: 12px;
 }
 
