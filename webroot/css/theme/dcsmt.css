@@ -132,10 +132,11 @@
 	padding: 10px;
 	border-bottom: 1px solid #ccc;
 	background: #ececec;
+	/* font-size: 12px; */
 }
 .tab-inner .profile h3 {
 	margin: 0;
-	padding: 5px 0 3px 26px;
+	padding: 5px 0 3px 5px;
 	position: relative;
 	font-size: 14px; 
 	line-height: 20px;

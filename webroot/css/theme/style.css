@@ -829,7 +829,7 @@ ul.nav li:first-child {
   margin: 28px 0 0 0;
   padding: 0;
   background-color: #3475BE;
-  min-height: 230px;
+  min-height: 300px;
 }
 .thumbnails .thumbnail .caption {
   padding: 20px 20px 20px 21px;
@@ -2667,4 +2667,44 @@ ul.etabs{}
   font-size: 12px;
   /* color: red; */  
 }
+#social-stream .dcsmt-btn {
+  /* background-color: transparent; */
+}
 
+#social-stream .dcsmt-btn .btn-type-twitter {
+  /*background-color:none;*/
+  
+}
+
+#social-stream a:link {
+    text-decoration: none;
+    border-bottom: 0px solid #ccc;
+    color: #B9B7B7;
+}
+
+#social-stream h3 a:link {
+    text-decoration: none;
+    border-bottom: 0px solid #ccc;
+    color: #A3A1A1;
+}
+
+#social-stream .profile a { 
+  color: #fff important!;
+  font-size:12px;
+}
+
+#social-stream .profile a:link { 
+  color: #fff important!;
+}
+
+#social-stream .profile a:visited { 
+  color: #fff important!;
+}
+
+#social-stream .profile a:active { 
+  color: #fff important!;
+}
+
+#social-stream h3 a,#social-stream h3 a:active {
+    font-size: 12px;
+}
