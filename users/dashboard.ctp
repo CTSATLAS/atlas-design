@@ -5,26 +5,31 @@
 <![endif]-->
 
 <div id="dashboard">
-    <div class="grid-buttons">
+    
+    <div class="grid-buttons">        
+        <span class="grid-title"><i class="fa fa-arrow-circle-o-right"></i> <?php echo $title_for_layout ?></span>
+        <span class="pull-right">
+        
         <?php if(!empty($ecourses)) : ?>
-        <a href="#" class="">Ecourses  <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#online-ecourse" class="">Ecourses  <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
        <?php if(!empty($eventRegistrations)) : ?> 
-        <a href="#" class="">Event Registrations <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#event-rigistrations" class="">Event Registrations <i class="fa fa-arrow-circle-o-right"></i> </a>
        <?php endif ?>
         <?php if(!empty($registrations)) : ?>
-        <a href="#" class="">Registrations <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#online-registrations" class="">Registrations <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
         <?php if(!empty($enrollments)) : ?>
-        <a href="#" class="">Enrollments <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#online-enrollments" class="">Enrollments <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
         <?php if(!empty($orientations)) : ?>
-        <a href="#" class="">Orientations <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#online-orientations" class="">Orientations <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
         <?php if ($esignProgram): ?>
-        <a href="#" class="">Esign <i class="fa fa-arrow-circle-o-right"></i> </a>
+        <a href="#online-esignature" class="">Esign <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
-        
+            
+        </span>
     </div>
     <div class="grids-2">
     
