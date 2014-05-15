@@ -84,6 +84,13 @@
                         <?php echo $content_for_layout ?> 
                     </div>
                 </div>
+                <?php elseif($title_for_layout == "Customer Dashboard") : ?>
+                <!--custom dashboard here-->
+                <div class="row"> 
+                    <div class="span12" id="main-content">
+                        <?php echo $content_for_layout ?> 
+                    </div>
+                </div>
                 <?php else: ///display content page ?>
                 <div class="row-fluid">                                                  
                     <div class="span11 offset1" id="main-content">
