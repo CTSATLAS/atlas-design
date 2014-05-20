@@ -79,7 +79,7 @@
                                             </div>
                                             <?php else: ?>
                                         
-                                            <div class="btn-group-1">
+<!--                                            <div class="btn-group-1">
                                                 <?=
                                                 $this->Html->link(__('Login', true), array(
                                                     'controller' => 'users',
@@ -98,7 +98,7 @@
                                                     'class' => 'btn-'
                                                 ))
                                                 ?>
-                                            </div>
+                                            </div>-->
 <?php endif ?>
                                     </div>
                                 </div>
