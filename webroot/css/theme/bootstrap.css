@@ -592,6 +592,7 @@ ol ul {
 }
 li {
   line-height: 20px;
+  font-size: 14px;
 }
 ul.unstyled,
 ol.unstyled {
