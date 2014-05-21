@@ -84,7 +84,7 @@
                 </div>
                 <?php else: ///display content page ?>
                 <div class="row-fluid">                                                  
-                    <div class="span10" id="main-content">
+                    <div class="span11 offset1" id="main-content">
 					<?php if ($title_for_layout !== 'Home'): ?>
 						<h1 id="page-title"><?= $title_for_layout ?></h1>
 					<?php endif ?>
