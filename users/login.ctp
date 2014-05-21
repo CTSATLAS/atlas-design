@@ -25,47 +25,5 @@
 		<p><?php echo __($instructions) ?></p>
 	<?php endif ?>
 
-	<?= $this->Form->create('User',
-		array(
-			'inputDefaults' => array(
-				'format' => array('before', 'label', 'between', 'input', 'error', 'after'),
-				'div' => array('class' => 'control-group input'),
-				'label' => array('class' => 'control-label'),
-				'between' => '<div class="controls">',
-				'after' => '</div>',
-				'error' => array(
-					'attributes' => array(
-						'wrap' => 'span',
-						'class' => 'help-block'
-					)
-				)
-			)
-		))
-	?>
-
-	<fieldset>
-		<legend>Login</legend>
-		<?php
-			echo $form->input('username', array(
-				'label' =>__('Lastname', true)));
-		    echo $form->input('password', array(
-				'label' => __('9 Digit SSN', true),
-				'maxlength' => 9
-			));
-
-		   echo $form->hidden('User.login_type', array('value' => $loginType));
-
-			if(isset($this->params['pass'][0]) && $this->params['pass'][0] === 'program') {
-				echo $form->hidden('User.program_id', array('value' => $this->params['pass'][1]));
-			}
-
-	    echo $this->Form->end(array(
-			'between' => false,
-			'after' => false,
-	    	'label' => __('Login', true),
-	    	'class' => 'btn btn-primary self-sign-kiosk-button',
-	    	'data-loading-text' => 'Logging in...'
-	    ));
-?>
-	  </fieldset>
+	<?= $this->element('users/login_form', array('login_method' => Configure::read('Login.method'))) ?>
 </div>
