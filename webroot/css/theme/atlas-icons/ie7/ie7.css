@@ -19,3 +19,6 @@
 .icon-youtube {
 	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x78;');
 }
+.icon-blogger3 {
+	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe607;');
+}

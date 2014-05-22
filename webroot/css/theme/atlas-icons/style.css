@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'atlas-icons';
-	src:url('fonts/atlas-icons.eot?8fqbuy');
-	src:url('fonts/atlas-icons.eot?#iefix8fqbuy') format('embedded-opentype'),
-		url('fonts/atlas-icons.woff?8fqbuy') format('woff'),
-		url('fonts/atlas-icons.ttf?8fqbuy') format('truetype'),
-		url('fonts/atlas-icons.svg?8fqbuy#atlas-icons') format('svg');
+	src:url('fonts/atlas-icons.eot?yos9pp');
+	src:url('fonts/atlas-icons.eot?#iefixyos9pp') format('embedded-opentype'),
+		url('fonts/atlas-icons.woff?yos9pp') format('woff'),
+		url('fonts/atlas-icons.ttf?yos9pp') format('truetype'),
+		url('fonts/atlas-icons.svg?yos9pp#atlas-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -43,4 +43,7 @@
 }
 .icon-youtube:before {
 	content: "\78";
+}
+.icon-blogger3:before {
+	content: "\e607";
 }

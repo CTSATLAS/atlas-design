@@ -14,13 +14,13 @@
 			},
 			"properties": {
 				"id": 243,
-				"order": 8,
+				"order": 7,
 				"prevSize": 20,
 				"code": 58880,
 				"name": "vimeo",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 0
 		},
 		{
@@ -36,13 +36,13 @@
 			},
 			"properties": {
 				"id": 245,
-				"order": 3,
+				"order": 2,
 				"prevSize": 20,
 				"code": 58881,
 				"name": "twitter",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 1
 		},
 		{
@@ -58,13 +58,13 @@
 			},
 			"properties": {
 				"id": 247,
-				"order": 6,
+				"order": 5,
 				"prevSize": 20,
 				"code": 58882,
 				"name": "facebook",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 2
 		},
 		{
@@ -80,13 +80,13 @@
 			},
 			"properties": {
 				"id": 256,
-				"order": 5,
+				"order": 4,
 				"prevSize": 20,
 				"code": 58883,
 				"name": "linkedin",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 3
 		},
 		{
@@ -102,13 +102,13 @@
 			},
 			"properties": {
 				"id": 270,
-				"order": 7,
+				"order": 6,
 				"prevSize": 20,
 				"code": 58884,
 				"name": "evernote",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 4
 		},
 		{
@@ -124,13 +124,13 @@
 			},
 			"properties": {
 				"id": 282,
-				"order": 4,
+				"order": 3,
 				"prevSize": 20,
 				"code": 58885,
 				"name": "blogger",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 5
 		},
 		{
@@ -150,8 +150,30 @@
 				"name": "youtube",
 				"ligatures": ""
 			},
-			"setIdx": 0,
+			"setIdx": 1,
 			"iconIdx": 7
+		},
+		{
+			"icon": {
+				"paths": [
+					"M914.331 396.48h-51.809c-31.738 0-59.555-26.842-61.722-57.76v0c0.004-164.858-132.9-288.8-298.899-288.8h-151.461c-165.889 0-300.402 133.569-300.52 298.426v327.425c0 164.845 134.629 298.309 300.518 298.309h323.474c166.013 0 300.168-133.464 300.168-298.309v-211.531c0-32.943-26.569-67.762-59.749-67.762zM338.72 280.96h173.28c31.768 0 57.76 25.992 57.76 57.76s-25.992 57.76-57.76 57.76h-173.28c-31.768 0-57.76-25.992-57.76-57.76s25.992-57.76 57.76-57.76zM685.28 743.040h-346.56c-31.768 0-57.76-25.992-57.76-57.76s25.992-57.76 57.76-57.76h346.56c31.768 0 57.76 25.992 57.76 57.76s-25.992 57.76-57.76 57.76z"
+				],
+				"tags": [
+					"blogger",
+					"social"
+				],
+				"grid": 20
+			},
+			"properties": {
+				"id": 400,
+				"order": 8,
+				"prevSize": 20,
+				"code": 58887,
+				"name": "blogger3",
+				"ligatures": ""
+			},
+			"setIdx": 3,
+			"iconIdx": 400
 		}
 	],
 	"height": 1024,

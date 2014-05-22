@@ -20,6 +20,7 @@
 		'icon-evernote': '&#xe604;',
 		'icon-blogger': '&#xe605;',
 		'icon-youtube': '&#x78;',
+		'icon-blogger3': '&#xe607;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
