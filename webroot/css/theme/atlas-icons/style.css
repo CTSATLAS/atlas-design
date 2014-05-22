@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'atlas-icons';
-	src:url('fonts/atlas-icons.eot?-38y5hz');
-	src:url('fonts/atlas-icons.eot?#iefix-38y5hz') format('embedded-opentype'),
-		url('fonts/atlas-icons.woff?-38y5hz') format('woff'),
-		url('fonts/atlas-icons.ttf?-38y5hz') format('truetype'),
-		url('fonts/atlas-icons.svg?-38y5hz#atlas-icons') format('svg');
+	src:url('fonts/atlas-icons.eot?yos9pp');
+	src:url('fonts/atlas-icons.eot?#iefixyos9pp') format('embedded-opentype'),
+		url('fonts/atlas-icons.woff?yos9pp') format('woff'),
+		url('fonts/atlas-icons.ttf?yos9pp') format('truetype'),
+		url('fonts/atlas-icons.svg?yos9pp#atlas-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,18 +23,27 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-vimeo:before {
+	content: "\e600";
+}
 .icon-twitter:before {
-	content: "\6c";
+	content: "\e601";
 }
 .icon-facebook:before {
-	content: "\66";
+	content: "\e602";
+}
+.icon-linkedin:before {
+	content: "\e603";
+}
+.icon-evernote:before {
+	content: "\e604";
+}
+.icon-blogger:before {
+	content: "\e605";
 }
 .icon-youtube:before {
 	content: "\78";
 }
-.icon-moviestar:before {
-	content: "\2010";
-}
-.icon-linkedin:before {
-	content: "\69";
+.icon-blogger3:before {
+	content: "\e607";
 }
