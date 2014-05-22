@@ -19,6 +19,9 @@
                                 <li><a href="http://www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
                                  <li><a href="http://www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
                                  <li><a href="http://www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
+                                 
+                                 <li><a href="" target="_blank"><span class="icon-blogger"></span></a></li>
+                                 
                             </ul>
                         </div>
                                 </div>
