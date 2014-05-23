@@ -21,7 +21,7 @@
                                 <li><a href="http://www.facebook.com/pages/WorkNet-Pinellas/113688846974?ref=ts#!/pages/WorkNet-Pinellas/113688846974" target="_blank"><span class="icon-facebook"></span> </a></li>
                                  <li><a href="http://www.linkedin.com/company/97333" target="_blank"><span class="icon-linkedin"></span> </a></li>
                                  <li><a href="http://www.youtube.com/careersourcepinellas" target="_blank"><span class="icon-youtube"></span> </a></li> 
-                                 <li><a href="http://www.youtube.com/careersourcepinellas" target="_blank"><span class="icon-blogger3"></span> </a></li> 
+                                 <li><a href="http://www.careesourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span> </a></li> 
                             </ul>
                         </div>
                                 </div>
