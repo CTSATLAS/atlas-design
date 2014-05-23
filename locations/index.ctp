@@ -1,7 +1,6 @@
 <div class="locations">
         <?php foreach ($locations as $location): ?>
-    <div class="row-fluid"> 
-        moved-----
+    <div class="row-fluid">       
         <div class="span6">
         <div class="right-">
 			<?php
