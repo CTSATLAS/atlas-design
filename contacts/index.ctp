@@ -1,4 +1,11 @@
 <!--contactus index-->
+<?php if($send == true) : ?>
+<p class="text-info"> Thank you. </p>
+<?php elseif(!$send) : ?>
+ <p class="text-error"> Your email failed. </p>   
+<?php endif ?>
+    
+
 <?php echo $this->Form->create(array('role' => 'from')) ?>
 <div class="form-group">
    
