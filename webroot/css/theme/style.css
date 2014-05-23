@@ -2718,3 +2718,7 @@ position: relative;
 font-size: 14px;
 line-height: 20px;
 }
+
+.form-group {
+  margin-bottom: 20px;
+}
