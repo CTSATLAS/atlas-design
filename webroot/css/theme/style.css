@@ -539,3 +539,7 @@ footer {
   background: #DFF2BF;
   border: 1px solid #4F8A10;
 }
+
+.login-submit {
+	margin-top:10px;
+}

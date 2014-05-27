@@ -35,43 +35,5 @@
 
 	<br />
 
-	<?= $this->Form->create('User',
-		array(
-			'inputDefaults' => array(
-				'error' => array(
-					'attributes' => array(
-						'wrap' => 'span',
-						'class' => 'help-block'
-					)
-				)
-			)
-		))
-	?>
-
-	<fieldset>
-		<?= $this->Form->input('username', array('label' => __('Lastname', true))) ?>
-		<?= $this->Form->input('password', array(
-				'label' => __($passwordLabel, true),
-				'maxlength' => (Configure::read('Registration.usePassword')) ? 255 : 9,
-				'after' => '<a href="/users/forgot_password">Forgot your password?</a>'
-		)) ?>
-
-		<br />
-
-		<?php
-		   echo $form->hidden('User.login_type', array('value' => $loginType));
-
-			if(isset($this->params['pass'][0]) && $this->params['pass'][0] === 'program') {
-				echo $form->hidden('User.program_id', array('value' => $this->params['pass'][1]));
-			}
-
-	    echo $this->Form->end(array(
-			'between' => false,
-			'after' => false,
-	    	'label' => __('Login', true),
-	    	'class' => 'btn btn-primary self-sign-kiosk-button',
-	    	'data-loading-text' => 'Logging in...'
-	    ));
-?>
-	  </fieldset>
+	<?= $this->element('/users/login_form', array('login_method' => Configure::read('Login.method'))) ?>
 </div>
