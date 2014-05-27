@@ -1,0 +1,919 @@
+From 76520c51e1a90a8d48ac21173b6bed065e78e17e Mon Sep 17 00:00:00 2001
+From: Shawn Sandy <shawnsandy04@gmail.com>
+Date: Thu, 22 May 2014 13:14:50 -0400
+Subject: [PATCH] social links * modified links * added flogger icon * updates
+ header.ctp
+
+---
+ elements/layouts/header.ctp | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/elements/layouts/header.ctp b/elements/layouts/header.ctp
+index 0f1f046..fc28159 100755
+--- a/elements/layouts/header.ctp
++++ b/elements/layouts/header.ctp
+@@ -19,6 +19,9 @@
+                                 <li><a href="http://www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
+                                  <li><a href="http://www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                  <li><a href="http://www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
++                                 
++                                 <li><a href="" target="_blank"><span class="icon-blogger"></span></a></li>
++                                 
+                             </ul>
+                         </div>
+                                 </div>
+-- 
+1.8.4.2
+
+From e1397b6d94b742918e3b9666d92a63283b9962cd Mon Sep 17 00:00:00 2001
+From: Shawn Sandy <shawnsandy04@gmail.com>
+Date: Thu, 22 May 2014 13:16:35 -0400
+Subject: [PATCH] social links update
+
+---
+ webroot/css/theme/atlas-icons/demo-files/demo.css  |   4 +-
+ webroot/css/theme/atlas-icons/demo.html            |  76 +++++++----
+ .../css/theme/atlas-icons/fonts/atlas-icons.eot    | Bin 2760 -> 3352 bytes
+ .../css/theme/atlas-icons/fonts/atlas-icons.svg    |  12 +-
+ .../css/theme/atlas-icons/fonts/atlas-icons.ttf    | Bin 2580 -> 3172 bytes
+ .../css/theme/atlas-icons/fonts/atlas-icons.woff   | Bin 2776 -> 2832 bytes
+ webroot/css/theme/atlas-icons/fonts/icomoon.eot    | Bin 2208 -> 0 bytes
+ webroot/css/theme/atlas-icons/fonts/icomoon.svg    |  13 --
+ webroot/css/theme/atlas-icons/fonts/icomoon.ttf    | Bin 2044 -> 0 bytes
+ webroot/css/theme/atlas-icons/fonts/icomoon.woff   | Bin 2228 -> 0 bytes
+ webroot/css/theme/atlas-icons/ie7/ie7.css          |  22 +--
+ webroot/css/theme/atlas-icons/ie7/ie7.js           |  10 +-
+ webroot/css/theme/atlas-icons/selection.json       | 147 ++++++++++++++-------
+ webroot/css/theme/atlas-icons/style.css            |  32 +++--
+ webroot/css/theme/style.css                        |   2 +-
+ 15 files changed, 202 insertions(+), 116 deletions(-)
+ delete mode 100755 webroot/css/theme/atlas-icons/fonts/icomoon.eot
+ delete mode 100755 webroot/css/theme/atlas-icons/fonts/icomoon.svg
+ delete mode 100755 webroot/css/theme/atlas-icons/fonts/icomoon.ttf
+ delete mode 100755 webroot/css/theme/atlas-icons/fonts/icomoon.woff
+
+diff --git a/webroot/css/theme/atlas-icons/demo-files/demo.css b/webroot/css/theme/atlas-icons/demo-files/demo.css
+index 2143b20..e28cdc3 100755
+--- a/webroot/css/theme/atlas-icons/demo-files/demo.css
++++ b/webroot/css/theme/atlas-icons/demo-files/demo.css
+@@ -130,7 +130,7 @@ p {
+ .clearfix:after {
+ 	clear: both;
+ }
+-.noLiga-true {
++.hidden-true {
+ 	display: none;
+ }
+ .textbox0 {
+@@ -147,5 +147,5 @@ p {
+ 	font-size: 16px;
+ }
+ .fs1 {
+-	font-size: 32px;
++	font-size: 20px;
+ }
+diff --git a/webroot/css/theme/atlas-icons/demo.html b/webroot/css/theme/atlas-icons/demo.html
+index da2f96e..0d4ca70 100755
+--- a/webroot/css/theme/atlas-icons/demo.html
++++ b/webroot/css/theme/atlas-icons/demo.html
+@@ -13,19 +13,32 @@
+ </head>
+ <body>
+ 	<div class="bgc1 clearfix">
+-		<h1 class="mhmm mvm"><span class="fgc1">Font Name:</span> atlas-icons <small class="fgc1">(Glyphs:&nbsp;5)</small></h1>
++		<h1 class="mhmm mvm"><span class="fgc1">Font Name:</span> atlas-icons <small class="fgc1">(Glyphs:&nbsp;7)</small></h1>
+ 	</div>
+ 	<div class="clearfix mhl ptl">
+-		<h1 class="mvm mtn bshadow fgc1">Grid Size: Unknown</h1>
++		<h1 class="mvm mtn bshadow fgc1">Grid Size: 20</h1>
++		<div class="glyph fs1">
++			<div class="clearfix bshadow0 pbs">
++				<span class="icon-vimeo"></span><span class="mls"> icon-vimeo</span>
++			</div>
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e600" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe600;" class="unitRight size1of2 talign-right" />
++			</fieldset>
++			<div class="fs0 bshadow0 clearfix hidden-true">
++				<span class="unit pvs fgc1">liga: </span>
++				<input type="text" readonly value="" class="liga unitRight" />
++			</div>
++		</div>
+ 		<div class="glyph fs1">
+ 			<div class="clearfix bshadow0 pbs">
+ 				<span class="icon-twitter"></span><span class="mls"> icon-twitter</span>
+ 			</div>
+-			<fieldset class="fs0 size1of1 clearfix">
+-				<input type="text" readonly value="6c" class="unit size1of2" />
+-				<input type="text" maxlength="1" readonly value="&#x6c;" class="unitRight size1of2 talign-right" />
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e601" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe601;" class="unitRight size1of2 talign-right" />
+ 			</fieldset>
+-			<div class="fs0 bshadow0 clearfix noLiga-true">
++			<div class="fs0 bshadow0 clearfix hidden-true">
+ 				<span class="unit pvs fgc1">liga: </span>
+ 				<input type="text" readonly value="" class="liga unitRight" />
+ 			</div>
+@@ -34,50 +47,63 @@
+ 			<div class="clearfix bshadow0 pbs">
+ 				<span class="icon-facebook"></span><span class="mls"> icon-facebook</span>
+ 			</div>
+-			<fieldset class="fs0 size1of1 clearfix">
+-				<input type="text" readonly value="66" class="unit size1of2" />
+-				<input type="text" maxlength="1" readonly value="&#x66;" class="unitRight size1of2 talign-right" />
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e602" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe602;" class="unitRight size1of2 talign-right" />
+ 			</fieldset>
+-			<div class="fs0 bshadow0 clearfix noLiga-true">
++			<div class="fs0 bshadow0 clearfix hidden-true">
+ 				<span class="unit pvs fgc1">liga: </span>
+ 				<input type="text" readonly value="" class="liga unitRight" />
+ 			</div>
+ 		</div>
+ 		<div class="glyph fs1">
+ 			<div class="clearfix bshadow0 pbs">
+-				<span class="icon-youtube"></span><span class="mls"> icon-youtube</span>
++				<span class="icon-linkedin"></span><span class="mls"> icon-linkedin</span>
+ 			</div>
+-			<fieldset class="fs0 size1of1 clearfix">
+-				<input type="text" readonly value="78" class="unit size1of2" />
+-				<input type="text" maxlength="1" readonly value="&#x78;" class="unitRight size1of2 talign-right" />
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e603" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe603;" class="unitRight size1of2 talign-right" />
+ 			</fieldset>
+-			<div class="fs0 bshadow0 clearfix noLiga-true">
++			<div class="fs0 bshadow0 clearfix hidden-true">
+ 				<span class="unit pvs fgc1">liga: </span>
+ 				<input type="text" readonly value="" class="liga unitRight" />
+ 			</div>
+ 		</div>
+ 		<div class="glyph fs1">
+ 			<div class="clearfix bshadow0 pbs">
+-				<span class="icon-moviestar"></span><span class="mls"> icon-moviestar</span>
++				<span class="icon-evernote"></span><span class="mls"> icon-evernote</span>
+ 			</div>
+-			<fieldset class="fs0 size1of1 clearfix">
+-				<input type="text" readonly value="2010" class="unit size1of2" />
+-				<input type="text" maxlength="1" readonly value="&#x2010;" class="unitRight size1of2 talign-right" />
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e604" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe604;" class="unitRight size1of2 talign-right" />
+ 			</fieldset>
+-			<div class="fs0 bshadow0 clearfix noLiga-true">
++			<div class="fs0 bshadow0 clearfix hidden-true">
+ 				<span class="unit pvs fgc1">liga: </span>
+ 				<input type="text" readonly value="" class="liga unitRight" />
+ 			</div>
+ 		</div>
+ 		<div class="glyph fs1">
+ 			<div class="clearfix bshadow0 pbs">
+-				<span class="icon-linkedin"></span><span class="mls"> icon-linkedin</span>
++				<span class="icon-blogger"></span><span class="mls"> icon-blogger</span>
++			</div>
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="e605" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#xe605;" class="unitRight size1of2 talign-right" />
++			</fieldset>
++			<div class="fs0 bshadow0 clearfix hidden-true">
++				<span class="unit pvs fgc1">liga: </span>
++				<input type="text" readonly value="" class="liga unitRight" />
++			</div>
++		</div>
++		<div class="glyph fs1">
++			<div class="clearfix bshadow0 pbs">
++				<span class="icon-youtube"></span><span class="mls"> icon-youtube</span>
+ 			</div>
+-			<fieldset class="fs0 size1of1 clearfix">
+-				<input type="text" readonly value="69" class="unit size1of2" />
+-				<input type="text" maxlength="1" readonly value="&#x69;" class="unitRight size1of2 talign-right" />
++			<fieldset class="fs0 size1of1 clearfix hidden-false">
++				<input type="text" readonly value="78" class="unit size1of2" />
++				<input type="text" maxlength="1" readonly value="&#x78;" class="unitRight size1of2 talign-right" />
+ 			</fieldset>
+-			<div class="fs0 bshadow0 clearfix noLiga-true">
++			<div class="fs0 bshadow0 clearfix hidden-true">
+ 				<span class="unit pvs fgc1">liga: </span>
+ 				<input type="text" readonly value="" class="liga unitRight" />
+ 			</div>
+diff --git a/webroot/css/theme/atlas-icons/fonts/atlas-icons.eot b/webroot/css/theme/atlas-icons/fonts/atlas-icons.eot
+index 94f5218ced2b12e8f00e45be24f1fd87b6efb376..87578750bf471d967acffc7d0790deada1fbf6ca 100755
+GIT binary patch
+literal 3352
+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
+Y6rmD2nA}5-z%4`GMiR>tcRuO!U$q(AnE(I)
+
+literal 2760
+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
+Tzp5J#QB^3bN40a=-?04+p#NKn
+
+diff --git a/webroot/css/theme/atlas-icons/fonts/atlas-icons.svg b/webroot/css/theme/atlas-icons/fonts/atlas-icons.svg
+index 8a08832..88f30b4 100755
+--- a/webroot/css/theme/atlas-icons/fonts/atlas-icons.svg
++++ b/webroot/css/theme/atlas-icons/fonts/atlas-icons.svg
+@@ -7,9 +7,11 @@
+ <font-face units-per-em="1024" ascent="960" descent="-64" />
+ <missing-glyph horiz-adv-x="1024" />
+ <glyph unicode="&#x20;" d="" horiz-adv-x="512" />
+-<glyph unicode="&#x66;" d="M48 551.5q0 73 28.5 139.75t76.5 115 114.75 77 139.75 28.75 139.75-28.75 114.75-77 76.5-115 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-114.75 76.5-76.5 114.75-28.5 139.75zM314.5 539h53v-161.5h66.5v161.5h66.5v66.5h-66.5v34q0 8 4.25 14.25t9.25 6.25h53v65.5h-53q-33 0-56.5-25.5t-23.5-61.5v-33h-53v-66.5z" horiz-adv-x="814" />
+-<glyph unicode="&#x69;" d="M48 552.5q0 73 28.5 139.75t76.5 114.75 114.75 76.5 139.75 28.5 139.75-28.5 115-76.5 77-114.75 28.75-139.75-28.75-139.75-77-115-115-77-139.75-28.75-139.75 28.75-114.75 77-76.5 115-28.5 139.75zM267.5 716.5q0-16 11.25-27.5t27.25-11.5 27.5 11.5 11.5 27.5-11.5 27.75-27.5 11.75-27.25-11.75-11.25-27.75zM274.5 433.5h63.5v220.5h-63.5v-220.5zM368.5 433.5h63.5v141.5q1 1 3 2.75t8 5.25 11.75 5.5 13.75 1.75 15-4.25q3.5-1.5 7.25-7.5t3.75-10.5v-134.5h62.5v134.5q0 21.5-12 42t-31 31.5q-18 9.5-40.5 10.5h-3.5q-20.5 0-38-8.5v10.5h-63.5v-220.5z" />
+-<glyph unicode="&#x6c;" d="M48 551.5q0 73 28.75 139.75t77 114.75 115 76.5 139.75 28.5 139.75-28.5 114.75-76.5 76.5-114.75 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-115 76.5-77 114.75-28.75 139.75zM248 432.5q50-32.5 111.5-32.5 39 0 72.75 12.25t58 32.75 41.75 47.25 26 56.25 8.5 59v9.5q20.5 14.5 36.5 38-25-9.5-42-11.5 21.5 12.5 33 40-30-14.5-48-17.5-20.5 23.5-52.5 23.5-30 0-51.25-21.5t-21.25-52q0-6.5 2-16.5-91 4.5-150.5 77-9.5-18-9.5-37 0-41 32-60.5-17.5 0-33 8.5v-1.5q0-26 16.25-46t41.25-25.5q-10-2-19.5-2-4.5 0-12.5 2 6-21.5 24.75-36t43.25-15q-39-31-90.5-31h-17z" />
+-<glyph unicode="&#x78;" d="M48 551.5q0 73 28.75 139.75t77 115 115 77 139.75 28.75 139.75-28.75 114.75-77 76.5-115 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-115 76.5-77 114.75-28.75 139.75zM259 510.5h25.5v-125h23.5v125h26v20.5h-75v-20.5zM282.5 721.5l32-97.5v-63.5h27.5v66.5l32 94.5h-28l-17.5-64.5h-1l-18.5 64.5h-26.5zM343 403q0-9 4-14.5 2.5-4 11.5-4 6 0 12 3 7 3.5 12.5 10.5v-12.5h21.5v107.5h-21.5v-82q-4-4-6-5-3-2-6.5-2-4 0-5 1l-0.5 2q-0.5 2-0.5 4v82h-21.5v-90zM376 590.5q0-14.5 9-23.5 9.5-9.5 25.5-9.5t25.5 9.5q9.5 8 9.5 23.5v61.5q0 13.5-9.5 21.5-9 9-24.5 9t-26.5-8q-9-9-9-22.5v-61.5zM400.5 588.5v64.5q0 4.5 3 6 1.5 3 7 3 4.5 0 7.5-3 3-1.5 3-6v-64.5q0-4.5-3-7.5t-7.5-3q-5 0-8 3-2 4-2 7.5zM421 385.5h21.5v8q3-3 9-7 6-2 11.5-2 9.5 0 14 6 5.5 7.5 5.5 17.5v59.5q0 11.5-5.5 20.5-6 6-15 6-7.5 0-10.5-2-6-4-9-7v46h-21.5v-145.5zM442.5 406v67.5q0.5 0.5 2 1.5t2 1.5q1 0 2.5 0.5t2.5 0.5q4.5 0 6-3 2.5-2.5 2.5-8v-55.5q0-6-1-7-3-3-6.5-3-1 0-2.5 0.5t-2.5 0.5q-2 1-5 4zM465 580q0-9.5 4-15.5 4.5-6 13.5-6 5 0 13 4 10 6 14.5 11.5v-13.5h24.5v119h-24.5v-90q-3-4.5-7-6.5-4.5-3-7.5-3t-5 2q-1 1-1 6.5v91h-24.5v-99.5zM493.5 416.5q0-15 8.5-25 9-9 22.5-9 16.5 0 24.5 8 8 9.5 8 26v5h-22.5v-5q0-10.5-2-12.5t-7-2q-6 0-7.5 3-2 2-2 11.5v20h41v28q0 14-8 23.5-8 8-22.5 8t-23.5-9q-9.5-9.5-9.5-22.5v-48zM516 454v10.5q0 8 2 10t7.5 2q5 0 7-2 2-4 2-10v-10.5h-18.5z" />
+-<glyph unicode="&#x2010;" d="M48 551.5q0 73 28.5 139.75t76.5 114.75 114.75 76.5 139.75 28.5 139.75-28.5 115-76.5 77-114.75 28.75-139.75q0-98-48.5-181t-131.5-131.25-180.5-48.25-180.25 48.25-131 131.25-48.25 181zM250.5 604.25q-4.5-9.75 7.5-24.25h1l59.5-72.5-31-88q-5.5-17.5 2.25-24.25t23.75 1.75l94 47 94.5-47q17-8.5 24.25-1.75t1.25 24.25l-30 88 59.5 72.5h1q11.5 14.5 6.75 24.25t-23.25 9.75h-77.5l-38 78.5q-7.5 17-18.5 17t-18.5-17l-36.5-78.5h-79q-18.5 0-23-9.75z" />
++<glyph unicode="&#x78;" d="M30.080 453.798q0 99.306 39.112 190.112t104.749 156.444 156.444 104.749 190.112 39.112 190.112-39.112 156.102-104.749 104.067-156.444 38.772-190.112-38.772-190.112-104.067-156.102-156.102-104.067-190.112-38.772-190.112 38.772-156.444 104.067-104.749 156.102-39.112 190.112zM317.118 398.023h34.689v-170.046h31.969v170.046h35.368v27.888h-102.027v-27.888zM349.087 685.062l43.532-132.637v-86.383h37.411v90.464l43.532 128.555h-38.091l-23.807-87.743h-1.36l-25.167 87.743h-36.049zM431.388 251.784q0-12.245 5.443-19.725 3.403-5.443 15.644-5.443 8.162 0 16.325 4.081 9.522 4.761 17.005 14.285v-17.005h29.248v146.24h-29.248v-111.552q-5.443-5.443-8.162-6.802-4.081-2.721-8.842-2.721-5.443 0-6.802 1.36l-0.68 2.721q-0.68 2.721-0.68 5.443v111.552h-29.248v-122.435zM476.281 506.854q0-19.725 12.245-31.969 12.923-12.923 34.689-12.923t34.689 12.923q12.923 10.883 12.923 31.969v83.663q0 18.365-12.923 29.248-12.245 12.245-33.328 12.245t-36.049-10.883q-12.245-12.245-12.245-30.608v-83.663zM509.613 504.133v87.743q0 6.121 4.081 8.162 2.040 4.081 9.522 4.081 6.121 0 10.203-4.081 4.081-2.040 4.081-8.162v-87.743q0-6.121-4.081-10.203t-10.203-4.081q-6.802 0-10.883 4.081-2.721 5.443-2.721 10.203zM537.499 227.977h29.248v10.883q4.081-4.081 12.245-9.522 8.162-2.721 15.644-2.721 12.923 0 19.045 8.162 7.482 10.203 7.482 23.807v80.943q0 15.644-7.482 27.888-8.162 8.162-20.405 8.162-10.203 0-14.285-2.721-8.162-5.443-12.245-9.522v62.577h-29.248v-197.935zM566.746 255.864v91.826q0.68 0.68 2.721 2.040t2.721 2.040q1.36 0 3.403 0.68t3.403 0.68q6.121 0 8.162-4.081 3.403-3.403 3.403-10.883v-75.501q0-8.162-1.36-9.522-4.081-4.081-8.842-4.081-1.36 0-3.403 0.68t-3.403 0.68q-2.721 1.36-6.802 5.443zM597.355 492.569q0-12.923 5.443-21.087 6.121-8.162 18.365-8.162 6.802 0 17.684 5.443 13.603 8.162 19.725 15.644v-18.365h33.328v161.885h-33.328v-122.435q-4.081-6.121-9.522-8.842-6.121-4.081-10.203-4.081t-6.802 2.721q-1.36 1.36-1.36 8.842v123.794h-33.328v-135.357zM636.125 270.148q0-20.405 11.563-34.009 12.245-12.245 30.608-12.245 22.445 0 33.328 10.883 10.883 12.923 10.883 35.368v6.802h-30.608v-6.802q0-14.285-2.721-17.005t-9.522-2.721q-8.162 0-10.203 4.081-2.721 2.721-2.721 15.644v27.207h55.775v38.091q0 19.045-10.883 31.969-10.883 10.883-30.608 10.883t-31.969-12.245q-12.923-12.923-12.923-30.608v-65.298zM666.735 321.162v14.285q0 10.883 2.721 13.603t10.203 2.721q6.802 0 9.522-2.721 2.721-5.443 2.721-13.603v-14.285h-25.167z" />
++<glyph unicode="&#xe600;" d="M512 952.32c-271.462 0-491.52-220.058-491.52-491.52s220.058-491.52 491.52-491.52 491.52 220.058 491.52 491.52-220.058 491.52-491.52 491.52zM737.28 555.469c-26.010-149.35-171.418-275.763-215.091-304.64-43.725-28.826-83.61 11.622-98.099 42.138-16.538 34.867-66.202 223.949-79.206 239.565-13.005 15.718-51.968-15.616-51.968-15.616l-18.893 25.293c0 0 79.206 96.358 139.469 108.339 63.898 12.8 63.795-99.891 79.155-162.509 14.899-60.57 24.883-95.181 37.837-95.181 13.005 0 37.837 33.741 65.024 85.504 27.238 51.866-1.126 97.587-54.374 65.075 21.197 129.997 222.208 161.331 196.147 12.032z" />
++<glyph unicode="&#xe601;" d="M512 952.32c-271.462 0-491.52-220.058-491.52-491.52s220.058-491.52 491.52-491.52 491.52 220.058 491.52 491.52-220.058 491.52-491.52 491.52zM711.885 549.632c0.205-4.147 0.307-8.346 0.307-12.544 0-127.898-97.382-275.405-275.456-275.405-54.63 0-105.574 15.974-148.378 43.52 7.578-0.922 15.309-1.331 23.091-1.331 45.363 0 87.091 15.462 120.269 41.472-42.342 0.768-78.131 28.774-90.47 67.174 5.888-1.126 11.981-1.741 18.176-1.741 8.858 0 17.408 1.178 25.498 3.379-44.237 8.909-77.67 48.026-77.67 94.925 0 0.41 0 0.819 0.051 1.178 13.056-7.219 28.006-11.571 43.827-12.083-25.907 17.357-43.008 46.95-43.008 80.589 0 17.766 4.762 34.406 13.107 48.691 47.718-58.624 119.091-97.178 199.526-101.171-1.638 7.066-2.509 14.438-2.509 22.067 0 53.453 43.366 96.819 96.819 96.819 27.853 0 52.992-11.725 70.656-30.566 22.067 4.301 42.803 12.339 61.491 23.45-7.27-22.579-22.579-41.574-42.598-53.555 19.61 2.355 38.246 7.526 55.603 15.258-12.954-19.405-29.44-36.454-48.333-50.125z" />
++<glyph unicode="&#xe602;" d="M512 952.32c-271.462 0-491.52-220.058-491.52-491.52s220.058-491.52 491.52-491.52 491.52 220.058 491.52 491.52-220.058 491.52-491.52 491.52zM628.378 612.659h-73.882c-8.704 0-18.432-11.52-18.432-26.829v-53.35h92.365v-76.083h-92.365v-228.403h-87.245v228.403h-79.053v76.032h79.053v44.749c0 64.205 44.544 116.378 105.677 116.378h73.882v-80.896z" />
++<glyph unicode="&#xe603;" d="M512 952.32c-271.462 0-491.52-220.058-491.52-491.52s220.058-491.52 491.52-491.52 491.52 220.058 491.52 491.52-220.058 491.52-491.52 491.52zM391.68 257.075h-99.533v320.256h99.533v-320.256zM341.299 616.653c-31.437 0-51.763 22.323-51.763 49.818 0 28.16 20.941 49.766 53.043 49.766s51.763-21.606 52.378-49.766c0.051-27.546-20.275-49.818-53.658-49.818zM755.149 257.075h-99.482v177.51c0 41.267-14.438 69.376-50.432 69.376-27.494 0-43.827-18.995-51.098-37.325-2.611-6.502-3.277-15.718-3.277-24.832v-184.678h-99.584v218.112c0 39.936-1.28 73.37-2.611 102.144h86.426l4.608-44.493h1.946c13.107 20.941 45.21 51.712 98.918 51.712 65.485 0 114.586-43.827 114.586-138.138v-189.389z" />
++<glyph unicode="&#xe604;" d="M887.757 752.23c0 58.88-88.678 65.434-88.678 65.434l-208.333 13.107c0 0-4.454 56.73-46.592 76.39-42.086 19.61-88.371 13.67-121.6 13.312s-41.165-42.803-41.165-82.842 0.768-86.118 0.768-115.2c0-52.019-22.886-74.189-80.179-74.189h-118.118c-33.024 2.15-58.778-3.277-58.778-30.003 0-26.675 38.912-254.566 92.262-307.149 30.976-30.515 220.365-51.917 260.25-51.917s26.624 117.811 37.683 117.811 23.296-66.56 86.118-82.125c62.822-15.667 146.688-12.749 151.142-57.446 5.786-58.982 11.059-135.322-27.75-140.749l-87.808-3.482c-60.211 4.352-44.083 70.093-17.51 70.093s39.885 1.075 39.885 1.075l3.328 71.987c0 0-137.882 16.282-143.77-76.749-5.325-84.992 9.267-125.082 19.968-133.786 10.752-8.806 29.286-25.805 198.144-25.805 237.926 0 150.733 693.402 150.733 752.23zM790.528 444.365c-9.318-9.933-43.11 16.435-75.366 16.435-32.307 0-67.174-17.101-75.366-5.888-8.141 11.264 7.526 101.99 68.352 101.99s91.75-102.554 82.381-112.538zM297.114 759.501c0 11.622 3.021 152.781 3.021 152.781l-179.507-176.077c0 0 124.006 0 148.326 0 24.422 0 28.16 11.622 28.16 23.296z" />
++<glyph unicode="&#xe605;" d="M564.992 410.573c-15.77 9.165-37.632 9.165-55.45 9.165h-58.419v-120.422h53.658c19.866 0 45.158-1.382 62.259 10.598 15.77 10.598 24.627 31.334 24.627 51.098 0 18.381-10.957 40.346-26.675 49.562zM542.925 513.331c13.005 9.882 19.814 27.597 19.814 43.827 0 17.664-8.192 34.611-23.194 43.776-15.77 9.165-44.493 7.066-62.976 7.066h-25.446v-105.984h33.638c19.2 0.051 41.779-1.382 58.163 11.315zM830.72 952.32h-637.491c-95.386 0-172.749-77.363-172.749-172.8v-637.389c0-95.437 77.363-172.8 172.749-172.8h637.44c95.437 0 172.8 77.363 172.8 172.8v637.389c0.051 95.437-77.312 172.8-172.749 172.8zM538.675 209.562h-200.806v484.71h219.392c63.539 0 122.214-40.448 122.214-111.821 0-55.091-30.771-92.826-69.99-104.602v-1.382c58.214-11.981 99.738-43.622 99.738-119.859 0-70.554-48.077-147.046-170.547-147.046z" />
+ </font></defs></svg>
+\ No newline at end of file
+diff --git a/webroot/css/theme/atlas-icons/fonts/atlas-icons.ttf b/webroot/css/theme/atlas-icons/fonts/atlas-icons.ttf
+index 2e84b1722743a4cb1bdb0fd343c86f4b07fe617d..7b53533a27859731bb16575074c9186b567af6db 100755
+GIT binary patch
+literal 3172
+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
+WC_*K4I8o{dC?Zu$ESLY!Z2tk)Kgodr
+
+literal 2580
+zcma)8TWnNC82<k`=ghh7?%CTpr<d)rWwBcny7xUIEp4|=N~<Wgga`y>Ddm#%CM^ac
+z8eWVf#()Vg8e>B6Red)akr(47G2zi*yuNsO@Iez^Wc}xy#a<}lob1g1&;0ZK*O^&B
+z05IVKNKklcDqo7c@!n%J^AY`yOwTnIe|Tbe0RU6P&z@*3Ez%ez{vwUqiP>|<t@G77
+z@s|Pk-jg$pV=z8<3PAmy)@vteg5Qw7AkjABx15|?K5O^EAH??yes*EHA^oUqBmM~S
+z$+^baMX=#_;+Kif%s1v{4!<~I6Muzt99~>lS|&TG>3@oKkYu4*0bp;kuW05{Fye1e
+zMqS9=Z5L?!UHac~h#;cU^(KANbs%nyOon&@rk~K5q+TE-L562&j8haOT1B$rIGlo6
+zIGc$!|86#EjbPW!Ve_ZvJI%M7Z#6G{ce{n;3$E%Akak<EY#`m<4&Q9Q^JV{gjzIyg
+zv!-;JEbssl6|d%hj_ZG_qjK@(c&^9)l(Jo}maEw+3GT#dcC*U6Fl!f5UHM{tWcPS|
+zq(C%cSE`sF9iG@dS}*3iQix`yULTQVrBdx~bE_=p3yOtQS3zu?sE_80ooTVLP#CF?
+zhp%3(cWayvceHQm9s!CW*(rf<XAx?!f5ld}7TD_gmXfuBr9GY}Tqt?9T#ZZ@i;1$A
+zwRd7JaIxgCJ6-5iE52{!Om&?r8(8=a8X+rYgc%DP@km%_+AbVAJcJA-MOC<}aaodg
+zg+htABPZj7tarnhqyyK5tJkcsfu<R?LMFv2WZn7s)~(kGPG%A^Cdry~5npkVNmED7
+zxJ5bjb4IbaL^=CEac~{aX{EL1k@H*?zaEuxXD3|>jo%lO6fKcxidvaJf`wKJ$3}-s
+zed$ib&a|ImKU1kRepc@9&1Bv7SWH(DZL2NrnCW;jlXh%&Xs3~hMWfMn!;m#45pT~`
+zVy&ESR2-e@zS8jM*qJP25yOq8-R_Qz8g(=&+!0pV(XlsiL*5-r_S&eX;*KOEGACkf
+zqF9)#>S8NY;7Mq}GQ0-w!pHC}{IXIdL9&I5qMlbO+H+eKZF?@2wwG12xom=BQKriA
+zRJW?yJWFB8V`TtU+Y?a|^^+4dLpWVnu2#x5D#DT~u*FFs%xbIlDBigqaY{sKQK6M<
+z#Zs9**CA;_-kj~Rdvd}!UmsbJwFxD=IoC5l=gMsvlJitM8GsK6g#o5tx?WA7(II?L
+z!ftlB9gn-2&P*zXiH?4m=?do@9ft}{gw*NQ^{8cNh=y)OO}&jVnWMrOqfSK`6At4F
+z*SJJ8s$y_iksX@~m70u_=xKpT%%+o|DXJm2wM()rNetUlnjVg+I-<*%!WrADX%S1;
+z9pV&Zi3i^YTVFb#Ox|n^)t?<6y7Q^7$Yh&|v-q?^is|U#6dw36Y^n@3Ju+w-q=TEG
+z!CjmjlldTLVwB`BRi+>+n%-~fG$-}FksKkDCFM~rJYehtLs2EJgkLzQkSC}dI(E%6
+zbk(pp${`^lqmk&0=$fvF3lCASM3BtjOn%~@$rKE%RNcC}$-kLAk8ffscb!3`lUd87
+zUn4nH)RTo&Q)@0$aRcQ`llzWLPfitz__<_AJ5stSCk`GBn-XS+<fx9$#KV%MhB8x@
+zcJDE3?3*m*38XkV)u<W~96J!B>=X*BqD2pkVc66d+iM|4_hRq_inoJ)qg%4|=dAv}
+zz?A)m<ZJuNyddt5{%uSTt^eYQ1==ItMsZn-MvtICTHV&Xu>M2Y2L+N|^Yb?t^lql%
+zG~C9Q*$t`JN7CU}I`5*1t?OF^-f!tcaA+~m%^(8PEn1@aZ7o_R`uP^E5bd;RP8#Yh
+z+JIhoRlL2jPBQ{CpaaZ+4ln~czzpaBGoU%`-P76|V2V3xmTsyg*iQchreOi*iQW%0
+z<na>C2tETvpy>Gb**&t2<=Mv4_EXaf^Gh2Gz$Ag4fHS_D)Ax}XBbj+$sW4~;j*-%%
+VaE|(M->5xgh%m+XT=e&C{{TYsNZJ4Z
+
+diff --git a/webroot/css/theme/atlas-icons/fonts/atlas-icons.woff b/webroot/css/theme/atlas-icons/fonts/atlas-icons.woff
+index ba2dfa888c3b7daa6bcc083472a9ea58cf4f19d8..ba98cdd674c9e3249e094455f9f4186615f93edd 100755
+GIT binary patch
+literal 2832
+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
+F_8%_gCT{=$
+
+literal 2776
+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
+Z<575y?8bhB8`L8h2oKH8oc9-`KLM&@@8kdg
+
+diff --git a/webroot/css/theme/atlas-icons/fonts/icomoon.eot b/webroot/css/theme/atlas-icons/fonts/icomoon.eot
+deleted file mode 100755
+index c9caadb23d1ff3ad29fbd610e91d03c039b0d0ed..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+HcmV?d00001
+
+literal 2208
+zcmahLTWlLeaAt3B_wHQ3V&7ey*sfC-Un`{e?W1Z+6DO!?c~huViU5<Q4=JfbA1IYT
+z>OT@qB_!0Jsyx2ohc5&o?GH#GA@zd~1Rsbm3cpB20?h2)rKzK;oz?En%+Ait&hE|J
+zbpzlZ34p+07!cM_ah`f^n6G3*xbgn4A8cI%NWf`WfIci!@531qNWcrQ2q)nJEI|*>
+z632lf#5oJ+NLI;|pbnEz3uL$MCZ;kNgG-=6?b*ZCM&e5RBjS8X{q=?A-U=MWbrQ-G
+z{mRMSxfPmIM6c3poLstiqMG>oC!#L_@YPd`z2h)_>1zP}4y|`i5kuV6z6B7<{LWL$
+z=U3yCutxNYMCX_K3q35cn?whCmwT%#kbysmCVfyk(_3Dg8~yx8qOX&UJuCfl=gCh3
+z`LkLFjRUTM4#2Lm?}>9cobeB6qN(KW0d>w{m?m;nTOUx<)<IGC%9MyE#nhF>ERAY4
+z3moQYPJlscf_No3L7`tA{5u#BUwO4j<KVZ!wZYZFd(rMdAQ}*mb|mkyNw)kwfeXP9
+z$UT_H=vvp=KwBfLK0v1BcY@})L6eRYs(Hez1Wj++&33b0Zj<0%Y?pUPQNXfY%NMHk
+z?(F=*?re>4#6rGaotrr{Ki92S3wgv?tJ|IBTyM1}M%^~^0ztKqFVxh=L*2P*eY~hP
+z)@rlegYgeP>`oX$%#7uBPRyz(lAjuAm&wl~n|`{T&`&q;k~|H)toW|uJJC@(zSr@E
+zRJ|g}Upwnoyl|{%X}dZc9kwYR#aiU{fw`H+WN{pEycirS@Gf7(Z<<rPN@X{fPMZ?Z
+zPL7T^vEoR!RCH{1Y_C;Hr&6h$WpP8#jO4slIy&e50y18lY|P9ZxKL&+VY%s|J26(0
+zDaX*_V{tu)j=f!2d_JAsWuwfGI2uP}P9nLT?lcy~LfzSJXu&h|*`9}Y;S=}@eu3XN
+zqvJ=nxDlO=TlC%N7H!|9>-5XA?3FVVi)MpjCf&BQMVZ1<#nwKQwy&b3o`u(<H$agt
+zV6)w7b}0A_sdOv7q_eHeDGgr7tEiVD+hyBVlJ!QDn(L4>Y2Hz;*cDGX7uX{Y$~I{!
+z@9--7=q<UCBc3nqY^Z#nG8pPCAZheFN*g`Ahh5mMF?Z}qw=`bLr!g}&#hIxKA<%I+
+z(^N>E3DZm^Ed$Xqlc|_F$`}`@Gsb9;$T8zEp$kK3#F4rsxXv9L84_^R)JO|VV>W8K
+zp-YR8<}}VVjbSctnDMkU5naY~!PsuYNF+_uAxcM<dH6T5`<=J5*;~Eo?yED?|J^Wk
+zPQJx(37^-=FeB@S@#q)vm}F>}iTyE)Y>3#l{f`Se7#I5mQ?tgulT1g{4Rb1H5>K1F
+zlAR@&HT^N6PQch_mM%4+$KQHcr<0(5?D)q?%am49Am64$I9i$UglU*&y!HqMO9d%*
+zH`gVfc=Psa$*I2}#)E|OL;6}yAsaJ&wUn=eY!|Gne5G<G<@<o9<Vc($po+H%K?0@n
+zL()MHRxHY+MJiEu*i^7v!fpC46e#hnkbqAk8%TL~!yY62K*ZMw-x=YY@RuT7r(&3h
+zZ~+n;5pKaQDx;Lqxk((QGsHukAs*@s@la=ohdM)C(B3`K-caXofxUkr9+Ek|&|mKN
+s&uppd!!><q108yis=BK1Dse2raY`g_z(pDl2LA?6-~Bfr&mIW>1KU>&P5=M^
+
+diff --git a/webroot/css/theme/atlas-icons/fonts/icomoon.svg b/webroot/css/theme/atlas-icons/fonts/icomoon.svg
+deleted file mode 100755
+index 02f3b1b..0000000
+--- a/webroot/css/theme/atlas-icons/fonts/icomoon.svg
++++ /dev/null
+@@ -1,13 +0,0 @@
+-<?xml version="1.0" standalone="no"?>
+-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+-<svg xmlns="http://www.w3.org/2000/svg">
+-<metadata>Generated by IcoMoon</metadata>
+-<defs>
+-<font id="icomoon" horiz-adv-x="1024">
+-<font-face units-per-em="1024" ascent="960" descent="-64" />
+-<missing-glyph horiz-adv-x="1024" />
+-<glyph unicode="&#x20;" d="" horiz-adv-x="512" />
+-<glyph unicode="&#x66;" d="M48 551.5q0 73 28.5 139.75t76.5 115 114.75 77 139.75 28.75 139.75-28.75 114.75-77 76.5-115 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-114.75 76.5-76.5 114.75-28.5 139.75zM314.5 539h53v-161.5h66.5v161.5h66.5v66.5h-66.5v34q0 8 4.25 14.25t9.25 6.25h53v65.5h-53q-33 0-56.5-25.5t-23.5-61.5v-33h-53v-66.5z" horiz-adv-x="814" />
+-<glyph unicode="&#x6c;" d="M48 551.5q0 73 28.75 139.75t77 114.75 115 76.5 139.75 28.5 139.75-28.5 114.75-76.5 76.5-114.75 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-115 76.5-77 114.75-28.75 139.75zM248 432.5q50-32.5 111.5-32.5 39 0 72.75 12.25t58 32.75 41.75 47.25 26 56.25 8.5 59v9.5q20.5 14.5 36.5 38-25-9.5-42-11.5 21.5 12.5 33 40-30-14.5-48-17.5-20.5 23.5-52.5 23.5-30 0-51.25-21.5t-21.25-52q0-6.5 2-16.5-91 4.5-150.5 77-9.5-18-9.5-37 0-41 32-60.5-17.5 0-33 8.5v-1.5q0-26 16.25-46t41.25-25.5q-10-2-19.5-2-4.5 0-12.5 2 6-21.5 24.75-36t43.25-15q-39-31-90.5-31h-17z" />
+-<glyph unicode="&#x78;" d="M48 551.5q0 73 28.75 139.75t77 115 115 77 139.75 28.75 139.75-28.75 114.75-77 76.5-115 28.5-139.75-28.5-139.75-76.5-114.75-114.75-76.5-139.75-28.5-139.75 28.5-115 76.5-77 114.75-28.75 139.75zM259 510.5h25.5v-125h23.5v125h26v20.5h-75v-20.5zM282.5 721.5l32-97.5v-63.5h27.5v66.5l32 94.5h-28l-17.5-64.5h-1l-18.5 64.5h-26.5zM343 403q0-9 4-14.5 2.5-4 11.5-4 6 0 12 3 7 3.5 12.5 10.5v-12.5h21.5v107.5h-21.5v-82q-4-4-6-5-3-2-6.5-2-4 0-5 1l-0.5 2q-0.5 2-0.5 4v82h-21.5v-90zM376 590.5q0-14.5 9-23.5 9.5-9.5 25.5-9.5t25.5 9.5q9.5 8 9.5 23.5v61.5q0 13.5-9.5 21.5-9 9-24.5 9t-26.5-8q-9-9-9-22.5v-61.5zM400.5 588.5v64.5q0 4.5 3 6 1.5 3 7 3 4.5 0 7.5-3 3-1.5 3-6v-64.5q0-4.5-3-7.5t-7.5-3q-5 0-8 3-2 4-2 7.5zM421 385.5h21.5v8q3-3 9-7 6-2 11.5-2 9.5 0 14 6 5.5 7.5 5.5 17.5v59.5q0 11.5-5.5 20.5-6 6-15 6-7.5 0-10.5-2-6-4-9-7v46h-21.5v-145.5zM442.5 406v67.5q0.5 0.5 2 1.5t2 1.5q1 0 2.5 0.5t2.5 0.5q4.5 0 6-3 2.5-2.5 2.5-8v-55.5q0-6-1-7-3-3-6.5-3-1 0-2.5 0.5t-2.5 0.5q-2 1-5 4zM465 580q0-9.5 4-15.5 4.5-6 13.5-6 5 0 13 4 10 6 14.5 11.5v-13.5h24.5v119h-24.5v-90q-3-4.5-7-6.5-4.5-3-7.5-3t-5 2q-1 1-1 6.5v91h-24.5v-99.5zM493.5 416.5q0-15 8.5-25 9-9 22.5-9 16.5 0 24.5 8 8 9.5 8 26v5h-22.5v-5q0-10.5-2-12.5t-7-2q-6 0-7.5 3-2 2-2 11.5v20h41v28q0 14-8 23.5-8 8-22.5 8t-23.5-9q-9.5-9.5-9.5-22.5v-48zM516 454v10.5q0 8 2 10t7.5 2q5 0 7-2 2-4 2-10v-10.5h-18.5z" />
+-</font></defs></svg>
+\ No newline at end of file
+diff --git a/webroot/css/theme/atlas-icons/fonts/icomoon.ttf b/webroot/css/theme/atlas-icons/fonts/icomoon.ttf
+deleted file mode 100755
+index b49e6a33a56069094bafc1c259af608a83da81c4..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+HcmV?d00001
+
+literal 2044
+zcmah~O>7%Q6n<}Zc4l{7|Ha<jII&$P8@#EI;(sqyQ<^wIO^X0Q0jU%LCP|Y@NgZg5
+zQVFEqk!XADrJ}$YE}RgE&<jW)A@#rk!HE-vD^fXtd9%BrNrmW)cILe|?|tuQ#?OEN
+zkbo<oLH(IiwPxyi@&l55PTy<GoBb^~jXMBXB>v^K{)H{tGsJJxZmexwK3hxu`6KaH
+z0QmO$YJUahu6zlg-=p*HItj#W?Hd45Cw^*u^Wt`L2CfnRJn_Yi!Ezrf>^AWs?q+{`
+z3v%!~@q`DJ^Zm`$#nDfHApU*wad>NR;UdLJL;j@BLF0heKnGwq*moqk8twQSw9r&~
+zdxpw$|Cl3oTiY4Z)OJ8|dvz+r6EJ<sW1d!Zng<R`w5PzJGeNQnoP`b89{x2Pl3Yb~
+zpU2@Z!<)k!!}ntAP$6CrkSx-Be3Gx=a2P_kgnIukV^D`3Hq@?>*8m{b4!YrV+;B=q
+z3N?M<SHr2d>{h4M@j9e<1UufO6eaZRda+b%^cI#*^cLzwBbJJd+T#4lrNv&ORw^PU
+z+P&Ta=X$#{G3s`hA1bPYVyUhSPxcmTjq$QFtk)NMCz7{r^(G7<=En+C6AP+}6sHE-
+zRf_Y)`*FJ6C{8zwk|K?wtOl+VIB_c7!0!e^s;??3UOVqr{b+6E$y_Bz$+pC!SdYU#
+zzBu2UDUTzLm&3He=!#|hx-~mp@!Uc-Yf3~rJv!nf$|Lzo*|FJ~BUUAw$z%$a#SJ|-
+zQt;c^IM4qo$as0CIlp-PlE+xea<gT3Vyq%Fj-e&Tl6nCh`=GG+QZ_$rqb!a%8b@SK
+zDt(adG!fTA-Ps{%!_&}*i|{Ud1Yf|<@az5R1o18IR%iDX12?`!J8<bb15bLsm!n#=
+znp89CcBCylDoYL9M^V~=s*-vZew*F^Rl0<&PP^5m;y0zjR=9-OQSKCi-}S5NWyp?a
+z2THTiY|(Tb(kA3duWDC)6<p|#BJgZN@h1K1QF=>m9EcxCJ0F1`RSqM}5)xw2RcQ3^
+z9(G}O#@w+d-O6~Sn8n=KEN7-Jgh0pPOj9LwCQLJvwhTneOlK12C}Uip&KRRbBFCJ=
+zgf0xBkwog2;5v6~WJrUfrdB#&8naQ;4P9D%w4iaWX$%WR!%SwSiRdz>3&su^Mk;NZ
+z4sklN+{1qZhu(QRpTE<e>%B5R_xD$(&MCG8Zs4;zIcDVj6rTPpnUD+(Gj%Lskq?nL
+zaO`nGiE(jEFtuy^Tgh}p-7sepCdss!>-hx=S<@dADg(wov2>{kJ^9v4I%R_TnUxRI
+zmMN{YKz=}}aI|vcDbp~`Wc?8;mMT)>-(Ht~;*Gnnrf2_v1P>d|_t~2TMeOeMtEGM&
+zcDwLg^()mgso#e@HAj-{8*(ofHqaTUlXm!pXBPF*GQ0`**lcJm;V%6y)KKaVjud<x
+z`#|cuyZ#u_$78uh^i)i9qF;z<9US7K_ykC3#<T^~u&jDAH%X!}BRay2=m;~SBg}}7
+zFe6%!?cvxq!aPT~1K6Z*0OzUKtx}d3;9SU6paE0~;`ZpATOMo<2Iuz+;W;u~gG=<s
+n(kFm@29)$FK`UU@I96eW8p-Q$nbs2_@Kdq#Fslb^xsU$`U>5oY
+
+diff --git a/webroot/css/theme/atlas-icons/fonts/icomoon.woff b/webroot/css/theme/atlas-icons/fonts/icomoon.woff
+deleted file mode 100755
+index a4014aa367d88d36f4a0518be7a9a4bea55802a5..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+HcmV?d00001
+
+literal 2228
+zcmbtVT})g>6rRiOEtmd4QMPGgwLG**<3nw$QkxjlSVL{9#V8VsBuFWx*a8K*u-(ef
+z!rt9`@43J1varD}l$O+lY9zq~DT!!ItVwN+55^ZCjEN8Ws)2yIesk|qX`*SOXZFl|
+z=ggTi=bYI)(^XMkUQt<D!I(6|)-#ZFj`#mWhs(=Lq5qXJaR+DJJP@sT?TP)2tt)~4
+zEzX6`riuFIy7SOofL!D931OkJu7m5ohAicH^O=UaQ_y_}xy<E5eV?3xlCk{Fkau!k
+z_nGh3ndS>2=$?YSo%5zW%x<m=!C(F>kk`2k*izTr0Nopm2?sg9uyy9!^Q|3-LrTJ?
+z)MX!LnBUI?L6Dm2Tbo;3TbPgs-E&LZ^Ohd*Ep7Ebww@JqR_)3X{f#!})3N2`a;5kv
+zyz~|EUM}W+0XlKZLrj9dqT+|QY}>vg=QcM4_XhU`_wNmsl?BTV2M;{MSe~FVk>&GE
+z{VX3<-^4x=KKJ+jnJn~vzb6Y<PTyRb577M3TxK>iJ2^cCnw|vA%ni-cJk3RBL$jgj
+zwyCpIXD1snwVB$X8mgA4y1yn=8>($@I16fM2MpEpS5r0B48bPTFbVsq_Gzr0?VqE0
+zX>qJKut2o(^c|wbGIV#261^{yt=p!BW|$;l{;MhygA^LL6uuN5=%NmZ-mW4#Di%H<
+z%6>P>_Wu-Rn;T`sjk0ECL*Pd6!@e1sq^s6MVj_`AjiyJ_>CxfK!<Um8XUrKh$7oEV
+zAu&BPJdzp>%iZxlEuBb>BrbPFF3G)W_h>lLNnI3<c7vi}z_=dMqtbEn#AN+VxmW3>
+z9y*`u8t>_)J~QG-q=^)^-%0hPdeQ^$#-p07$)vcetnNhbNMt0Ej*U`VXLF>9q%b|O
+z9RKIg)|R93WMC49R(utQRtz+Lh^R}vy4V<)dYoRmj#Hfaxs}4lG`e`Zjl^3k-vmh3
+zV`kh?EX^T{EZs6}!?G+}qTVa;!a9i#ii)DDnx^uGJXO+ki42i+-X!`SHv7aIi?0MI
+zVh%X6BPW#<r6_4Sj$@k%8j|Qsk&?=wY|GAo8KDUEE76!ND^co~=(u=I4bW|oOx-Ya
+z&K8+uYKCfPIyRK(m`IAIx}+(HK+!Q}Y9<-d_)2X6fhI&lHB}2~ppiqiVIm2`p+Skh
+z5GkP!#+|qoGh~W!S6ZB>q)PNLVqe)MUKtP2U6Dx75zv~3eGrJD>NsPGDn*JDF9&LZ
+zQmk#d3NvY9@%da?&A6>P$i>1}GicfPa3t!vhO%zx;3ZQLgQD@;swk?eYiMK;jDEuW
+zZt=a9171m^j+{`EC~3m9ZQC&cC9;D=F_EHLTmz{n48qbigvu)*(bx>pbzb&F%!%1i
+zx9kIo4D!nUrZ_PjpcMb6O`f*tmYpxx6))4sMf`P_lO@Z^0Byu0;KTK3<BDQ=>Ac&x
+z<1B9!eqm1v1(4U0uvT#KA@m{NLKe-pz__&5rW7(9gK-nH67+nw1UKP}7z^<_<l#ma
+za9f{d=U6EFM>Y#RyH6IfKV~!8bk@wRb`5f!zyz!)THSN_hvcWVMbG}mHuznGyTzGp
+z9ITE$=CdL4T|GiHJa&eFIJwV-i|%##_Yi=a$R4&A)-E%KC&{xYWFO?B5Rlhu74m?O
+z<n%t^ojL3Wem#dpwgnQe3xD16+5Q|}&vvtVp0mFI8t&7>o=*>ZK0WOD^swjC!|Sm2
+zU~aAFvk87%Su?nmwXiDIz}i^{YjUMhwvQo0NNa3XpU(S~>{TpmWI-HU9UR<0cLZ}S
+euH!m(0plqg=}C4G{ZZHP%el?nta#@CN`C?H9qA|l
+
+diff --git a/webroot/css/theme/atlas-icons/ie7/ie7.css b/webroot/css/theme/atlas-icons/ie7/ie7.css
+index 169f270..3bfc178 100755
+--- a/webroot/css/theme/atlas-icons/ie7/ie7.css
++++ b/webroot/css/theme/atlas-icons/ie7/ie7.css
+@@ -1,15 +1,21 @@
++.icon-vimeo {
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe600;');
++}
+ .icon-twitter {
+-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x6c;');
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe601;');
+ }
+ .icon-facebook {
+-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x66;');
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe602;');
+ }
+-.icon-youtube {
+-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x78;');
++.icon-linkedin {
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe603;');
+ }
+-.icon-moviestar {
+-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x2010;');
++.icon-evernote {
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe604;');
+ }
+-.icon-linkedin {
+-	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x69;');
++.icon-blogger {
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe605;');
++}
++.icon-youtube {
++	*zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x78;');
+ }
+diff --git a/webroot/css/theme/atlas-icons/ie7/ie7.js b/webroot/css/theme/atlas-icons/ie7/ie7.js
+index e84366c..c7e4f77 100755
+--- a/webroot/css/theme/atlas-icons/ie7/ie7.js
++++ b/webroot/css/theme/atlas-icons/ie7/ie7.js
+@@ -13,11 +13,13 @@
+ 		el.innerHTML = '<span style="font-family: \'atlas-icons\'">' + entity + '</span>' + html;
+ 	}
+ 	var icons = {
+-		'icon-twitter': '&#x6c;',
+-		'icon-facebook': '&#x66;',
++		'icon-vimeo': '&#xe600;',
++		'icon-twitter': '&#xe601;',
++		'icon-facebook': '&#xe602;',
++		'icon-linkedin': '&#xe603;',
++		'icon-evernote': '&#xe604;',
++		'icon-blogger': '&#xe605;',
+ 		'icon-youtube': '&#x78;',
+-		'icon-moviestar': '&#x2010;',
+-		'icon-linkedin': '&#x69;',
+ 		'0': 0
+ 		},
+ 		els = document.getElementsByTagName('*'),
+diff --git a/webroot/css/theme/atlas-icons/selection.json b/webroot/css/theme/atlas-icons/selection.json
+index ab067f5..cf07ca8 100755
+--- a/webroot/css/theme/atlas-icons/selection.json
++++ b/webroot/css/theme/atlas-icons/selection.json
+@@ -4,98 +4,154 @@
+ 		{
+ 			"icon": {
+ 				"paths": [
+-					"M48 408.5q0-73 28.75-139.75t77-114.75 115-76.5 139.75-28.5 139.75 28.5 114.75 76.5 76.5 114.75 28.5 139.75-28.5 139.75-76.5 114.75-114.75 76.5-139.75 28.5-139.75-28.5-115-76.5-77-114.75-28.75-139.75zM248 527.5q50 32.5 111.5 32.5 39 0 72.75-12.25t58-32.75 41.75-47.25 26-56.25 8.5-59v-9.5q20.5-14.5 36.5-38-25 9.5-42 11.5 21.5-12.5 33-40-30 14.5-48 17.5-20.5-23.5-52.5-23.5-30 0-51.25 21.5t-21.25 52q0 6.5 2 16.5-91-4.5-150.5-77-9.5 18-9.5 37 0 41 32 60.5-17.5 0-33-8.5v1.5q0 26 16.25 46t41.25 25.5q-10 2-19.5 2-4.5 0-12.5-2 6 21.5 24.75 36t43.25 15q-39 31-90.5 31h-17z"
++					"M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM737.28 417.331c-26.010 149.35-171.418 275.763-215.091 304.64-43.725 28.826-83.61-11.622-98.099-42.138-16.538-34.867-66.202-223.949-79.206-239.565-13.005-15.718-51.968 15.616-51.968 15.616l-18.893-25.293c0 0 79.206-96.358 139.469-108.339 63.898-12.8 63.795 99.891 79.155 162.509 14.899 60.57 24.883 95.181 37.837 95.181 13.005 0 37.837-33.741 65.024-85.504 27.238-51.866-1.126-97.587-54.374-65.075 21.197-129.997 222.208-161.331 196.147-12.032z"
+ 				],
+-				"defaultCode": 108,
+-				"grid": 0
++				"tags": [
++					"vimeo",
++					"social"
++				],
++				"grid": 20
+ 			},
+ 			"properties": {
+-				"id": 60,
+-				"order": 1,
+-				"prevSize": 32,
+-				"code": 108,
++				"id": 243,
++				"order": 8,
++				"prevSize": 20,
++				"code": 58880,
++				"name": "vimeo",
++				"ligatures": ""
++			},
++			"setIdx": 0,
++			"iconIdx": 0
++		},
++		{
++			"icon": {
++				"paths": [
++					"M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM711.885 423.168c0.205 4.147 0.307 8.346 0.307 12.544 0 127.898-97.382 275.405-275.456 275.405-54.63 0-105.574-15.974-148.378-43.52 7.578 0.922 15.309 1.331 23.091 1.331 45.363 0 87.091-15.462 120.269-41.472-42.342-0.768-78.131-28.774-90.47-67.174 5.888 1.126 11.981 1.741 18.176 1.741 8.858 0 17.408-1.178 25.498-3.379-44.237-8.909-77.67-48.026-77.67-94.925 0-0.41 0-0.819 0.051-1.178 13.056 7.219 28.006 11.571 43.827 12.083-25.907-17.357-43.008-46.95-43.008-80.589 0-17.766 4.762-34.406 13.107-48.691 47.718 58.624 119.091 97.178 199.526 101.171-1.638-7.066-2.509-14.438-2.509-22.067 0-53.453 43.366-96.819 96.819-96.819 27.853 0 52.992 11.725 70.656 30.566 22.067-4.301 42.803-12.339 61.491-23.45-7.27 22.579-22.579 41.574-42.598 53.555 19.61-2.355 38.246-7.526 55.603-15.258-12.954 19.405-29.44 36.454-48.333 50.125z"
++				],
++				"tags": [
++					"twitter",
++					"social"
++				],
++				"grid": 20
++			},
++			"properties": {
++				"id": 245,
++				"order": 3,
++				"prevSize": 20,
++				"code": 58881,
+ 				"name": "twitter",
+ 				"ligatures": ""
+ 			},
+ 			"setIdx": 0,
+-			"iconIdx": 60
++			"iconIdx": 1
+ 		},
+ 		{
+ 			"icon": {
+ 				"paths": [
+-					"M48 408.5q0-73 28.5-139.75t76.5-115 114.75-77 139.75-28.75 139.75 28.75 114.75 77 76.5 115 28.5 139.75-28.5 139.75-76.5 114.75-114.75 76.5-139.75 28.5-139.75-28.5-114.75-76.5-76.5-114.75-28.5-139.75zM314.5 421h53v161.5h66.5v-161.5h66.5v-66.5h-66.5v-34q0-8 4.25-14.25t9.25-6.25h53v-65.5h-53q-33 0-56.5 25.5t-23.5 61.5v33h-53v66.5z"
++					"M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM628.378 360.141h-73.882c-8.704 0-18.432 11.52-18.432 26.829v53.35h92.365v76.083h-92.365v228.403h-87.245v-228.403h-79.053v-76.032h79.053v-44.749c0-64.205 44.544-116.378 105.677-116.378h73.882v80.896z"
+ 				],
+-				"width": 814,
+-				"defaultCode": 102,
+-				"grid": 0
++				"tags": [
++					"facebook",
++					"social"
++				],
++				"grid": 20
+ 			},
+ 			"properties": {
+-				"id": 54,
+-				"order": 2,
+-				"prevSize": 32,
+-				"code": 102,
++				"id": 247,
++				"order": 6,
++				"prevSize": 20,
++				"code": 58882,
+ 				"name": "facebook",
+ 				"ligatures": ""
+ 			},
+ 			"setIdx": 0,
+-			"iconIdx": 54
++			"iconIdx": 2
+ 		},
+ 		{
+ 			"icon": {
+ 				"paths": [
+-					"M48 408.5q0-73 28.75-139.75t77-115 115-77 139.75-28.75 139.75 28.75 114.75 77 76.5 115 28.5 139.75-28.5 139.75-76.5 114.75-114.75 76.5-139.75 28.5-139.75-28.5-115-76.5-77-114.75-28.75-139.75zM259 449.5h25.5v125h23.5v-125h26v-20.5h-75v20.5zM282.5 238.5l32 97.5v63.5h27.5v-66.5l32-94.5h-28l-17.5 64.5h-1l-18.5-64.5h-26.5zM343 557q0 9 4 14.5 2.5 4 11.5 4 6 0 12-3 7-3.5 12.5-10.5v12.5h21.5v-107.5h-21.5v82q-4 4-6 5-3 2-6.5 2-4 0-5-1l-0.5-2q-0.5-2-0.5-4v-82h-21.5v90zM376 369.5q0 14.5 9 23.5 9.5 9.5 25.5 9.5t25.5-9.5q9.5-8 9.5-23.5v-61.5q0-13.5-9.5-21.5-9-9-24.5-9t-26.5 8q-9 9-9 22.5v61.5zM400.5 371.5v-64.5q0-4.5 3-6 1.5-3 7-3 4.5 0 7.5 3 3 1.5 3 6v64.5q0 4.5-3 7.5t-7.5 3q-5 0-8-3-2-4-2-7.5zM421 574.5h21.5v-8q3 3 9 7 6 2 11.5 2 9.5 0 14-6 5.5-7.5 5.5-17.5v-59.5q0-11.5-5.5-20.5-6-6-15-6-7.5 0-10.5 2-6 4-9 7v-46h-21.5v145.5zM442.5 554v-67.5q0.5-0.5 2-1.5t2-1.5q1 0 2.5-0.5t2.5-0.5q4.5 0 6 3 2.5 2.5 2.5 8v55.5q0 6-1 7-3 3-6.5 3-1 0-2.5-0.5t-2.5-0.5q-2-1-5-4zM465 380q0 9.5 4 15.5 4.5 6 13.5 6 5 0 13-4 10-6 14.5-11.5v13.5h24.5v-119h-24.5v90q-3 4.5-7 6.5-4.5 3-7.5 3t-5-2q-1-1-1-6.5v-91h-24.5v99.5zM493.5 543.5q0 15 8.5 25 9 9 22.5 9 16.5 0 24.5-8 8-9.5 8-26v-5h-22.5v5q0 10.5-2 12.5t-7 2q-6 0-7.5-3-2-2-2-11.5v-20h41v-28q0-14-8-23.5-8-8-22.5-8t-23.5 9q-9.5 9.5-9.5 22.5v48zM516 506v-10.5q0-8 2-10t7.5-2q5 0 7 2 2 4 2 10v10.5h-18.5z"
++					"M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM391.68 715.725h-99.533v-320.256h99.533v320.256zM341.299 356.147c-31.437 0-51.763-22.323-51.763-49.818 0-28.16 20.941-49.766 53.043-49.766s51.763 21.606 52.378 49.766c0.051 27.546-20.275 49.818-53.658 49.818zM755.149 715.725h-99.482v-177.51c0-41.267-14.438-69.376-50.432-69.376-27.494 0-43.827 18.995-51.098 37.325-2.611 6.502-3.277 15.718-3.277 24.832v184.678h-99.584v-218.112c0-39.936-1.28-73.37-2.611-102.144h86.426l4.608 44.493h1.946c13.107-20.941 45.21-51.712 98.918-51.712 65.485 0 114.586 43.827 114.586 138.138v189.389z"
+ 				],
+-				"defaultCode": 120,
+-				"grid": 0
++				"tags": [
++					"linkedin",
++					"social"
++				],
++				"grid": 20
+ 			},
+ 			"properties": {
+-				"id": 72,
+-				"order": 3,
+-				"prevSize": 32,
+-				"code": 120,
+-				"name": "youtube",
++				"id": 256,
++				"order": 5,
++				"prevSize": 20,
++				"code": 58883,
++				"name": "linkedin",
++				"ligatures": ""
++			},
++			"setIdx": 0,
++			"iconIdx": 3
++		},
++		{
++			"icon": {
++				"paths": [
++					"M887.757 220.57c0-58.88-88.678-65.434-88.678-65.434l-208.333-13.107c0 0-4.454-56.73-46.592-76.39-42.086-19.61-88.371-13.67-121.6-13.312s-41.165 42.803-41.165 82.842 0.768 86.118 0.768 115.2c0 52.019-22.886 74.189-80.179 74.189h-118.118c-33.024-2.15-58.778 3.277-58.778 30.003 0 26.675 38.912 254.566 92.262 307.149 30.976 30.515 220.365 51.917 260.25 51.917s26.624-117.811 37.683-117.811 23.296 66.56 86.118 82.125c62.822 15.667 146.688 12.749 151.142 57.446 5.786 58.982 11.059 135.322-27.75 140.749l-87.808 3.482c-60.211-4.352-44.083-70.093-17.51-70.093s39.885-1.075 39.885-1.075l3.328-71.987c0 0-137.882-16.282-143.77 76.749-5.325 84.992 9.267 125.082 19.968 133.786 10.752 8.806 29.286 25.805 198.144 25.805 237.926 0 150.733-693.402 150.733-752.23zM790.528 528.435c-9.318 9.933-43.11-16.435-75.366-16.435-32.307 0-67.174 17.101-75.366 5.888-8.141-11.264 7.526-101.99 68.352-101.99s91.75 102.554 82.381 112.538zM297.114 213.299c0-11.622 3.021-152.781 3.021-152.781l-179.507 176.077c0 0 124.006 0 148.326 0 24.422 0 28.16-11.622 28.16-23.296z"
++				],
++				"tags": [
++					"evernote",
++					"social"
++				],
++				"grid": 20
++			},
++			"properties": {
++				"id": 270,
++				"order": 7,
++				"prevSize": 20,
++				"code": 58884,
++				"name": "evernote",
+ 				"ligatures": ""
+ 			},
+ 			"setIdx": 0,
+-			"iconIdx": 72
++			"iconIdx": 4
+ 		},
+ 		{
+ 			"icon": {
+ 				"paths": [
+-					"M48 408.5q0-73 28.5-139.75t76.5-114.75 114.75-76.5 139.75-28.5 139.75 28.5 115 76.5 77 114.75 28.75 139.75q0 98-48.5 181t-131.5 131.25-180.5 48.25-180.25-48.25-131-131.25-48.25-181zM250.5 355.75q-4.5 9.75 7.5 24.25h1l59.5 72.5-31 88q-5.5 17.5 2.25 24.25t23.75-1.75l94-47 94.5 47q17 8.5 24.25 1.75t1.25-24.25l-30-88 59.5-72.5h1q11.5-14.5 6.75-24.25t-23.25-9.75h-77.5l-38-78.5q-7.5-17-18.5-17t-18.5 17l-36.5 78.5h-79q-18.5 0-23 9.75z"
++					"M564.992 562.227c-15.77-9.165-37.632-9.165-55.45-9.165h-58.419v120.422h53.658c19.866 0 45.158 1.382 62.259-10.598 15.77-10.598 24.627-31.334 24.627-51.098 0-18.381-10.957-40.346-26.675-49.562zM542.925 459.469c13.005-9.882 19.814-27.597 19.814-43.827 0-17.664-8.192-34.611-23.194-43.776-15.77-9.165-44.493-7.066-62.976-7.066h-25.446v105.984h33.638c19.2-0.051 41.779 1.382 58.163-11.315zM830.72 20.48h-637.491c-95.386 0-172.749 77.363-172.749 172.8v637.389c0 95.437 77.363 172.8 172.749 172.8h637.44c95.437 0 172.8-77.363 172.8-172.8v-637.389c0.051-95.437-77.312-172.8-172.749-172.8zM538.675 763.238h-200.806v-484.71h219.392c63.539 0 122.214 40.448 122.214 111.821 0 55.091-30.771 92.826-69.99 104.602v1.382c58.214 11.981 99.738 43.622 99.738 119.859 0 70.554-48.077 147.046-170.547 147.046z"
++				],
++				"tags": [
++					"vk",
++					"social"
+ 				],
+-				"defaultCode": 8208,
+-				"grid": 0
++				"grid": 20
+ 			},
+ 			"properties": {
+-				"id": 77,
++				"id": 282,
+ 				"order": 4,
+-				"prevSize": 32,
+-				"code": 8208,
+-				"name": "moviestar",
++				"prevSize": 20,
++				"code": 58885,
++				"name": "blogger",
+ 				"ligatures": ""
+ 			},
+ 			"setIdx": 0,
+-			"iconIdx": 77
++			"iconIdx": 5
+ 		},
+ 		{
+ 			"icon": {
++				"width": 1023.9999999999999,
+ 				"paths": [
+-					"M48 407.5q0-73 28.5-139.75t76.5-114.75 114.75-76.5 139.75-28.5 139.75 28.5 115 76.5 77 114.75 28.75 139.75-28.75 139.75-77 115-115 77-139.75 28.75-139.75-28.75-114.75-77-76.5-115-28.5-139.75zM267.5 243.5q0 16 11.25 27.5t27.25 11.5 27.5-11.5 11.5-27.5-11.5-27.75-27.5-11.75-27.25 11.75-11.25 27.75zM274.5 526.5h63.5v-220.5h-63.5v220.5zM368.5 526.5h63.5v-141.5q1-1 3-2.75t8-5.25 11.75-5.5 13.75-1.75 15 4.25q3.5 1.5 7.25 7.5t3.75 10.5v134.5h62.5v-134.5q0-21.5-12-42t-31-31.5q-18-9.5-40.5-10.5h-3.5q-20.5 0-38 8.5v-10.5h-63.5v220.5z"
++					"M30.080 519.002q0-99.306 39.112-190.112t104.749-156.444 156.444-104.749 190.112-39.112 190.112 39.112 156.102 104.749 104.067 156.444 38.772 190.112-38.772 190.112-104.067 156.102-156.102 104.067-190.112 38.772-190.112-38.772-156.444-104.067-104.749-156.102-39.112-190.112zM317.118 574.777h34.689v170.046h31.969v-170.046h35.368v-27.888h-102.027v27.888zM349.087 287.738l43.532 132.637v86.383h37.411v-90.464l43.532-128.555h-38.091l-23.807 87.743h-1.36l-25.167-87.743h-36.049zM431.388 721.016q0 12.245 5.443 19.725 3.403 5.443 15.644 5.443 8.162 0 16.325-4.081 9.522-4.761 17.005-14.285v17.005h29.248v-146.24h-29.248v111.552q-5.443 5.443-8.162 6.802-4.081 2.721-8.842 2.721-5.443 0-6.802-1.36l-0.68-2.721q-0.68-2.721-0.68-5.443v-111.552h-29.248v122.435zM476.281 465.946q0 19.725 12.245 31.969 12.923 12.923 34.689 12.923t34.689-12.923q12.923-10.883 12.923-31.969v-83.663q0-18.365-12.923-29.248-12.245-12.245-33.328-12.245t-36.049 10.883q-12.245 12.245-12.245 30.608v83.663zM509.613 468.667v-87.743q0-6.121 4.081-8.162 2.040-4.081 9.522-4.081 6.121 0 10.203 4.081 4.081 2.040 4.081 8.162v87.743q0 6.121-4.081 10.203t-10.203 4.081q-6.802 0-10.883-4.081-2.721-5.443-2.721-10.203zM537.499 744.823h29.248v-10.883q4.081 4.081 12.245 9.522 8.162 2.721 15.644 2.721 12.923 0 19.045-8.162 7.482-10.203 7.482-23.807v-80.943q0-15.644-7.482-27.888-8.162-8.162-20.405-8.162-10.203 0-14.285 2.721-8.162 5.443-12.245 9.522v-62.577h-29.248v197.935zM566.746 716.936v-91.826q0.68-0.68 2.721-2.040t2.721-2.040q1.36 0 3.403-0.68t3.403-0.68q6.121 0 8.162 4.081 3.403 3.403 3.403 10.883v75.501q0 8.162-1.36 9.522-4.081 4.081-8.842 4.081-1.36 0-3.403-0.68t-3.403-0.68q-2.721-1.36-6.802-5.443zM597.355 480.231q0 12.923 5.443 21.087 6.121 8.162 18.365 8.162 6.802 0 17.684-5.443 13.603-8.162 19.725-15.644v18.365h33.328v-161.885h-33.328v122.435q-4.081 6.121-9.522 8.842-6.121 4.081-10.203 4.081t-6.802-2.721q-1.36-1.36-1.36-8.842v-123.794h-33.328v135.357zM636.125 702.652q0 20.405 11.563 34.009 12.245 12.245 30.608 12.245 22.445 0 33.328-10.883 10.883-12.923 10.883-35.368v-6.802h-30.608v6.802q0 14.285-2.721 17.005t-9.522 2.721q-8.162 0-10.203-4.081-2.721-2.721-2.721-15.644v-27.207h55.775v-38.091q0-19.045-10.883-31.969-10.883-10.883-30.608-10.883t-31.969 12.245q-12.923 12.923-12.923 30.608v65.298zM666.735 651.638v-14.285q0-10.883 2.721-13.603t10.203-2.721q6.802 0 9.522 2.721 2.721 5.443 2.721 13.603v14.285h-25.167z"
+ 				],
+-				"defaultCode": 105,
+-				"grid": 0
++				"defaultCode": 120,
++				"grid": 20
+ 			},
+ 			"properties": {
+-				"id": 57,
+-				"order": 5,
+-				"prevSize": 32,
+-				"code": 105,
+-				"name": "linkedin",
++				"id": 72,
++				"order": 1,
++				"prevSize": 20,
++				"code": 120,
++				"name": "youtube",
+ 				"ligatures": ""
+ 			},
+ 			"setIdx": 0,
+-			"iconIdx": 57
++			"iconIdx": 7
+ 		}
+ 	],
+ 	"height": 1024,
+@@ -142,7 +198,8 @@
+ 		"showGlyphs": true,
+ 		"showQuickUse": true,
+ 		"quickUsageToken": {
+-			"Untitled Project 1": "OTI1ZmI1YWM2NDg2ZDhmZTJmOGMwYzhjMThmM2MzZGIjMiMxMzkxMTkzNDcxIyMj"
+-		}
++			"atlas-icons": "ZTEzODRmNzkyNDVhMTlhMWU1ZDllMjU3MWVhYjUwMmIjMiMxMzk1MTU1NDkxIyMj"
++		},
++		"search": ""
+ 	}
+ }
+\ No newline at end of file
+diff --git a/webroot/css/theme/atlas-icons/style.css b/webroot/css/theme/atlas-icons/style.css
+index cd68e66..30c40d1 100755
+--- a/webroot/css/theme/atlas-icons/style.css
++++ b/webroot/css/theme/atlas-icons/style.css
+@@ -1,10 +1,10 @@
+ @font-face {
+ 	font-family: 'atlas-icons';
+-	src:url('fonts/atlas-icons.eot?-38y5hz');
+-	src:url('fonts/atlas-icons.eot?#iefix-38y5hz') format('embedded-opentype'),
+-		url('fonts/atlas-icons.woff?-38y5hz') format('woff'),
+-		url('fonts/atlas-icons.ttf?-38y5hz') format('truetype'),
+-		url('fonts/atlas-icons.svg?-38y5hz#atlas-icons') format('svg');
++	src:url('fonts/atlas-icons.eot?8fqbuy');
++	src:url('fonts/atlas-icons.eot?#iefix8fqbuy') format('embedded-opentype'),
++		url('fonts/atlas-icons.woff?8fqbuy') format('woff'),
++		url('fonts/atlas-icons.ttf?8fqbuy') format('truetype'),
++		url('fonts/atlas-icons.svg?8fqbuy#atlas-icons') format('svg');
+ 	font-weight: normal;
+ 	font-style: normal;
+ }
+@@ -23,18 +23,24 @@
+ 	-moz-osx-font-smoothing: grayscale;
+ }
+ 
++.icon-vimeo:before {
++	content: "\e600";
++}
+ .icon-twitter:before {
+-	content: "\6c";
++	content: "\e601";
+ }
+ .icon-facebook:before {
+-	content: "\66";
++	content: "\e602";
+ }
+-.icon-youtube:before {
+-	content: "\78";
++.icon-linkedin:before {
++	content: "\e603";
+ }
+-.icon-moviestar:before {
+-	content: "\2010";
++.icon-evernote:before {
++	content: "\e604";
+ }
+-.icon-linkedin:before {
+-	content: "\69";
++.icon-blogger:before {
++	content: "\e605";
++}
++.icon-youtube:before {
++	content: "\78";
+ }
+diff --git a/webroot/css/theme/style.css b/webroot/css/theme/style.css
+index f10c728..dd7518c 100755
+--- a/webroot/css/theme/style.css
++++ b/webroot/css/theme/style.css
+@@ -493,7 +493,7 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
+ color: #37AB26;
+     
+ /* color: #EF9C2B; */
+-font-size: 41px;
++font-size: 32px;
+ }
+ 
+ 
+-- 
+1.8.4.2
+

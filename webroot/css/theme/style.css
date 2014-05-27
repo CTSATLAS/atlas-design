@@ -493,7 +493,7 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
 color: #37AB26;
     
 /* color: #EF9C2B; */
-font-size: 41px;
+font-size: 32px;
 }
 
 
@@ -1320,19 +1320,22 @@ footer p.logos {
     font-size: 21px;
   
     font-weight: bold !important;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
   .camera_caption h2 {
     margin: 42px 0 0px 0;
     font-size: 40px;
   
     color: #E85E02;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
 }
   .camera_caption h1 {
     color: #C0EC0F;
     margin: -18px 0 0 0;
     font-size: 100px;
-  }
+  
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
   .camera_caption a {
     margin-top: 54px;
   }
