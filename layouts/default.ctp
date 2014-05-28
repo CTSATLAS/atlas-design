@@ -29,6 +29,7 @@
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
         <?php echo $this->Html->css('theme/sg-grid'); ?>
+        <?php echo $this->Html->css('theme/jquery.idealforms'); ?>
 
 
 	<!--[if IE 7]>
@@ -128,6 +129,7 @@
 	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.idealforms.min.js"></script>
 
 <!--
 <script type="text/javascript" src="/js/theme/camera.js"></script>
@@ -147,6 +149,10 @@
 	<!--<![endif]-->
 
 	<script>
+            jQuery(document).ready(function($){ 
+                $('form').idealforms();
+            });
+            
             $('#tab-container').easytabs();
 		$(function () {
 			$('.camera_wrap').camera();
