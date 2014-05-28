@@ -1,11 +1,13 @@
 <!--contactus index-->
 <?php if (isset($send) && $send == true) : ?>
-    <div class="alert alert-error">
-      Thank you. 
+    <div class="alert alert-sucess">
+      Thank you <?php echo $messageData['full_name']; ?> for your feedback. 
     </div>
 <?php elseif (isset($send) && !$send) : ?>
     <div class="alert alert-error">
-       Sorry Your email failed please see error below. 
+       Sorry please see error below. 
+       <?php echo $messageData['full_name']; ?>
+       
     </div> 
 <?php endif ?>
 
