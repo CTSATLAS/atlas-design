@@ -1,4 +1,15 @@
-<?php echo $this->Form->create('User', array('type' => 'file', 'role' => "form"));?>
+<?php if (isset($send) && $send == true) : ?>
+    <div class="alert alert-sucess">
+      Thank you <?php echo $messageData['Full Name']; ?> for your feedback. 
+    </div>
+<?php elseif (isset($send) && !$send) : ?>
+    <div class="alert alert-error">
+       Sorry please see error below. 
+       <?php echo $messageData['Full Name']; ?>       
+    </div> 
+<?php endif ?>
+
+<?php echo $this->Form->create(array('type' => 'file', 'role' => "form"));?>
 <div class="form-group">
     <!--Form data-->
  
