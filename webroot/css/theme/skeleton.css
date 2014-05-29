@@ -607,7 +607,7 @@
     min-height: 60px; }
   label,
   legend {
-    display: block;
+    /* display: block; */
     font-weight: bold;
     font-size: 13px;  }
   select {
