@@ -70,6 +70,8 @@ h1 {
 }
 h1 a {
 	display: block;
+	position:relative;
+	top:65px;
 	text-indent: -999em;
 	width: 283px;
 	height: 115px;
