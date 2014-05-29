@@ -194,6 +194,9 @@ span.label a {
 #ecourse-quiz li.question label.main-label {
   display: block;
   font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #B1AAA4;
+  padding-bottom: 5px;
 }
 
 #ecourse-quiz li.question .answer { margin-left: 10px }
@@ -202,7 +205,8 @@ span.label a {
 
 #ecourse-quiz li.question input[type=radio],
 #ecourse-quiz li.question input[type=radio] + label {
-  margin-top: 10px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
 }
 
 #ecourse-quiz li.question input[type=radio] + label {
