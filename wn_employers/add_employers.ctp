@@ -1,4 +1,5 @@
 <?php if (isset($send) && $send == true) : ?>
+
     <div class="alert alert-sucess">
         Thank you <?php echo $messageData['Full Name']; ?> for your feedback. 
     </div>
@@ -10,6 +11,8 @@
 <?php endif ?>
 
 <?php echo $this->Form->create(array('type' => 'file', 'role' => "form")); ?>
+
+ <pre><?php var_dump($this->data) ?></pre> 
 <div class="form-group">
     <!--Form data-->
 
@@ -18,7 +21,8 @@
 
 <div class="form-group">
     <!--Form data-->
-    <?php echo $this->Form->input('company_logo', array('type' => 'file', 'label' => 'Company Logo')); ?>
+    <!-- @TODO enable upload -->
+    <?php //echo $this->Form->input('company_logo', array('type' => 'file', 'label' => 'Company Logo')); ?>
 </div>
 
 <div class="form-group">
@@ -32,15 +36,15 @@
 </div>
 
 <div class="form-group">
-    <?php echo $this->Form->input('address', array('label' => 'Mailing Address<span>*</span>', 'class' => 'form-control', 'placeholder' => 'Your mailing address')); ?> 
+    <?php echo $this->element('forms/address/address'); ?> 
 </div>
 
 <div class="form-group">
-    <?php echo $this->Form->input('city', array('label' => 'City <span>*</span>', 'class' => 'form-control', 'placeholder' => 'City')); ?> 
+    <?php echo $this->element('forms/address/address_2'); ?> 
 </div>
 
 <div class="form-group">
-    <?php echo $this->Form->input('state', array('label' => 'State <span>*</span>', 'class' => 'form-control', 'placeholder' => 'State')); ?> 
+    <?php echo $this->element('forms/state_select'); ?>
 </div>
 
 <div class="form-group">
@@ -86,8 +90,12 @@
     ?> 
 </div>
 
+<?php echo $this->element('forms/jobs/sponsorship'); ?>
+
+<?php echo $this->element('forms/jobs/career_events'); ?>
+
 <div class="alert small">
-    Please review your info and hit the submit button to send the form. Thank You
+   <?php echo $submit_messg ?>
 </div>
 
 <p>

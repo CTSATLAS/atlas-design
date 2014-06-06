@@ -2722,3 +2722,24 @@ line-height: 20px;
 .form-group {
   margin-bottom: 20px;
 }
+
+::-webkit-input-placeholder { color:#cccccc !important; 
+  font-size: 12px; 
+  font-weight: normal !important; 
+  font-style: italic;
+}
+::-moz-placeholder { color:#cccccc !important; 
+  font-size: 12px; 
+  font-weight: normal !important; 
+  font-style: italic;
+  } /* firefox 19+ */
+:-ms-input-placeholder { color:#cccccc !important; 
+  font-size: 12px; 
+  font-weight: normal !important; 
+  font-style: italic; 
+  }/* ie */
+input:-moz-placeholder { color:#cccccc !important; 
+  font-size: 12px; 
+  font-weight: normal !important; 
+  font-style: italic; 
+}
