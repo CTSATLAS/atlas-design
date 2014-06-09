@@ -6,7 +6,7 @@
             <section class="idealsteps-step">
                 <div class="field controls">
                     <label for="main">Username</label>
-                    <input type="text" class="input-medium form-control"/>
+                    <input type="text" class="form-control"/>
                     <span class="error"></span>
                 </div>
                 <div class="field">

@@ -1,0 +1,175 @@
+/* ==========================================================================
+   theme styles
+   ========================================================================== */
+/* mixins
+use full theme mixins
+*/
+/* sg-fonts font mixins */
+/* HTML output */
+body {
+  height: 100% !important;
+  font-family: 'OpenSansRegular', Arial, sans-serif;
+}
+#page {
+  color: #808080;
+  /*padding-top: 200px;*/
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'OpenSansSemibold';
+}
+p {
+  font-size: 16px;
+  font-size: 1.6rem;
+  -webkit-box-pack: end;
+  -moz-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+header,
+section,
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.navbar-toggle .fa {
+  font-size: 16px;
+}
+header {
+  height: 300px;
+  min-height: 250px;
+  text-align: center;
+  background-color: #191919;
+  color: #e6e6e6;
+  padding: 0;
+}
+.home header {
+  height: 600px;
+}
+header h1 {
+  font-size: 83px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+header h1:hover {
+  color: #333333;
+}
+header .vtable {
+  display: table;
+  height: inherit !important;
+  width: 100% !important;
+}
+header .vtable .table-cell {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+header .vtable .table-cell {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+footer .footer p {
+  text-align: center;
+}
+.sidebar ul {
+  padding-left: 0;
+}
+.sidebar ul li {
+  list-style: none;
+}
+#top-link {
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 9999;
+  font-size: 36px;
+  padding: 10px;
+}
+#top-link a {
+  color: #e6e6e6;
+}
+/*
+Customize bootstrap theme elements
+*/
+.btn {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.headlines {
+  font-size: 101px;
+  font-size: 10.1rem;
+}
+.titles {
+  font-size: 82px;
+  font-size: 8.2rem;
+}
+.subtitles {
+  font-size: 68px;
+  font-size: 6.8rem;
+}
+.xxlarge {
+  font-size: 52px;
+  font-size: 5.2rem;
+}
+.xlarge {
+  font-size: 41px;
+  font-size: 4.1rem;
+}
+.large {
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+.medium {
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+.default-font {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+.small {
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+.tiny {
+  font-size: 12px;
+  font-size: 1.2rem;
+}
+h1 {
+  font-size: 51px;
+  font-size: 5.1rem;
+}
+h2 {
+  font-size: 41px;
+  font-size: 4.1rem;
+}
+h3 {
+  font-size: 31px;
+  font-size: 3.1rem;
+}
+aside h1 {
+  font-size: 26px;
+  font-size: 2.6rem;
+}
+article h1 {
+  font-size: 41px;
+  font-size: 4.1rem;
+}
+footer h1 {
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
