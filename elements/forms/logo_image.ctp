@@ -1,1 +1,0 @@
- <?php echo $this->Form->input('logo_image', array('type' => 'file', 'label' => 'Your logo')); ?>

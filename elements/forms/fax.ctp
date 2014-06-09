@@ -1,1 +1,0 @@
-<?php echo $this->Form->input('fax', array('label' => 'Fax Number ', 'class' => 'form-control', 'placeholder' => 'Fax Number')); ?> 
