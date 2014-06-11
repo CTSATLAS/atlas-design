@@ -1,0 +1,1 @@
+  <?php echo $this->Form->input('email', array('label' => 'Em@il <span>*</span>', 'class' => 'form-control', 'placeholder' => 'Your email address')); ?> 

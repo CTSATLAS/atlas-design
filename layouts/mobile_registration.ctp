@@ -44,9 +44,9 @@
 	<div class="container vtable">
             <div class="row table-cell">
                 <div class="page-header-off">
-                    <h1>
+                    <h2>
                         Virtual Job Fair Registration
-                    </h1>
+                    </h2>
                     <p class=""></p>
                 </div>
 

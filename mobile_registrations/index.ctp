@@ -1,48 +1,12 @@
-<div class="idealsteps-container">
-    <div class="idealsteps-nav"></div>
-    <form role="form" >
+<h1>Scan ID Card</h1>
 
-        <div class="idealsteps-wrap">
-            <section class="idealsteps-step">
-                <div class="field controls">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div>
-                <div class="field">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div>
-                <div class="field">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div></section>
-            <section class="idealsteps-step">
-                <div class="field">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div>
-
-            </section>
-            <section class="idealsteps-step">
-                <div class="field">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div>
-                <div class="field">
-                    <label for="main">Username</label>
-                    <input type="text" class="form-control"/>
-                    <span class="error"></span>
-                </div>
-
-            </section>
-        </div>
-
-        <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-
-    </form>
+<?php echo $this->Form->create(null, array(
+    'url' => array('action' => 'register')
+)); ?>
+<div class="form-group">
+<?php echo $this->Form->input('id_card', array('autofocus' => '', 'type' => 'text', 'class' => '.no-border')); ?>	
 </div>
+
+
+
+<?php echo $this->Form->end(); ?>

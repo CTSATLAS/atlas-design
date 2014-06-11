@@ -1,0 +1,1 @@
+    <?php echo $this->Form->input('city', array('label' => 'City <span>*</span>', 'class' => 'form-control', 'placeholder' => 'City')); ?> 

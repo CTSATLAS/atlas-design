@@ -1,0 +1,1 @@
+<?php echo $this->element('forms/input_select_yes_no', array('name' => 'veteran', 'label' => 'Are you a veteran')); ?>
