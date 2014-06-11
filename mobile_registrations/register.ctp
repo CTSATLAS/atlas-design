@@ -1,6 +1,6 @@
 <div class="idealsteps-container">
         <?php if(!empty($license_data)): ?>
-<pre><?php var_dump($license_data) ?></pre> 
+<!-- <pre><?php var_dump($license_data) ?></pre>  -->
 <?php endif ?>
     <div class="idealsteps-nav"></div>
     <?php echo $this->Form->create(array('type' => 'file', 'role' => "form"));?>
@@ -9,21 +9,20 @@
             <section class="idealsteps-step">
             <h1>Personal info</h1>
                 <?php echo $this->element('forms/contacts/contact_info_mobile') ?>
+                
+
                 <div class="form-group">
-    <?php echo $this->element('forms/contacts/contact_email',
-    array('value' => isset($license_data['last_name']) ? $license_data['last_name'] : '' ) ); ?>
+    <?php echo $this->element('forms/contacts/contact_email'); ?>
 </div>
 
 <div class="form-group">
-    <?php echo $this->element('forms/contacts/phone',
-    array('value' => '' ) ); ?>
+    <?php echo $this->element('forms/contacts/phone'); ?>
 </div>
-                <?php echo $this->element('forms/address/address_info_mobile') ?>
 
             </section>
             <section class="idealsteps-step">
             <h1>Address</h1>
-                
+             <?php echo $this->element('forms/address/address_info_mobile') ?>   
 
             </section>
             <section class="idealsteps-step">

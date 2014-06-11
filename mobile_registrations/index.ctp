@@ -4,7 +4,7 @@
     'url' => array('action' => 'register')
 )); ?>
 <div class="form-group">
-<?php echo $this->Form->input('id_card', array('autofocus' => '', 'type' => 'text', 'class' => '.no-border')); ?>	
+<?php echo $this->Form->input('id_card', array('autofocus' => '', 'autocomplete' => 'off', 'label' => '', 'type' => 'text', 'style' => 'display: hidden; opacity: 0; left: 999', 'class' => '.no-border')); ?>	
 </div>
 
 
