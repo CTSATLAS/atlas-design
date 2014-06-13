@@ -17,5 +17,6 @@
 
 
 <div class="form-group">	
-	<?php echo $this->element('forms/address/zip'); ?>
+	<?php echo $this->element('forms/address/zip', 
+	array('value' => isset($license_data['zip_code'])  ? $license_data['zip_code'] : '')); ?>
 </div>
