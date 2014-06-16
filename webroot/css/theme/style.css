@@ -168,6 +168,10 @@ p.eoe {
 .p0 {
   padding-bottom: 0px !important;
 }
+.p0 .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 .p1 {
   margin-bottom: 7px !important;
 }
@@ -336,16 +340,21 @@ ul.list-2 li a:hover {
 }
 /*------ header ------- */
 header {
-  padding: 40px 0 41px 0;
+  /* padding: 40px 0 41px 0; */
   background: url(../../img/theme/header.jpg) 0 0 repeat-x #d2d2d2;
   position: relative;
   z-index: 999;
   /* background-color: #F0F0F0; */
 }
 
+header > .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .masthead {
-  padding-bottom: 10px;
-  padding-top: 10px;
+  /* padding-bottom: 10px; */
+  /* padding-top: 10px; */
 }
 
 .masthead .btn-group-1 {
@@ -794,6 +803,7 @@ ul.nav li:first-child {
   background-color: #FFF;
   background: #FFF;
   padding-bottom: 28px;
+  min-height: 600px;
 }
 .sub-content {
   background: url(../../img/theme/content.jpg) 0 0 repeat-x #f0f0f0 !important;
@@ -1187,6 +1197,7 @@ footer {
   behavior: url('js/PIE.htc');
   position: relative;
 
+border-top: #A0CF67 10px solid;
   background: #FFF;
 }
 footer .span8 > a {

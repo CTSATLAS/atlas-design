@@ -12,9 +12,6 @@
                                  <li><a href="http://www.linkedin.com/company/careersource-chipola" target="_blank"><span class="icon-linkedin"></span> </a></li>
                            <!--      <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> -->
                             </ul>
-
-
-
                         </div>
 
 
