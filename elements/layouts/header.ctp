@@ -3,19 +3,17 @@
         <div class="row-fluid">
             <div class="span12">
                 <div class="header-block clearfix">
-                    <div class="row-fluid masthead">
-                        <div class="span4">
+                    <div class="row masthead">
+                        <div class="container">
+                          <div class="span4">
                             <h1 class="brand">
                                 <a href="/"><img src="/img/theme/chipola.png" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8" id="login-or-register">
                             <div class="row-fluid">
-                            <div class="row search">
-                               
-                                <!--search form-->
-                            </div>
-                                <div id="header-login" class="span8">
+                           
+                                <div id="header-login" class="span12">
                                     <div class="row-fluid">
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
@@ -85,12 +83,11 @@
                                     </div>
                                 </div>
                             </div>
-
-                            
-                            
+                        </div>  
                         </div>
-                    </div>
-        <?= $this->element('layouts/nav') ?>
+                        
+                    </div>                   
+                       <?php echo $this->element('layouts/nav') ?>
                 </div>
             </div>
         </div>

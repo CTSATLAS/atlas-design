@@ -380,6 +380,8 @@ header > .container-fluid {
   /*padding: 53px 31px 46px 31px;*/
   padding: 20px 30px 0 0;
 }
+
+
 h1.brand {
   display: inline-block;
   margin: 0px 0 0;
@@ -432,6 +434,19 @@ h1.brand span {
   float: right;
   height: 80px;
 }
+
+.navbar .span-12 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-inner .center-it {
+    max-width: 1170px; 
+    margin-right: auto !important; 
+    margin-left: auto !important;
+}
+
 .navbar-form input {
   background: #fff;
   border: 1px solid #CCC;
@@ -453,7 +468,15 @@ h1.brand span {
   height: 33px;
   background: url(../../img/theme/search.png) 0 -2px no-repeat;
   float: right;
+  
 }
+
+.navbar .span-12 {
+  max-width: 1200px;
+  margin-left:auto !important;
+  margin-right: auto !important;
+}
+
 .navbar-form a:hover {
 background: url(../../img/theme/search.png) right 0 no-repeat;
 }
@@ -469,6 +492,7 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
   border: none;
   min-height: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-position: center center;
   border-radius: 0px;
 }
 
