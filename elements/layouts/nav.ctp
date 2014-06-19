@@ -12,18 +12,7 @@
                                  <li><a href="http://www.linkedin.com/company/careersource-chipola" target="_blank"><span class="icon-linkedin"></span> </a></li>
                            <!--      <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> -->
                             </ul>
-
-
-
                         </div>
-
-
-<!--			<ul class="social-icons">
-				<li><a href="http://facebook.com/TampaBayWorkforceAlliance" class="social-icon facebook" title="Like TBWA on Facebook">Facebook</a></li>
-				<li><a href="http://twitter.com/#!/TBWorkAlliance" class="social-icon twitter" title="Follow TBWA on Twitter">Twitter</a></li>
-				<li><a href="http://linkedin.com/company/tampa-bay-workforce-alliance" class="social-icon linkedin" class="Visit TBWA on LinkedIn">LinkedIn</a></li>
-				<li><a href="http://youtube.com/user/tbwavideos" class="social-icon youtube" title="Watch TBWA videos on YouTube">YouTube</a></li>
-			</ul>-->
 		</div>
 	</div>
  </div>

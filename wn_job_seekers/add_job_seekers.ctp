@@ -13,7 +13,7 @@
 		<?php if(!empty($this->data)): ?>
 	<pre><?php var_dump($this->data) ?></pre> 
 	<?php endif ?>	 -->
-<?php echo $this->Form->create(array('type' => 'file', 'role' => "form"));?>
+
 
 <div class="form-group">
 	<?php echo $this->element('forms/contacts/contact_info') ?>
