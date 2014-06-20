@@ -1,4 +1,6 @@
-<!-- Add club members here --><?php if (isset($send) && $send == true) : ?>
+<!-- Add club members here -->
+<p>You must be registered on Employ Florida Marketplace as a Job Seeker www.employflorida.com</p>
+<?php if (isset($send) && $send == true) : ?>
     <div class="alert alert-sucess">
         Thank you <?php echo $messageData['Full Name']; ?> for your feedback. 
     </div>
@@ -23,7 +25,18 @@
 <div class="form-group">
 	<?php echo $this->element('forms/input_textarea', array('name' => 'employment_interest', 'label' => 'Employment Interest')) ?>
 </div>
+<div class="form-group">
+	<?php echo $this->element('forms/input_radio', array(
+      	'name' => 'lead_facillitator',
+        'label' => "Would You like to be a lead facillitator")) ; ?>
+</div>
 
+<div class="form-group">
+
+  <?php echo $this->element('forms/input_radio', array(
+        'name' => 'veteran',
+        'label' => "Are you a veteran")) ; ?>
+</div>
 
 <div class="alert alert-warning small">
    <?php echo $submit_messg ?>
