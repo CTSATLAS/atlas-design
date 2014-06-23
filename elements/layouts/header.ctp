@@ -1,12 +1,12 @@
 <header class="p0">
-    <div class="container">
+    <div class="container">    
         <div class="row">
             <div class="span12">
                 <div class="header-block clearfix">
                     <div class="row masthead">
                         <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><img src="/img/theme/chipola.png" alt=""></a>
+                                <a href="/"><img src="/img/theme/florida-2.png" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8" id="login-or-register">
