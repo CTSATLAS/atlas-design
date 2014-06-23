@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"l",
+				"license_data"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"bs3-",
+				"bs3-row	bs3-row"
+			],
+			[
+				"bs3",
+				"bs3-container	bs3-container"
+			],
+			[
+				"job",
+				"job_title"
+			],
+			[
+				"form",
+				"form-group"
+			],
+			[
+				"var",
+				"var_dump	var-dump"
+			],
+			[
+				"before",
+				"beforeFilter"
+			],
+			[
+				"befo",
+				"beforeFilter"
+			],
+			[
+				"fun",
+				"function  (keyword)"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"chec",
+				"checkbox"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"jo",
+				"jobs"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"font",
+				"font-style"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "body {\n    -webkit-font-smoothing: antialiased;\n}\n\na[href^=\"tel:\"] {\n  color: inherit;\n  text-decoration: none;\n}\n/*------ template stylization ------*/\n/* headings, text */\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"Open Sans\", sans-serif;\n  color: #383838;\n  font-weight: bold;\n  line-height: 1.2em;\n  font-weight:normal !important;\n}\nh1 {\n  font-size: 28px;\n  font-weight: bold;\n  font-weight: bolder;\n  text-transform: uppercase;\n}\nh2 {\n  font-size: 24px;\n  color: #434343;\n}\nh3 {\n  font-size: 21px;\n  text-transform: uppercase;\n}\nh1#page-title {\n  border-bottom: #d2d2d2 1px solid;\n  padding-bottom: 12px;\n  margin-bottom: 31px;\n}\nh4 {\n  font-size: 23px;\n  text-transform: uppercase;\n  margin: 46px 0 18px 0;\n}\nh4.h4-border {\n  border-bottom: #d2d2d2 1px solid;\n  padding-bottom: 12px;\n  margin-bottom: 31px;\n}\nh5 {\n  font-size: 18px;\n  color: #939393;\n  font-weight: 600;\n}\n\n[class*=\"span\"].centered {\n  text-align: center;  \n  margin-right: auto;\n  margin-left: auto;\n/*   display: block; */\n}\n\nfooter .centered p {\n  width: 800px;\n  margin:auto;\n}\n\np {\n  font-size: 11px;\n  line-height: 20px;\n  color: #494949;\n  margin: 20px 0 20px;\n  text-decoration: none;\n  font-weight:normal !important;\n  -webkit-font-smoothing: antialiased;\n}\n\n.lead {\n  font-size: 13px;\n  line-height: 20px;\n  color: #494949;\n  margin: 0;\n  text-decoration: none;\n}\n\na.lead {\n  text-decoration: none;\n}\n\na.lead:hover {\n  text-decoration: underline;\n}\n\n.img-rounded {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  border: #d2d2d2 5px solid;\n  width: 100%;\n}\n\n.text-info {\n  color: #494949;\n  font-size: 13px;\n  font-weight: bold;\n  margin-bottom: 8px;\n}\n\n.link {\n  color: #262626;\n  font-size: 12px;\n  line-height: 20px;\n  font-weight: bold;\n  display: inline-block;\n  background: url(../../img/theme/link.gif) right 7px no-repeat;\n  padding-right: 10px;\n  margin-top: 20px;\n  text-decoration: none;\n}\ndiv.required label:after {\n  content: ' *';\n  color: #990000;\n  display:inline;\n}\np.eoe {\n  color: #444;\n  font-size: 11px;\n}\n.link-2 {\n  color: #373737;\n  text-decoration: none;\n}\n.link-2:hover {\n  text-decoration: underline;\n}\n.clr {\n  color: #373737;\n}\n.underline {\n  text-decoration: underline;\n}\n.upper {\n  text-transform: uppercase;\n}\n.top-0 {\n  margin-top: 0 !important;\n}\n.bot-0 {\n  margin-bottom: 0 !important;\n}\n.left-0 {\n  margin-left: 0 !important;\n}\n.last {\n  margin-right: 0 !important;\n}\n.indent-1 {\n  margin-top: 58px;\n}\n.indent-2 {\n  margin-top: 50px;\n}\n.indent-3 {\n  padding-top: 23px;\n}\n.p0 {\n  padding-bottom: 0px !important;\n}\n.p1 {\n  margin-bottom: 7px !important;\n}\n.p2 {\n  margin-bottom: 9px !important;\n}\n.p3 {\n  margin-bottom: 40px !important;\n}\n.img-indent {\n  margin: 29px 0 28px 0;\n}\n.extra-wrap {\n  overflow: hidden;\n}\nul.list,\nul.list-2 {\n  margin: 0;\n  list-style: none;\n}\nul.list li {\n  padding: 5px 0 5px 13px;\n  background: url(../../img/theme/marker.gif) 0 12px no-repeat;\n  font-size: 12px;\n  line-height: 20px;\n}\nul.list li a {\n  color: #8e8e8e;\n  text-decoration: underline;\n}\nul.list li a:hover {\n  color: #262626;\n}\nul.list-2 li {\n  padding: 5px 0 5px 13px;\n  background: url(../../img/theme/marker.gif) 0 12px no-repeat;\n  font-size: 12px;\n  line-height: 20px;\n}\nul.list-2 li a {\n  color: #8e8e8e;\n  text-decoration: none;\n}\nul.list-2 li a:hover {\n  color: #262626;\n}\n\n#login-or-register {\n  /* margin-left: 270px; */\n  text-align: right;\n  \n}\n\n@media (max-width: 1199px) and (min-width: 980px) {\n  #login-or-register {\n    margin-left: 210px;\n    text-align: right;\n  }\n}\n\n.welcome {\n  clear: right;\n  float: right;\n  margin: 10px 0 0;\n  padding:  0 10px;\n  text-align: right;\n  width: 373px;\n}\n\n.welcome p {\n  color: #fff;\n  font-size: 14px;\n  margin: 0;\n}\n\n.welcome span {\n  display: block;\n}\n\n  #main-content {\n    padding-top: 28px\n    width: 90%;\n    margin-right: 0;\n}\n\n/**/\n/* buttons*/\n\n.btn-group {\n  padding-right: 40px;\n}\n.btn_ {\n  background-color: #3b3b3b;\n  background-image: -moz-linear-gradient(top, #454545, #2c2c2c);\n  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#454545), to(#2c2c2c));\n  background-image: -webkit-linear-gradient(top, #454545, #2c2c2c);\n  background-image: -o-linear-gradient(top, #454545, #2c2c2c);\n  background-image: linear-gradient(to bottom, #454545, #2c2c2c);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff454545', endColorstr='#ff2c2c2c', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  border: none;\n  text-shadow: none;\n  font-family: \"Open Sans\", sans-serif;\n  font-size: 12px;\n  font-weight: bold;\n  line-height: 15px;\n  color: #ffffff;\n  text-transform: uppercase;\n  text-decoration: none;\n  padding: 7px 13px 8px 13px;\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);\n  -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);\n  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);\n  margin-top: 20px;\n}\n.btn-large_ {\n  padding: 10px 12px 10px 14px;\n  font-size: 23px;\n  line-height: 26px;\n  text-transform: none;\n  -webkit-border-radius: 7px;\n  -moz-border-radius: 7px;\n  border-radius: 7px;\n  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n}\n.btn-large_ span {\n  padding: 0px 50px 4px 0px;\n  display: block;\n  background: url(../../img/theme/btn-marker.png) right 2px no-repeat;\n}\n.btn-small_ {\n  padding: 8px 18px 8px 18px;\n  background: url(../../img/theme/btn.jpg) 0 0 repeat-x #2c2c2c;\n  color: #ffffff;\n}\n.btn_:hover {\n  color: #fff;\n  background: #535353;\n}\n/**/\n/*----------- Back to top --------------*/\n#toTop {\n  display: none;\n  width: 37px;\n  height: 37px;\n  overflow: hidden;\n  background: url(../../img/theme/totop.png) 0 0 no-repeat;\n  position: fixed;\n  margin-right: -640px !important;\n  right: 50%;\n  bottom: 40px;\n  z-index: 999;\n}\n#toTop:hover {\n  background-position: right 0;\n}\n#toTop:active,\n#toTop:focus {\n  outline: none;\n}\n/*------ header ------- */\nheader {\n  padding: 40px 0 41px 0;\n  background: url(../../img/theme/header.jpg) 0 0 repeat-x #d2d2d2;\n  position: relative;\n  z-index: 999;\n  /* background-color: #F0F0F0; */\n}\n\n.masthead {\n  padding-bottom: 10px;\n  padding-top: 10px;\n}\n\n.masthead .btn-group-1 {\n  padding: 10px;\n  padding-right: 40px;\n  padding-top: 0;\n}\n.header-block {\n  background-color:#FFF;\n  /*background: url(../../img/theme/header-block-blue.png) 0 0 repeat-x #00529c;*/\n/*   -webkit-border-radius: 6px; */\n/*   -moz-border-radius: 6px; */\n/*   border-radius: 6px; */\n  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  position: relative;\n  z-index: 999;\n  /* padding-top :20px; */\n  padding-bottom\n}\n.header-block-pad {\n  /*padding: 53px 31px 46px 31px;*/\n  padding: 20px 30px 0 0;\n}\nh1.brand {\n  display: inline-block;\n  margin: 0px 0 0;\n  padding: 30px;\n  padding-top: 15px;\n  padding-bottom: 15px;\n  text-transform: none;\n}\nh1.brand a {\n  display: block;\n  font-size: 0;\n  line-height: 0px;\n}\nh1.brand span {\n  display: block;\n  font-family: Arial, Helvetica, sans-serif;\n  font-size: 12px;\n  line-height: 15px;\n  color: #737373;\n  font-weight: normal;\n  margin: -1px 0 0 2px;\n  letter-spacing: 0;\n}\n.contacts {\n  float: right;\n  display: inline-block;\n  margin: 7px 62px 0 0px;\n  padding: 6px 45px 10px 0;\n  color: #ffffff;\n  line-height: 22px;\n  background: url(../../img/theme/line-1.png) right 0 repeat-y;\n}\n.contacts span,\n.contacts a {\n  color: #747474;\n  text-decoration: none;\n}\n.contacts a:hover {\n  color: #fff;  \n}\n#search-form\n{\n  margin-left:10px;\n}\n/* search-form */.navbar-form {\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  margin: 30px 10px 30px 0;\n  float: right;\n  height: 80px;\n}\n.navbar-form input {\n  background: #fff;\n  border: 1px solid #CCC;\n  box-shadow: none;\n  line-height: 18px;\n  width: 250px;\n  float: left;\n  margin: 0px;\n  padding-top: 6px;\n  padding-bottom: 5px;\n}\n.navbar-form input:focus {\n  box-shadow: none;\n}\n.navbar-form a {\n  margin: 0;\n  display: inline-block;\n  width: 40px;\n  height: 33px;\n  background: url(../../img/theme/search.png) 0 -2px no-repeat;\n  float: right;\n}\n.navbar-form a:hover {\nbackground: url(../../img/theme/search.png) right 0 no-repeat;\n}\n/**/\n/* navbar */\n.navbar_ {\n  margin: 0 0 0 0;\n}\n.navbar_ .navbar-inner_ {\n  padding: 10px 0px 14px 45px;\n  margin: 0;\n  background: url(../../img/theme/inside-slug-bg_03.png) 0 0 repeat-x;\n  border: none;\n  min-height: inherit;\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  border-radius: 0px;\n}\n\n.social-icn ul {\n  margin-right: 40px;\n  \n}\n\n.social-icn a {\n  color:#E85E02;\n}\n\n.social-icn li {\n  display: inline-block;\n  padding: 0;\n  padding-left: 10px;\n  padding-right: 10px;    \n}\n\n.social-icn a [class^=\"icon-\"], .social-icn a [class*=\" icon-\"] {\ncolor:#EF9C2B;\n    \ncolor:#FFF;\nfont-size: 41px;\n}\n\n\n.social-icn a:hover [class^=\"icon-\"], .social-icn a:hover [class*=\" icon-\"] {\n/* color:#E16A1C; */\n \ncolor:#EF9C2B;\n}\n\n/*nav*/\n.navbar_ .container {\n  position: relative;\n}\n.nav-collapse_ {\n  float: left;\n  padding-top: 8px;\n}\n.nav-collapse_ .nav li {\n  margin: 0;\n  padding: 0;\n  position: relative;\n  zoom: 1;\n/*   display: inline-block; */\n  /* float: left; */\n  /* width: 160px; */\n}\n\n.nav-collapse_ .nav li ul li {\n  width: 160px;\n  display:block;\n  float: left;\n  vertical-align: mi;\n}\n\n.nav-collapse_ .nav > li {\n  background: url(../../img/theme/line-1.png) 0 0 repeat-y;\n  padding: 0 18px 0 18px;\n  line-height: 17px;\n}\n.nav-collapse_ .nav > li.li-first {\n  background: none;\n  padding-left: 0;\n}\nul.nav li:first-child {\n  background: none;\n  padding-left: 0;\n}\n#middle-nav ul.nav li a {\n  border-bottom: 1px dotted #1259AA;\n  font-size: 14px;\n  padding: 8px 0 8px 20px;\n  /* background: url(../../img/theme/marker.gif) 0 15px no-repeat; */\n  color: #fff;\n}\n\n#middle-nav ul.nav li a:hover {\n  background-color: transparent;\n  background-image: none;\n}\n.nav-collapse_ .nav li a {\n  line-height: 17px;\n  color: #ffffff;\n  text-transform: uppercase;\n  text-shadow: none;\n  text-decoration: none;\n}\n.nav-collapse_ .nav > li > a {\n  font-family: \"Open Sans\", sans-serif;\n  font-weight: bold;\n  margin: 0;\n  padding: 0;\n}\n.nav-collapse_ .nav > li.li-first.sfHover a img,\n.nav-collapse_ .nav > li.li-first:hover a img,\n.nav-collapse_ .nav > li.li-first.active a img,\n.nav-collapse_ .nav > li.li-first.active a img {\n  opacity: 0.5;\n  filter: alpha(opacity=50);\n}\n.nav-collapse_ .nav > li.sfHover > a,\n.nav-collapse_ .nav > li.sfHover > a:hover,\n.nav-collapse_ .nav > li > a:hover,\n.nav-collapse_ .nav > li.active > a,\n.nav-collapse_ .nav > li.active > a:hover {\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n  color: #A0CF67;\n  background: none;\n}\n.sub-menu > a {\n  position: relative;\n}\n.nav-collapse_ .nav > li.sub-menu > a:before {\n  content: \" \";\n  position: absolute;\n  background: url('../../img/theme/li-marker.png') left top no-repeat;\n  width: 7px;\n  height: 5px;\n  right: 50%;\n  top: 50%;\n  margin: 10px -3px 0 0;\n/*   border-right: 1px solid #fff; */\n}\n.nav-collapse_ .nav ul {\n  position: absolute;\n  display: none;\n  width: 320px;\n  max-width: 320px;\n  left: 0px;\n  top: 42px;\n  list-style: none;\n  zoom: 1;\n  z-index: 9;\n  /* background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838; */\n  padding: 20px 0 24px 0;\n  margin: 0;\n  max-height: 400px;\n  background-color: #6a737b;\n}\n.nav-collapse_ .nav > li li.sub-menu > a:before {\n  content: \" \";\n  position: absolute;\n  background: url('../../img/theme/li-marker.png') left top no-repeat;\n  width: 7px;\n  height: 5px;\n  right: 10px;\n  top: 10px;\n}\n\n.nav-collapse_ .nav > li li.sub-menu li {\n  width: 160px;\n  display: inline-block;\n}\n.nav-collapse_ .nav ul li a {\n  display: block;\n  text-transform: uppercase;\n  font-size: 11px;\n  line-height: 15px;\n  padding: 7px 10px 8px 24px;\n  background: none;\n}\n.nav-collapse_ .nav > li > ul li > a:hover,\n.nav-collapse_ .nav > li > ul li.sfHover > a {\n  text-decoration: none;\n  /* background: #a9a9a9; */\n  /* color: #E85E02; */\n}\n\n.nav-collapse_ .nav > li > ul li > a:hover {\n  color: #A0CF67;\n}\n.nav-collapse_ .nav ul ul {\n  position: absolute;\n  display: none;\n  width: 158px;\n  left: 158px;\n  top: -20px;\n  height: auto;\n  list-style: none;\n  z-index: 111;\n  background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;\n  padding: 20px 0 24px 0;\n  margin: 0;\n}\n/**/\n/*social-icons*/\n.social-icons {\n  float: right;\n  display: inline-block;\n  margin: 0px 34px 0 0px;\n}\n.social-icons li {\n  float: left;\n  display: inline-block;\n  margin-left: 3px;\n}\n.social-icons li a {\n  background: transparent url(../../img/theme/social-media-logos.png) no-repeat;\n  display: block;\n  height: 32px;\n  text-indent: -9999px;\n  width: 33px;\n}\n\n.social-icons li a.facebook { background-position: 0 0 }\n.social-icons li a.facebook:hover { background-position: 0 -32px }\n\n.social-icons li a.twitter { background-position: -33px 0 }\n.social-icons li a.twitter:hover { background-position: -33px -32px }\n\n.social-icons li a.linkedin { background-position: -66px 0 }\n.social-icons li a.linkedin:hover { background-position: -66px -32px }\n\n.social-icons li a.youtube { background-position: -99px 0 }\n.social-icons li a.youtube:hover { background-position: -99px -32px }\n\n.social-icons li a:hover img {\n  opacity: 0.7;\n  filter: alpha(opacity=70);\n}\n\n.social-icons a { color: #fff}\n/**/\n/* slider */\n.slider {\n  position: relative;\n  z-index: 1;\n  padding: 0;\n  margin-top: -68px;\n  height: 442px;\n}\n.maps-holder {\n  width:100%;\n  background-color:#A0CF67;\n  padding-bottom: 70px;\n  padding-top: 40px;\n}\n.maps-holder img {\n  border:5px solid #FFF;\n}\n.maps-holder h5 {\n  color:#FFF;\n  margin-bottom: 20px;\n  font-weight: bold !important;\n}\n.camera_wrap {\n  margin-bottom: 0 !important;\n}\n.camera_thumb {\n  width: 150px;\n  height: auto;\n}\n.camera_wrap .camera_pag {\n  position: absolute;\n  bottom: 40px;\n  left: 2px;\n  z-index: 999;\n}\n.camera_wrap .camera_pag .camera_pag_ul {\n  list-style: none;\n  margin: 0;\n  padding: 0;\n  text-align: center;\n  margin-left: 40px;\n}\n.camera_wrap .camera_pag .camera_pag_ul li > span {\n  display: none;\n  \n}\n.camera_wrap .camera_pag .camera_pag_ul li {\n  background: #b2b2b2;\n  width: 16px;\n  height: 16px;\n  display: block;\n  float: left;\n  margin-right: 6px;\n  cursor: pointer;\n  -webkit-border-radius: 8px;\n  -moz-border-radius: 8px;\n  border-radius: 8px;\n \n}\n.camera_wrap .camera_pag .camera_pag_ul li:hover {\n  background: #434343;\n}\n.camera_wrap .camera_pag .camera_pag_ul li.cameracurrent {\n  background: #434343;\n  cursor: default;\n}\n.camera_caption {\n  top: 0px;\n  left: 0px;\n  display: block;\n  position: absolute;\n  width: 100%;\n  padding-left: 40px;\n}\n.camera_caption > div {\n  padding: 103px 0 0 0px;\n}\n.camera_caption h5 {\n  margin: 0;\n  color: #a7a7a7;\n}\n.camera_caption h2 {\n  margin: 32px 0 0px 0;\n}\n.camera_caption h1 {\n  color: #ffffff;\n  margin: -18px 0 0 0;\n  font-size: 70px;\n}\n.camera_caption a {\n  margin-top: 36px; \n}\n/*--- header end ------*/\n/*------ content ------- */\n\n/* events  */\n\n.event.list {\n  margin-bottom: 40px;\n  \n}\n\n#content {\n  background-color: #FFF;\n  background: #FFF;\n  padding-bottom: 28px;\n}\n.sub-content {\n  background: url(../../img/theme/content.jpg) 0 0 repeat-x #f0f0f0 !important;\n}\n#middle-nav {\n  padding-bottom: 28px;\n}\n/* thumbnails */\n.thumbnails {\n  margin-bottom: 0;\n  display: table;\n}\n.thumbnails li {\n  margin-bottom: 0px;\n}\n.thumbnails .thumbnail {\n  /* background-color: #d6d6d6; */\n  background-image: -moz-linear-gradient(top, #d1d1d1, #dedede);\n  /* background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d1d1d1), to(#dedede)); */\n  /* background-image: -webkit-linear-gradient(top, #d1d1d1, #dedede); */\n  background-image: -o-linear-gradient(top, #d1d1d1, #dedede);\n  /* background-image: linear-gradient(to bottom, #d1d1d1, #dedede); */\n  /* background-repeat: repeat-x; */\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd1d1d1', endColorstr='#ffdedede', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n/*   -webkit-border-radius: 6px; */\n/*   -moz-border-radius: 6px; */\n  /* border-radius: 6px; */\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n  border: none;\n  margin: 28px 0 0 0;\n  padding: 0;\n  background-color: #3475BE;\n  min-height: 300px;\n}\n.thumbnails .thumbnail .caption {\n  padding: 20px 20px 20px 21px;\n  /*background-color: #404040;\n  background-image: -moz-linear-gradient(top, #454545, #393939);\n  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#454545), to(#393939));\n  background-image: -webkit-linear-gradient(top, #454545, #393939);\n  background-image: -o-linear-gradient(top, #454545, #393939);\n  background-image: linear-gradient(to bottom, #454545, #393939);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff454545', endColorstr='#ff393939', GradientType=0);\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/\n\n  background-color:#0d76bd;\n  -webkit-border-top-right-radius: 0px;\n  -moz-border-radius-topright: 0px;\n  border-top-right-radius: 0px;\n  -webkit-border-top-left-radius: 0px;\n  -moz-border-radius-topleft: 0px;\n  border-top-left-radius: 0px;\n   border-top-left-radius: 1px;\n  background-image: url(\"../../img/theme/slug-bg-blue.png\");\n  background-size: cover;\n}\n.thumbnails .thumbnail h3 {\n  color: #ffffff;\n  font-size: 22px;\n  margin: -3px 0 0 0;\n}\n.thumbnails .thumbnail h5 {\n  margin: 0;\n}\n.thumbnails .thumbnail .thumbnail-pad {\n  padding: 25px 20px 30px 21px;\n}\n.thumbnails .thumbnail a.btn_ {\n  margin-top: 3px;\n}\n/**/\n/* thumbnails_2 */\n.thumbnails_2 {\n  margin: 0px 0 0 -25px;\n  padding-top: 8px;\n}\n.thumbnails_2 li.thumbnail_2 {\n  margin: 0px 0px 24px 25px;\n  padding: 0;\n  display: block;\n  float: left;\n  width: 137px;\n}\n.thumbnails_2 .thumbnail_2 .img-rounded {\n  margin: 0px 0 16px 0;\n}\n/**/\n/*lists*/\n.lists {\n  overflow: hidden;\n}\n.lists ul {\n  margin-top: 15px;\n}\n.lists .span4.left-0 ul {\n  border-right: #d2d2d2 1px solid;\n}\n.lists-width2 {\n  overflow: hidden;\n  margin-left: -15px;\n}\n.lists-width2 ul {\n  margin-left: 15px;\n  margin-top: 33px;\n  width: 140px;\n  float: left;\n}\n/**/\n/*banners*/\n.banners {\n  margin: 0 0 0px -30px;\n  overflow: hidden;\n}\n.banners li {\n  margin-left: 30px;\n  float: left;\n  display: inline-block;\n  margin-top: 18px;\n}\n/**/\n/* thumbnail_3 */\n.thumbnails_3 {\n  margin: 0px 0 0 0px;\n}\n.thumbnails_3 .thumbnail_3 {\n  margin: 27px 0 0px 0px;\n}\n.thumbnails_3 .thumbnail_3 {\n  background: transparent;\n  border: none;\n  padding: 0;\n  display: block;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n}\n.thumbnails_3 .thumbnail_3 figure {\n  margin: 0px 0 15px 0;\n}\n.thumbnails_3 .thumbnail_3 figure img {\n  width: 100%;\n}\n/**/\n/* thumbnail_4 */\n.thumbnails_4 {\n  margin: 0px 0 0 0px;\n}\n.thumbnails_4 .thumbnail_4 {\n  margin: 27px 0 10px 0px;\n}\n.thumbnails_4 .thumbnail_4 {\n  background: none;\n  border: none;\n  padding: 0;\n  display: block;\n  -webkit-box-shadow: none;\n  -moz-box-shadow: none;\n  box-shadow: none;\n}\n.thumbnails_4 .thumbnail_4 figure {\n  margin: 0px 0 15px 0;\n}\n.thumbnails_4 .thumbnail_4 figure img {\n  width: 100%;\n}\n/**/\n/*list-news*/\n.list-news {\n  margin: 0 0 0 0;\n}\n.list-news li {\n  display: block;\n  margin-top: 30px;\n}\n.list-news li:first-child {\n  margin-top: 0 !important;\n}\n.list-news li .text-info {\n  margin-top: 15px;\n}\n.list-news li a.btn_ {\n  margin-top: 0;\n}\n/**/\n/*list-services*/\n.list-services {\n  margin: 0 0 0 -40px;\n}\n.list-services li {\n  display: block;\n  float: left;\n  overflow: hidden;\n  margin-top: 20px;\n  width: 330px;\n  margin-left: 40px;\n  min-height: 180px;\n}\n.list-services li > div {\n  overflow: hidden;\n}\n.list-services li img {\n  float: left;\n  margin-top: 3px;\n}\n/**/\n.text-block-1 {\n  padding-top: 7px;\n}\n.text-block-1 div {\n  overflow: hidden;\n  padding-bottom: 5px;\n}\n.text-block-1 img {\n  float: left;\n  margin-right: 20px;\n  width: auto;\n}\n/*-- contacts page --*/\n.map {\n  padding: 7px 0 9px 0;\n}\n.map iframe {\n  width: 100%;\n  height: 353px;\n  border: #d2d2d2 5px solid;\n  -webkit-border-radius: 5px;\n  -moz-border-radius: 5px;\n  border-radius: 5px;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\naddress strong {\n  font-weight: normal;\n}\naddress span {\n  display: inline-block;\n  width: 70px;\n}\n.contact-form {\n  padding-top: 11px;\n}\n.contact-form input {\n  color: #939393;\n  height: 36px;\n  width: 270px;\n  padding: 10px 0 11px 18px;\n  line-height: 17px !important;\n  margin: 0;\n  border: none !important;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  -webkit-border-radius: 0;\n  -moz-border-radius: 0;\n  border-radius: 0;\n  box-shadow: none;\n  float: left;\n}\n.contact-form label {\n  min-height: 56px;\n  position: relative;\n  overflow: hidden;\n  margin: 0;\n  display: block;\n  width: 100%;\n}\n.contact-form .error,\n.contact-form .empty {\n  display: none;\n  position: relative;\n  font-size: 11px;\n  line-height: 14px;\n  color: #9d261d;\n  float: left;\n  margin: 2px 0 4px 10px;\n  min-width: 160px;\n}\n.contact-form .success {\n  display: none;\n  color: #1c2129;\n  padding-bottom: 5px;\n}\n.contact-form textarea {\n  width: 100%;\n  height: 246px;\n  padding: 9px 0 0 18px;\n  margin: 0;\n  resize: none;\n  color: #939393;\n  border: none !important;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  -webkit-border-radius: 0;\n  -moz-border-radius: 0;\n  border-radius: 0;\n  box-shadow: none;\n  float: left;\n}\n.contact-form input:focus,\n.contact-form textarea:focus {\n  box-shadow: none;\n}\n.contact-form .btn_ {\n  margin: 31px 0 0 16px;\n}\n/*privacy*/\n.float {\n  float: left;\n}\n.float2 {\n  float: right;\n}\n/**/\n/*404 page*/\n.block-404 .span8 {\n  padding-top: 14px;\n  text-align: center;\n}\n.block-404 .span4 {\n  padding-top: 37px;\n}\n.block-404 h1 {\n  margin: 0px;\n  font-size: 60px;\n}\n.block-404 h4 {\n  margin: 28px 0 39px 0;\n}\n.form-404 {\n  width: 100%;\n  margin-top: 35px;\n}\n.form-404 input {\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  -webkit-border-top-right-radius: 0px;\n  -moz-border-radius-topright: 0px;\n  border-top-right-radius: 0px;\n  -webkit-border-bottom-right-radius: 0px;\n  -moz-border-radius-bottomright: 0px;\n  border-bottom-right-radius: 0px;\n  border: none;\n  background: #fff;\n  margin: 0;\n  box-shadow: none;\n  height: 30px;\n  width: 175px;\n  line-height: 17px;\n  padding: 7px 10px 8px 10px;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  float: left;\n}\n.form-404 input:focus {\n  box-shadow: none;\n}\n.form-404 a.btn_ {\n  margin: 0;\n  width: 91px;\n  text-align: center;\n  padding: 7px 0 8px 0;\n  -webkit-border-top-left-radius: 0px;\n  -moz-border-radius-topleft: 0px;\n  border-top-left-radius: 0px;\n  -webkit-border-bottom-left-radius: 0px;\n  -moz-border-radius-bottomleft: 0px;\n  border-bottom-left-radius: 0px;\n}\n/**/\n/*-- end contacts --*/\n/*--- content end ------*/\n/*------ footer ------- */\nfooter {\n  padding: 26px 0 38px 0;\n  /*background-color: #d8d8d9;*/\n  background-image: -moz-linear-gradient(top, #d2d2d2, #e2e1e3);\n  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d2d2d2), to(#e2e1e3));\n  background-image: -webkit-linear-gradient(top, #d2d2d2, #e2e1e3);\n  background-image: -o-linear-gradient(top, #d2d2d2, #e2e1e3);\n  background-image: linear-gradient(to bottom, #d2d2d2, #e2e1e3);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd2d2d2', endColorstr='#ffe2e1e3', GradientType=0);\n  behavior: url('js/PIE.htc');\n  position: relative;\n\n  background: #FFF;\n}\nfooter .span8 > a {\n  text-decoration: underline;\n}\n.footer-menu {\n  display: block;\n  border-bottom: #cacaca 1px solid;\n  padding: 12px 0 47px 0;\n  margin: 0 0 27px 0;\n}\n.footer-menu li {\n  display: inline-block;\n  float: left;\n  color: #b6b6b6;\n  font-size: 11px;\n  line-height: 15px;\n}\n.footer-menu li a {\n  margin: 0 12px;\n  color: #494949;\n  text-transform: uppercase;\n  text-decoration: none;\n}\n.footer-menu li:first-child a {\n  margin-left: 0;\n}\n.footer-menu li a:hover,\n.footer-menu li a.current {\n  text-decoration: underline;\n}\n/* form newsletter */\nform#newsletter {\n  margin: 0;\n  background-color: #e7e7e7;\n  background-image: -moz-linear-gradient(top, #e5e5e5, #eaeaeb);\n  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e5e5e5), to(#eaeaeb));\n  background-image: -webkit-linear-gradient(top, #e5e5e5, #eaeaeb);\n  background-image: -o-linear-gradient(top, #e5e5e5, #eaeaeb);\n  background-image: linear-gradient(to bottom, #e5e5e5, #eaeaeb);\n  background-repeat: repeat-x;\n  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe5e5e5', endColorstr='#ffeaeaeb', GradientType=0);\n  -webkit-border-radius: 6px;\n  -moz-border-radius: 6px;\n  border-radius: 6px;\n  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);\n  padding: 25px 27px 28px 28px;\n}\nform#newsletter input {\n  -webkit-border-radius: 3px;\n  -moz-border-radius: 3px;\n  border-radius: 3px;\n  -webkit-border-top-right-radius: 0px;\n  -moz-border-radius-topright: 0px;\n  border-top-right-radius: 0px;\n  -webkit-border-bottom-right-radius: 0px;\n  -moz-border-radius-bottomright: 0px;\n  border-bottom-right-radius: 0px;\n  border: none;\n  background: #fff;\n  margin: 0;\n  box-shadow: none;\n  height: 30px;\n  line-height: 15px;\n  padding: 7px 10px 8px 10px;\n  width: 154px;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  float: left;\n}\nform#newsletter input:focus {\n  box-shadow: none;\n}\nform#newsletter a.btn_ {\n  margin-top: 0;\n  width: 91px;\n  text-align: center;\n  padding-right: 0;\n  padding-left: 0;\n  -webkit-border-top-left-radius: 0px;\n  -moz-border-radius-topleft: 0px;\n  border-top-left-radius: 0px;\n  -webkit-border-bottom-left-radius: 0px;\n  -moz-border-radius-bottomleft: 0px;\n  border-bottom-left-radius: 0px;\n}\nform#newsletter label {\n  font-family: \"Open Sans\", sans-serif;\n  color: #383838;\n  font-weight: bold;\n  line-height: 22px;\n  font-size: 18px;\n  margin-bottom: 16px;\n  display: block;\n  text-transform: none;\n}\nfooter h5 { color: #444; }\nfooter .copyright { margin-top: 0; padding-top: 20px;}\n\nfooter p.logos {\n    font-size: 13px;\n  font-size 13px;\n    padding-bottom: 0px;\n}\n\n\n/**/\n/*--- footer end ------*/\n/*----- media queries ------*/\n@media (min-width: 1200px) {\n  .slider {\n    height: 550px;\n  }\n  .camera_caption > div {\n    padding: 123px 0 0 0px;\n  }\n  .camera_caption h5 {\n    margin: 0;\n    color: #A8D52A;\n    font-size: 21px;\n  \n    font-weight: bold !important;\n    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);\n}\n  .camera_caption h2 {\n    margin: 42px 0 0px 0;\n    font-size: 40px;\n  \n    color: #E85E02;\n}\n  .camera_caption h1 {\n    color: #C0EC0F;\n    margin: -18px 0 0 0;\n    font-size: 100px;\n  }\n  .camera_caption a {\n    margin-top: 54px;\n  }\n  .camera_wrap .camera_pag {\n    bottom: 48px;\n  }\n  .camera_wrap .camera_pag .camera_pag_ul li {\n    width: 10px;\n    height: 10px;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n    border-radius: 5px;\n  }\n  .thumbnails .thumbnail h3 {\n    font-size: 28px;\n  }\n  form#newsletter input {\n    width: 224px;\n  }\n  .lists-width2 {\n    margin-left: -30px;\n  }\n  .lists-width2 ul {\n    margin-left: 30px;\n    width: 170px;\n  }\n  .thumbnails_2 {\n    margin: 0px 0 0 -30px;\n  }\n  .thumbnails_2 li.thumbnail_2 {\n    margin: 0px 0px 24px 30px;\n    width: 170px;\n  }\n  .list-services {\n    margin: 0 0 0 -130px;\n  }\n  .list-services li {\n    width: 370px;\n    margin-left: 130px;\n    min-height: inherit;\n  }\n  .form-404 input {\n    width: 223px;\n  }\n}\n@media (max-width: 1199px) {\n  \n}\n@media (min-width: 980px) and (max-width: 1199px) {\n  \n}\n@media (min-width: 979px) {\n  \n}\n@media (max-width: 979px) {\n  .slider {\n    height: auto;\n  }\n  .thumbnails .thumbnail .caption {\n    padding: 10px 10px 10px 10px;\n  }\n  .thumbnails .thumbnail .thumbnail-pad {\n    padding: 15px 20px 15px 21px;\n  }\n  .thumbnails .thumbnail h3 {\n    font-size: 28px;\n  }\n  form#newsletter {\n    margin-bottom: 20px;\n    padding: 15px 27px 15px 28px;\n  }\n  form#newsletter input {\n    width: 100%;\n    -webkit-border-top-right-radius: 3px;\n    -moz-border-radius-topright: 3px;\n    border-top-right-radius: 3px;\n    -webkit-border-bottom-right-radius: 3px;\n    -moz-border-radius-bottomright: 3px;\n    border-bottom-right-radius: 3px;\n  }\n  form#newsletter a.btn_ {\n    margin-top: 15px;\n    float: right;\n    -webkit-border-top-left-radius: 3px;\n    -moz-border-radius-topleft: 3px;\n    border-top-left-radius: 3px;\n    -webkit-border-bottom-left-radius: 3px;\n    -moz-border-radius-bottomleft: 3px;\n    border-bottom-left-radius: 3px;\n  }\n  /**/\n  .thumbnails_2 {\n    margin: 0px 0 0 -30px;\n  }\n  .list-services li {\n    min-height: inherit;\n    width: inherit;\n  }\n  .cols-1 .span4 img {\n    width: inherit !important;\n  }\n  .thumbnails_2 li.thumbnail_2 img {\n    width: 100%;\n  }\n  .text-block-1 img {\n    float: none;\n    margin-right: 0px;\n    margin-bottom: 20px;\n    width: 100% !important;\n  }\n  .form-404 input {\n    width: 100%;\n    float: none;\n    -webkit-border-top-right-radius: 3px;\n    -moz-border-radius-topright: 3px;\n    border-top-right-radius: 3px;\n    -webkit-border-bottom-right-radius: 3px;\n    -moz-border-radius-bottomright: 3px;\n    border-bottom-right-radius: 3px;\n  }\n  .form-404 a.btn_ {\n    float: right;\n    margin-top: 20px;\n    -webkit-border-top-left-radius: 3px;\n    -moz-border-radius-topleft: 3px;\n    border-top-left-radius: 3px;\n    -webkit-border-bottom-left-radius: 3px;\n    -moz-border-radius-bottomleft: 3px;\n    border-bottom-left-radius: 3px;\n  }\n  .footer-menu li a {\n    margin: 0 6px;\n  }\n}\n@media (min-width: 768px) and (max-width: 979px) {\n  .navbar-form input {\n    width: 120px;\n  }\n  .contacts {\n    margin-right: 20px;\n    padding-right: 20px;\n  }\n  /* navbar */\n  .navbar-inner_ .btn-navbar {\n    display: none;\n  }\n  .navbar-inner_ .nav-collapse {\n    overflow: visible;\n    height: auto;\n  }\n  .navbar-inner_ .nav-collapse_ .nav > li {\n    padding: 0 10px 0 10px;\n    float: left;\n  }\n  .nav-collapse_ .nav > li.li-first {\n    background: none;\n    padding: 0 18px 0 0px;\n  }\n  .nav-collapse_ .nav > li > a {\n    margin-bottom: 0;\n  }\n  /**/\n  /*slider*/\n  .camera_caption > div {\n    padding: 103px 0 0 0px;\n  }\n  .camera_caption h5 {\n    display: none;\n  }\n  .camera_caption h2 {\n    margin: 0px 0 0px 0;\n  }\n  .camera_caption h1 {\n    color: #ffffff;\n    margin: -18px 0 0 0;\n    font-size: 55px;\n  }\n  .camera_caption a.btn-large_ {\n    margin-top: 15px;\n    padding: 6px 12px 10px 14px;\n  }\n  .camera_caption a.btn-large_ span {\n    padding: 0px 0px 0px 0px;\n    display: block;\n    background: none;\n  }\n  /**/\n  .cols-1 div + div {\n    margin-left: 0 !important;\n  }\n  .cols-1 .span4 {\n    width: 100% !important;\n  }\n  /* */\n  .thumbnails .span3 {\n    width: 352px;\n  }\n  .thumbnails .thumbnail p {\n    min-height: 60px;\n  }\n  .thumbnails_2 li.thumbnail_2 {\n    margin: 0px 0px 24px 30px;\n    float: none;\n    width: 228px;\n  }\n  /**/\n  .lists .lists-width2 {\n    width: 200px;\n  }\n  .lists-width2 {\n    margin-left: -30px;\n  }\n  .lists-width2 ul {\n    margin-left: 30px;\n    width: 40%;\n  }\n  .thumbnails_4 .span3 {\n    width: 352px;\n  }\n}\n@media (max-width: 767px) {\n  body {\n    padding: 0;\n    margin: 0;\n  }\n  .container {\n    padding: 0 20px;\n  }\n  .header-block-pad {\n    padding: 18px 23px 14px 22px;\n  }\n  .contacts {\n    padding-right: 0;\n    margin-right: 0;\n    margin-left: 40px;\n    background: none;\n  }\n  .navbar-form input {\n    width: 200px;\n  }\n  .navbar-form {\n    margin-left: 20px;\n  }\n  .social-icons {\n    margin: 5px 24px 0 0;\n  }\n  /* navbar */\n  .navbar_ .navbar-inner_ {\n    padding: 13px 0 10px 22px;\n  }\n  .navbar_ .nav-collapse_ {\n    width: 100%;\n    position: absolute;\n    left: 0;\n    top: 46px;\n  }\n  .navbar_ .btn {\n    display: inline-block;\n    float: left;\n    background: #242424;\n    padding: 12px 20px 12px 20px;\n    font-family: \"Open Sans\", sans-serif;\n    text-decoration: none;\n    margin: 0;\n    text-shadow: none;\n    color: #ffffff;\n    box-shadow: none;\n    border: none;\n  }\n  .navbar_ .btn:hover {\n    background-color: #747474;\n  }\n  .nav-collapse_ .nav {\n    position: relative;\n    zoom: 1;\n    z-index: 999;\n    width: 168px;\n    background: url(../../img/theme/nav-ul.jpg) 0 0 repeat-x #383838;\n    padding: 20px 0 24px 0;\n    margin: 0;\n  }\n  .nav-collapse_ .nav li {\n    line-height: 15px;\n    background: none;\n    margin: 0;\n    padding: 0;\n    display: block;\n  }\n  .nav-collapse_ .nav li a {\n    font-size: 11px;\n    line-height: 15px;\n    color: #ffffff;\n    font-weight: normal;\n    text-shadow: none;\n    text-transform: uppercase;\n    margin: 0;\n    display: block;\n    -webkit-border-radius: 0;\n    -moz-border-radius: 0;\n    border-radius: 0;\n    position: relative;\n  }\n  .nav-collapse_ .nav > li > a,\n  .nav-collapse_ .nav > li.li-first a {\n    padding: 7px 10px 8px 28px;\n  }\n  .nav-collapse_ .nav > li.sfHover,\n  .nav-collapse_ .nav > li:hover,\n  .nav-collapse_ .nav > li.active,\n  .nav-collapse_ .nav > li.active {\n    background: none;\n  }\n  .nav-collapse_ .nav > li.sfHover > a,\n  .nav-collapse_ .nav > li.sfHover > a:hover,\n  .nav-collapse_ .nav > li > a:hover,\n  .nav-collapse_ .nav > li.active > a,\n  .nav-collapse_ .nav > li.active > a:hover {\n    background: #a9a9a9;\n    color: #ffffff;\n  }\n  .sub-menu > a {\n    position: relative;\n    display: block;\n  }\n  .nav-collapse_ .nav > li.sub-menu > a:before,\n  .nav-collapse_ .nav > li li.sub-menu > a:before {\n    content: \"\";\n    position: absolute;\n    background: url(../../img/theme/li-marker.png) left top no-repeat;\n    width: 7px;\n    height: 5px;\n    right: 10px ;\n    top: 50%;\n    margin-top: -3px;\n  }\n  .nav-collapse_ .nav ul,\n  .nav-collapse_ .nav ul ul {\n    position: relative;\n    top: 0;\n    left: 0;\n    display: none;\n    width: 100%;\n    list-style: none;\n    zoom: 1;\n    z-index: 9;\n    padding: 0px;\n    margin: 0;\n    background: transparent;\n  }\n  .nav-collapse_ .nav ul li a {\n    display: block;\n    text-transform: uppercase;\n    font-size: 11px;\n    line-height: 15px;\n    padding: 7px 10px 8px 35px;\n    display: block;\n  }\n  .nav-collapse_ .nav ul li > a:hover,\n  .nav-collapse_ .nav ul li.sfHover > a {\n    background: #a9a9a9;\n  }\n  .nav-collapse_ .nav ul ul li a {\n    padding: 7px 10px 8px 40px;\n    text-transform: none;\n  }\n  /**/\n  /*slider*/\n  .camera_caption {\n    display: none !important;\n  }\n  .slider {\n    margin-top: 0;\n  }\n  /**/\n  .lists .span4.left-0 ul {\n    border: none;\n  }\n  .lists-width2 {\n    margin-left: -30px;\n  }\n  /**/\n  .footer-menu {\n    display: none;\n  }\n  .float {\n    float: right !important;\n  }\n  .float2 {\n    float: left !important;\n  }\n  /**/\n}\n@media (min-width: 626px) and (max-width: 767px) {\n  .lists-width2 ul {\n    margin-left: 30px;\n    width: 45%;\n  }\n  .thumbnails_2 li.thumbnail_2 {\n    margin: 0px 0px 24px 30px;\n    float: left;\n    width: 45%;\n  }\n  .thumbnails_4 {\n    margin-left: -25px;\n  }\n  .thumbnails_4 .span3 {\n    float: left;\n    margin-left: 25px;\n    width: 45%;\n  }\n}\n@media (max-width: 625px) {\n  .navbar-form {\n    margin-left: 0;\n    float: none;\n  }\n  .contacts {\n    display: none;\n  }\n  /* contact-form */\n  .contact-form input {\n    width: 100%;\n  }\n  .thumbnails_2 li.thumbnail_2 {\n    margin: 0px 0px 24px 30px;\n    float: none;\n    width: auto;\n  }\n}\n/**/\n@media (min-width: 482px) and (max-width: 625px) {\n  .lists-width2 ul {\n    margin-left: 30px;\n    width: 40%;\n  }\n  .thumbnails_2 li.thumbnail_2 {\n    margin: 0px 0px 24px 30px;\n    float: left;\n    width: 42%;\n  }\n  .thumbnails_4 {\n    margin-left: -25px;\n  }\n  .thumbnails_4 .span3 {\n    float: left;\n    margin-left: 25px;\n    width: 43%;\n  }\n}\n@media (max-width: 481px) {\n  .banners li {\n    display: block;\n    float: none;\n  }\n  .banners li a {\n    display: block;\n    text-align: center;\n  }\n}\n@media (min-width: 320px) and (max-width: 481px) {\n  .lists-width2 ul {\n    margin-left: 30px;\n    width: 40%;\n    float: left;\n  }\n  .camera_pag {\n    left: 20px;\n  }\n}\n@media (max-width: 320px) {\n  .navbar-form input {\n    width: 161px !important;\n  }\n  .lists-width2 ul {\n    margin-left: 30px;\n    float: none;\n    width: 100%;\n  }\n  .list-services li img {\n    float: none  !important;\n    margin-bottom: 10px;\n  }\n  .slider {\n    margin-left: -20px !important;\n  }\n  .camera_pag {\n    left: 20px !important;\n  }\n}\n/*Core variables and mixins*/\n.clearfix {\n  *zoom: 1;\n}\n.clearfix:before,\n.clearfix:after {\n  display: table;\n  content: \"\";\n  line-height: 0;\n}\n.clearfix:after {\n  clear: both;\n}\n.hide-text {\n  font: 0/0 a;\n  color: transparent;\n  text-shadow: none;\n  background-color: transparent;\n  border: 0;\n}\n.input-block-level {\n  display: block;\n  width: 100%;\n  min-height: 30px;\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n/*Dashboard*/\n#dashboard {\n  padding-top: 0px;\n  background-color: rgba(223, 239, 223, 0.5);\n  border: rgb(223, 239,223) 1px solid;\n}\n\n#dashboard .widget {\n  margin-bottom: 10px;\n  /* min-height: 300px; */\n}\n\n#dashboard .widget-header {\n  background: #A0CF67; /* Old browsers */\n  /* background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhYmNmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzYwYWJmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDk2ZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+); */\n  background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */\n  /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); */ /* Chrome,Safari4+ */\n  /* background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); */ /* Chrome10+,Safari5.1+ */\n  background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */\n  background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */\n  /* background: linear-gradient(to bottom, #7abcff 0%,#60abf8 44%,#4096ee 100%); */ /* W3C */\n  border: 1px solid #A0CF67;\n  border-bottom: 1px solid #A0CF67;\n  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-8 */\n  padding: 0;\n\n  -webkit-border-top-left-radius: 5px;\n  -webkit-border-top-right-radius: 5px;\n     -moz-border-radius-topleft: 5px;\n     -moz-border-radius-topright: 5px;\n          \n  border-top-left-radius: 5px;\n          \n  border-top-right-radius: 5px;\n\n  -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25);\n          \n  /* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25); */\n}\n\n#dashboard .widget-header h2 {\n  color: #fff;\n  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 500;\n  letter-spacing: 0.1em;\n  padding-left: 10px;\n  text-shadow: 0 1px 3px #246AE2;\n}\n\n#dashboard .widget-header h2 i {\n  color: #fff;\n  /* font-size: 16px; */\n  font-weight: 500;\n  letter-spacing: 0.1em;\n/*   margin-right: 10px; */\n  text-shadow: 0 1px 3px rgba(0,0,0,0.25);\n  /* display: none; */\n}\n\n#dashboard .widget-header h2 i {\n  margin: 0;\n}\n\n#dashboard .widget-content {\n  background-color: rgba(160, 207, 103, 0.2);\n  height: 300px;\n  -webkit-border-bottom-left-radius: 5px; \n  -webkit-border-bottom-right-radius: 5px; \n  -moz-border-radius-bottomleft: 5px; \n  -moz-border-radius-bottomright: 5px; \n  border-bottom-left-radius: 5px; \n  border-bottom-right-radius: 5px; -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25); /* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25); */;\n \n  overflow: auto;\n}\n\n#dashboard .widget-content ul {\n  list-style: none;\n  margin-left: 0;\n  width: 100%;\n}\n\n#dashboard .widget-content li {\n  border-bottom: 1px solid #ddd;\n  line-height: 20px;\n  padding: 10px 10px 10px 0;\n  position: relative;\n}\n\n#dashboard .widget-content li .title {\n  color: #454545;\n  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;\n  font-size: 16px;\n  font-weight: 200;\n  padding-left: 10px;\n}\n\n#dashboard .widget-content li .details {\n  color: #9a9a9a;\n  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, sans-serif;\n  font-size: 12px;\n  font-weight: 200;\n  padding: 5px 0 5px 8px;\n}\n\n#dashboard .widget-content li .details i {\n  color: #2588EA;\n  font-size: 14px;\n}\n\n#dashboard .widget-content li .action {\n  position: absolute;\n  right: 10px;\n  top: 30px;\n}\n\n#dashboard .widget-content li .action .btn {\n  color: #333;\n}\n\n#dashboard #online-ecourses li .title,\n#dashboard #online-registrations li .title,\n#dashboard #online-orientations li .title,\n#dashboard #online-enrollments li .title {\n  margin-top: 8px;\n}\n\n#dashboard #online-registrations li .action,\n#dashboard #online-orientations li .action,\n#dashboard #online-enrollments li .action {\n  top: 15px;\n}\n\n#dashboard #online-ecourses li .action {\n  top: 25px;\n}\n\nspan.label {\n  display: inline-block;\n  padding: 2px 4px;\n  font-size: 11.844px;\n  font-weight: bold;\n  line-height: 14px;\n  color: #fff;\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);\n  white-space: nowrap;\n  vertical-align: baseline;\n  background-color: #999;\n  -webkit-border-radius: 3px;\n     -moz-border-radius: 3px;\n          border-radius: 3px;\n}\n\nspan.label a {\n  color: #fff;\n}\n\n#ecourse-quiz form {\n  margin-top: 18px;\n}\n\n#ecourse-quiz .question { margin-bottom: 18px }\n\n#ecourse-quiz li.question label.main-label {\n  display: block;\n  font-weight: bold;\n  border-bottom: 1px solid #EEECEC;\n}\n\n#ecourse-quiz li.question .answer { margin-left: 10px }\n\n#ecourse-quiz li.question input[type=radio] { margin-right: 8px}\n\n#ecourse-quiz li.question input[type=radio],\n#ecourse-quiz li.question input[type=radio] + label {\n  margin-top: 0px;\n  /* float: left; */\n}\n#ecourse-quiz label.main-label {\n    display: block;\n    width: 100%;\n    padding: 0;\n}\n#ecourse-quiz .required.answer {\n    float: left;\n    padding: 0;\n}\n\n#ecourse-quiz li.question input[type=radio] + label {\n  color: #555;\n  margin: 0;\n}\n\n#ecourse-quiz label.error {\n  color: #F00;\n  display: block;\n  margin-left: 10px;\n  margin-top: 5px;\n}\n\n#ecourse-quiz-results h5 {\n  font-weight: bold;\n  margin-bottom: 5px;\n}\n\n#ecourse-quiz-results li {\n  margin-bottom: 10px;\n}\n\n#ecourse-quiz-results p {\n  margin-bottom: 4px;\n  padding-left: 25px;\n}\n\n#ecourse-quiz-results p.correct-answer {\n  background: url(../../img/theme/icons/accept.png) 0 0 no-repeat;\n}\n\n#ecourse-quiz-results p.incorrect-answer {\n  background: url(../../img/theme/icons/exclamation.png) 0 0 no-repeat;\n}\n\n\np.incorrect-answer {\n    padding: 0;\n    margin: 0;\n}\n\np.correct-answer {\n    margin: 0;\n}\n\n#ecourse-quiz-results li {\n/*     margin-bottom: 40px; */\n    padding-bottom: 10px;\n}\n\n.pagination {\n  margin: 20px 0;\n}\n\n\n\n.pagination ul {\n  display: inline-block;\n  *display: inline;\n  margin-bottom: 0;\n  margin-left: 0;\n  -webkit-border-radius: 4px;\n  -moz-border-radius: 4px;\n  border-radius: 4px;\n  *zoom: 1;\n  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);\n}\n.pagination ul > li {\n  display: inline;\n}\n.pagination ul > li.current,\n.pagination ul > li > a,\n.pagination ul > li > span {\n  float: left;\n  padding: 4px 12px;\n  line-height: 21px;\n  text-decoration: none;\n  background-color: #ffffff;\n  border: 1px solid #dddddd;\n  border-left-width: 0;\n\n}\n.pagination ul > li > a.next,\n.pagination ul > li > a.prev,\n.pagination ul > li > span.next,\n.pagination ul > li.disabled > span {\n  padding: 4px 8px;\n}\n\n.pagination ul > li > a:hover,\n.pagination ul > .current,\n.pagination ul > .current > a,\n.pagination ul > .current > span {\n  background-color: #f5f5f5;\n}\n\n.pagination ul > .current,\n.pagination ul > .current > a,\n.pagination ul > .current > span {\n  color: #999999;\n  cursor: default;\n}\n\n.pagination ul > .disabled > span,\n.pagination ul > .disabled > a,\n.pagination ul > .disabled > a:hover {\n  color: #999999;\n  cursor: default;\n  background-color: transparent;\n}\n\n.pagination ul > li:first-child > a,\n.pagination ul > li:first-child > span {\n  border-left-width: 1px;\n  -webkit-border-bottom-left-radius: 4px;\n  border-bottom-left-radius: 4px;\n  -webkit-border-top-left-radius: 4px;\n  border-top-left-radius: 4px;\n  -moz-border-radius-bottomleft: 4px;\n  -moz-border-radius-topleft: 4px;\n}\n\n.pagination ul > li:last-child > a,\n.pagination ul > li:last-child > span {\n  -webkit-border-top-right-radius: 4px;\n  border-top-right-radius: 4px;\n  -webkit-border-bottom-right-radius: 4px;\n  border-bottom-right-radius: 4px;\n  -moz-border-radius-topright: 4px;\n  -moz-border-radius-bottomright: 4px;\n}\n\n.pagination-centered {\n  text-align: center;\n}\n\n.pagination-right {\n  text-align: right;\n}\n\n.pagination-large ul > li > a,\n.pagination-large ul > li > span {\n  padding: 11px 19px;\n  font-size: 17.5px;\n}\n\n.pagination-large ul > li:first-child > a,\n.pagination-large ul > li:first-child > span {\n  -webkit-border-bottom-left-radius: 6px;\n  border-bottom-left-radius: 6px;\n  -webkit-border-top-left-radius: 6px;\n  border-top-left-radius: 6px;\n  -moz-border-radius-bottomleft: 6px;\n  -moz-border-radius-topleft: 6px;\n}\n\n.pagination-large ul > li:last-child > a,\n.pagination-large ul > li:last-child > span {\n  -webkit-border-top-right-radius: 6px;\n  border-top-right-radius: 6px;\n  -webkit-border-bottom-right-radius: 6px;\n  border-bottom-right-radius: 6px;\n  -moz-border-radius-topright: 6px;\n  -moz-border-radius-bottomright: 6px;\n}\n\n.pagination-mini ul > li:first-child > a,\n.pagination-small ul > li:first-child > a,\n.pagination-mini ul > li:first-child > span,\n.pagination-small ul > li:first-child > span {\n  -webkit-border-bottom-left-radius: 3px;\n  border-bottom-left-radius: 3px;\n  -webkit-border-top-left-radius: 3px;\n  border-top-left-radius: 3px;\n  -moz-border-radius-bottomleft: 3px;\n  -moz-border-radius-topleft: 3px;\n}\n\n.pagination-mini ul > li:last-child > a,\n.pagination-small ul > li:last-child > a,\n.pagination-mini ul > li:last-child > span,\n.pagination-small ul > li:last-child > span {\n  -webkit-border-top-right-radius: 3px;\n  border-top-right-radius: 3px;\n  -webkit-border-bottom-right-radius: 3px;\n  border-bottom-right-radius: 3px;\n  -moz-border-radius-topright: 3px;\n  -moz-border-radius-bottomright: 3px;\n}\n\n.pagination-small ul > li > a,\n.pagination-small ul > li > span {\n  padding: 2px 10px;\n  font-size: 11.9px;\n}\n\n.pagination-mini ul > li > a,\n.pagination-mini ul > li > span {\n  padding: 0 6px;\n  font-size: 10.5px;\n}\n\n.pager {\n  margin: 20px 0;\n  text-align: center;\n  list-style: none;\n  *zoom: 1;\n}\n\n.pager:before,\n.pager:after {\n  display: table;\n  line-height: 0;\n  content: \"\";\n}\n\n.pager:after {\n  clear: both;\n}\n\n.pager li {\n  display: inline;\n}\n\n.pager li > a,\n.pager li > span {\n  display: inline-block;\n  padding: 5px 14px;\n  background-color: #fff;\n  border: 1px solid #ddd;\n  -webkit-border-radius: 15px;\n  -moz-border-radius: 15px;\n  border-radius: 15px;\n}\n\n.pager li > a:hover {\n  text-decoration: none;\n  background-color: #f5f5f5;\n}\n\n.pager .next > a,\n.pager .next > span {\n  float: right;\n}\n\n.pager .previous > a,\n.pager .previous > span {\n  float: left;\n}\n\n.pager .disabled > a,\n.pager .disabled > a:hover,\n.pager .disabled > span {\n  color: #999999;\n  cursor: default;\n  background-color: #fff;\n}\n\n.hotJobs .job, .featuredEmployers .featuredEmployer,\n.rfps .rfp {\n  border-bottom: 1px solid #cdcdcd;\n  margin: 8px 0 18px;\n  padding: 0 0 12px;\n}\n\n.hotJobs .job h2,\n.featuredEmployers .featuredEmployer h2,\n.rfps .rfp h2 {\n  margin: 0 0 12px 0;\n}\n\n.hotJobs .job p,\n.featuredEmployers .featuredEmployer p,\n.rfps .rfp p {\n  margin: 0 0 12px;\n}\n\n.hotJobs .job ul,\n.featuredEmployers .featuredEmployer ul,\n.rfps .rfp ul{\n  margin: 0 0 12px 10px;\n}\n\n.rfp_download {\n  display: block;\n  margin-left: 10px;\n  width: 96px;\n}\n.rfp_download:hover {\n  text-decoration: none;\n}\n.rfp_download img {\n  margin: 0 0 0 16px;\n}\n\n.inTheNews,\n.helpfulArticles {\n  margin: 12px 0 0;\n}\n\n.inTheNews .article,\n.helpfulArticles .article {\n  border-top: 1px solid #D0E0EE;\n  margin: 0 0 18px;\n  padding: 8px 0;\n}\n\n.inTheNews .article .date,\n.helpfulArticles .article .date {\n  color: #666;\n  margin: 0 0 12px;\n}\n\n.inTheNews .article h2,\n.helpfulArticles .article h2 {\n  font-size: 13px;\n  margin: 0 0 2px;\n}\n\n.inTheNews .article .reporter,\n.helpfulArticles .article .reporter {\n  color: #888888;\n  display: block;\n  font-style: italic;\n  margin: 0 0 12px;\n}\n\n.inTheNews .article .summary,\n.helpfulArticles .article .summary {\n  line-height: 1.4em;\n  margin: 0 0 18px;\n  width: 450px;\n}\n\n.counter {\n  color: #A4A4A4;\n}\n\n.locations {\n  margin: 15px 0 0;\n}\n\n.locations .location {\n  border-top: 1px solid #D0E0EE;\n  height: 200px;\n  margin: 0 0 18px;\n  padding: 25px;\n}\n\n.location_facilities {\n  border-top: 1px solid #D0E0EE;\n  margin: 0 0 18px;\n  padding: 25px 0;\n}\n\n.survey form {\n  margin: 18px 0;\n}\n\n.survey fieldset {\n  border: 1px solid #BBB;\n  padding: 8px 18px;\n}\n.survey fieldset legend {\n  font-style: italic;\n  margin: 0 0 0 15px;\n}\n\n.survey .input {\n  border-bottom: 1px solid #dedede;\n  padding: 0 0 10px;\n}\n\n.survey label {\n  font-weight: bold;\n}\n\n.survey .rating label {\n  display: inline;\n}\n\n.survey .rating input {\n  width: 12px;\n}\n\n.input.error input,\n.input.error select {\n  margin-bottom: 3px;\n}\n\n.input.error .error-message {\n  color: #900;\n  margin-bottom: 8px;\n}\n\n.control-group.error .help-block.no-error {\n	color: #b4b4b4 !important;\n}\n\n#events-slider {\n	padding-bottom: 18px;\n}\n\n#events-slider h5 {\n	color: #fff;\n	margin: 0 !important;\n}\n\n#events-slider p {\n	color: #fff;\n	margin: 0 !important;\n}\n\n.field-instructions\n{\n  margin:0px 0 5px;\n}\n/* CONTENT */\n\n#main-content {\n /* width: 90%; */\n\n margin-right: auto;\n/*  padding-left:160px; */\n font-size: 14px;\n font-family: Arial;\n padding-top: 20px;\n color: #8E8E8E;\n}\n\n#main-content h1,\n#main-content h2,\n#main-content h3 {\n  font-family: Helvetica, Arial, Verdana, sans-serif;\n  font-weight: normal;\n/*    color: #494949; */\n}\n\n#main-content h1 {\n  font-size: 42px;\n  font-weight: normal;\n}\n\n#main-content a:link, #main-content a:link   {\n  color: #0056B4;\n  border-bottom: none;\n}\n\n\n#main-content .post a:link, #main-content a:link   {\n  color: #0056B4;\n  border-bottom: 1px dotted;\n}\n\n\n#main-content a:active, #main-content a:visited   {\n  /* color: #0056B4; */\n  border-bottom: none;\n}\n\n#main-content a:hover {\n  /* color:  #E85E02; */\n  border-bottom: none;\n}\n\n#main-content .post h2 {\n  font-size: 28px;\n  font-weight: normal;\n  color: #E85E02;\n}\n\n#main-content .post h3 {\n  font-size: 21px;\n  font-weight: normal;\n  color: #6F9408;\n}\n\n#main-content h1#page-title {\n  color: #6CAC3A;\n  border-bottom: 1px dotted #6CAC3A;\n}\n\n#main-content .post {\n/*   padding-left:100px; */\npadding-right: 40px;\n}\n\n#main-content p {\n  font-size: 14px;\n  line-height: 1.5;\n  font-family: Helvetica, Arial, Verdana, sans-serif;\n  font-weight: normal;\n  color: #494949;\n}\n\n#main-content p strong {\n  color: #0056B4;\n}\n#main-content table {\n  background-color: transparent;\n  background-image: none;\n  font-size: 16px;\n  line-height: 1.4;\n}\n\n#main-content h1#page-title {\n  font-size: 36px;\n  font-weight: 500;\n  text-transform: capitalize;\n}\n\n#PageContentMedium {\n  background-color: none;\n  font-size: 16px;\n}\n\n.btn-group-1 a {\n  color:#0D76BD;\n}\n\n.btn-group-1 a:hover, .btn-group-1 a:active {\n  color:#F26122;\n}\n\n/* form styles */\n\n#content > fieldset p {\n    margin: 0;\n}\n\n\n#UserFirstname {\n    width: 50%;\n    margin: 0;\n}\n\n#content form p.left {\n  margin: 0;\n  padding: 0;\n}\n#content input[type=\"text\"], \n#content input[type=\"password\"],\n#content input[type=\"datetime\"],\n#content input[type=\"datetime-local\"],\n#content input[type=\"date\"],\n#content input[type=\"month\"],\n#content input[type=\"time\"],\n#content input[type=\"week\"],\n#content input[type=\"number\"],\n#content input[type=\"email\"],\n#content input[type=\"url\"],\n#content input[type=\"search\"],\n#content input[type=\"tel\"],\n#content input[type=\"color\"] {\n padding : 10;\n margin: 0;\n width: 50%;\n font-size: 16px;\n min-width: 250px;    \n}\n\n#content select, #content textarea {\n    width: 50%;\n   \n}\n\n#contactform .form-group {\n    margin-bottom: 20px;\n}\n\n#content label {\n    font-size: 16px;\n    margin-bottom: 10px;\n}\n\n#content div.widget-header > h2 {\n    text-shadow: none;\n    color: #fff;\n}\n\n#content div.widget-header > h2 {\n    text-shadow: none;\n    color: #fff;\n    font-size: 18px;\n    padding-left: 10px;\n}\n.steps-container div.inner-container {\n  color: #575757; \n}\n\n\nli.module span.steps.status {\ncolor: #484F57 !important;\n}\n//etabs\nul.etabs{} \n.etabs { margin: 0; padding: 0; }\n.tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }\n.tab a { font-size: 12px; line-height: 1.5em; display: block; padding: 0 10px; outline: none; }\n.tab a:hover { text-decoration: underline; }\n.tab.active { background: #fff; padding-top: 6px; position: relative; top: 1px; border-color: #666; }\n.tab a.active { font-weight: bold; }\n.tab-container .panel-container { background: #fff; border: solid #666 1px; padding: 10px; -moz-border-radius: 0 4px 4px 4px; -webkit-border-radius: 0 4px 4px 4px; }\n\n/* browser issue fix resize to 1180 */\n@media (max-width: 1201px) {\n  #twitter-widget-0, #social-stream {\n    display: none !important;\n    \n  }\n  \n  header .search {\n    display: none;\n  }\n  \n#header-login.span8 {\n    width:467px;\n    float: right;\n  }\n  \n  #login-or-register {\n    margin-left:0px\n    \n  }\n  \n  .masthead .btn-group-1 {\n    float: right;\n    width: 200px}\n  \n #main-content .home-content {\n    width: 100%\n  }\n  \n}\n\n#tab-container li.tab a {  \n  font-size: 12px;\n  /* color: red; */  \n}\n\n#social-stream .dcsmt-btn {\n  /* background-color: transparent; */\n}\n\n#social-stream .dcsmt-btn .btn-type-twitter {\n  /*background-color:none;*/\n  \n}\n\n#social-stream a:link {\n    text-decoration: none;\n    border-bottom: 0px solid #ccc;\n    color: #B9B7B7;\n}\n\n#social-stream h3 a:link {\n    text-decoration: none;\n    border-bottom: 0px solid #ccc;\n    color: #A3A1A1;\n}\n\n#social-stream .profile a { \n  color: #fff important!;\n}\n\n#social-stream .profile a:link { \n  color: #fff important!;\n}\n\n#social-stream .profile a:visited { \n  color: #fff important!;\n}\n\n#social-stream .profile a:active { \n  color: #fff important!;\n}\n\n#social-stream h3 a,#social-stream h3 a:active {\n    font-size: 12px;\n}\n\n.tab-inner .profile h3 {\nmargin: 0;\npadding: 3px 0 3px 3px;\nposition: relative;\nfont-size: 14px;\nline-height: 20px;\n}\n\n.form-group {\n  margin-bottom: 20px;\n}\n\n::-webkit-input-placeholder { color:#cccccc !important; \n  font-size: 12px; \n  font-weight: normal !important; \n  font-style: italic;\n}\n::-moz-placeholder { color:#cccccc !important; \n  font-size: 12px; \n  font-weight: normal !important; \n  font-style: italic;\n  } /* firefox 19+ */\n:-ms-input-placeholder { color:#cccccc !important; \n  font-size: 12px; \n  font-weight: normal !important; \n  font-style: italic; \n  }/* ie */\ninput:-moz-placeholder { color:#cccccc !important; \n  font-size: 12px; \n  font-weight: normal !important; \n  font-style: italic; \n}",
+			"file": "style.css",
+			"file_size": 55924,
+			"file_write_time": 130475785540000000,
+			"settings":
+			{
+				"buffer_size": 55926,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: v",
+				"Snippet: var_dump"
+			],
+			[
+				"To",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 396.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/webroot/js/theme/jquery.hashchange.min.js",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/webroot/css/theme/atlas-icons/demo.html",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/.gitignore",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/pages/home.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/layouts/header.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/layouts/demo.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/jfairs/index.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/jfairs/jobs_faq.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/employers/virtual_register.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/employers/register.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/jfairs/employers_faq.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/jfairs/tools.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/demos/index.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/demos/employers_faq.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/layouts/forms.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/elements/theme/logos.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/layouts/worknet.ctp",
+		"/Users/shawnsandy/vjf-2014/app/views/layouts/default.bk.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/webroot/css/theme/v3/stylesheet.css",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/layouts/default.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/mobile_registrations/id.txt",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/zip.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/contact_info_mobile.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/contact_email.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/address_info_mobile.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/address_info.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/address.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/address_2.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address/city.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/company_name.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/first_name.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/last_name.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/contact_person.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/date_of_birth.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/fax.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/phone.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/contact_info.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/mobile_registrations/register.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/address.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/mobile_registrations/index.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/btn_submit_clear.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_job_orders/add_job_order.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet_forms/wn_job_seekers_controller.php",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/snippets/var-dump.sublime-snippet",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_job_seekers/add_job_seekers.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/snippets/var_dump.sublime-snippet",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/input_select_yes_no.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/veteran.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/job_title.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/mobile_registrations_controller.php",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_associations/add_associations.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_employers/add_employers.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet_forms/wn_employers_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet_forms/wn_job_orders_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet_forms/wn_associations_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/wm_registrations_controller.php",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_job_seekers/add_job_seekers.bk.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/skills.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/background_checks.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/input_textarea.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/benefits.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_employers_controller.php",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_job_seekers/add_job_seeker.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/career_events.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/sponsorship.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_job_orders_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_job_seekers_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_associations_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_associations_controller.php-tmp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/input_checkbox.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/checkbox.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_employers/add.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_job_seekers/add.ctp",
+		"/Users/shawnsandy/Projects/atlas/models/wn_job_seeker.php",
+		"/Users/shawnsandy/Projects/atlas/models/kiosk.php",
+		"/Users/shawnsandy/Projects/atlas/models/wn_association.php",
+		"/Users/shawnsandy/Projects/atlas/models/wn_job_order.php",
+		"/Users/shawnsandy/Projects/atlas/models/wn_employer.php",
+		"/Users/shawnsandy/Projects/atlas/models/filed_document.php",
+		"/Users/shawnsandy/Projects/atlas/models/wn_employer",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wn_employers/add.bk.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/AutoSoftWrap/AutoSoftWrap.sublime-settings",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wm_registrations/job_seekers.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wm_registrations/employers.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wm_registrations/job_order.ctp",
+		"/Users/shawnsandy/Projects/atlas/controllers/users_controller.php",
+		"/Users/shawnsandy/Projects/atlas/controllers/worknet/wn_assiciations_controller.php",
+		"/Users/shawnsandy/Projects/atlas/models/document_filing_category.php",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/wm_registrations/associations.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/pay_rate_annual.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/pay_rate.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/refferal_information.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/input.ctp",
+		"/Users/shawnsandy/Projects/cakephp-1.3.16/index.php",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/work_schelude.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/hiring_process.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/jobs_refferal.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/webroot/css/theme/style.css",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/minimim_education.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/job_description.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/jobs/federal_id.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/contacts/job_title.ctp",
+		"/Users/shawnsandy/Projects/atlas/views/themed/shawn_sandy/elements/forms/website.ctp",
+		"/Users/shawnsandy/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/shawnsandy/Projects/atlas/inspector-stylesheet-ecourse",
+		"/private/var/folders/yx/9lsk56yd3zs8q7h0rssv582h0000gn/T/fz3temp-1/index.html",
+		"/private/var/folders/yx/9lsk56yd3zs8q7h0rssv582h0000gn/T/fz3temp-1/board.htm",
+		"/Users/shawnsandy/Downloads/twitter-api-php-master/TwitterAPIExchange.php",
+		"/Users/shawnsandy/Desktop/dev-code/gulp/gulp-kit/package.json",
+		"/Users/shawnsandy/Desktop/dev-code/gulp/gulp-test/gulpfile.js",
+		"/Users/shawnsandy/Desktop/dev-code/gulp/gulp-test/gulp.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"target=\"_blank\"target=\"_blank\"",
+			"?>\n",
+			"\n<div class=\"form-group\">\n    <?php echo $this->element('forms/jobs/hiring_process') ?>\n</div>",
+			">');\n",
+			"Diane"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"target=\"_blank\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55926,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7693,
+								7693
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6118.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "/Users/shawnsandy/vjf-2014/app/views/layouts/atlas-design.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"cakephp-1.3.16/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

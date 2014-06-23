@@ -3,11 +3,11 @@
         <div class="row-fluid">
             <div class="span12">
                 <div class="header-block clearfix">
-                    <div class="row masthead">
-                        <div class="container">
+                    <div class="row-fluid masthead">
+                        <div class="container-fluid">
                           <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><img src="/img/theme/chipola.png" alt=""></a>
+                                <a href="/"><img src="/img/theme/florida-lg.png" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8" id="login-or-register">
@@ -87,7 +87,7 @@
                         </div>
                         
                     </div>                   
-                       <?php echo $this->element('layouts/nav') ?>
+                       <?php //echo $this->element('layouts/nav') ?>
                 </div>
             </div>
         </div>

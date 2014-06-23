@@ -74,19 +74,40 @@
 	
 </head>
 <body>
-	<?php echo $this->element('layouts/header') ?>
-
+<header>
+<?php echo $this->element('layouts/header') ?>	
+</header>
+<div class="container-fluid" id="wrapper">
+<div id="dashboard" class="row-fluid">
+	<div class="span4 sidebar">
+		<ul class="nav nav-list">
+                <li class="nav-header">List header</li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Applications</a></li>
+                <li class="nav-header">Another list header</li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Help</a>
+                		<p>
+                			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
+                		</p>
+                </li>
+        </ul>
+	</div>
+	<div class="span8">
         <section id="content">
-            <div class="container">			                       
+            <div class="container-fluid">			                       
                 <?php if ($title_for_layout === 'Home'): //display home ?>
-                <div class="row"> 
+                <div class="row-fluid"> 
                     <div class="span12" id="main-content">
                         <?php echo $content_for_layout ?> 
                     </div>
                 </div>
                 <?php elseif($title_for_layout == "Customer Dashboard") : ?>
                 <!--custom dashboard here-->
-                <div class="row"> 
+                <div class="row-fluid"> 
                     <div class="span12" id="main-content">
                         <?php echo $content_for_layout ?> 
                     </div>
@@ -102,9 +123,8 @@
                             <?php if($title_for_layout === "Contact"): ?>
                         <?php echo $this->element('layouts/contactpage'); ?>
                         <?php endif ; ?>
-                        </div>
-                        
-                    </div>                         
+                        </div>                        
+                    </div>            
                     
                     
                 </div>
@@ -113,6 +133,15 @@
         </section>
 
 	<?= $this->element('layouts/footer'); ?>
+
+
+
+	</div>
+</div>	
+
+
+</div>
+	
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>

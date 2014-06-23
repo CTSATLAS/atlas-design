@@ -6,6 +6,10 @@ a[href^="tel:"] {
   color: inherit;
   text-decoration: none;
 }
+
+#wrapper.container-fluid {
+  padding: 0px;
+}
 /*------ template stylization ------*/
 /* headings, text */
 h1,
@@ -368,13 +372,15 @@ header > .container-fluid {
 /*   -webkit-border-radius: 6px; */
 /*   -moz-border-radius: 6px; */
 /*   border-radius: 6px; */
-  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  /* -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); */
   -moz-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); */
   position: relative;
   z-index: 999;
   /* padding-top :20px; */
   padding-bottom
+;
+  border-bottom: 10px solid #A0CF67;
 }
 .header-block-pad {
   /*padding: 53px 31px 46px 31px;*/
@@ -1879,7 +1885,7 @@ footer p.logos {
 #dashboard {
   padding-top: 0px;
   background-color: rgba(223, 239, 223, 0.5);
-  border: rgb(223, 239,223) 1px solid;
+  /* border: rgb(223, 239,223) 1px solid; */
 }
 
 #dashboard .widget {
@@ -2757,3 +2763,57 @@ line-height: 20px;
 .form-group {
   margin-bottom: 20px;
 }
+
+#dashboard.row-fluid {
+  background-color: #A0CF67;
+}
+
+#dashboard .sidebar {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+#dashboard .nav-list li, #dashboard .nav-list li a {
+  color: #fff;
+  font-size: 16px;
+}
+
+#dashboard .nav-list li, #dashboard .nav-list li a  {
+  min-height: 40px;
+  line-height: 40px;
+
+}
+
+#dashboard .nav-list li {
+  border-bottom: 1px dotted;
+  
+}
+
+ #dashboard .nav-list li:hover {
+  border-bottom: 1px dotted;
+  background-color: none;
+} 
+
+#dashboard .nav-list > .active > a, #dashboard .nav-list > .active > a:hover  {
+    background-color: transparent;
+
+}
+#dashboard .nav-list li.divider  {
+    border: none;
+    height: 1px;
+    min-height: 0px;
+    padding: 0;
+    line-height: 0;
+}
+#dashboard .nav-list .divider{
+  background-color: transparent;
+}
+
+#dashboard .nav > li > a:hover {
+  background-color: transparent;
+  padding-left: 40px;
+}
+
+
+
+
