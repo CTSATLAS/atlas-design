@@ -60,7 +60,7 @@ h5 {
 }
 
 [class*="span"].centered {
-  text-align: center;  
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
 /*   display: block; */
@@ -226,7 +226,7 @@ ul.list-2 li a:hover {
 #login-or-register {
   /* margin-left: 270px; */
   text-align: right;
-  
+
 }
 
 @media (max-width: 1199px) and (min-width: 980px) {
@@ -448,8 +448,8 @@ h1.brand span {
 }
 
 .navbar-inner .center-it {
-    max-width: 1170px; 
-    margin-right: auto !important; 
+    max-width: 1170px;
+    margin-right: auto !important;
     margin-left: auto !important;
 }
 
@@ -474,7 +474,7 @@ h1.brand span {
   height: 33px;
   background: url(../../img/theme/search.png) 0 -2px no-repeat;
   float: right;
-  
+
 }
 
 .navbar .span-12 {
@@ -504,7 +504,7 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
 
 .social-icn ul {
   margin-right: 40px;
-  
+
 }
 
 .social-icn a {
@@ -515,12 +515,12 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
   display: inline-block;
   padding: 0;
   padding-left: 10px;
-  padding-right: 10px;    
+  padding-right: 10px;
 }
 
 .social-icn a [class^="icon-"], .social-icn a [class*=" icon-"] {
 color:#EF9C2B;
-    
+
 color:#FFF;
 font-size: 41px;
 }
@@ -528,7 +528,7 @@ font-size: 41px;
 
 .social-icn a:hover [class^="icon-"], .social-icn a:hover [class*=" icon-"] {
 /* color:#E16A1C; */
- 
+
 color:#EF9C2B;
 }
 
@@ -771,7 +771,7 @@ ul.nav li:first-child {
 }
 .camera_wrap .camera_pag .camera_pag_ul li > span {
   display: none;
-  
+
 }
 .camera_wrap .camera_pag .camera_pag_ul li {
   background: #b2b2b2;
@@ -784,7 +784,7 @@ ul.nav li:first-child {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
- 
+
 }
 .camera_wrap .camera_pag .camera_pag_ul li:hover {
   background: #434343;
@@ -817,7 +817,7 @@ ul.nav li:first-child {
   font-size: 70px;
 }
 .camera_caption a {
-  margin-top: 36px; 
+  margin-top: 36px;
 }
 /*--- header end ------*/
 /*------ content ------- */
@@ -826,7 +826,7 @@ ul.nav li:first-child {
 
 .event.list {
   margin-bottom: 40px;
-  
+
 }
 
 #content {
@@ -1349,14 +1349,14 @@ footer p.logos {
     margin: 0;
     color: #A8D52A;
     font-size: 21px;
-  
+
     font-weight: bold !important;
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
 }
   .camera_caption h2 {
     margin: 42px 0 0px 0;
     font-size: 40px;
-  
+
     color: #E85E02;
 }
   .camera_caption h1 {
@@ -1410,13 +1410,13 @@ footer p.logos {
   }
 }
 @media (max-width: 1199px) {
-  
+
 }
 @media (min-width: 980px) and (max-width: 1199px) {
-  
+
 }
 @media (min-width: 979px) {
-  
+
 }
 @media (max-width: 979px) {
   .slider {
@@ -1911,13 +1911,13 @@ footer p.logos {
   -webkit-border-top-right-radius: 5px;
      -moz-border-radius-topleft: 5px;
      -moz-border-radius-topright: 5px;
-          
+
   border-top-left-radius: 5px;
-          
+
   border-top-right-radius: 5px;
 
   -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
-          
+
   /* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25); */
 }
 
@@ -1948,13 +1948,13 @@ footer p.logos {
 #dashboard .widget-content {
   background-color: rgba(160, 207, 103, 0.2);
   height: 300px;
-  -webkit-border-bottom-left-radius: 5px; 
-  -webkit-border-bottom-right-radius: 5px; 
-  -moz-border-radius-bottomleft: 5px; 
-  -moz-border-radius-bottomright: 5px; 
-  border-bottom-left-radius: 5px; 
+  -webkit-border-bottom-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px; -webkit-box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25); /* box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25); */;
- 
+
   overflow: auto;
 }
 
@@ -2611,7 +2611,7 @@ padding-right: 40px;
   margin: 0;
   padding: 0;
 }
-#content input[type="text"], 
+#content input[type="text"],
 #content input[type="password"],
 #content input[type="datetime"],
 #content input[type="datetime-local"],
@@ -2629,12 +2629,12 @@ padding-right: 40px;
  margin: 0;
  width: 50%;
  font-size: 16px;
- min-width: 250px;    
+ min-width: 250px;
 }
 
 #content select, #content textarea {
     width: 50%;
-   
+
 }
 
 #contactform .form-group {
@@ -2658,7 +2658,7 @@ padding-right: 40px;
     padding-left: 10px;
 }
 .steps-container div.inner-container {
-  color: #575757; 
+  color: #575757;
 }
 
 
@@ -2666,7 +2666,7 @@ li.module span.steps.status {
 color: #484F57 !important;
 }
 //etabs
-ul.etabs{} 
+ul.etabs{}
 .etabs { margin: 0; padding: 0; }
 .tab { display: inline-block; zoom:1; *display:inline; background: #eee; border: solid 1px #999; border-bottom: none; -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; }
 .tab a { font-size: 12px; line-height: 1.5em; display: block; padding: 0 10px; outline: none; }
@@ -2679,36 +2679,36 @@ ul.etabs{}
 @media (max-width: 1201px) {
   #twitter-widget-0, #social-stream {
     display: none !important;
-    
+
   }
-  
+
   header .search {
     display: none;
   }
-  
+
 #header-login.span8 {
     width:467px;
     float: right;
   }
-  
+
   #login-or-register {
     margin-left:0px
-    
+
   }
-  
+
   .masthead .btn-group-1 {
     float: right;
     width: 200px}
-  
+
  #main-content .home-content {
     width: 100%
   }
-  
+
 }
 
-#tab-container li.tab a {  
+#tab-container li.tab a {
   font-size: 12px;
-  /* color: red; */  
+  /* color: red; */
 }
 
 #social-stream .dcsmt-btn {
@@ -2717,7 +2717,7 @@ ul.etabs{}
 
 #social-stream .dcsmt-btn .btn-type-twitter {
   /*background-color:none;*/
-  
+
 }
 
 #social-stream a:link {
@@ -2732,19 +2732,19 @@ ul.etabs{}
     color: #A3A1A1;
 }
 
-#social-stream .profile a { 
+#social-stream .profile a {
   color: #fff important!;
 }
 
-#social-stream .profile a:link { 
+#social-stream .profile a:link {
   color: #fff important!;
 }
 
-#social-stream .profile a:visited { 
+#social-stream .profile a:visited {
   color: #fff important!;
 }
 
-#social-stream .profile a:active { 
+#social-stream .profile a:active {
   color: #fff important!;
 }
 
@@ -2786,13 +2786,13 @@ line-height: 20px;
 
 #dashboard .nav-list li {
   border-bottom: 1px dotted;
-  
+
 }
 
  #dashboard .nav-list li:hover {
   border-bottom: 1px dotted;
   background-color: none;
-} 
+}
 
 #dashboard .nav-list > .active > a, #dashboard .nav-list > .active > a:hover  {
     background-color: transparent;
@@ -2811,9 +2811,5 @@ line-height: 20px;
 
 #dashboard .nav > li > a:hover {
   background-color: transparent;
-  padding-left: 40px;
+  padding-left: 0px;
 }
-
-
-
-

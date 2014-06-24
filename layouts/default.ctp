@@ -71,64 +71,58 @@
 	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
 
-	
+
 </head>
 <body>
 <header>
-<?php echo $this->element('layouts/header') ?>	
+<?php echo $this->element('layouts/header') ?>
 </header>
 <div class="container-fluid" id="wrapper">
 <div id="dashboard" class="row-fluid">
-	<div class="span4 sidebar">
+	<div class="span2 sidebar">
 		<ul class="nav nav-list">
-                <li class="nav-header">List header</li>
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Library</a></li>
-                <li><a href="#">Applications</a></li>
-                <li class="nav-header">Another list header</li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Settings</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Help</a>
+			<?= $this->Nav->links('Top', true, 'nav sf-menu') ?>
+                <li>
                 		<p>
                 			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
                 		</p>
                 </li>
+
         </ul>
 	</div>
-	<div class="span8">
+	<div class="span10">
         <section id="content">
-            <div class="container-fluid">			                       
+            <div class="container-fluid">
                 <?php if ($title_for_layout === 'Home'): //display home ?>
-                <div class="row-fluid"> 
+                <div class="row-fluid">
                     <div class="span12" id="main-content">
-                        <?php echo $content_for_layout ?> 
+                        <?php echo $content_for_layout ?>
                     </div>
                 </div>
                 <?php elseif($title_for_layout == "Customer Dashboard") : ?>
                 <!--custom dashboard here-->
-                <div class="row-fluid"> 
+                <div class="row-fluid">
                     <div class="span12" id="main-content">
-                        <?php echo $content_for_layout ?> 
+                        <?php echo $content_for_layout ?>
                     </div>
                 </div>
                 <?php else: ///display content page ?>
-                <div class="row-fluid">                                                  
+                <div class="row-fluid">
                     <div class="span11 offset1" id="main-content">
-                        <?php if ($title_for_layout !== 'Home'): ?>  
+                        <?php if ($title_for_layout !== 'Home'): ?>
                         <h1 id="page-title"><?= $title_for_layout ?></h1>
                         <?php endif ?>
                         <div class="post">
-                            <?php echo $content_for_layout ?> 
+                            <?php echo $content_for_layout ?>
                             <?php if($title_for_layout === "Contact"): ?>
                         <?php echo $this->element('layouts/contactpage'); ?>
                         <?php endif ; ?>
-                        </div>                        
-                    </div>            
-                    
-                    
+                        </div>
+                    </div>
+
+
                 </div>
-                <?php endif ?> 
+                <?php endif ?>
             </div>
         </section>
 
@@ -137,11 +131,11 @@
 
 
 	</div>
-</div>	
+</div>
 
 
 </div>
-	
+
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
@@ -149,7 +143,7 @@
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
-        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>	
+        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
@@ -180,7 +174,7 @@
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
-			$('.message').fadeOut(10000);
+			$('.message').fadeOut(10000) ;
 
 			if($('.actions ul').text() == '') {
 				$('div.actions').hide();
@@ -234,7 +228,7 @@
 				twitterId: 'flynnarite',
 				twitter: {
 					thumb: true
-                                        
+
 				}
 			});
 		});
