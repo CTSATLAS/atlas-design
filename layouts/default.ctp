@@ -174,7 +174,8 @@
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
-			$('.message').fadeOut(10000) ;
+			$('.message').fadeOut(10000);
+
 
 			if($('.actions ul').text() == '') {
 				$('div.actions').hide();
