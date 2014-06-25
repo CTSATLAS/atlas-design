@@ -177,10 +177,16 @@ $(document).ready(function() {
 			'empty' => 'Please Select',
 			'options' => array('1' => 'Yes', '0' => 'No')));				
 		echo $this->Form->input('disability', array(
-			'label' => __('Do you have a substantial disability', true),
+			'label' => __('Do you have a disability', true),
 			'type' => 'select',
 			'empty' => 'Please Select',
-			'options' => array('1' => 'Yes', '0' => 'No')));				
+			'options' => array(
+				'0' => 'I do not have a disability',
+				'1' => 'Physical',
+				'2' => 'Development/Intellectual',
+				'3' => 'Mental'
+				)
+		));				
 	    echo $this->Form->hidden('registration', array('value' => 'website'));
 	    ?>
 	    <br />
