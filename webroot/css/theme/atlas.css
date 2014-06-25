@@ -235,15 +235,15 @@ span.label a {
 }
 
 #ecourse-quiz-results p.correct-answer {
-  background: url(../img/icons/accept.png) 0 0 no-repeat;
+  background: url(../img/theme/icons/accept.png) 0 0 no-repeat;
 }
 
 #ecourse-quiz-results p.incorrect-answer {
-  background: url(../img/icons/exclamation.png) 0 0 no-repeat;
+  background: url(../img/theme/icons/exclamation.png) 0 0 no-repeat;
 }
 
 #ecourse-external-url {
-  background: url(../img/icons/link.png) 0 2px no-repeat;
+  background: url(../img/theme/icons/link.png) 0 2px no-repeat;
   margin: 24px 0 18px;
   padding-left: 24px;
 }
