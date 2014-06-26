@@ -7,8 +7,8 @@
 			</div>
                         <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="https://twitter.com/#!/jobsplus02"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="https://www.facebook.com/JobsPlus?sk=wall"><span class="icon-facebook"></span> </a></li>
+                                <li> <a href="https://twitter.com/#!/careersourceow" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="https://www.facebook.com/careersourceokaloosawalton" target="_blank"><span class="icon-facebook"></span> </a></li>
  <!-- {#                                <li><a href=""><span class="icon-linkedin"></span> </a></li>#}
                                 <li><a href="http://www.youtube.com/careersourcepinellas"><span class="icon-youtube"></span> </a></li> -->
                             </ul>
