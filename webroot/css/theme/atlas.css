@@ -235,11 +235,11 @@ span.label a {
 }
 
 #ecourse-quiz-results p.correct-answer {
-  background: url(../img/theme/icons/accept.png) 0 0 no-repeat;
+  background: url(../../img/theme/icons/accept.png) 0 0 no-repeat;
 }
 
 #ecourse-quiz-results p.incorrect-answer {
-  background: url(../img/theme/icons/exclamation.png) 0 0 no-repeat;
+  background: url(../../img/theme/icons/exclamation.png) 0 0 no-repeat;
 }
 
 #ecourse-external-url {
