@@ -1,5 +1,5 @@
 <header class="p0">
-    <div class="container">    
+    <div class="container">
         <div class="row">
             <div class="span12">
                 <div class="header-block clearfix">
@@ -14,7 +14,7 @@
                             <div class="row search">
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div>
-                                        <form id="search-form" action="search.php" method="GET" accept-charset="utf-8" class="navbar-form" >
+                                        <form id="search-form" action="search_pages" method="GET" accept-charset="utf-8" class="navbar-form" >
                                             <input type="text" placeholder="Search" name="s">
                                             <a href="#" onClick="document.getElementById('search-form').submit()"></a>
                                         </form>
@@ -93,8 +93,8 @@
                                 </div>
                             </div>
 
-                            
-                            
+
+
                         </div>
                     </div>
         <?= $this->element('layouts/nav') ?>
