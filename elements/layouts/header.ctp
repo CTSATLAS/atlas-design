@@ -14,7 +14,7 @@
                             <div class="row search">
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div>
-                                        <form id="search-form" action="search_pages" method="GET" accept-charset="utf-8" class="navbar-form" >
+                                        <form id="search-form" action="/search_pages" method="GET" accept-charset="utf-8" class="navbar-form" >
                                             <input type="text" placeholder="Search" name="search">
                                             <a href="#" onClick="document.getElementById('search-form').submit()"></a>
                                         </form>
