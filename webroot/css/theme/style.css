@@ -2734,7 +2734,7 @@ input#reset_filters {
 
 #events form input[type="submit"] {
 
-    float: none;
+    float: none !important;
     margin-top: 10px;
     margin-bottom: 10px;
 
