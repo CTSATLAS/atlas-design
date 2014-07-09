@@ -79,7 +79,7 @@
 						Sign in the white box
 					</p>
 				</div>
-				<div class="span4">
+				<div class="span8">
 					<div id="sig"></div>
 				</div>
 			</div>
