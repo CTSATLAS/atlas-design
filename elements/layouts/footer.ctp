@@ -29,7 +29,7 @@
 				</div>
 				<div class="span3">
 					<h5>
-						CareerSource Pinellas, center in Tarpon Springs 
+						CareerSource Pinellas center in Tarpon Springs 
 					</h5>
 					<a href="//maps.google.com/maps?q=St. Petersburg College Campus 682 E. Klosterman Road Tarpon Springs, FL 34689" target="_blank">
 						<img src="http://maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.1229205,-82.7454361" />
