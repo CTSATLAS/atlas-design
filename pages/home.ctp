@@ -108,7 +108,7 @@ curl_close($ch);
 if ($output)
 {
     $tweets = json_decode($output,true);
-    var_dump($tweets);
+    //var_dump($tweets);
     foreach ($tweets as $tweet)
     {
        //var_dump($tweet);
