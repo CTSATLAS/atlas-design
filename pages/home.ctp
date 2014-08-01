@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
 * @author Brandon Cordell
 * @copyright Complete Technology Solutions 2011
 * @link http://ctsfla.com
@@ -45,7 +45,7 @@
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
 
-        <div id="tab-container" class="tab-container">
+  <div id="tab-container" class="tab-container">
   <ul class='etabs'>
     <li class='tab'><a href="#twitter">Twitter</a></li>
     <li class='tab'><a href="#tabs1-js">Facebook</a></li>
@@ -58,7 +58,7 @@
     <!-- content -->
     <?php echo $this->element('social/facebook');  ?>
   </div>
-  <div id="tabs1-css">    
+  <div id="tabs1-css">
     <!-- content -->
     <?php // echo $this->element('social/youtube');  ?>
   </div>
@@ -93,25 +93,25 @@
         </div>
     </div>
 
- <?php 
-        // Create curl resource 
-$ch = curl_init(); 
-// Set url 
-curl_setopt($ch, CURLOPT_URL, "http://twitter.com/statuses/user_timeline/shawnsandy.json?count=10"); 
-// Return the transfer as a string 
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
-// $output contains the output string 
-$output = curl_exec($ch); 
-// Close curl resource to free up system resources 
+ <?php
+        // Create curl resource
+$ch = curl_init();
+// Set url
+curl_setopt($ch, CURLOPT_URL, "http://twitter.com/statuses/user_timeline/shawnsandy.json?count=10");
+// Return the transfer as a string
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+// $output contains the output string
+$output = curl_exec($ch);
+// Close curl resource to free up system resources
 curl_close($ch);
 
-if ($output) 
+if ($output)
 {
     $tweets = json_decode($output,true);
     var_dump($tweets);
     foreach ($tweets as $tweet)
     {
-       var_dump($tweet);
+       //var_dump($tweet);
     }
 }
  ?>
