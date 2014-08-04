@@ -1,4 +1,4 @@
-<?php 
+<?php
 	echo $this->Form->create('User', array('url' => '/users/registration/' . $type . '/' . $program_id));
 ?>
 <fieldset>
@@ -91,7 +91,7 @@
 			'label' => 'Confirm your password',
 			'type' => 'password',
 			'before' => '<br />',
-			'after' => '<br />'
+			'after' => '<br /><p> The following  questions will be used for statistical purposes only</p?'
 		));
 	}
 
@@ -137,10 +137,10 @@
 		'label' => __('Primary Spoken Language', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
-		'options' => array('English' => 'English', 'Spanish' => 'Spanish', 'Other' => 'Other'), 
+		'options' => array('English' => 'English', 'Spanish' => 'Spanish', 'Other' => 'Other'),
 		'before' => '<br />',
 		'after' => '<br />'
-	));	
+	));
 	echo $this->Form->input('ethnicity', array(
 		'label' => __('Ethnicity', true),
 		'type' => 'select',
@@ -149,7 +149,7 @@
 		'Hispanic or Latino' => 'Hispanic or Latino',
 		'Not Hispanic or Latino' => 'Not Hispanic or Latino',
 		'Other' => 'Other',
-		'I do not wish to answer' => 'I do not wish to answer'), 
+		'I do not wish to answer' => 'I do not wish to answer'),
 		'before' => '<br />',
 		'after' => '<br />'
 	));
@@ -174,7 +174,7 @@
 		'label' => __('Are you a US veteran', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
-		'options' => array('1' => 'Yes', '0' => 'No'), 
+		'options' => array('1' => 'Yes', '0' => 'No'),
 		'before' => '<br />',
 		'after' => '<br />'
 	));
@@ -183,7 +183,7 @@
 		'label' => __('Do you have a disability', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
-		'options' => array('0' => 'No Disability', '1' => 'Physical', '2' => 'Mental/Intellectual', '3' => 'Mental Health'), 
+		'options' => array('0' => 'No Disability', '1' => 'Physical', '2' => 'Mental Health'),
 		'before' => '<br />',
 		'after' => '<br />'
 	));

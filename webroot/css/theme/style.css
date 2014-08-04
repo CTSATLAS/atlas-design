@@ -10,7 +10,7 @@ html {overflow-y:scroll;}
 body {
 	/* background: url('../../img/theme/body.jpg'); */
 	font:13px/18px Arial, sans-serif;
-	color: #FFF;
+	color: rgba(138, 141, 145, 1);
 	position:relative;
 	min-width:320px;
 }
@@ -52,10 +52,13 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 .fright {float:right;}
 
 .body-glow {
-         background: url('../../img/theme/body-glow.jpg')  50% 0; 
-	background-repeat: repeat-x;
-	height:100%;
-	 background-color: rgba(252, 252, 252, 1); 
+         /* background: url('../../img/theme/body-glow.jpg')  50% 0; */ 
+	
+         /* background-repeat: repeat-x; */
+	
+         height:100%;
+	 
+         /* background-color: rgba(252, 252, 252, 1); */ 
 }
 
 .home .body-glow {
@@ -563,4 +566,8 @@ footer {
 .sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
 
 background-color: transparent;
+}
+
+.text-warning {
+    color: rgba(20, 150, 214, 1);
 }
