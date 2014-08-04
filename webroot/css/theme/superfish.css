@@ -67,7 +67,7 @@ nav .sf-menu {
 }
 .sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
 	color: #0097de;
-	background-color:#fff;
+/* 	background-color:#fff; */
 }
 .sf-menu ul {
 	position: absolute;

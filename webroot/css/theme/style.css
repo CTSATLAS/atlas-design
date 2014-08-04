@@ -52,10 +52,19 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 .fright {float:right;}
 
 .body-glow {
-	background: url('../../img/theme/body-glow.jpg')  50% 0;
+         background: url('../../img/theme/body-glow.jpg')  50% 0; 
 	background-repeat: repeat-x;
 	height:100%;
-	/* background-color: rgba(252, 252, 252, 1); */
+	 background-color: rgba(252, 252, 252, 1); 
+}
+
+.home .body-glow {
+    background: url('../../img/theme/body-glow.jpg')  50% 0; 
+    background-repeat: repeat-x;
+}
+
+.home #content {
+    padding-top: 80px;
 }
 
 
@@ -64,6 +73,9 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 	margin:0 auto;
 }
 
+.home header {
+    
+}
 /* TYPOGRAPHY
 ========================================================================= */
 h1 {
@@ -546,4 +558,9 @@ footer {
 
 .login-submit {
 	margin-top:10px;
+}
+
+.sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
+
+background-color: transparent;
 }
