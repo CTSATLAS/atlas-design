@@ -8,9 +8,9 @@
 
 html {overflow-y:scroll;}
 body {
-	background: url('../../img/theme/body.jpg');
+	/* background: url('../../img/theme/body.jpg'); */
 	font:13px/18px Arial, sans-serif;
-	color:#8a8d91;
+	color: #FFF;
 	position:relative;
 	min-width:320px;
 }
@@ -52,8 +52,10 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 .fright {float:right;}
 
 .body-glow {
-	background: url('../../img/theme/body-glow.jpg') no-repeat 50% 0;
+	background: url('../../img/theme/body-glow.jpg')  50% 0;
+	background-repeat: repeat-x;
 	height:100%;
+	/* background-color: rgba(252, 252, 252, 1); */
 }
 
 
