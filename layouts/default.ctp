@@ -13,21 +13,25 @@
 		<link rel="stylesheet" href="/css/font-awesome-ie7.min" media="screen" />
 	<![endif]-->
 	<!--[if lt IE 9]>
-		<link rel="stylesheet" href="/css/theme/ie.css"> 
+		<link rel="stylesheet" href="/css/theme/ie.css">
 	<![endif]-->
 
 	<link rel="shortcut icon" href="images/favicon.ico" />
 
 	<title><?= $title_for_layout ?> &mdash; Job Smart Tampa Bay</title>
+	<!-- body class -->
+	<?php $class='pages'; if ($this->here === '/'): ?>
+		<?php $class='home' ; ?>
+	<?php endif ?>
 </head>
-<body>
+<body class="<?php echo $class ?>">
 	<!--[if lt IE 8]><?= $this->element('layouts/ie_warning') ?><![endif]-->
 	<div class="body-glow">
 		<div class="main">
 			<!-- header -->
 			<header>
 				<?= $this->element('layouts/header') ?>
-				
+
 				<?php if ($this->here === '/'): ?>
 					<?= $this->element('layouts/slider') ?>
 					<div>

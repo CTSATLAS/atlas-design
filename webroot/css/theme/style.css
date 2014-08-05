@@ -10,7 +10,7 @@ html {overflow-y:scroll;}
 body {
 	/* background: url('../../img/theme/body.jpg'); */
 	font:13px/18px Arial, sans-serif;
-	color: #FFF;
+	color: rgba(138, 141, 145, 1);
 	position:relative;
 	min-width:320px;
 }
@@ -52,10 +52,22 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 .fright {float:right;}
 
 .body-glow {
-	background: url('../../img/theme/body-glow.jpg')  50% 0;
-	background-repeat: repeat-x;
-	height:100%;
-	/* background-color: rgba(252, 252, 252, 1); */
+         /* background: url('../../img/theme/body-glow.jpg')  50% 0; */ 
+	
+         /* background-repeat: repeat-x; */
+	
+         height:100%;
+	 
+         /* background-color: rgba(252, 252, 252, 1); */ 
+}
+
+.home .body-glow {
+    background: url('../../img/theme/body-glow.jpg')  50% 0; 
+    background-repeat: repeat-x;
+}
+
+.home #content {
+    padding-top: 80px;
 }
 
 
@@ -64,6 +76,9 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 	margin:0 auto;
 }
 
+.home header {
+    
+}
 /* TYPOGRAPHY
 ========================================================================= */
 h1 {
@@ -83,7 +98,7 @@ h2 {
 	font-size:28px;
 	line-height:36px;
 	font-weight:700;
-	color:#8f9194;
+	color: #49a08d;
 	letter-spacing:-1px;
 	border-bottom: 3px solid #d5d7da;
 	padding-bottom:3px;
@@ -289,9 +304,12 @@ div.col-light-blue .inner-indernt {
 	font-style:italic;
 	color:#ffffff;
 	padding: 4px 20px;
-	-webkit-box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.82);
 	-moz-box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+	/* box-shadow: 0px 0px 5px rgba(0,0,0,0.25); */
+	background-color: #107AD3;
+	font-weight: normal;
+	text-shadow: none;
 }
 	
 .button.green {
@@ -546,4 +564,13 @@ footer {
 
 .login-submit {
 	margin-top:10px;
+}
+
+.sf-menu > li > a:hover, .sf-menu > li.active > a, .sf-menu > li.sfHover > a {
+
+background-color: transparent;
+}
+
+.text-warning {
+    color: rgba(20, 150, 214, 1);
 }
