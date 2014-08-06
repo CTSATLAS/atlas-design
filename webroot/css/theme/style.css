@@ -88,11 +88,11 @@ h1 {
 h1 a {
 	display: block;
 	position:relative;
-	top:65px;
+	top: 60px;
 	text-indent: -999em;
 	width: 283px;
 	height: 115px;
-	background: url('../../img/theme/logo.png') no-repeat;
+	/* background: url('../../img/theme/logo.png') no-repeat; */
 }
 h2 {
 	font-size:28px;
@@ -185,12 +185,12 @@ strong.l-blue {
 
 
 nav {
-	background: url('../../img/theme/page1-menu-bg.png') no-repeat;
+	background: url('../../img/theme/nav-bg.png') no-repeat;
 	min-height:98px;
 	margin-left:8px;
 }
 #page1 nav {
-	background: url('../../img/theme/page1-menu-bg.png') no-repeat;
+	background: url('../../img/theme/nav-bg.png') no-repeat;
 	min-height:95px;
 	margin-left:8px;
 }
