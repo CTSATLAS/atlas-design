@@ -2741,3 +2741,10 @@ input#reset_filters {
     margin-bottom: 10px !important;
 
 }
+
+#events .event-start-date h2 {
+  font-size: 16px;
+/*   color: rgba(138, 141, 145, 1); */
+  padding-top: 40px;
+  text-align: right;
+}
