@@ -25,7 +25,7 @@
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/theme/fonts/font-awesome/css/font-awesome.min.css" type="text/css">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
          <?php echo $this->Html->css('theme/sg-grid'); ?>
 
