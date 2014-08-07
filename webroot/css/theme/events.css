@@ -8,8 +8,9 @@
 }
 
 #events form input[type="submit"] {
-  float: right;
-  margin-top: -3px;
+  /* float: right; */
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 100px;
 }
 
@@ -440,4 +441,9 @@
   color: #999999;
   cursor: default;
   background-color: #fff;
+}
+
+.event_categories select {
+display: block;
+width: 100%;
 }
