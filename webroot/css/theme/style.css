@@ -2447,6 +2447,8 @@ p.correct-answer {
 }
 /* CONTENT */
 
+
+
 #main-content {
  /* width: 90%; */
 
@@ -2456,6 +2458,12 @@ p.correct-answer {
  font-family: Arial;
  padding-top: 20px;
  color: #8E8E8E;
+}
+
+#events ul, #events-content ol {
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0px;
 }
 
 #main-content h1,
@@ -2496,7 +2504,7 @@ p.correct-answer {
 #main-content .post h2 {
   font-size: 28px;
   font-weight: normal;
-  color: #E85E02;
+  color: rgba(139, 194, 55, 1);
 }
 
 #main-content .post h3 {
@@ -2669,10 +2677,11 @@ ul.etabs{}
 }
 
 #events .event-start-date h2 {
-  font-size: 16px;
-/*   color: rgba(138, 141, 145, 1); */
+  font-size: 21px;
+
+  color: rgba(242, 97, 34, 1);
   padding-top: 40px;
-  text-align: right;
+  /* text-align: right; */
 }
 
 
