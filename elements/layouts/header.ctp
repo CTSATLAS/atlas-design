@@ -15,12 +15,12 @@
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="http://www.twitter.com/careersourcetb" target="_blank"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="http://www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
-                                 <li><a href="http://www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
-                                 <li><a href="http://www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
+                                <li> <a href="//www.twitter.com/careersourcetb" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="//www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
+                                 <li><a href="//www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
                                  
-                                 <li><a href="http://careersourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span></a></li>
+                                 <li><a href="//careersourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span></a></li>
                                  
                             </ul>
                         </div>

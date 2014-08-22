@@ -31,8 +31,8 @@
 					<h5>
 						CareerSource Tampa Bay center in Ruskin
 					</h5>
-					<a href="https://www.google.com/maps/place/201+14th+Ave+SE/@27.704905,-82.432703,17z/data=!3m1!4b1!4m2!3m1!1s0x88c32777c29f8989:0x79209c5bc80ea8c1" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=27.7049050,-82.4327030&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7049050,-82.4327030">
+					<a href="//www.google.com/maps/place/201+14th+Ave+SE/@27.704905,-82.432703,17z/data=!3m1!4b1!4m2!3m1!1s0x88c32777c29f8989:0x79209c5bc80ea8c1" target="_blank">
+						<img src="//maps.google.com/maps/api/staticmap?center=27.7049050,-82.4327030&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7049050,-82.4327030">
 					</a>
 				</div>
 			</div>
@@ -42,7 +42,7 @@
 		<div class="row">
 			<div class="span6 offset3">
 				<p style="margin-bottom:0px">
-					<a href="http://careersourceflorida.com" target="_blank">
+					<a href="//careersourceflorida.com" target="_blank">
 						<img src="/img/theme/florida.png" alt="" style="width:150px;display:inline-block">
 					</a>
 					A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
