@@ -12,7 +12,7 @@
 				<div class="span3">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Fort Walton Beach Center</h5>
 					<a href="//maps.google.com/maps?q=409 NE Racetrack Road Fort Walton Beach, FL 32547" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=30.4425360,-86.6019300&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.4425360,-86.6019300">
+						<img src="//maps.google.com/maps/api/staticmap?center=30.4425360,-86.6019300&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.4425360,-86.6019300">
 					</a>
 				</div>
 				<div class="span3">
@@ -40,7 +40,7 @@
 		<div class="row">
 			<div class="span6 offset3">
 				<p style="margin-bottom:0px">
-					<a href="http://www.careersourceflorida.com" target="_blank">
+					<a href="//www.careersourceflorida.com" target="_blank">
 						<img src="/img/theme/florida.png" alt="" style="width:150px;display:inline-block">
 					</a>
 					A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
