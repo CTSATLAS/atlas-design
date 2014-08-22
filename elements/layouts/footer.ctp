@@ -18,19 +18,19 @@
 				<div class="span3">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Walton County Center</h5>
 					<a href="//maps.google.com/maps?q=842 Hwy 20 E, Suite 126 Freeport, FL 32439" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=30.5031115,-86.1496991&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.5031115,-86.1496991">
+						<img src="//maps.google.com/maps/api/staticmap?center=30.5031115,-86.1496991&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.5031115,-86.1496991">
 					</a>
 				</div>
 				<div class="span3">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Crestview Center</h5>
 					<a href="//maps.google.com/maps?q=212 N. Wilson Street Crestview, FL 32536" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
+						<img src="//maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
 					</a>
 				</div>
 				<div class="span3">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Administrative Office</h5>
 					<a href="//maps.google.com/maps?q=109 8th Ave, Shlimar, FL 325379" target="_blank">
-						<img src="http://maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
+						<img src="//maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
 					</a>
 				</div>
 			</div>
