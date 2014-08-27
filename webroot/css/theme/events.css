@@ -2,21 +2,29 @@
   margin: 0 0 18px !important;
 }
 
+#events .row {
+  margin-left: 0 !important;
+}
+
+
 #events form label {
   color: #565656;
-  font-size: 12px;
-  display: block;
+  font-size: 14px;
 }
 
 #events form input[type="submit"] {
-  float: none;
-  margin-top: 20px;
+  /* float: right; */
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 100px;
-  /* display: block; */
 }
 
-
-
+#content #events form select{
+  width: 80% !important;
+}
+#events table {
+  width: 100%
+}
 #events form input[type="submit"].green {
   margin-right: 5px;
 }
@@ -88,8 +96,8 @@
 
 .event-start-date h2 {
   color: #333;
-  font-size: 21px !important;
-  /* margin-bottom: 18px; */
+  font-size: 14px;
+  margin-bottom: 18px;
 }
 
 .event {
@@ -98,10 +106,6 @@
   margin-bottom: 18px;
 }
 
-.event i {
-  color: darkorange;
-  font-size: 14px;
-}
 
 .event .details {
   position: relative;
@@ -125,7 +129,6 @@
   color: #333;
   font-size: 16px;
   font-weight: normal;
-  color: rgba(139, 194, 55, 1) !important;
 }
 
 .event .details li {
@@ -144,23 +147,24 @@
   margin-bottom:0px;
   position:relative;
   top:5px;
-  padding-bottom: 20px;
 }
 .event_categories_label, .event_locations_label
 {
-  display:inline-block;
+  /* display:inline-block; */
 }
 
 .event_locations_label
 {
-  margin-left:15px;
+  /* margin-left:15px; */
 }
 
 #event_categories_dropdown, #event_locations_dropdown
 {
-  height:22px;
+  height: 30px;
   color:#333;
-  vertical-align: baseline;
+  border-radius: 0px;
+  /* vertical-align: baseline; */
+  width: 100%;
 }
 
 /* End of joe's fixes */
@@ -452,6 +456,7 @@
   background-color: #fff;
 }
 
-#events form select {
-  display: block;
+.event_categories select {
+display: block;
+width: 100%;
 }
