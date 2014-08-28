@@ -75,6 +75,7 @@
 	<?= $this->element('no_javascript') ?>
 	<?php echo $this->element('layouts/header') ?>
 
+	<span style="display:none"><?= $this->Session->flash() ?></span>
 	<section id="content">
 		<div class="container">
                 <?php if ($title_for_layout === 'Home'): //display home ?>
