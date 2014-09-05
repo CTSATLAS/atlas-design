@@ -1,9 +1,9 @@
 <?php ob_start() ?>
 <body>
-	<link rel="stylesheet" href="/img/theme/logo.png" />
+	<link rel="stylesheet" href="/html/theme/esign.css" />
 	<div class="header">
 		<div class="left">
-			<img src="/img/admin_header_logo.png" class="logo" />
+			<img src="/img/theme/hernando.png" class="logo" />
 		</div>
 		
 
