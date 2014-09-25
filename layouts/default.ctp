@@ -74,23 +74,22 @@
 
 </head>
 <body>
-<header>
+<?php echo $this->element('core/navbar') ?>
+
 <?php echo $this->element('layouts/header') ?>
-</header>
-<div class="container-fluid" id="wrapper">
+
+<div class="container" id="wrapper">
 <div id="dashboard" class="row-fluid">
-	<div class="span2 sidebar">
-		<ul class="nav nav-list">
-			<?= $this->Nav->links('Top', true, 'nav sf-menu') ?>
-                <li>
+<!--	<div class="span2 sidebar">
+		
                 		<p>
                 			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
                 		</p>
                 </li>
 
         </ul>
-	</div>
-	<div class="span10">
+	</div>-->
+	<div class="span12">
         <section id="content">
             <div class="container-fluid">
                 <?php if ($title_for_layout === 'Home'): //display home ?>
@@ -126,16 +125,16 @@
             </div>
         </section>
 
-	<?= $this->element('layouts/footer'); ?>
-
+	
 
 
 	</div>
 </div>
 
 
-</div>
 
+</div>
+<?= $this->element('layouts/footer'); ?>
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>

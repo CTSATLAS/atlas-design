@@ -1,5 +1,8 @@
 body {
     -webkit-font-smoothing: antialiased;
+    padding-top: 40px;
+    font-size: 16px;
+    background-color: #fff;
 }
 
 a[href^="tel:"] {
@@ -345,9 +348,10 @@ ul.list-2 li a:hover {
 /*------ header ------- */
 header {
   /* padding: 40px 0 41px 0; */
-  background: url(../../img/theme/header.jpg) 0 0 repeat-x #d2d2d2;
+  /* background: url(../../img/theme/header.jpg) 0 0 repeat-x #d2d2d2; */
   position: relative;
   z-index: 999;
+  margin-bottom: 0;
   /* background-color: #F0F0F0; */
 }
 
@@ -357,8 +361,9 @@ header > .container-fluid {
 }
 
 .masthead {
-  /* padding-bottom: 10px; */
-  /* padding-top: 10px; */
+  padding-bottom: 20px;
+  padding-top: 20px;
+  /* border-top: 10px solid #33a625; */
 }
 
 .masthead .btn-group-1 {
@@ -493,13 +498,15 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
 }
 .navbar_ .navbar-inner_ {
   padding: 10px 0px 14px 45px;
+  background-image: none;
   margin: 0;
-  background: url(../../img/theme/inside-slug-bg_03.png) 0 0 repeat-x;
+  /* background: url(../../img/theme/inside-slug-bg_03.png) 0 0 repeat-x; */
   border: none;
   min-height: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-position: center center;
   border-radius: 0px;
+  background-color: #33a625!important;
 }
 
 .social-icn ul {
@@ -2559,7 +2566,7 @@ padding-right: 40px;
 }
 
 #main-content p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   font-family: Helvetica, Arial, Verdana, sans-serif;
   font-weight: normal;
@@ -2812,4 +2819,33 @@ line-height: 20px;
 #dashboard .nav > li > a:hover {
   background-color: transparent;
   padding-left: 0px;
+}
+
+/*topnav*/
+
+#top-nav .navbar-inner {
+    background-color: #0d74bd;
+    background-image: none;
+}
+
+
+.navbar .brand {
+    text-shadow: none; 
+    color: #fff;
+}
+
+#top-nav .navbar-inner .navbar .nav > .active > a, #top-nav .navbar-inner .navbar .nav > .active > a:hover, #top-nav .navbar-inner .navbar .nav > .active > a:focus  {
+    color: #fff;
+}
+
+#top-nav .nav li a {
+    color: #fff;
+    text-shadow: none;
+}
+
+#main-content #UserLoginForm a:link {
+    border: none;
+    margin: 5px;
+    margin-left: 0;
+    display: block;
 }

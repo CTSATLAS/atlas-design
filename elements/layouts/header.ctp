@@ -1,14 +1,13 @@
+
 <header class="p0">
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span12">
                 <div class="header-block clearfix">
                     <div class="row-fluid masthead">
-                        <div class="container-fluid">
+                        <div class="container">
                           <div class="span4">
-                            <h1 class="brand">
-                                <a href="/"><img src="/img/theme/florida-lg.png" alt=""></a>
-                            </h1>
+                            <?php echo $this->element('core/themelogo'); ?>
                         </div>
                         <div class="span8" id="login-or-register">
                             <div class="row-fluid">
@@ -68,7 +67,7 @@
                                                         ), array(
                                                     'class' => 'btn-'
                                                 ))
-                                                ?>
+                                                ?> | 
                                                 <?=
                                                 $this->Html->link(__('Register', true), array(
                                                     'controller' => 'users',
@@ -87,7 +86,7 @@
                         </div>
                         
                     </div>                   
-                       <?php //echo $this->element('layouts/nav') ?>
+                       <?php echo $this->element('layouts/nav') ?>
                 </div>
             </div>
         </div>
