@@ -648,7 +648,9 @@ ul.nav li:first-child {
   padding: 20px 0 24px 0;
   margin: 0;
   max-height: 400px;
-  background-color: #6a737b;
+  background-color: #a0cf67;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .nav-collapse_ .nav > li li.sub-menu > a:before {
   content: " ";
@@ -667,7 +669,7 @@ ul.nav li:first-child {
 .nav-collapse_ .nav ul li a {
   display: block;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 15px;
   padding: 7px 10px 8px 24px;
   background: none;
@@ -680,7 +682,7 @@ ul.nav li:first-child {
 }
 
 .nav-collapse_ .nav > li > ul li > a:hover {
-  color: #A0CF67;
+  color: #f79b26;
 }
 .nav-collapse_ .nav ul ul {
   position: absolute;
