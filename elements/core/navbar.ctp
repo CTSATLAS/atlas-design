@@ -1,4 +1,4 @@
-<div id="top-nav" class="navbar navbar-fixed-top">   
+<!--core--><div id="top-nav" class="navbar navbar-fixed-top">   
     <div class="navbar-inner">
         <div class="container">
     <a class="brand" href="#">Title</a>

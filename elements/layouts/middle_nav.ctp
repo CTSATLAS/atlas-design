@@ -1,4 +1,5 @@
-<div class="row">
+
+<!--core--><div class="row">
 	<div class="span12">
 		<div class="slider">
 			<div class="camera_wrap">
