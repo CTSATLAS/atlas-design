@@ -92,7 +92,7 @@ var flash = '<?php echo addslashes($this->Session->read('Message.flash.message')
 						<?php if (in_array($event['Event']['id'], $userEventRegistrations)): ?>
 							<a href="/events/cancel/<?= $event['Event']['id'] ?>/workshop" class="button green">Cancel Your Registration</a>
 						<?php else: ?>
-							<a href="/events/attend/<?= $event['Event']['id'] ?>/workshop" class="button green">Attend This Event</a>
+							<a href="/events/attend/<?= $event['Event']['id'] ?>/workshop" class="button green">Register</a>
 						<?php endif ?>
 						<p class="availibility">
 							<i class="icon-group icon-large"></i>
