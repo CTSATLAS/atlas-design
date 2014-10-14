@@ -39,7 +39,13 @@ var flash = '<?php echo addslashes($this->Session->read('Message.flash.message')
 			<input type="submit" class="button green" id="filter_submit" value="<?php __('Go') ?>" />
 		</form>
 	</div>
-    <p>Must register where indicated below</p>
+    
+    
+    
+    <div class="alert alert-info text-center">
+        Must register where indicated below
+    </div>
+   
 	<div class="calnav events monthly">
 		<a href="<?= $prevMonthUrl ?>" id="previous-month" class="button gray">
 			<i class="icon-chevron-left"></i>

@@ -75,9 +75,9 @@
 
 </head>
 <body>
-<?php echo $this->element('core/navbar') ?>
+<?php echo $this->element('core/navbar'); ?>
 
-<?php echo $this->element('layouts/header') ?>
+<?php echo $this->element('layouts/header'); ?>
 
 <div class="container" id="wrapper">
 <div id="dashboard" class="row-fluid">

@@ -2745,11 +2745,11 @@ ul.etabs{}
 }
 
 #social-stream .profile a {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream .profile a:link {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream .profile a:visited {
@@ -2863,11 +2863,43 @@ ul.inline {
 }
 
 
-    float: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
-
+ul.inline > li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+/*   border: 1px dotted; */
 }
+
+#main-content ul.inline > li a:link{
+  border-bottom: none;
+  
+}
+
+#main-content a {
+  border-bottom: none;
+}
+
+#timesheets a {
+   font-size: 12px !important;
+}
+
+#add_time input[type='text'] {
+    display: inline;
+    width: 100px !important;
+    min-width: 60px;    
+    font-size: 12px;
+}
+
+#add_time .hero-unit li {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
 #add_time label {
     display: block;
+}
+
+#events a.button.gray {
+    font-size: 12px;
 }
