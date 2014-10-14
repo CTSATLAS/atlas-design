@@ -2863,10 +2863,47 @@ ul.inline {
 }
 
 
-    float: none;
-    margin-top: 10px;
-    margin-bottom: 10px;
+<<<<<<< HEAD
+ul.inline > li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+/*   border: 1px dotted; */
+}
 
+#main-content ul.inline > li a:link{
+  border-bottom: none;
+  
+}
+
+#main-content a {
+  border-bottom: none;
+}
+=======
+    float: none !important;
+
+
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+>>>>>>> 6255392... event filter button fix
+
+#timesheets a {
+   font-size: 12px !important;
+}
+
+#add_time input[type='text'] {
+    display: inline;
+    width: 100px !important;
+    min-width: 60px;    
+    font-size: 12px;
+}
+
+#add_time .hero-unit li {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted;
+    
 }
 #add_time label {
     display: block;

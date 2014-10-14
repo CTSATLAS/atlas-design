@@ -13,10 +13,13 @@
 }
 
 #events form input[type="submit"] {
-  float: right;
-  margin-top: -3px;
+  /* float: right; */
+  margin-top: 20px;
   width: 100px;
+  margin-bottom: 20px;
 }
+
+input#filter_submit {}
 
 #content #events form select{
   width: 80% !important;
