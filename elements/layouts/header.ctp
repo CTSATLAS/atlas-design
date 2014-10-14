@@ -1,4 +1,3 @@
-<!--core-->
 <header class="p0">
     <div class="container-fluid">
         <div class="row-fluid">
@@ -90,6 +89,5 @@
                 </div>
             </div>
         </div>
-
     </div>
 </header>

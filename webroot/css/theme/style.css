@@ -1,5 +1,5 @@
 body {
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased !important;
     padding-top: 40px;
     font-size: 16px;
     background-color: #fff;
@@ -598,7 +598,7 @@ ul.nav li:first-child {
 }
 .nav-collapse_ .nav > li > a {
   font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 0;
   padding: 0;
 }
@@ -2531,7 +2531,10 @@ p.correct-answer {
 
 #main-content .post a:link, #main-content a:link   {
   color: #0056B4;
-  border-bottom: 1px dotted;
+
+  font-size: 16px;
+  /*   border-bottom: 1px dotted; */
+  text-transform: uppercase;
 }
 
 
@@ -2541,7 +2544,7 @@ p.correct-answer {
 }
 
 #main-content a:hover {
-  /* color:  #E85E02; */
+  color:  #E85E02;
   border-bottom: none;
 }
 
@@ -2849,5 +2852,51 @@ line-height: 20px;
     border: none;
     margin: 5px;
     margin-left: 0;
+    display: block;
+}
+
+ul.inline {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 0;
+}
+
+
+ul.inline > li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+/*   border: 1px dotted; */
+}
+
+#main-content ul.inline > li a:link{
+  border-bottom: none;
+  
+}
+
+#main-content a {
+  border-bottom: none;
+}
+
+#timesheets a {
+   font-size: 12px !important;
+}
+
+#add_time input[type='text'] {
+    display: inline;
+    width: 100px !important;
+    min-width: 60px;    
+    font-size: 12px;
+}
+
+#add_time .hero-unit li {
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted;
+    
+}
+#add_time label {
     display: block;
 }
