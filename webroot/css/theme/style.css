@@ -62,7 +62,7 @@ h2, h3, .sf-menu > li > a, #menu-icon, .sf-menu li li a, slide-text-2, .button, 
 }
 
 .home .body-glow {
-    background: url('../../img/theme/body-glow.jpg')  50% 0; 
+    /* background: url('../../img/theme/body-glow.jpg')  50% 0; */ 
     background-repeat: repeat-x;
 }
 
