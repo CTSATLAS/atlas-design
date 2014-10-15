@@ -20,9 +20,7 @@
 		</div>
 		<div class="row-fluid copyright">
 			<div class="span12 centered">
-				<p>
-				CareerSource Chipola is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © 2014 - CareerSource Chipola. All Rights Reserved. Developed & Hosted by Complete Technology Solutions
-                                </p>
+				<p>CareerSource Florida is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © 2014 - CareerSource Florida. All Rights Reserved. Developed & Hosted by Complete Technology Solutions</p>
 				<p class="eoe">ATLAS is a trademark of Complete Technology Solutions Copyright © <?= date('Y') ?> - Complete Technology Solutions. All Rights Reserved.</p>
 			</div>
 		</div>
