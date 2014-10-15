@@ -1,8 +1,9 @@
 <?php ob_start() ?>
 <body>
+	<link rel="stylesheet" href="/img/theme/logo.png" />
 	<div class="header">
 		<div class="left">
-			<img src="/img/theme/jobssmart.png" class="logo" />
+			<img src="/img/admin_header_logo.png" class="logo" />
 		</div>
 		
 
@@ -262,3 +263,5 @@
 	</p>
 </body>
 <?php return ob_get_clean() ?>
+
+<!--updated-->
