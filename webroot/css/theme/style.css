@@ -2745,19 +2745,19 @@ ul.etabs{}
 }
 
 #social-stream .profile a {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream .profile a:link {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream .profile a:visited {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream .profile a:active {
-  color: #fff important!;
+  color: #fff !important;
 }
 
 #social-stream h3 a,#social-stream h3 a:active {
@@ -2856,7 +2856,7 @@ line-height: 20px;
 }
 
 ul.inline {
-  border-bottom: 1px solid;
+  /* border-bottom: 1px solid; */
   padding-bottom: 10px;
   padding-top: 10px;
   margin-left: 0;
@@ -2899,4 +2899,8 @@ ul.inline > li {
 }
 #add_time label {
     display: block;
+}
+
+#timesheet-menu i{
+  font-size: 32px;
 }

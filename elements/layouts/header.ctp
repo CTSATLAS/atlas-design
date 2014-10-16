@@ -9,8 +9,7 @@
                             <?php echo $this->element('core/themelogo'); ?>
                         </div>
                         <div class="span8" id="login-or-register">
-                            <div class="row-fluid">
-                           
+                            <div class="row-fluid">                           
                                 <div id="header-login" class="span12">
                                     <div class="row-fluid">
                                         <?php if ($this->Session->read('Auth.User')): ?>
