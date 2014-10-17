@@ -1,0 +1,1 @@
+<img src="/img/theme/tampa-bay.png" alt="" class="mobile-logo" />
