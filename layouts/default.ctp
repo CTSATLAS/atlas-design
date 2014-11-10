@@ -107,6 +107,7 @@
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.easytabs.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
