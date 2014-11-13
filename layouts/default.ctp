@@ -105,6 +105,8 @@
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.easytabs.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
@@ -119,6 +121,7 @@
 	<!--<![endif]-->
 
 	<script>
+            
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
@@ -181,6 +184,8 @@
 				}
 			});
 		});
+                
+                $('#tab-container').easytabs();
 	</script>
         <script type=\"text/javascript\">
         var _gaq = _gaq || [];
