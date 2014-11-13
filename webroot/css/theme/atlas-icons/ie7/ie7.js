@@ -13,11 +13,14 @@
 		el.innerHTML = '<span style="font-family: \'atlas-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-		'icon-twitter': '&#x6c;',
-		'icon-facebook': '&#x66;',
+		'icon-vimeo': '&#xe600;',
+		'icon-twitter': '&#xe601;',
+		'icon-facebook': '&#xe602;',
+		'icon-linkedin': '&#xe603;',
+		'icon-evernote': '&#xe604;',
+		'icon-blogger': '&#xe605;',
 		'icon-youtube': '&#x78;',
-		'icon-moviestar': '&#x2010;',
-		'icon-linkedin': '&#x69;',
+		'icon-blogger3': '&#xe607;',
 		'0': 0
 		},
 		els = document.getElementsByTagName('*'),
