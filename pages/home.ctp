@@ -51,7 +51,7 @@
                 
                 
                 <div class="sponsor-logo">
-                    <a href="http://www.hccfl.edu/" target="_blank">
+                    <a href="http://www.tampatraining.com/" target="_blank">
                         <img src="img/theme/hcc-seal.png" alt="Sponsor logo">
                     </a>
                     </br>
