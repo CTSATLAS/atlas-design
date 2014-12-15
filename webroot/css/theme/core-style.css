@@ -2910,12 +2910,12 @@ ul.inline > li {
     margin-bottom: 20px;
 }
 
-.timesheet .message {
-    background-color: RGBA(158, 204, 101, .5);
-    /*padding: 20px;*/
+#timesheets .message {
+    background-color: rgba(158, 204, 101, .5);
+    padding: 10px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 30px;
+    margin: 10px;
 }
 
 #timesheets .error-message {
@@ -2927,3 +2927,18 @@ ul.inline > li {
     
     width: 100px;
 }
+
+#content select.new-time {
+ width: 75%;
+    border-radius: 0;
+}
+
+/*.navbar-brand,*/
+/*.navbar-nav li a,*/
+/*.brand,*/
+/*.bar li a,*/
+/*nav .bar li a {*/
+    /*line-height: 150px;*/
+    /*height: 150px;*/
+    /*padding-top: 0;*/
+/*}*/
