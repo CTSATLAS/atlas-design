@@ -1,11 +1,3 @@
-<?php
-/**
- * @author Brandon Cordell
- * @copyright Complete Technology Solutions 2011
- * @link http://ctsfla.com
- * @since 02/06/2014
- */
-?>
 <!--core-->
 <!DOCTYPE html>
 <html lang="en">

@@ -1,11 +1,3 @@
-<?php
-/**
- * @author Brandon Cordell
- * @copyright Complete Technology Solutions 2011
- * @link http://ctsfla.com
- * @since 02/06/2014
- */
-?>
 <!--core-->
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +57,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Chipola') ?>
+		<?php __('CareerSource Suncoast') ?>
 	</title>
 
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
