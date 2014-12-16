@@ -90,7 +90,7 @@
 	));
 
 	echo $this->Form->input('veteran', array(
-		'label' => __('Are you a US veteran', true),
+		'label' => __('Are you a US veteran?', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
 		'options' => array('1' => 'Yes', '0' => 'No'), 
@@ -99,7 +99,7 @@
 	));
 
 	echo $this->Form->input('disability', array(
-		'label' => __('Do you have a substantial disability', true),
+		'label' => __('Do you have a substantial disability?', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
 		'options' => array('1' => 'Yes', '0' => 'No'), 
