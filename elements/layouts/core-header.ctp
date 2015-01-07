@@ -1,50 +1,28 @@
 <header class="p0">
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid">
+        <div class="row-fluid">
             <div class="span12">
                 <div class="header-block clearfix">
-                    <div class="row masthead">
-                        <div class="span4">
-                            <h1 class="brand">
-                                <a href="/"><img src="/img/theme/tampa-bay.png" alt=""></a>
-                            </h1>
+                    <div class="row-fluid masthead">
+                        <div class="container">
+                          <div class="span4">
+                            <?php echo $this->element('core/themelogo'); ?>
                         </div>
-                        <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
-                            <div class="row">
-                            <div class="row search">
-                                <div class="span8 hidden-phone hidden-tablet">
-                                    <div class="social-icn pull-right">
-                            <ul>
-                                <li> <a href="//www.twitter.com/careersourcetb" target="_blank"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="//www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
-                                 <li><a href="//www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
-                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
-                                 
-                                 <li><a href="//careersourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span></a></li>
-                                 
-                            </ul>
-                        </div>
-                                </div>
-                                <!--search form-->
-                            </div>
-                                <div id="header-login" class="span8">
+                        <div class="span8" id="login-or-register">
+                            <div class="row-fluid">                           
+                                <div id="header-login" class="span12">
                                     <div class="row-fluid">
-                                        <span class="subscribe"><a href="http://www.careersourcetampabay.com/pages/enewsletter">
-                                            <?php echo $this->Html->image('theme/SignUp_Button.png') ?>
-                                            </a></span>
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
                                             $lastname = $this->Session->read('Auth.User.lastname');
                                             ?>
-                                        
                                             <div class="btn-group" style="margin-right:15px">
                                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                                     <?php printf(__('Logged in as: <strong>%s %s</strong>', true), ucwords($firstname), ucwords($lastname)) ?>
                                                     <span class="caret"></span>
                                                 </a>
                                                 <ul class="dropdown-menu pull-right">
-                                                    
                                                     <li>
                                                         <?=
                                                         $this->Html->link(__('My Dashboard', true), array(
@@ -78,7 +56,6 @@
                                                 </ul>
                                             </div>
                                             <?php else: ?>
-                                        
                                             <div class="btn-group-1">
                                                 <?=
                                                 $this->Html->link(__('Login', true), array(
@@ -88,7 +65,7 @@
                                                         ), array(
                                                     'class' => 'btn-'
                                                 ))
-                                                ?>
+                                                ?> | 
                                                 <?=
                                                 $this->Html->link(__('Register', true), array(
                                                     'controller' => 'users',
@@ -103,17 +80,13 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
-                            
+                        </div>  
                         </div>
-                    </div>
-        <?= $this->element('layouts/nav') ?>
+                        
+                    </div>                   
+                       <?php echo $this->element('layouts/nav') ?>
                 </div>
             </div>
         </div>
-<?php if (!empty($this->params['pass']) && $this->params['pass'][0] == 'home'): ?>
-    <?= $this->element('layouts/middle_nav') ?>
-<?php endif; ?>
     </div>
 </header>

@@ -6,8 +6,10 @@
  * @since 02/06/2014
  */
 ?>
+<!--core-->
 <!DOCTYPE html>
 <html lang="en">
+  <!--core-->  
 <head>
 	<!-- meta -->
 	<meta charset="utf-8">
@@ -22,14 +24,13 @@
 	<link rel="stylesheet" href="/css/theme/responsive.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
-        <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="/css/theme/core.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/fonts/font-awesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
-         <?php echo $this->Html->css('theme/sg-grid'); ?>
-
-	<script type="text/javascript" src="/js/swfobject.js"></script>
+        <?php echo $this->Html->css('theme/sg-grid'); ?>
 
 
 	<!--[if IE 7]>
@@ -50,11 +51,7 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>-->
-	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
-
-	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
-	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
+	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>-->
 
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -68,44 +65,86 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Tampa Bay') ?>
+		<?php __('CareerSource Chipola') ?>
 	</title>
+
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
+	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
+	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
+<!--core-->
+
 </head>
 <body>
-	<?= $this->element('no_javascript') ?>
-	<?php echo $this->element('layouts/header') ?>
+<?php echo $this->element('core/navbar') ?>
 
-	<span style="display:none"><?= $this->Session->flash() ?></span>
-	<section id="content">
-		<div class="container">
+<?php echo $this->element('layouts/panwar-header') ?>
+
+<div class="container" id="wrapper">
+<div id="dashboard" class="row-fluid">
+<!--	<div class="span2 sidebar">
+		
+                		<p>
+                			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
+                		</p>
+                </li>
+
+        </ul>
+	</div>-->
+	<div class="span12">
+        <section id="content">
+            <div class="container-fluid">
                 <?php if ($title_for_layout === 'Home'): //display home ?>
-			<div class="row">
-				<div class="span12" id="main-content">
-                        <?php echo $content_for_layout ?> 
+                <div class="row-fluid">
+                    <div class="span12" id="main-content">
+                        
+                        <?php echo $content_for_layout ?>
+                    </div>
+                </div>
+                <?php elseif($title_for_layout == "Customer Dashboard") : ?>
+                <!--custom dashboard here-->
+                <div class="row-fluid">
+                    <div class="span12" id="main-content">
+                        <?php echo $content_for_layout ?>
                     </div>
                 </div>
                 <?php else: ///display content page ?>
-                <div class="row-fluid">                                                  
+                <div class="row-fluid">
                     <div class="span11 offset1" id="main-content">
-					<?php if ($title_for_layout !== 'Home'): ?>
-						<h1 id="page-title"><?= $title_for_layout ?></h1>
-					<?php endif ?>
+                        <?php if ($title_for_layout !== 'Home'): ?>
+                        <h1 id="page-title"><?= $title_for_layout ?></h1>
+                        <?php endif ?>
                         <div class="post">
-                            <?php echo $content_for_layout ?> 
-				</div>
-			</div>
-		</div>
-                <?php endif ?> 
-            </div>
-	</section>
+                            <?php echo $content_for_layout ?>
+                            <?php if($title_for_layout === "Contact"): ?>
+                        <?php echo $this->element('layouts/contactpage'); ?>
+                        <?php endif ; ?>
+                        </div>
+                    </div>
 
-	<?= $this->element('layouts/footer') ?>
+
+                </div>
+                <?php endif ?>
+            </div>
+        </section>
+
+	
+
+
+	</div>
+</div>
+
+
+
+</div>
+<?= $this->element('layouts/footer'); ?>
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="/js/theme/superfish.js"></script>
 	<script type="text/javascript" src="/js/theme/camera.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
+        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>
 	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
@@ -114,6 +153,17 @@
 	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
 
+<!--
+<script type="text/javascript" src="/js/theme/camera.js"></script>
+<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
+-->
 	<?= $scripts_for_layout ?>
 
 	<!--[if (gt IE 9)|!(IE)]><!-->
@@ -121,10 +171,12 @@
 	<!--<![endif]-->
 
 	<script>
+            $('#tab-container').easytabs();
 		$(function () {
 			$('.camera_wrap').camera();
 			$('ul.nav li:first').addClass('li-first');
 			$('.message').fadeOut(10000);
+
 
 			if($('.actions ul').text() == '') {
 				$('div.actions').hide();
@@ -173,27 +225,15 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'facebook,youtube',
-				facebookId: 132438623509873,
-				twitterId: 'careersourcetampabay',
-				youtubeId: 'careersourcetampabay',
+				widgets: 'facebook,twitter',
+				facebookId: 671888709517814,
+				twitterId: 'flynnarite',
 				twitter: {
 					thumb: true
-                                        
+
 				}
 			});
 		});
 	</script>
-        
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-24254812-1']);
-          _gaq.push(['_trackPageview']);
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-        </script>
 </body>
 </html>
