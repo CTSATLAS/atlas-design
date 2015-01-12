@@ -1,12 +1,6 @@
 <!--core-->
 <footer>
-	<!--<div class="container">
-		<div class="row">
-			<div class="span12">
-				<?php echo $this->Nav->links('Bottom', true, 'footer-menu') ?>
-			</div>
-		</div>
-	</div>-->
+
 	<div class="container-fluid">
 		<div class="row-fluid">
 			<div class="span6 offset4">

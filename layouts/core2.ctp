@@ -136,7 +136,7 @@
 
 
 </div>
-<?= $this->element('layouts/footer'); ?>
+<?= $this->element('layouts/core-footer'); ?>
 
 	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
 	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>

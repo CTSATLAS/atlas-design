@@ -1,0 +1,232 @@
+/* mixins
+use full theme mixins
+*/
+.sg {
+  /* sg colors */
+}
+.sg.max-width {
+  max-width: 1680px !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sg.vtable {
+  /* vertically align div content */
+  display: table;
+  height: inherit !important;
+  width: 100% !important;
+}
+.sg.vtable .table-cell {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.sg.vtable .table-cell {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+.sg.gray-darker.background {
+  background-color: #222222;
+}
+.sg.gray-darker.color {
+  color: #222222;
+}
+.sg.gray-dark.background {
+  background-color: #333333;
+}
+.sg.gray-dark.color {
+  color: #333333;
+}
+.sg.gray.background {
+  background-color: #aaaaaa;
+}
+.sg.gray.color {
+  color: #aaaaaa;
+}
+.sg.gray-light.background {
+  background-color: #999999;
+}
+.sg.gray-light.color {
+  color: #999999;
+}
+.sg.gray-lighter.background {
+  background-color: #eeeeee;
+}
+.sg.gray-lighter.color {
+  color: #eeeeee;
+}
+.sg.brand.background {
+  background-color: #ffffff;
+}
+.sg.brand.color {
+  color: #ffffff;
+}
+.sg.brand-primary.background {
+  background-color: #428bca;
+}
+.sg.brand-primary.color {
+  color: #428bca;
+}
+.sg.brand-sucess.background {
+  background-color: #5cb85c;
+}
+.sg.brand-sucess.color {
+  color: #5cb85c;
+}
+.sg.brand-info.background {
+  background-color: #5bc0de;
+}
+.sg.brand-info.color {
+  color: #5bc0de;
+}
+.sg.brand-warning.background {
+  background-color: #f0ad4e;
+}
+.sg.brand-warning.color {
+  color: #f0ad4e;
+}
+.sg.brand-danger.background {
+  background-color: #d9534f;
+}
+.sg.brand-danger.color {
+  color: #d9534f;
+}
+.sg.white.background {
+  background-color: #ffffff;
+}
+.sg.white.color {
+  color: #ffffff;
+}
+.sg.gray.background {
+  background-color: #808080;
+}
+.sg.gray.color {
+  color: #808080;
+}
+.sg.darkgray.background {
+  background-color: #222222;
+}
+.sg.darkgray.color {
+  color: #222222;
+}
+.sg.black.background {
+  background-color: #111111;
+}
+.sg.black.color {
+  color: #111111;
+}
+.sg.white-lilac.background {
+  background-color: #e6e6e6;
+}
+.sg.white-lilac.color {
+  color: #e6e6e6;
+}
+.sg.anti-white-flash.background {
+  background-color: #f1f1f1;
+}
+.sg.anti-white-flash.color {
+  color: #f1f1f1;
+}
+.sg.sliver.background {
+  background-color: #c0c0c0;
+}
+.sg.sliver.color {
+  color: #c0c0c0;
+}
+.sg.yellow.background {
+  background-color: #ffdc00;
+}
+.sg.yellow.color {
+  color: #ffdc00;
+}
+.sg.navy.background {
+  background-color: #001f3f;
+}
+.sg.navy.color {
+  color: #001f3f;
+}
+.sg.blue.background {
+  background-color: #0074d9;
+}
+.sg.blue.color {
+  color: #0074d9;
+}
+.sg.lime-green.background {
+  background-color: #2ecc40;
+}
+.sg.lime-green.color {
+  color: #2ecc40;
+}
+.sg.red.background {
+  background-color: #ff4136;
+}
+.sg.red.color {
+  color: #ff4136;
+}
+.sg.aqua.background {
+  background-color: #7fdbff;
+}
+.sg.aqua.color {
+  color: #7fdbff;
+}
+.sg.fuchsia.background {
+  background-color: #f012be;
+}
+.sg.fuchsia.color {
+  color: #f012be;
+}
+.sg.purple.background {
+  background-color: #b10dc9;
+}
+.sg.purple.color {
+  color: #b10dc9;
+}
+.sg.teal.background {
+  background-color: #39cccc;
+}
+.sg.teal.color {
+  color: #39cccc;
+}
+.sg.olive.background {
+  background-color: #3d9970;
+}
+.sg.olive.color {
+  color: #3d9970;
+}
+.sg.orange.background {
+  background-color: #b10dc9;
+}
+.sg.orange.color {
+  color: #b10dc9;
+}
+.sg.lime.background {
+  background-color: #01ff70;
+}
+.sg.lime.color {
+  color: #01ff70;
+}
+.sg.maroon.background {
+  background-color: #85144b;
+}
+.sg.maroon.color {
+  color: #85144b;
+}
+.sg.swatch {
+  /* swatch attribuite */
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+.color-swatch > .sg {
+  /* style-guide color swatch */
+  margin-bottom: 20px;
+}
+.sg.text.shadow {
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
