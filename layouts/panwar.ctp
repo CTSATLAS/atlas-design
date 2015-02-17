@@ -1,239 +1,423 @@
-<?php
-/**
- * @author Brandon Cordell
- * @copyright Complete Technology Solutions 2011
- * @link http://ctsfla.com
- * @since 02/06/2014
- */
-?>
-<!--core-->
 <!DOCTYPE html>
-<html lang="en">
-  <!--core-->  
-<head>
-	<!-- meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
+<html  class="no-js">
 
-	<!-- css -->
-	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
-	<link rel="stylesheet" href="/css/theme/bootstrap.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/responsive.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/camera.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/dcsmt.css" type="text/css">
-        <link rel="stylesheet" href="/css/theme/core.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
-        <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
-        <?php echo $this->Html->css('theme/sg-grid'); ?>
+    <!--[if lt IE 7]>
+    <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+    <!--[if IE 7]>
+    <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+    <!--[if IE 8]>
+    <html class="no-js lt-ie9"> <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <!--<![endif]-->
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>
+            <?php $title_for_layout ?>
+            &mdash;
+            <?php __('CareerSource Tampa Bay') ?>
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="pingback" href=""/>          
 
 
-	<!--[if IE 7]>
-		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
-	<![endif]-->
+        <link rel="stylesheet" href="/css/theme/fonts/fontawesome/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/css/theme/panwar/bootstrap-styles.css"/>
+        <link rel="stylesheet" href="/css/theme/panwar/stylesheet.css"/>
+        <link rel="stylesheet" href="/css/theme/panwar/sg.css">
+        <link rel="stylesheet" href="/css/theme/panwar/fonts/open-sans/stylesheet.css"/>
+        <!--polymer components-->
+                   <script type="text/javascript" src="/package/webcomponentsjs/webcomponents.min.js"></script>
+<!--                <link rel="import" href="/package/core-icons/core-icons.html" />-->
+         
+        <!--end-->
+    
+        <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/css/theme/panwar/style.css">
+        <!--polymer webcomponents-->
 
-	<!--[if lt IE 9]>
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-		<link href='//fonts.googleapis.com/css?family=Open+Sans:700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="/css/theme/docs.css" type="text/css" media="screen">
-		<link rel="stylesheet" href="/css/theme/ie.css" type="text/css" media="screen">
-	<![endif]-->
 
-	<!-- js -->
+    </head>
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+    <body class="home">
+        <?php // echo $this->element('no_javascript') ?>
+        <div id="page">
 
-	<!--<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.js"></script>-->
+            <nav>               
+                <div class="container">
 
-	<!-- favicon -->
-	<link rel="icon" href="/favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+                    <div class="navbar navbar-fixed-top" role="navigation">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="/">
+                                    <img src="/img/theme/panwar/pwc-web-logo.png" alt="logo"/> <span class="lead crete">Panhandle Warrior Connection</span>
+                                </a>
 
-	<!--[if lt IE 9]>
-		<div style="clear: both; height: 59px; padding:0 0 0 15px; position: relative; text-align: center;"> <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>
-	<![endif]-->
+                              
+                            </div>
+                            <div class="collapse navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <!--                                        {#<li><a href="{{ site_url }}">Home</a></li>#}
+                                                                            {#<li><a href="pages/pages.html">Pages</a></li>#}-->
+                                    <!--<li class="dropdown">-->
+                                    <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>-->
+                                    <!--<ul class="dropdown-menu">-->
+                                    <!--<li><a href="#">Action</a></li>-->
+                                    <!--<li><a href="#">Another action</a></li>-->
+                                    <!--<li><a href="#">Something else here</a></li>-->
+                                    <!--<li class="divider"></li>-->
+                                    <!--<li class="dropdown-header">Nav header</li>-->
+                                    <!--<li><a href="#">Separated link</a></li>-->
+                                    <!--<li><a href="#">One more separated link</a></li>-->
+                                    <!--</ul>-->
+                                    <!--</li>-->
+                                </ul>
 
-	<!-- title -->
-	<title>
-		<?= $title_for_layout ?>
-		&mdash;
-		<?php __('CareerSource Chipola') ?>
-	</title>
-
-	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
-	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
-	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
-<!--core-->
-
-</head>
-<body>
-<?php echo $this->element('core/navbar') ?>
-
-<?php echo $this->element('layouts/panwar-header') ?>
-
-<div class="container" id="wrapper">
-<div id="dashboard" class="row-fluid">
-<!--	<div class="span2 sidebar">
-		
-                		<p>
-                			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
-                		</p>
-                </li>
-
-        </ul>
-	</div>-->
-	<div class="span12">
-        <section id="content">
-            <div class="container-fluid">
-                <?php if ($title_for_layout === 'Home'): //display home ?>
-                <div class="row-fluid">
-                    <div class="span12" id="main-content">
-                        
-                        <?php echo $content_for_layout ?>
-                    </div>
-                </div>
-                <?php elseif($title_for_layout == "Customer Dashboard") : ?>
-                <!--custom dashboard here-->
-                <div class="row-fluid">
-                    <div class="span12" id="main-content">
-                        <?php echo $content_for_layout ?>
-                    </div>
-                </div>
-                <?php else: ///display content page ?>
-                <div class="row-fluid">
-                    <div class="span11 offset1" id="main-content">
-                        <?php if ($title_for_layout !== 'Home'): ?>
-                        <h1 id="page-title"><?= $title_for_layout ?></h1>
-                        <?php endif ?>
-                        <div class="post">
-                            <?php echo $content_for_layout ?>
-                            <?php if($title_for_layout === "Contact"): ?>
-                        <?php echo $this->element('layouts/contactpage'); ?>
-                        <?php endif ; ?>
+                            </div>
+                           
                         </div>
                     </div>
+                </div>
+            </nav>
 
+          <header>
+                    <div class="container">
+                        <div class="row">                
+                            <div class="t-wrapper">
+
+                                <div class="title-bars">
+                                    <div class="col-sm-12 text-center">
+                                        <!--                                        <span class="lead fonts crete">
+                                                                                    <i class="fa fa-check-circle"></i> Take the Warrior Survey </span>-->
+                                        <span class="lead fonts crete">
+                                            REACH : 1277 Warriors assisted, 266 Warriors Employed
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+
+            <section id="main-menu" class="main-menu">               
+
+                <nav class="navbar">
+                    <div class="container">  
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button> 
+                          
+                        </div>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li class="active">
+                                <a href="#">Home <span class="sr-only">(current)</span></a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">Events</a></li>
+                                <li><a href="#">Get Involved</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Register</a></li>
+                                <li><a href="#">Resources</a></li>
+
+                            </ul>
+
+                        </div><!-- /.navbar-collapse -->
+                    </div> 
+                </nav>
+
+            </section>
+
+            <section id="mission">
+                  <div class="container ccode-">
+                        <div class="row features">
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <aside class="text-center">
+                                    <h1 class="xlarge">
+                                        <span>
+                                            <core-icon class="svg-icon" icon="stars">
+
+                                            </core-icon>
+                                        </span>
+                                        <br />
+                                        Our Mission Statment!
+                                    </h1>
+
+                                    <p class="text-center lead">
+                                        PWC’s mission is to ensure every Warrior throughout Florida’s 1st Congressional District has greater access to benefits and housing; use of the G.I. Bill for education; and the opportunity and skills necessary to engage in meaningful employment.
+                                    </p> 
+                                </aside>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-lg-6">
+                                <aside class="text-center lead">
+                                    <h1 class="xlarge">
+                                        <span>
+                                            <core-icon class="svg-icon" icon="explore">
+
+                                            </core-icon>
+                                        </span>
+                                        <br />
+                                        What we Do!</h1>
+
+                                    <p class="text-center lead">
+                                        Connect: Find and Link Warriors to the PWC network of resources. 
+                                        Educate: Inform Warriors of services and opportunities available to them
+                                        Advocate: Ensure Warriors receive the support they earned
+                                        Collaborate: Work with partners on all levels to facilitate total warrior care
+                                    </p>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+                <section id="action">
+<!--        <pre>{{ dump(events) }}</pre>-->
+        
+        <div class="container">
+            <div class="row">
+              
+                <div class="text-center fonts crete">
+                    <p class="large">                        
+                        BE KNOWN and take the Warrior Survey. Let us know how we can put our resources to work for your benefit.
+                    </p>
+                   
+                 
+                   <p>  <button class="btn btn-lg btn-primary lead">
+                           <span class="lead">
+                               Take the survey now
+                           </span> 
+                    </button>   </p> 
+                    
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section id="video">
+         <div class="container">
+        <div class="text-center">
+           <iframe width="853" height="480" src="https://www.youtube.com/embed/t2Fvb7xkoRg" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    </section>
+<div class="container">
+    <hr />
+</div>
+
+        <section id="features">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 blue-bg">
+                                <article>
+                                    <h1 class="large">
+                                        <!--<core-icon class="ftr" icon="stars"></core-icon>-->
+                                    </h1>
+                                    <button class="btn btn-lg btn-success">
+                                        <span class="large">Free News Warrior Connection Letter. Sign up Now</span>
+                                    </button>
+                                    <p>Sign Up for our free Newsletter and get latest news and updates</p>
+
+                                </article>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <section id="articles"></section>
+
+            <main>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-8">
+
+                            <div class="post">
+                                <!--articles-->
+                                <article class="">
+                                    <h1><i class="fa fa-star"></i>A Sample Article</h1>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi autem
+                                        beatae
+                                        consectetur delectus dolores eos excepturi expedita explicabo facere iure
+                                        laudantium
+                                        maxime mollitia nulla pariatur quidem ratione recusandae rem repellat
+                                        repudiandae sequi,
+                                        sit velit veritatis voluptatem voluptatum? Consectetur ea facere illum in
+                                        molestiae nam
+                                        nisi porro provident quaerat ratione rerum sed suscipit, totam velit vitae. Ad
+                                        excepturi
+                                        tempore voluptatum. <span class="read-more"><a href="#">Full Story <i
+                                                    class="fa fa-angle-double-right"></i></a></span></p>
+                                    <!-- ngInclude: c.post_meta -->
+
+                                    <aside class="post-meta">
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-angle-double-right"></i> Date:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Tags:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Comments:</li>
+                                        </ul>
+                                    </aside>
+                                </article>
+
+                                <!--articles-->
+                                <article class="">
+                                    <h1>A Sample Article</h1>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi autem
+                                        beatae
+                                        consectetur delectus dolores eos excepturi expedita explicabo facere iure
+                                        laudantium
+                                        maxime mollitia nulla pariatur quidem ratione recusandae rem repellat
+                                        repudiandae sequi,
+                                        sit velit veritatis voluptatem voluptatum? Consectetur ea facere illum in
+                                        molestiae nam
+                                        nisi porro provident quaerat ratione rerum sed suscipit, totam velit vitae. Ad
+                                        excepturi
+                                        tempore voluptatum. <span class="read-more"><a href="#">Full Story <i
+                                                    class="fa fa-angle-double-right"></i></a></span></p>
+                                    <!-- ngInclude: c.post_meta -->
+
+                                    <aside class="post-meta">
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-angle-double-right"></i> Date:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Tags:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Comments:</li>
+                                        </ul>
+                                    </aside>
+                                </article>
+
+                                <!--articles-->
+                                <article class="">
+                                    <h1>A Sample Article</h1>
+
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi autem
+                                        beatae
+                                        consectetur delectus dolores eos excepturi expedita explicabo facere iure
+                                        laudantium
+                                        maxime mollitia nulla pariatur quidem ratione recusandae rem repellat
+                                        repudiandae sequi,
+                                        sit velit veritatis voluptatem voluptatum? Consectetur ea facere illum in
+                                        molestiae nam
+                                        nisi porro provident quaerat ratione rerum sed suscipit, totam velit vitae. Ad
+                                        excepturi
+                                        tempore voluptatum. <span class="read-more"><a href="#">Full Story <i
+                                                    class="fa fa-angle-double-right"></i></a></span></p>
+                                    <!-- ngInclude: c.post_meta -->
+
+                                    <aside class="post-meta">
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-angle-double-right"></i> Date:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Tags:</li>
+                                            <li><i class="fa fa-angle-double-right"></i> Comments:</li>
+                                        </ul>
+                                    </aside>
+                                </article>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="sidebar">
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
 
                 </div>
-                <?php endif ?>
+
+            </main>
+
+            <footer>
+
+
+                <div class="footer">
+                    <div class="container">
+
+
+                        <div class="row">
+                            <div class="col-md-8 info">
+                                <aside>
+                                    <h1>Made Possible By</h1>
+
+                                    <p>The Panhandle Warrior Connection (PWC) is made possible by a grant from the Wounded Warrior Project and is administered solely through the AWP Community Integration Project.  CareerSource Okaloosa Walton is one of five communities in the nation selected for the Community Integration initiative.  The grant funding will not duplicate any existing local Veteran programs, but will enhance the Veteran outreach by connecting services to the Warriors in the 1st Congressional District.</p>
+                                </aside>
+
+                            </div>
+                            <div class="col-md-2 info">
+
+                            </div>
+
+                            <div class="col-md-2 info">
+                                <aside>
+                                    <!--{{ sidebars.contact_us }}-->                      
+                                </aside>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <span class="text-center">
+                                    <ul class="social list-inline ng-scope">
+                                        <li><i class="fa fa-twitter-square"></i></li>
+                                        <li><i class="fa fa-facebook-square"></i></li>
+                                        <li><i class="fa fa-google-plus-square"></i></li>
+                                        <li><i class="fa fa-rss-square"></i></li>
+                                    </ul>
+                                </span>
+
+                                <div class="col-sm-12">
+                                    <p class="text-center">© SG.Kit 2013</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </footer>
+
+            <!--data-->
+
+            <div id="top-link">
+                <a href="#page"><i class="fa fa-chevron-circle-up"></i></a>
             </div>
-        </section>
-
-	
-
-
-	</div>
-</div>
 
 
 
-</div>
-<?= $this->element('layouts/core-footer'); ?>
+            <!-- /container -->
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
-	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="/js/theme/superfish.js"></script>
-	<script type="text/javascript" src="/js/theme/camera.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.JS"></script>
-        <script type="text/javascript" src="/js/theme/jquery.easytabs.min.JS"></script>
-	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+            <!-- inject:js -->
 
-<!--
-<script type="text/javascript" src="/js/theme/camera.js"></script>
-<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
-<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
--->
-	<?= $scripts_for_layout ?>
-
-	<!--[if (gt IE 9)|!(IE)]><!-->
-		<script type="text/javascript" src="/js/theme/jquery.mobile.customized.min.js"></script>
-	<!--<![endif]-->
-
-	<script>
-            $('#tab-container').easytabs();
-		$(function () {
-			$('.camera_wrap').camera();
-			$('ul.nav li:first').addClass('li-first');
-			$('.message').fadeOut(10000);
+            <script src="/css/theme/js/vendor/bootstrap.min.js"></script>
+            <!-- endinject-->
 
 
-			if($('.actions ul').text() == '') {
-				$('div.actions').hide();
-			}
+            <script src="/js/theme/panwar/main.js"></script>
 
-			if (!Modernizr.input.placeholder) {
-				$('[placeholder]').focus(function () {
-					var input = $(this);
 
-					if (input.val() == input.attr('placeholder')) {
-						input.val('');
-						input.removeClass('placeholder');
-					}
-				}).blur(function () {
-					var input = $(this);
 
-					if (input.val() == '' || input.val() == input.attr('placeholder')) {
-						input.addClass('placeholder');
-						input.val(input.attr('placeholder'));
-					}
-				}).blur();
-
-				$('[placeholder]').parents('form').submit(function () {
-					var input = $(this);
-
-					if (input.val() == input.attr('placeholder')) {
-						input.val('');
-					}
-				});
-			}
-
-			$('#events-slider').removeClass('hide')
-			.carouFredSel({
-				direction: 'up',
-				height: 80,
-				scroll: {
-					items: 1,
-					easing: 'linear',
-					duration: 1000,
-					pauseOnHover: true
-				},
-				width: 'auto'
-			});
-
-			$('#social-stream').dcSocialTabs({
-				method: 'static',
-				height: 450,
-				width: 270,
-				widgets: 'facebook,twitter',
-				facebookId: 671888709517814,
-				twitterId: 'flynnarite',
-				twitter: {
-					thumb: true
-
-				}
-			});
-		});
-	</script>
-</body>
+        </div>
+    </body>
 </html>

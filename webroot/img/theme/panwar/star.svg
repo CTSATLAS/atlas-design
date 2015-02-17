@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- The icon can be used freely in both personal and commercial projects with no attribution required, but always appreciated. 
+You may NOT sub-license, resell, rent, redistribute or otherwise transfer the icon without express written permission from iconmonstr.com -->
+
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+
+	 width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+
+<path id="star-outline-icon" d="M256,157.165l26.834,82.585h86.835l-70.252,51.041l26.835,82.586L256,322.336l-70.252,51.041
+
+	l26.835-82.586L142.33,239.75h86.836L256,157.165z M256,60.082L207.37,209.75H50l127.315,92.5l-48.631,149.668L256,359.418
+
+	l127.315,92.5L334.685,302.25L462,209.75H304.63L256,60.082z"/>
+
+</svg>
+
