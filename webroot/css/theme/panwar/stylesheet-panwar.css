@@ -1,0 +1,335 @@
+/* ==========================================================================
+   theme styles
+   ========================================================================== */
+
+/* navbars */
+
+/* navbars */
+
+/* mixins
+use full theme mixins
+*/
+
+/* sg-fonts font mixins */
+
+/* --- page --- */
+
+body {
+    height: 100% !important;
+    font-family: 'OpenSansRegular', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
+#page {
+    color: #404040;
+    padding-top: 120px;
+    max-width: 1800;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'OpenSansSemibold';
+    line-height: 1.5;
+    color: rgba(1, 27, 140, 0.9);
+    font-weight: normal !important;
+}
+.sidebar h1,
+.sidebar h2,
+.sidebar h3,
+.sidebar h4,
+.sidebar h5 {
+    margin-top: 0;
+    /* margin-bottom: 20px; */
+}
+p {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.post p {
+    line-height: 1.7;
+}
+#page > header,
+#page > main,
+#page > section,
+#page > footer {
+    padding-top: 60px;
+}
+figure {
+    margin-bottom: 10px;
+    display: block;
+}
+.navbar-toggle .fa {
+    font-size: 16px;
+}
+.ccode {
+    cursor: pointer;
+}
+/* --- forms --- */
+
+.input-group {
+    margin-bottom: 10px;
+}
+/* ---- header ---- */
+
+#page > header, .t-wrapper {
+    height: 250px;
+    min-height: 250px;
+    text-align: center;
+
+    background-image: url("flag-medal-and-cap.jpg");
+    background-color: RGBA(1, 27, 140, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #808080;
+    padding-top: 0;
+}
+.home #page > header, #cover > header, .home .t-wrapper {
+    height: 450px;
+    min-height: 450px;
+    /*border-bottom: solid 5px #D0021B;*/
+}
+header h1 {
+    font-size: 83px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+header h1:hover {
+    color: #222222;
+}
+header .vtable {
+    display: table;
+    height: inherit !important;
+    width: 100% !important;
+}
+header .vtable .table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+header .vtable .table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+/* --- footer --- */
+
+footer .footer .copy-info {
+    padding: 20px;
+    font-size: 1.4;
+}
+footer .footer .copy-info .social i {
+    font-size: 16px;
+}
+footer .footer .copy-info p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+footer .footer .social i {
+    font-size: 32px;
+}
+/* --- content --- */
+
+main .post .post-meta {
+    font-size: 14px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+main .post .read-more {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+main .sidebar ul {
+    padding-left: 0;
+}
+main .sidebar ul li {
+    list-style: none;
+}
+article .author {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+article .author p {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+article .author .avatar {
+    min-height: 80px;
+    min-width: 80px;
+    max-width: 80px;
+    background-color: #222222;
+}
+/* --- page elements --- */
+
+#top-link {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 36px;
+    padding: 10px;
+}
+#top-link a {
+    color: #808080;
+}
+.btn {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.headlines {
+    font-size: 101px;
+    font-size: 10.1rem;
+}
+.titles {
+    font-size: 82px;
+    font-size: 8.2rem;
+}
+.subtitles {
+    font-size: 68px;
+    font-size: 6.8rem;
+}
+.xxlarge {
+    font-size: 52px;
+    font-size: 5.2rem;
+}
+.xlarge {
+    font-size: 41px;
+    font-size: 4.1rem;
+}
+.large {
+    font-size: 32px;
+    font-size: 3.2rem;
+}
+.medium {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+.default-font {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+.small {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+.tiny {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+h1 {
+    font-size: 51px;
+    font-size: 5.1rem;
+}
+h2 {
+    font-size: 41px;
+    font-size: 4.1rem;
+}
+h3 {
+    font-size: 31px;
+    font-size: 3.1rem;
+}
+header h1 {
+    font-size: 101px;
+    font-size: 10.1rem;
+}
+section h1 {
+    font-size: 68px;
+    font-size: 6.8rem;
+}
+aside h1 {
+    font-size: 22px;
+    font-size: 2.2rem;
+    margin-bottom: 2px;
+}
+article h1 {
+    font-size: 41px;
+    font-size: 4.1rem;
+}
+footer h1 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+/* --- style guide --- */
+
+/* wordpress comments */
+
+.comments {
+    padding: 20px;
+    /*    padding-top: 40px;*/
+    /*    background-color: #f9f9f9;*/
+    margin-top: 40px;
+    border-radius: 1px;
+    border-top: 1px solid RGBA(249, 249, 249, 1);
+    padding-left: 0;
+}
+.comments code {
+    white-space: normal;
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+.comments label {
+    display: block;
+}
+.comments textarea {
+    border-radius: 1px;
+    width: 90%;
+    border-color: RGBA(121, 121, 121, 0.5);
+    border-style: dotted;
+    background-color: RGBA(249, 249, 249, 0.5);
+}
+.comments input[type="text"] {
+    border-radius: 1px;
+    width: 90%;
+    border-width: 1px;
+    border-color: RGBA(121, 121, 121, 0.5);
+    border-style: dotted;
+    background-color: RGBA(249, 249, 249, 0.5);
+    padding: 5px;
+}
+#respond {} #reply-title {} #cancel-comment-reply-link {} #commentform {} #author {} #email {} #url {} #comment #submit .comment-notes {} .required {} .comment-form-author {} .comment-form-email {} .comment-form-url {} .comment-form-comment {} .form-allowed-tags {} .form-submit {};
+ .blog-comment {
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.responses {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid RGBA(249, 249, 249, 0.5);
+}
+footer {
+    border-top: 1px solid RGBA(255, 255, 255, 0.5);
+    padding: 40px;
+    margin-top: 20px;
+}
+footer .fa {
+    color: RGBA(255, 255, 255, 0.5);
+}
+footer .fa:hover {
+    color: RGBA(255, 255, 255, 0.85);
+}
+a {
+    color: rgba(1, 27, 140, 0.9);
+/*    border-bottom: 1px dotted RGBA(121, 121, 121, 0.3);*/
+/*    padding-bottom: 3px;*/
+}
+
+a:hover, a:visited {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+
