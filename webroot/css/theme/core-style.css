@@ -3226,22 +3226,26 @@ ul.etabs {
 /* all */
 ::-webkit-input-placeholder {
     color: #8a8b8b;
-    font-size: 12px
+    font-size: 12px;
+    font-style: italic;
 }
 
 ::-moz-placeholder {
     color: #8a8b8b;
-    font-size: 12px
+    font-size: 12px;
+    font-style: italic;
 }
 
 /* firefox 19+ */
 :-ms-input-placeholder {
     color: #8a8b8b;
-    font-size: 12px
+    font-size: 12px;
+    font-style: italic;
 }
 
 /* ie */
 input:-moz-placeholder {
     color: #8a8b8b;
-    font-size: 12px
+    font-size: 12px;
+    font-style: italic;
 }
