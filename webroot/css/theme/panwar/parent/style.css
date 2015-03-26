@@ -1,0 +1,239 @@
+/*
+Theme Name: Mission
+Theme URI: http://
+Author: Shawn Sandy
+Author URI: http://
+Description: A simple wordpress theme stater toolkit
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: mission
+*/
+#page.no-nav {
+  padding-top: 0;
+}
+.home #page > header,
+#cover > header,
+.home .t-wrapper {
+  height: 500px;
+  background-position: center center;
+  background-color: #e6e6e6;
+}
+#page > header,
+#cover > header,
+.t-wrapper {
+  color: #7d7d7d;
+  background-image: none;
+}
+.navbar-brand,
+.navbar-nav li a,
+.navbar-brand,
+.bar li a,
+nav .bar li a {
+  line-height: 115px;
+  height: 115px;
+  padding-top: 0;
+}
+nav .navbar-brand img {
+  height: 90px;
+  width: auto;
+}
+.navbar-text {
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+aside {
+  margin-bottom: 20px;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  padding-top: 0;
+}
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited {
+  color: #7d7d7d;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
+  color: #636363;
+}
+#mission p.lead {
+  font-size: 18px;
+}
+#features {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#features article {
+  padding-top: 30px;
+}
+.navbar {
+  /*background-color: RGBA(1, 32, 131, 0.8);*/
+  background-color: rgba(255, 255, 255, 0.95);
+  border-top: solid 5px #292929;
+  border-bottom: solid 1px #ffffff;
+  box-sizing: content-box;
+}
+.t-wrapper {
+  position: relative;
+  background-image: none !important;
+  background-color: transparent;
+}
+section#main-menu {
+  padding-top: 0;
+  border-bottom: solid 1px rgba(10, 89, 193, 0.3);
+}
+.main-menu .navbar {
+  min-height: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+.main-menu .navbar-brand,
+.main-menu .navbar-nav li a,
+.main-menu .navbar-brand,
+.main-menu .bar li a,
+.main-menu nav .bar li a {
+  line-height: 60px;
+  height: 60px;
+  padding-top: 0;
+}
+.main-menu .nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #5c5c5c;
+  color: #fff;
+}
+.blue-bg {
+  background-color: #415c9d;
+}
+.red-bg {
+  background-color: #d0021b;
+}
+.home #features {
+  /*padding-top: 20px;*/
+  /*background-color: rgba(1, 27, 140, 0.8);*/
+  /*color: #fff;*/
+}
+.blue-bg,
+.red-bg {
+  height: 270px;
+  color: #fff;
+}
+.blue-bg h1,
+.red-bg h1 {
+  color: #fff;
+}
+.blue-bg {
+  background-color: #415c9d;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 20px;
+}
+.red-bg {
+  background-color: #d0021b;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-right: 20px;
+}
+main {
+  padding-bottom: 60px;
+}
+footer {
+  background-color: #e6e6e6;
+  color: #7d7d7d;
+}
+footer .info {
+  padding-bottom: 60px;
+}
+footer ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+footer ul li {
+  list-style: none;
+}
+footer a {
+  color: #fff;
+  border-bottom: dotted 1px;
+}
+footer a:hover {
+  color: #fff;
+  border: none;
+}
+footer p {
+  font-size: 15px;
+  font-size: 1.5rem;
+}
+footer footer h1 {
+  color: #fff;
+}
+footer i.fa {
+  font-size: 3.2rem;
+  font-size: 32px;
+}
+section#mission {
+  padding-bottom: 40px;
+}
+.fonts.crete {
+  font-family: 'Crete Round', serif;
+}
+#ninja_forms_field_6 select {
+  height: 40px;
+  line-height: 40px;
+}
+form.ninja-forms-form select.form-control {
+  height: 30px;
+  line-height: 30px;
+}
+form.ninja-forms-form select.form-control {
+  padding-top: 40px;
+}
+core-icon.svg-icon {
+  fill: rgba(1, 27, 140, 0.2) !important;
+  width: 80px;
+  height: 80px;
+}
+core-icon.ftr {
+  width: 36px;
+  height: 36px;
+}
+#top-link a {
+  color: rgba(1, 17, 89, 0.2);
+}
+.layout {
+  display: -webkit-flex;
+  display: flex;
+}
+header .layout {
+  /* sets the height of the header flex box */
+  height: 250px;
+}
+.home header .layout {
+  height: 450px;
+}
+.layout.center.all {
+  -webkit-flex-direction: row ;
+  /* works with row or column */
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
