@@ -4,16 +4,24 @@
 	</style>
 <![endif]-->
 
+
+<?php //if(isset($_SERVER['SERVER_NAME']) AND $_SERVER['SERVER_NAME'] === 'atlas.shawn'): ?>
+<?php if(isset($_SERVER['SERVER_NAME']) AND $_SERVER['SERVER_NAME'] === 'atlas.panhandlewarriorconnetion.com'): ?>
+<p>
+  <a href="http://atlas.panhandlewarriorconnection.com/pwc_surveys">Thank you for registering please click here to Complete the Survey.</a>
+</p>
+<?php else: ?>
+
 <div id="dashboard">
-    
-    <div class="grid-buttons">        
+
+    <div class="grid-buttons">
         <span class="grid-title"><i class="fa fa-arrow-circle-o-right"></i> <?php echo $title_for_layout ?></span>
         <span class="pull-right">
-        
+
         <?php if(!empty($ecourses)) : ?>
         <a href="#online-ecourse" class="">Ecourses  <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
-       <?php if(!empty($eventRegistrations)) : ?> 
+       <?php if(!empty($eventRegistrations)) : ?>
         <a href="#event-rigistrations" class="">Event Registrations <i class="fa fa-arrow-circle-o-right"></i> </a>
        <?php endif ?>
         <?php if(!empty($registrations)) : ?>
@@ -28,11 +36,10 @@
         <?php if ($esignProgram): ?>
         <a href="#online-esignature" class="">Esign <i class="fa fa-arrow-circle-o-right"></i> </a>
         <?php endif ?>
-            
         </span>
     </div>
     <div class="grids-2">
-    
+
 	<?php if(!empty($eventRegistrations)) : ?>
     <!--Registrations-->
     <div class="">
@@ -83,11 +90,11 @@
 			</ul>
 		</div>
 	</div>
-        </div>       
+        </div>
     </div>
 	<?php endif ?>
 
-    
+
 	<?php if(!empty($ecourses)) : ?>
     <!--ecourses-->
     <div class="">
@@ -181,7 +188,7 @@
 						</a>
 					</span>
 				</li>
-                                
+
 			<?php endforeach ?>
 			</ul>
 		</div>
@@ -243,7 +250,7 @@
 	<div id="online-enrollments" class="widget">
 		<div class="widget-header">
 			<h2>
-				
+
                                 <i class="fa fa-sign-in"></i>
 				Online Enrollments
 			</h2>
@@ -284,7 +291,7 @@
 	<?php endif ?>
 
 	<?php if ($esignProgram): ?>
-	  
+
                <?php $currentUser = $this->Session->read('Auth.User') ?>
   <!--esign-->
   <div class="">
@@ -347,5 +354,6 @@
   </div>
 	<?php endif ?>
 </div>
-    <div class="clearfix"></div>      
+    <div class="clearfix"></div>
     </div>
+<?php endif ?>
