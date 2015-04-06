@@ -183,7 +183,7 @@
 		'label' => __('Do you have a disability', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
-		'options' => array('0' => 'No Disability', '1' => 'Physical', '2' => 'Mental Health'),
+		'options' => array('0' => 'No Disability', '1' => 'Physical Disability', '2' => 'Mental Disability', '3' => "Intellectual"),
 		'before' => '<br />',
 		'after' => '<br />'
 	));
