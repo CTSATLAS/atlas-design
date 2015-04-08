@@ -12,7 +12,7 @@
 	<p>
 	<?php if (Configure::read('Registration.usePassword')): ?>
     <?php printf(__("Welcome to the %s Online Services System. To begin, please log in with
-                     your last name and password.", true), Configure::read('Company.name')) ?>
+                     your username and password.", true), Configure::read('Company.name')) ?>
     <?php $passwordLabel = 'Password' ?>
 	<?php else: ?>
     <?php printf(__("Welcome to the %s Online Services System. To begin, please log in with
