@@ -11,9 +11,9 @@
 .error-message {
   color: red;
   font-size: 11px;
-  margin-left: 120px;
+  /*margin-left: 120px;*/
   margin-top: 2px;
-  float: left;
+  /*float: left;*/
 }
 
 .message {
