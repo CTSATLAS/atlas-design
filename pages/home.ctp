@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * @author Brandon Cordell
  * @copyright Complete Technology Solutions 2011
  * @link http://ctsfla.com
@@ -45,19 +45,9 @@
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
         <?php echo $this->element('social/tabs'); ?>
-        
+
 		<!--<div id="social-stream"></div>-->
-                
-                
-                
-                <div class="sponsor-logo">
-                    <a href="http://www.tampatraining.com/" target="_blank">
-                        <img src="img/theme/hcc-seal.png" alt="Sponsor logo">
-                    </a>
-                    </br>
-                      <small>Sponsor</small>  
-                   
-                </div>
+  
 	</div>
         <div class="span9 home-content">
 
