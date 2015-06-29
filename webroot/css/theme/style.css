@@ -2790,3 +2790,50 @@ input#reset_filters {
   font-size: 18px;
   font-weight: normal;
 }
+
+#main-content .sidebar.mos-map li{
+
+  list-style: none;
+  margin-left: 0;
+  /*font-size: 18px;*/
+  margin-bottom: 12px;
+  line-height: 1.5;
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 7px;
+}
+
+.sidebar.mos-map li a{ 
+  border: none !important;
+
+}
+
+#main-content .sidebar.mos-map {
+  padding-left: 10px;
+  /*background-color: aliceblue;*/
+  padding: 10px;
+  border-radius: 5px;
+
+}
+
+#main-content .sidebar.mos-map ul{
+
+ 
+  margin-left: 0;
+
+}
+
+
+#main-content .sidebar.mos-map h4{
+ margin-top: 0;
+ margin-bottom: 10px;
+ padding-left: 0;
+ padding-top: 0;
+ font-size: 21px;
+
+}
+
+.table .mos-map {
+  border-top: none;
+ .mos-map aside {
+  min-height: 120px;
+ }
