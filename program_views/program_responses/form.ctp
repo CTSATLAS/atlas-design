@@ -1,4 +1,6 @@
 <?php echo $html->script('program_responses/toggle_instructions', array('inline' => false)) ?>
+  
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem fugit distinctio eius, perferendis consequuntur. Velit deserunt rem illo aut quas!</p>
   <div class="show-instructions" style="display:none">
     <a href="#" ><?php __('Show instructions') ?></a>
   </div>
@@ -23,5 +25,5 @@
 	<?php echo $this->element('program_responses/' . $element) ?>
 </div>
 <pre>
-  <?php var_dump($data); ?>
+  
 </pre>
