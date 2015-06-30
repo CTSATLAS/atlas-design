@@ -2790,6 +2790,7 @@ input#reset_filters {
   font-size: 18px;
   font-weight: normal;
 }
+<<<<<<< Updated upstream
 
 #main-content .sidebar.mos-map li{
 
@@ -2837,3 +2838,9 @@ input#reset_filters {
  .mos-map aside {
   min-height: 120px;
  }
+
+#main-content .mos-map h4, #main-content .mos-map h1 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
