@@ -10,3 +10,7 @@
 <div class="homepage-element">
     <?php echo $middleContent['Page']['content'] ?>
 </div>
+<div>
+<hr />
+	<?php echo $this->element('helpers/latest_events'); ?>
+</div>

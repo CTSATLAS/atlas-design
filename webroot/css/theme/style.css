@@ -2844,3 +2844,8 @@ input#reset_filters {
   margin-top: 0px;
 }
 
+#main-content h2.lh {
+    text-transform: uppercase !important;
+    font-size: 28px;
+}
+
