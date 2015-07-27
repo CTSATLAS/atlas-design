@@ -195,6 +195,6 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
-	<?php echo $this->element('scripts/mos-geocode'); ?>
+	<?php echo $this->element('scripts/mos-geocode', array($data)); ?>
 </body>
 </html>
