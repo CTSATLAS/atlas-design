@@ -196,9 +196,10 @@
           })();
         </script>
 
+
 	<script type="text/javascript">
 		var LHCChatOptions = {};
-		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500,domain:'design.atlasforworkforce.com'};
+		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500,domain:'atlasforworkforce.com'};
 		(function() {
 			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 			var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
@@ -207,6 +208,7 @@
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 		})();
 	</script>
+
 	<?php echo $this->element('scripts/mos-geocode'); ?>
 </body>
 </html>
