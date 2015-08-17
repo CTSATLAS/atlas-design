@@ -42,7 +42,6 @@
             <?php echo $this->Nav->buildAdminNavigation('audits') ?>
             <?php echo $this->Nav->buildAdminNavigation('ecard') ?>
             <?php echo $this->Nav->buildAdminNavigation('tools') ?>
-            <?php echo $this->Nav->buildAdminNavigation('tools') ?>
             <?php echo $this->Nav->buildAdminNavigation('apps') ?>
 		</ul>
 	    </div>
