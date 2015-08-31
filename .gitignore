@@ -2,3 +2,5 @@
 .DS_Store
 css/.DS_Store
 /webroot/css/theme/layout-fix-view.css
+.idea/
+default_header_logo.jpg
