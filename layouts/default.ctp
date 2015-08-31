@@ -29,6 +29,19 @@
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
          <?php echo $this->Html->css('theme/sg-grid'); ?>
 
+    <?php  if ($this->params['action'] == 'display' && $this->params['controller'] == "pages"):?>   
+<link rel="stylesheet" href="css/theme/tabs/css/tabs-style.css" type="text/css">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=188470541231776";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+    <?php endif; ?>
+
 
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
@@ -74,6 +87,7 @@
 
 	<section id="content">
 		<div class="container">
+		<?php //echo $this->params['action'] ?>
                 <?php if ($title_for_layout === 'Home'): //display home ?>
 			<div class="row">
 				<div class="span12" id="main-content">
@@ -179,6 +193,15 @@
 				}
 			});
 		});
+
+var radioTab = document.querySelector('.radio-tab');
+console.log(radioTab);
+radioTab.addEventListener('click', function(e){
+	//e.preventDefault();
+    console.log('Setting Button');
+    
+
+});
 	</script>
 </body>
 </html>
