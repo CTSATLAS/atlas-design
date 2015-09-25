@@ -42,7 +42,7 @@
             <?php echo $this->Nav->buildAdminNavigation('audits') ?>
             <?php echo $this->Nav->buildAdminNavigation('ecard') ?>
             <?php echo $this->Nav->buildAdminNavigation('tools') ?>
-            <?php echo $this->Nav->buildAdminNavigation('apps') ?>			
+            <?php echo $this->Nav->buildAdminNavigation('apps') ?>
 		</ul>
 	    </div>
     </div>
@@ -51,13 +51,14 @@
 	    <div id='help'>
             <h3><?php echo $html->image('icons/help.png')?> <?php __('Help') ?></h3>
             <?php if($this->Session->read('Auth.User.role_id') <= 3) : ?>
-		    	<p>
+		    		<?php echo $this->element('navigation/staff-tickets');  ?>
+		    		<p>
 					<a href="/admin/help_desk_tickets">
 						<?php echo $html->image('icons/email.png')?> 
-						<?php __('Create a support ticket') ?>
+						<?php __('Create a CSPH support ticket') ?>
 					</a> 
 		    	</p>
-				<?php echo $this->element('navigation/staff-tickets');  ?>
+			
 		    	<p><?php echo $html->image('icons/telephone.png')?> 352-666-0333</p>
 	    	<?php else : ?>
 	    		<p><?php echo $html->image('icons/bug.png')?> Please report issues with ATLAS to your supervisor.</p>
