@@ -55,7 +55,7 @@
 		    		<p>
 					<a href="/admin/help_desk_tickets">
 						<?php echo $html->image('icons/email.png')?> 
-						<?php __('Create a CSPH support ticket') ?>
+						<?php __('Create an ATLAS support ticket') ?>
 					</a> 
 		    	</p>
 			
