@@ -7,10 +7,10 @@
         Cache::write('homepage_middle', $middleContent);
     }
 ?>
+<div>
+	<?php echo $this->element('helpers/latest_events'); ?>
+	<hr />
+</div>
 <div class="homepage-element">
     <?php echo $middleContent['Page']['content'] ?>
-</div>
-<div>
-<hr />
-	<?php echo $this->element('helpers/latest_events'); ?>
 </div>
