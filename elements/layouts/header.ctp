@@ -21,6 +21,18 @@
 <!-- menu -->
 <nav>
 	<div id="menu-icon">Menu</div>
-	<?= $this->Nav->links('Top') ?>
+	<ul class="nav sf-menu sf-js-enabled">
+		<li><a href="/pages/about">About</a></li>
+
+		<?php if ($this->Session->read('Auth.User')): ?>
+			<li><a href="/pages/training_modules">Training Modules</a></li>
+		<?php else: ?>
+			<li><a href="/pages/training_modules2">Training Modules</a></li>
+		<?php endif; ?>
+
+		<li><a href="/pages/resources">Resources</a></li>
+		<li><a href="/pages/employment_tips">Employment Tips</a></li>
+		<li><a href="/users/dashboard">Dashboard</a></li>
+	</ul>
 </nav><!-- end menu -->
 <div class="clear"></div>
