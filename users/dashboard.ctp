@@ -3,9 +3,7 @@
 		.widget .header { filter: none; }
 	</style>
 <![endif]-->
-<p class="text-warning">
-  On the customer dashboard please add: You must pass the quiz at the end of each module with an 80% correct score before moving on to the next module.
-</p>
+<p style="font-size: 14px;">You must pass the quiz at the end of each module with an 80% correct score before moving on to the next module.</p>
 <div id="dashboard">
     <div class="grid-buttons">
         <?php if(!empty($ecourses)) : ?>
