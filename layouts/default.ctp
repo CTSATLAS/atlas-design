@@ -6,6 +6,7 @@
  * @since 02/06/2014
  */
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,21 +82,21 @@
                 <?php if ($title_for_layout === 'Home'): //display home ?>
 			<div class="row">
 				<div class="span12" id="main-content">
-                        <?php echo $content_for_layout ?> 
+                        <?php echo $content_for_layout ?>
                     </div>
                 </div>
                 <?php else: ///display content page ?>
-                <div class="row-fluid">                                                  
+                <div class="row-fluid">
                     <div class="span11 offset1" id="main-content">
 					<?php if ($title_for_layout !== 'Home'): ?>
 						<h1 id="page-title"><?= $title_for_layout ?></h1>
 					<?php endif ?>
                         <div class="post">
-                            <?php echo $content_for_layout ?> 
+                            <?php echo $content_for_layout ?>
 				</div>
 			</div>
 		</div>
-                <?php endif ?> 
+                <?php endif ?>
             </div>
 	</section>
 
@@ -179,12 +180,12 @@
 				youtubeId: 'careersourcetampabay',
 				twitter: {
 					thumb: true
-                                        
+
 				}
 			});
 		});
 	</script>
-        
+
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-24254812-1']);
@@ -196,7 +197,7 @@
           })();
         </script>
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 		var LHCChatOptions = {};
 		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500,domain:'careersourcepascohernando.com'};
 		(function() {
@@ -206,7 +207,7 @@
 			po.src = '//atlas.careersourcepascohernando.com/livechat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 		})();
-	</script>
+	</script> -->
 
 	<?php echo $this->element('scripts/mos-geocode'); ?>
 </body>
