@@ -2774,8 +2774,8 @@ input#reset_filters {
 
 #main-content .mos-map img {
    padding: 5px !important;
-   float: left; 
-   border-radius: 5px; 
+   float: left;
+   border-radius: 5px;
    margin-right: 10px
    /*border: 1px #f1f1f1 solid;*/
 }
@@ -2803,7 +2803,7 @@ input#reset_filters {
   padding-bottom: 7px;
 }
 
-.sidebar.mos-map li a{ 
+.sidebar.mos-map li a{
   border: none !important;
 
 }
@@ -2818,7 +2818,7 @@ input#reset_filters {
 
 #main-content .sidebar.mos-map ul{
 
- 
+
   margin-left: 0;
 
 }
@@ -2859,4 +2859,9 @@ input#reset_filters {
 }
 #main-content  #map-canvas  .iw_content {
   padding: 15px 15px 15px 0;
+}
+
+div#live-chat-box {
+
+  width:200px;
 }

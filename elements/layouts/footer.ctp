@@ -23,7 +23,7 @@
 				</div>
 				<div class="span4">
 					<h5 style="font-size:12pt">CareerSource Pasco | Hernando, Dade City</h5>
-					<a href="//maps.google.com/maps?q=15000 Citrus Country Dr. Suite 303 
+					<a href="//maps.google.com/maps?q=15000 Citrus Country Dr. Suite 303
 Dade City, FL 33523" target="_blank">
 						<img src="http://maps.google.com/maps/api/staticmap?center=28.3768332,-82.1903938&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|28.3768332,-82.1903938">
 					</a>
@@ -47,3 +47,49 @@ Dade City, FL 33523" target="_blank">
 		</div>
 	</div>
 </footer>
+<style>
+
+div#live-chat-box  p {
+	font-size: 21px;
+  border-radius: 5px;
+	background-color: #2478C0;
+	border: 1px dotted #fff;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	margin-right: 20px;
+}
+
+div#lhc_status_container p {
+		font-size: 16px !important;
+		color: #fff;
+}
+
+div#lhc_status_container a {
+	color: #fff;
+	font-weight: bold;
+}
+
+div#lhc_status_container a:hover {
+	color: #78A800;
+}
+</style>
+<div class="navbar navbar-fixed-bottom">
+	<div id="live-chat-box" class="pull-right">
+		<div id="lhc_status_container" ></div>
+
+		<!-- Place this tag after the Live Helper status tag. -->
+		<script type="text/javascript">
+		var LHCChatOptions = {};
+		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500};
+		(function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
+		var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
+		po.src = '//careersourcepascohernando.com/livechat/index.php/chat/getstatus/(click)/internal/(position)/original/(ma)/br/(hide_offline)/true/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		})();
+		</script>
+	</div>
+
+</div>
