@@ -54,7 +54,7 @@ div#live-chat-box  p {
   border-radius: 5px;
 	background-color: #2478C0;
 	border: 1px dotted #fff;
-	width: 200px;
+	width: 250px;
 	padding: 10px;
 	/*padding-top: 0;*/
 	text-align: center;
@@ -86,9 +86,9 @@ div#lhc_status_container a:hover {
 	<div id="live-chat-box" class="pull-right">
 
 		<div id="lhc_status_container" ></div>
-		<span class="live-help">
+		<!-- <span class="live-help">
 		 Ask our staff for Help.
-		</span>
+		</span> -->
 		<!-- Place this tag after the Live Helper status tag. -->
 		<script type="text/javascript">
 		var LHCChatOptions = {};
