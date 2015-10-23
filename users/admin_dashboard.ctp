@@ -18,8 +18,8 @@
 </div>
 
 <div id="adminDashboard" class="admin">
-     
-     
+
+
     <p><strong><?php __('Welcome to the administration dashboard.') ?></strong>
     </p>
 
@@ -50,23 +50,23 @@
     <div id="information" class="left">
 	    <div id='help'>
             <h3><?php echo $html->image('icons/help.png')?> <?php __('Help') ?></h3>
-            <?php if($this->Session->read('Auth.User.role_id') <= 3) : ?>
-		    		<?php echo $this->element('navigation/staff-tickets');  ?>
-		    		<p>
-					<a href="/admin/help_desk_tickets">
-						<?php echo $html->image('icons/email.png')?> 
-						<?php __('Create an ATLAS support ticket') ?>
-					</a> 
-		    	</p>
-			
-		    	<p><?php echo $html->image('icons/telephone.png')?> 352-666-0333</p>
-	    	<?php else : ?>
+            <?php if($this->Session->read('Auth.User.role_id') <= 7) : ?>
+							<a href="/admin/help_desk_tickets">
+								<?php echo $html->image('icons/email.png')?>
+								<?php __('Create an ATLAS support ticket') ?>
+							</a>
+	    			<?php endif ?>
+					<p><?php echo $html->image('icons/telephone.png')?> 352-666-0333</p>
+				<p>
+						<?php echo $this->element('navigation/staff-tickets');  ?>
+
+				</p>
 	    		<p><?php echo $html->image('icons/bug.png')?> Please report issues with ATLAS to your supervisor.</p>
-	    	<?php endif ?> 
+
 	    	<p>
 	    		<?php echo $html->image('icons/application_xp_terminal.png')?>
 	    		<?php echo $html->link('Atlas 3.8.9 Build 3', array('controller' => 'release_notes', 'admin' => true))?>
-	    	</p>    	
+	    	</p>
 	    </div>
     </div>
 
@@ -115,4 +115,3 @@
 	<?php endif ?>
 	<div class="clear"></div>
 </div>
-

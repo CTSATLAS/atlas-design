@@ -2609,6 +2609,7 @@ padding-right: 40px;
  width: 50%;
  font-size: 16px;
  min-width: 250px;
+ color: darkgrey;
 }
 
 #content select, #content textarea {
@@ -2864,4 +2865,20 @@ input#reset_filters {
 div#live-chat-box {
 
   width:200px;
+}
+
+.btn {
+  color: black !important;
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+div.textInput-options {
+  margin-top: 10px;
+  width: 50%;
+  display:block;
+}
+
+div.textInput-options hr {
+  width: 50%;
 }
