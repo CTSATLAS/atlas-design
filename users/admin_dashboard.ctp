@@ -38,6 +38,7 @@
             <?php echo $this->Nav->buildAdminNavigation('selfSign') ?>
             <?php echo $this->Nav->buildAdminNavigation('storage') ?>
             <?php echo $this->Nav->buildAdminNavigation('programs') ?>
+						<?php echo $this->Nav->buildAdminNavigation('program_forms') ?>
             <?php echo $this->Nav->buildAdminNavigation('ecourses') ?>
             <?php echo $this->Nav->buildAdminNavigation('audits') ?>
             <?php echo $this->Nav->buildAdminNavigation('ecard') ?>
