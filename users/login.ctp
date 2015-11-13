@@ -31,6 +31,6 @@
 		*PRIVACY ACT STATEMENT: Pursuant to 42 U.S.C. 1320b-7(a)(1) (Social Security Act)
 		and 7 C.F.R. 273.6, disclosure of your social security number is mandatory. Social
 		security numbers will be used by the Agency for program administration including verification
-		purposes, distinguishing one individual from another, and for tracking and reportin purposes.
+		purposes, distinguishing one individual from another, and for tracking and reporting purposes.
 	</p>
 </div>
