@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/js/jqueryui_signature/jquery.signature.css" />
-<script type="text/javascript" src="/js/jqueryui_signature/jquery.signature.min.js"></script>
+<link rel="stylesheet" href="/js/theme/jqueryui_signature/jquery.signature.css" />
+<script type="text/javascript" src="/js/theme/jqueryui_signature/jquery.signature.min.js"></script>
 <style>
 #esign p:first-child
 {
