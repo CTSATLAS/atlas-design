@@ -38,7 +38,7 @@
             <?php echo $this->Nav->buildAdminNavigation('selfSign') ?>
             <?php echo $this->Nav->buildAdminNavigation('storage') ?>
             <?php echo $this->Nav->buildAdminNavigation('programs') ?>
-            <?php if($this->Session->read('Auth.User.role_id') === 2 ) : ?>
+            <?php if($this->Session->read('Auth.User.role_id') == 2 ) : ?>
                 <?php echo $this->Nav->buildAdminNavigation('program_forms') ?>
             <?php endif; ?>
             <?php echo $this->Nav->buildAdminNavigation('ecourses') ?>
