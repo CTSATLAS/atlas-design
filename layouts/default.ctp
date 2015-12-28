@@ -57,6 +57,7 @@
 	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
 
+
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -209,6 +210,23 @@
 		})();
 	</script> -->
 
-	<?php echo $this->element('scripts/mos-geocode'); ?>
+	<?php if ($this->Session->read('Auth.User')): ?>
+		<script type="text/javascript">
+			var session = {
+			  inactiveTimeout: 30000,
+			  warningTimeout: 15000,
+			  minWarning: 5000,
+			  warningStart: null,
+			  warningTimer: null,
+
+			  logout: function() {
+			    window.location = '/users/logout';
+			  }
+			}
+		</script>
+		<?= $this->element('timeoutModal') ?>
+	<?php endif ?>
+
+	<?= $this->element('scripts/mos-geocode') ?>
 </body>
 </html>
