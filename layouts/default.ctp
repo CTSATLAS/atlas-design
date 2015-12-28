@@ -1,7 +1,7 @@
 <!--core-->
 <!DOCTYPE html>
 <html lang="en">
-  <!--core-->  
+  <!--core-->
 <head>
 	<!-- meta -->
 	<meta charset="utf-8">
@@ -74,7 +74,7 @@
 <div class="container" id="wrapper">
 <div id="dashboard" class="row-fluid">
 <!--	<div class="span2 sidebar">
-		
+
                 		<p>
                 			Intrinsicly iterate extensive deliverables for leading-edge sources. Phosfluorescently create sticky synergy through inexpensive e-commerce. Conveniently create robust solutions with team driven best practices.
                 		</p>
@@ -88,7 +88,7 @@
                 <?php if ($title_for_layout === 'Home'): //display home ?>
                 <div class="row-fluid">
                     <div class="span12" id="main-content">
-                        
+
                         <?php echo $content_for_layout ?>
                     </div>
                 </div>
@@ -119,7 +119,7 @@
             </div>
         </section>
 
-	
+
 
 
 	</div>
@@ -227,5 +227,22 @@
 			});
 		});
 	</script>
+
+	<?php if ($this->Session->read('Auth.User')): ?>
+		<script type="text/javascript">
+			var session = {
+			  inactiveTimeout: 30000,
+			  warningTimeout: 15000,
+			  minWarning: 5000,
+			  warningStart: null,
+			  warningTimer: null,
+
+			  logout: function() {
+			    window.location = '/users/logout';
+			  }
+			}
+		</script>
+		<?= $this->element('timeoutModal') ?>
+	<?php endif ?>
 </body>
 </html>
