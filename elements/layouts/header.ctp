@@ -17,9 +17,9 @@
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="//www.twitter.com/cspinellas" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li> <a href="//twitter.com/CareerSourcePIN" target="_blank"><span class="icon-twitter"></span> </a></li>
                                 <li><a href="//www.facebook.com/pages/WorkNet-Pinellas/113688846974?ref=ts#!/pages/WorkNet-Pinellas/113688846974" target="_blank"><span class="icon-facebook"></span> </a></li>
-                                 <li><a href="//www.linkedin.com/company/97333" target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                 <li><a href="//www.linkedin.com/company/careersource-pinellas" target="_blank"><span class="icon-linkedin"></span> </a></li>
                                  <li><a href="//www.youtube.com/careersourcepinellas" target="_blank"><span class="icon-youtube"></span> </a></li> 
                                  <li><a href="//www.careersourcepinellas.blogspot.com" target="_blank"><span class="icon-blogger3"></span> </a></li> 
                             </ul>
