@@ -37,10 +37,10 @@
 				</div>
 				<div class="span4">
 					<h5>
-						CareerSource Pinellas center in Tarpon Springs
+						CCareerSource Pinellas center in Tyrone
 					</h5>
-					<a href="//maps.google.com/maps?q=St. Petersburg College Campus 682 E. Klosterman Road Tarpon Springs, FL 34689" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.1229205,-82.7454361" />
+					<a href="//maps.google.com/maps?q=7701 22nd Ave North St. Petersburg, FL 33710" target="_blank">
+						<img src="http://maps.google.com/maps/api/staticmap?center=27.7929817,-82.7445469&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7929817,-82.7445469">
 					</a>
 				</div>
 			</div>
