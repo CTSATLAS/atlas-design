@@ -81,8 +81,14 @@ div#lhc_status_container a:hover {
 	padding: 5px;
 	display: block;
 }
+	#live-help.navbar-fixed-bottom {
+
+		left: 82% !important;
+
+	}
+
 </style>
-<div class="navbar navbar-fixed-bottom">
+<div id="live-help" class="navbar navbar-fixed-bottom">
 	<div id="live-chat-box" class="pull-right">
 
 		<div id="lhc_status_container" ></div>
