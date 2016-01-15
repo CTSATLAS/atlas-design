@@ -1,11 +1,10 @@
 <?php ob_start() ?>
 <body>
-	<link rel="stylesheet" href="/img/theme/logo.png" />
 	<div class="header">
 		<div class="left">
 			<img src="/img/admin_header_logo.png" class="logo" />
 		</div>
-		
+
 
 		<div class="right">
 			<ul class="list">
@@ -75,7 +74,7 @@
 	<table class="form">
 		<tr class="input-row">
 			<td class="field-left">
-				<img class="sig" src="/signatures/<?= $user['User']['id'] ?>/signature.png" />
+				<img class="sig" src="/img/cache/<?= md5($user['User']['id']).'.png' ?>" />
 			</td>
 
 			<td class="field-center">
@@ -113,7 +112,7 @@
 
 			<td class="field-center">
 				<?php if($user['User']['guardian'] != NULL): ?>
-					<img class="sig" src="/signatures/<?= $user['User']['id'] ?>/guardian.png" />
+					<img class="sig" src="/img/cache/<?= md5($user['User']['id'].'guardian') .'.png' ?>" />
 				<?php endif ?>
 			</td>
 		</tr>
@@ -153,11 +152,11 @@
 	</p>
 	<p class="copy">
 
-		It is also my understanding that any information obtained by the above organization will be held 
+		It is also my understanding that any information obtained by the above organization will be held
 		in strict confidence.
 	</p>
 	<p class="copy">
-		I understand that I may revoke this consent at any time by providing a written statement indicating 
+		I understand that I may revoke this consent at any time by providing a written statement indicating
 		that my consent to the release of information is no longer given to the party(ies) previously granted permission.
 	</p>
 
@@ -194,7 +193,7 @@
 	<table class="form">
 		<tr class="input-row">
 			<td class="field-left">
-				<img class="sig" src="/signatures/<?= $user['User']['id'] ?>/signature.png" />
+				<img class="sig" src="/img/cache/<?= md5($user['User']['id']).'.png' ?>" />
 			</td>
 
 			<td class="field-center">
@@ -233,7 +232,7 @@
 			<td class="field-center">
 				<b>
 					<?php if($user['User']['guardian'] != NULL): ?>
-						<img class="sig" src="/signatures/<?= $user['User']['id'] ?>/guardian.png" />
+						<img class="sig" src="/img/cache/<?= md5($user['User']['id'].'guardian') .'.png' ?>" />
 					<?php endif ?>
 				</b>
 			</td>
@@ -257,8 +256,8 @@
 <?php endif ?>
 
 	<p class="disclaimer">
-		<?= $company_name ?> is an equal opportunity employer/program. 
-		Auxiliary aids and services are available upon request to individuals with disabilities. 
+		<?= $company_name ?> is an equal opportunity employer/program.
+		Auxiliary aids and services are available upon request to individuals with disabilities.
 		All voice telephone numbers listed may be reached by persons using TTY/TDD equipment via the
 	</p>
 </body>
