@@ -35,10 +35,10 @@ Dade City, FL 33523" target="_blank">
 		<div class="row">
 			<div class="span6 offset3">
 				<p style="margin-bottom:0px">
-					<a href="https://bit.ly/1gmhLl5" target="_blank">
+					<a href="https://goo.gl/DGe7HF" target="_blank">
 						<img src="/img/theme/florida.png" alt="" style="width:150px;display:inline-block">
 					</a>
-                    <a href="http://1.usa.gov/1JYklQp" target="_blank" title="">
+                    <a href="https://goo.gl/aSMtOs" target="_blank" title="">
                         A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
                     </a>
 
