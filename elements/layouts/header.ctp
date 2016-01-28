@@ -6,7 +6,7 @@
                     <div class="row masthead">
                         <div class="span4">
                             <h1 class="brand">
-                                <a href="/"><img src="/img/theme/tampa-bay.png" alt=""></a>
+                                <a href="/"><img src="/img/theme/Career-Source-CLM-logo.gif" alt=""></a>
                             </h1>
                         </div>
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
@@ -18,10 +18,10 @@
                                 <li> <a href="//www.twitter.com/careersourcetb" target="_blank"><span class="icon-twitter"></span> </a></li>
                                 <li><a href="//www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
                                  <li><a href="//www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
-                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li> 
-                                 
+                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>
+
                                  <li><a href="//careersourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span></a></li>
-                                 
+
                             </ul>
                         </div>
                                 </div>
@@ -29,20 +29,20 @@
                             </div>
                                 <div id="header-login" class="span8">
                                     <div class="row-fluid">
-                                        
+
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
                                             $lastname = $this->Session->read('Auth.User.lastname');
                                             ?>
-                                        
+
                                             <div class="btn-group" style="margin-right:15px">
                                                 <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
                                                     <?php printf(__('Logged in as: <strong>%s %s</strong>', true), ucwords($firstname), ucwords($lastname)) ?>
                                                     <span class="caret"></span>
                                                 </a>
                                                 <ul class="dropdown-menu pull-right">
-                                                    
+
                                                     <li>
                                                         <?=
                                                         $this->Html->link(__('My Dashboard', true), array(
@@ -76,7 +76,7 @@
                                                 </ul>
                                             </div>
                                             <?php else: ?>
-                                        
+
                                             <div class="btn-group-1">
                                                 <?=
                                                 $this->Html->link(__('Login', true), array(
@@ -101,9 +101,9 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
-                            
+
+
+
                         </div>
                     </div>
         <?= $this->element('layouts/nav') ?>
