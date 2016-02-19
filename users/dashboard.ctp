@@ -52,11 +52,11 @@
 						<?= $value['Event']['name'] ?>
 					</div>
 					<div class="details">
-						<i class="icon-calendar"></i>
+						<i class="fa fa-calendar"></i>
 						<?= date('l, F dS', strtotime($value['Event']['scheduled'])) ?>
-						<i class="icon-time"></i>
+						<i class="fa fa-clock-o"></i>
 						<?= date('h:iA', strtotime($value['Event']['scheduled'])) ?>
-						<i class="icon-map-marker"></i>
+						<i class="fa fa-map-marker"></i>
 						<?php if (isset($value['Location']['id']) && !empty($value['Location']['id'])): ?>
 							<?php
 								$address_parts = array();
