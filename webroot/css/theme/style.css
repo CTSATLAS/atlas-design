@@ -2533,7 +2533,7 @@ p.correct-answer {
 #main-content .post a:link, #main-content a:link   {
   color: #0056B4;
 
-  font-size: 16px;
+  font-size: 12px;
   /*   border-bottom: 1px dotted; */
   text-transform: uppercase;
 }
