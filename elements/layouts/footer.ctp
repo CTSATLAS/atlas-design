@@ -8,7 +8,7 @@
 	</div>-->
 	<div class="maps-holder">
 		<div class="container">
-			<div class="row">
+			<div class="row text-center">
 				<div class="span3">
 					<h5>CareerSource CLM Citrus <br> County </h5>
 					<a href="https://www.google.com/maps/preview#!q=683+S.+Adolph+Point+Lecanto%2C+FL+34461&data=!4m15!2m14!1m13!1s0x88e86b58a1401b8b%3A0x813791f87ccfd983!3m8!1m3!1d4888!2d-82.3171846!3d28.8184789!3m2!1i1920!2i1074!4f13.1!4m2!3d28.8525293!4d-82.4755201" target="_blank">
