@@ -464,11 +464,13 @@ background: url(../../img/theme/search.png) right 0 no-repeat;
 .navbar_ .navbar-inner_ {
   padding: 10px 0px 14px 45px;
   margin: 0;
-  background: url(../../img/theme/inside-slug-bg_03.png) 0 0 repeat-x;
+  /*background: url(../../img/theme/inside-slug-bg_03.png) 0 0 repeat-x;*/
   border: none;
   min-height: inherit;
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border-radius: 0px;
+  background-color: #69737B !important;
+  background-image: none;
 }
 .social-icn {
   height: 100px;

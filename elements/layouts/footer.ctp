@@ -22,12 +22,6 @@
 					</a>
 				</div>
 				<div class="span3">
-					<h5>CareerSource CLM Marion County </h5>
-					<a href="https://maps.google.com/maps?q=2703+NE+14th+St.+Ocala,+FL+34470&hl=en&sll=29.201828,-82.10053&sspn=0.01579,0.02826&t=m&hnear=2703+NE+14th+St,+Ocala,+Marion,+Florida+34470&z=17" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=29.2021021,-82.1002064&zoom=16&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:red|label:none|29.2021021,-82.1002064">
-					</a>
-				</div>
-				<div class="span3">
 					<h5>
 						CareerSource CLM Florida Enterprise
 					</h5>
