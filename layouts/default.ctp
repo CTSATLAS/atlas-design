@@ -25,14 +25,17 @@
         <link rel="stylesheet" href="/css/theme/style.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/step_container.css" type="text/css" media="screen">
         <link rel="stylesheet" href="/css/theme/events.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
+	
 	<link rel="stylesheet" href="/css/theme/atlas-icons/style.css" type="text/css">
          <?php echo $this->Html->css('theme/sg-grid'); ?>
 
 
+    <!--
+	<link rel="stylesheet" href="/css/theme/font-awesome.min.css" type="text/css">
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
 	<![endif]-->
+	-->
 
 	<!--[if lt IE 9]>
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
@@ -54,6 +57,27 @@
 
 	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
+
+	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="/js/theme/superfish.js"></script>
+	<script type="text/javascript" src="/js/theme/camera.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
+	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/js/theme/easy-tabs/jquery.easytabs.min.js"></script>
+	<script type="text/javascript" src="/js/theme/easy-tabs/jquery.hashchange.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
+	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
+
+	<?= $scripts_for_layout ?>
+
+	<!--[if (gt IE 9)|!(IE)]><!-->
+		<script type="text/javascript" src="/js/theme/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
 
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -98,27 +122,6 @@
 	</section>
 
 	<?= $this->element('layouts/footer') ?>
-
-	<script type="text/javascript" src="/js/theme/modernizr.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="/js/theme/superfish.js"></script>
-	<script type="text/javascript" src="/js/theme/camera.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.ui.totop.js"></script>
-	<script type="text/javascript" src="/js/theme/bootstrap.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.easytabs.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.hashchange.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.social.media.tabs.1.7.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.ba-throttle-debounce.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.mousewheel.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.touchSwipe.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.transit.min.js"></script>
-	<script type="text/javascript" src="/js/theme/jquery.carouFredSel.packed.js"></script>
-
-	<?= $scripts_for_layout ?>
-
-	<!--[if (gt IE 9)|!(IE)]><!-->
-		<script type="text/javascript" src="/js/theme/jquery.mobile.customized.min.js"></script>
-	<!--<![endif]-->
 
 	<script>
             
