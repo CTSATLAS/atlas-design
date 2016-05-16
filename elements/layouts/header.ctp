@@ -15,12 +15,10 @@
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div class="social-icn pull-right">
                             <ul>
-                                <li> <a href="//www.twitter.com/careersourcetb" target="_blank"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="//www.facebook.com/careersourcetampabay" target="_blank"><span class="icon-facebook"></span> </a></li>
-                                 <li><a href="//www.linkedin.com/company/careersource-tampa-bay" target="_blank"><span class="icon-linkedin"></span> </a></li>
-                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>
-
-                                 <li><a href="//careersourcetampabay.blogspot.com" target="_blank"><span class="icon-blogger3"></span></a></li>
+                                <li> <a href="//twitter.com/CareerSourceCLM" target="_blank"><span class="icon-twitter"></span> </a></li>
+                                <li><a href="//www.facebook.com/pages/Workforce-Connection-Citrus-Levy-and-Marion-Counties/87942865739" target="_blank"><span class="icon-facebook"></span> </a></li>
+                                 <li><a href="//www.linkedin.com/company/careersource-citrus-levy-marion/" target="_blank"><span class="icon-linkedin"></span> </a></li>
+<!--                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>-->
 
                             </ul>
                         </div>

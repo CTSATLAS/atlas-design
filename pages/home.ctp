@@ -44,7 +44,7 @@
 
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">
-        <?php echo $this->element('social/tabs'); ?>
+        <?php //echo $this->element('social/tabs'); ?>
 		<!--<div id="social-stream"></div>-->
 	</div>
         <div class="span9 home-content">
