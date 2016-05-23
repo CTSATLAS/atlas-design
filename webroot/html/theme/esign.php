@@ -25,7 +25,7 @@ ob_start() ?>
 	</h3>
 
 	<p class="copy">
-		I, the undersigned, acknowledge and agree the use of the <?= $company_name ?>
+		I, the undersigned, acknowledge and agree the use of the <?= $company_name ?> (CSS)
 		Electronic Signature when completing required online forms, agreements and acknowledgements for the <?= $company_abbr ?>
 		program(s) for which I am obtaining or seeking to obtain services. The information provided may be
 		used to determine eligibility and suitability for services, to meet program participation requirements
@@ -144,7 +144,7 @@ ob_start() ?>
 	</p>
 
 	<h3>
-		<?= $company_name ?> General Release of Information
+		<?= $company_name ?> (CSS) General Release of Information
 	</h3>
 
 	<p class="copy">
