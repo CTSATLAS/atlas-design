@@ -153,7 +153,7 @@
           <a href="#" class="btn btn-primary btn-view-media">View</a>
         </div>
 
-        <hr>
+        <br>
       </div>
     </div>
 
@@ -173,7 +173,7 @@
           <a href="#" class="btn btn-primary btn-view-media">View</a>
         </div>
 
-        <hr>
+        <br>
       </div>
     </div>
   </div>
