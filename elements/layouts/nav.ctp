@@ -27,12 +27,37 @@
             Help
           </a>
         </li>
-        <li>
-          <a href="">
-            Login
-            <i class="fa fa-sign-out"></i>
-          </a>
-        </li>
+        <?php if ($this->Session->read('Auth.User')): ?>
+          <?php
+            $email = $this->Session->read('Auth.User.email');
+            $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?s=30";
+          ?>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <?= $this->Html->image($grav_url, array('class' => 'img-circle')) ?>
+
+              <div>
+                <?= $this->Session->read('Auth.User.firstname') ?> <?= $this->Session->read('Auth.User.lastname') ?>
+              </div>
+
+              <span class="caret"></span>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="">Test</a></li>
+              <li class="divider"></li>
+              <li><a href="/users/logout">Logout</a></li>
+            </ul>
+          </li>
+        <?php else: ?>
+          <li>
+            <a href="/users/login">
+              Login
+              <i class="fa fa-sign-out"></i>
+            </a>
+          </li>
+        <?php endif ?>
       </ul>
     </div>
   </div>

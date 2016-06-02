@@ -35,6 +35,27 @@ p, a, li { font-weight: 400; }
 	background: url('/theme/bluedrop/img/icons/user-voice-icon.png') 0 -18px;
 }
 
+.navbar-nav li.dropdown a {
+	padding-top: 19px;
+	padding-bottom: 15px;
+}
+
+.navbar-nav li.dropdown img {}
+
+.navbar-nav li.dropdown a div {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.navbar-nav li.dropdown ul.dropdown-menu,
+.navbar-nav li.dropdown ul.dropdown-menu li.divider { padding: 0 }
+.navbar-nav li.dropdown ul.dropdown-menu li.divider { margin: 0 }
+
+.navbar-nav li.dropdown ul.dropdown-menu a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
 .jumbotron {
 	background: #fff;
 	border-radius: 0 !important;
@@ -109,6 +130,20 @@ p, a, li { font-weight: 400; }
 .watch-welcome-video h5 { font-size: 16px }
 .watch-welcome-video h5 img { margin-right: 10px }
 
+.ekko-lightbox .modal-header { background: #008da8 }
+
+.ekko-lightbox .modal-header .modal-title {
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.ekko-lightbox .modal-header .close {
+	color: #fff;
+	opacity: 1;
+	text-shadow: none;
+}
+
 .ekko-lightbox .modal-footer label {
 	padding-top: 7px;
 }
@@ -130,3 +165,4 @@ p, a, li { font-weight: 400; }
 .list-group-item-success .badge {
 	background-color: #749A65;
 }
+

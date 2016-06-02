@@ -183,7 +183,7 @@
 <div class="row">
   <div class="col-md-12">
     <h5>
-      <a href="https://www.youtube.com/watch?v=zKNN4uGvHW8" data-toggle="lightbox" data-title="Basic Orientation" data-footer="<label><input type='checkbox' id='do-not-show-video' />  Do not display again</label> <a href='#' id='close-video' class='btn btn-primary pull-right'>Close</a>">
+      <a href="https://www.youtube.com/watch?v=zKNN4uGvHW8" data-toggle="lightbox" data-title="Basic Orientation" data-footer="<label><input type='checkbox' id='do-not-show-video' />  Do not show this again</label> <a href='#' id='close-video' class='btn btn-primary pull-right'>Close</a>">
         <?= $this->Html->image('icons/watch-welcome-video-icon.png', array('alt' => 'Watch welcome video')) ?>
         Watch Welcome Video
       </a>
