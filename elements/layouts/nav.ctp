@@ -28,14 +28,14 @@
           </a>
         </li>
 
-        <li class="notifications-link">
-          <a href="#" target="_blank">
-            <i class="fa fa-bell"></i>
-            <span class="label label-danger">3</span>
-          </a>
-        </li>
-
         <?php if ($this->Session->read('Auth.User')): ?>
+          <li class="notifications-link">
+            <a href="#" target="_blank">
+              <i class="fa fa-bell"></i>
+              <span class="label label-danger">3</span>
+            </a>
+          </li>
+
           <?php
             $email = $this->Session->read('Auth.User.email');
             $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?s=30";
