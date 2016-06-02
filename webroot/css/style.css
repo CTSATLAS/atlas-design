@@ -1,0 +1,132 @@
+body {
+	font-family: 'Lato';
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: 700;
+}
+
+p, a, li { font-weight: 400; }
+
+.fa.fa-user-voice {
+	background: url('/theme/bluedrop/img/icons/user-voice-icon.png') 0 0;
+	height: 18px;
+	width: 18px;
+}
+
+.navbar {
+	height: 65px !important;
+	min-height: 65px !important;
+}
+
+.navbar .navbar-nav > li > a {
+	color: #028da8;
+	font-size: 16px;
+	font-weight: 300;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.navbar-nav li.help-link a { padding-top: 20px !important }
+
+.navbar-nav li a:hover .fa.fa-user-voice,
+.navbar-nav li.active .fa.fa-user-voice {
+	background: url('/theme/bluedrop/img/icons/user-voice-icon.png') 0 -18px;
+}
+
+.jumbotron {
+	background: #fff;
+	border-radius: 0 !important;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.btn.btn-default {
+	background-color: #f5fcfd;
+	border-color: #cde9ee;
+	color: #008da8;
+}
+
+.btn.btn-primary {
+	background-color: #3498db;
+	border-color: #4988bb;
+	color: #fff;
+}
+
+.powered-by {
+	color: #6f6f6f;
+	font-size: 11px;
+	padding: 2px 0;
+	text-align: right;
+}
+
+.blue-background { background-color: #e5f3f6 }
+
+.bordered {
+	border: 1px solid #cfcfcf;
+}
+
+.bordered.bordered-blue-top {
+	border-top: 5px solid #3498db;
+}
+
+.bordered.bordered-no-north-south {
+	border-top: none;
+	border-bottom: none;
+}
+
+.media {
+	padding: 20px 25px 0;
+}
+
+.media-body {
+	height: 198px;
+	min-height: 198px;
+	position: relative;
+}
+
+.media-body h4 {
+	margin-bottom: 10px;
+}
+
+.media-body p {
+	color: #777777;
+	margin-bottom: 15px;
+}
+
+.media-body .btn-view-media {
+	bottom: 0;
+	position: absolute;
+	right: 0;
+}
+
+.watch-welcome-video {
+	margin-top: 10px;
+	padding: 0;
+}
+
+.watch-welcome-video h5 { font-size: 16px }
+.watch-welcome-video h5 img { margin-right: 10px }
+
+.ekko-lightbox .modal-footer label {
+	padding-top: 7px;
+}
+
+#ProgramForm .form-group { margin-bottom: 0; }
+
+.panel-title h3 { font-size: 16px; }
+
+.panel-title span {
+	color: #A7A7A7;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	margin-top: 2px;
+}
+
+.panel-status { font-size: 14px; font-weight: 400; }
+
+.list-group-item-success .badge {
+	background-color: #749A65;
+}
