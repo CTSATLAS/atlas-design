@@ -9,6 +9,11 @@ h4, h5, h6 {
 
 p, a, li { font-weight: 400; }
 
+.ie-warning {
+	border-radius: none;
+	margin-bottom: 0;
+}
+
 .fa.fa-user-voice {
 	background: url('/theme/bluedrop/img/icons/user-voice-icon.png') 0 0;
 	height: 18px;
@@ -33,6 +38,17 @@ p, a, li { font-weight: 400; }
 .navbar-nav li a:hover .fa.fa-user-voice,
 .navbar-nav li.active .fa.fa-user-voice {
 	background: url('/theme/bluedrop/img/icons/user-voice-icon.png') 0 -18px;
+}
+
+.navbar-nav li.notifications-link a { position: relative }
+
+.navbar-nav li.notifications-link .label {
+	border-radius: .75em;
+	font-size: 68%;
+	padding: .2em .4em .2em;
+	position: absolute;
+	right: 3px;
+	top: 17px;
 }
 
 .navbar-nav li.dropdown a {

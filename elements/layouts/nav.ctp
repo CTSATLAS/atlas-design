@@ -27,6 +27,14 @@
             Help
           </a>
         </li>
+
+        <li class="notifications-link">
+          <a href="#" target="_blank">
+            <i class="fa fa-bell"></i>
+            <span class="label label-danger">3</span>
+          </a>
+        </li>
+
         <?php if ($this->Session->read('Auth.User')): ?>
           <?php
             $email = $this->Session->read('Auth.User.email');
@@ -45,16 +53,33 @@
             </a>
 
             <ul class="dropdown-menu">
-              <li><a href="">Test</a></li>
+              <li>
+                <a href="">
+                  <i class="fa fa-tasks"></i>
+                  My Programs
+                </a>
+              </li>
               <li class="divider"></li>
-              <li><a href="/users/logout">Logout</a></li>
+              <li>
+                <a href="">
+                  <i class="fa fa-cog"></i>
+                  Settings
+                </a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="/users/logout">
+                  <i class="fa fa-sign-out"></i>
+                  Logout
+                </a>
+              </li>
             </ul>
           </li>
         <?php else: ?>
           <li>
             <a href="/users/login">
               Login
-              <i class="fa fa-sign-out"></i>
+              <i class="fa fa-sign-in"></i>
             </a>
           </li>
         <?php endif ?>

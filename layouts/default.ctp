@@ -1,12 +1,3 @@
-<?php
-/**
- * @author Brandon Cordell
- * @copyright Complete Technology Solutions 2011
- * @link http://ctsfla.com
- * @since 02/06/2014
- */
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,20 +21,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 
-	<!-- favicon -->
   <?= $this->Html->meta('favicon.ico', '/theme/bluedrop/img/favicon.ico', array('type' => 'icon')) ?>
-	<!-- <link rel="icon" href="/favicon.ico?v=1" type="image/x-icon"> -->
-	<!-- <link rel="shortcut icon" href="/favicon.ico?v=1" type="image/x-icon"> -->
 
 	<title>Pacific Gateway &mdash; <?= $title_for_layout ?></title>
 </head>
 <body>
 	<!--[if lt IE 9]>
-		<div style="background-color: yellow; height: 59px; padding:0 0 0 15px; position: top; text-align: center; top: 0;">
-			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-				You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.
-			</a>
-		</div>
+    <div class="alert alert-warning ie-warning" role="alert" style="position: top; text-align: center; top: 0;">
+      <strong>Warning!</strong>
+      You are using an outdated browser. For a faster, safer browsing experience, <a href="#" class="alert-link">upgrade for free today</a>.
+    </div>
 	<![endif]-->
 
   <?= $this->element('layouts/nav') ?>
