@@ -55,7 +55,7 @@
 		<div class="row copyright">
 			<div class="span12 centered">
 				<p style="width: 100%;">
-				CareerSource CLM is an equal opportunity employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers listed on this website may be reached by persons using TTY/TDD equipment via the Florida Relay Service at 711. Copyright © 2014 - CareerSource Tampa Bay. All Rights Reserved. Developed & Hosted by Complete Technology Solutions
+					CareerSource Citrus Levy Marion is an equal employer/program. Auxiliary aids and services are available upon request to individuals with disabilities. All voice telephone numbers on this website may be reached using TTY/TDD equipment via the Florida Relay System at 711. If you need accommodations, please call 800-434-5627, ext. 7878 or email accommodations@careersourceclm.com. Please make request at least three business days in advance. Additionally, program information may be made available in Spanish upon request. **CareerSource Florida Member**
                                 
                                 </p>
 				<p class="eoe">ATLAS is a trademark of Complete Technology Solutions Copyright © <?= date('Y') ?> - Complete Technology Solutions. All Rights Reserved.</p>

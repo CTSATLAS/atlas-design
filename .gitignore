@@ -3,3 +3,4 @@
 css/.DS_Store
 /webroot/css/theme/layout-fix-view.css
 .idea/
+layouts/footer.ctp
