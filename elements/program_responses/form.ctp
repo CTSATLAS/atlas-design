@@ -1,3 +1,13 @@
+<?php if ($iframe): ?>
+  <?php $this->Html->scriptStart(array('inline' => false)); ?>
+    $.seamless.connect({
+      url: '<?= $referer ?>',
+      allowStyleInjection: true,
+      requireCookies: true
+    });
+  <?php $this->Html->scriptEnd(); ?>
+<?php endif ?>
+
 <?php if(!empty($formFields)): ?>
 <?php
     foreach($formFields as $k => $v)
