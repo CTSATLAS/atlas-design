@@ -49,5 +49,6 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/4.0.1/ekko-lightbox.min.js"></script>
   <?= $this->Html->script('js-cookie') ?>
   <?= $this->Html->script('global') ?>
+	<?= $scripts_for_layout ?>
 </body>
 </html>
