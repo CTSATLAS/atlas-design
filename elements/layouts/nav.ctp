@@ -15,14 +15,12 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">Menu Item</a></li>
-        <li><a href="#about">Menu Item</a></li>
         <li><a href="#contact">About Pacific Gateway</a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
         <li class="help-link">
-          <a href="https://www.uservoice.com/" target="_blank">
+          <a href="https://bluedrop.uservoice.com/knowledgebase" target="_blank">
             <i class="fa fa-user-voice"></i>
             Help
           </a>
