@@ -25,6 +25,21 @@ p, a, li { font-weight: 400; }
 	min-height: 65px !important;
 }
 
+.navbar-collapse {
+	background-color: #f8f8f8;
+}
+
+@media only screen and (max-width : 768px) {
+	.navbar-collapse {
+		margin-top: 4px;
+	}
+}
+
+.navbar .navbar-toggle {
+	padding: 12px 10px !important;
+	margin-top: 12px;
+}
+
 .navbar .navbar-nav > li > a {
 	color: #028da8;
 	font-size: 16px;
@@ -79,6 +94,10 @@ p, a, li { font-weight: 400; }
 	text-align: center;
 }
 
+.jumbotron img {
+	display: inline-block !important;
+}
+
 .btn.btn-default {
 	background-color: #f5fcfd;
 	border-color: #cde9ee;
@@ -118,8 +137,8 @@ p, a, li { font-weight: 400; }
 }
 
 .media-body {
-	height: 198px;
-	min-height: 198px;
+	height: 160px;
+	min-height: 160px;
 	position: relative;
 }
 
