@@ -213,7 +213,7 @@
 	<?php if ($this->Session->read('Auth.User')): ?>
 		<script type="text/javascript">
 			var session = {
-			  inactiveTimeout: 30000,
+			  inactiveTimeout: 70000,
 			  warningTimeout: 15000,
 			  minWarning: 5000,
 			  warningStart: null,
