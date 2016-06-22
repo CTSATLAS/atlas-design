@@ -9,30 +9,20 @@
 	<div class="maps-holder">
 		<div class="container">
 			<div class="row">
-				<div class="span3">
+				<div class="span6" style="text-align: center">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Fort Walton Beach Center</h5>
 					<a href="//maps.google.com/maps?q=409 NE Racetrack Road Fort Walton Beach, FL 32547" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=30.4425360,-86.6019300&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.4425360,-86.6019300">
+						<img style="width: 80%" src="https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,N4Cue0hhWU-z02XzZ-0gAv-nAztLf75SMNauIJvhxrYnm0X8OqW2rvAo0qEKixdLENaxFa3YdCcJV00IsrVNTEAZ7bBzEYZwhlaoZ13IPNWufIngUcHv_gGMiPs9dH60GJXT">
 					</a>
 				</div>
-				<div class="span3">
+
+				<div class="span6" style="text-align: center">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Walton County Center</h5>
-					<a href="//maps.google.com/maps?q=842 Hwy 20 E, Suite 126 Freeport, FL 32439" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=30.5031115,-86.1496991&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.5031115,-86.1496991">
+					<a href="//maps.google.com/maps?q=761 N.20th St., DeFuniak Springs, FL 32433" target="_blank">
+                        <img style="width: 80%" style="width: 80%"  src="https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,rHs1yb04hTN2a01zrTkZwFzqmNi-ji6BY-KdVuZZmlfHjSjibbAqVsWqANHrF8VnmLeBcy0SvtYlA4nG_n7t6yRi9Y_uJTajf0OCeLFgEm8qDa2IWg3kG9aznPyHdBI">
 					</a>
 				</div>
-				<div class="span3">
-					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Crestview Center</h5>
-					<a href="//maps.google.com/maps?q=212 N. Wilson Street Crestview, FL 32536" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
-					</a>
-				</div>
-				<div class="span3">
-					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Administrative Office</h5>
-					<a href="//maps.google.com/maps?q=109 8th Ave, Shlimar, FL 325379" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=30.7579910,-86.5714670&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7579910,-86.5714670">
-					</a>
-				</div>
+
 			</div>
 		</div>
 	</div>
