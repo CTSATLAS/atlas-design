@@ -29,6 +29,14 @@
 					</a>
 				</div>
 
+<!--				<div class="span3">-->
+<!--					<h5>-->
+<!--						CareerSource CLM <br>Florida Enterprise-->
+<!--					</h5>-->
+<!--					<a href="https://www.google.com/maps/preview/place/3003+SW+College+Rd,+Ocala,+FL+34474/@29.1610477,-82.1724794,17z/data=!4m2!3m1!1s0x88e7d51e37d30ba5:0x1f2c4642d3ac2003" target="_blank">-->
+<!--						<img src="//maps.google.com/maps/api/staticmap?center=29.1634598,-82.1741588&zoom=16&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:red|label:none|29.1634598,-82.1741588">-->
+<!--					</a>-->
+<!--				</div>-->
 
 			</div>
 		</div>
