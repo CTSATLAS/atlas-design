@@ -195,22 +195,6 @@
             var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
           })();
         </script>
-
-	<?php if ($this->Session->read('Auth.User')): ?>
-		<script type="text/javascript">
-			var session = {
-			  inactiveTimeout: 30000,
-			  warningTimeout: 15000,
-			  minWarning: 5000,
-			  warningStart: null,
-			  warningTimer: null,
-
-			  logout: function() {
-			    window.location = '/users/logout';
-			  }
-			}
-		</script>
-		<?= $this->element('timeoutModal') ?>
-	<?php endif ?>
+<?= $this->element('timeout-settings') ?>
 </body>
 </html>
