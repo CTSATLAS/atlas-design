@@ -23,7 +23,6 @@ if ($this->params['action'] == 'display' && $this->params['controller'] == "page
             </div>
         </li>
 
-
         <li>
             <input class="radio-tab" type="radio" name="tabs" id="tab2">
             <label for="tab2">Twitter</label>

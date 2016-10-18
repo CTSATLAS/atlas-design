@@ -30,7 +30,7 @@
          <?php echo $this->Html->css('theme/sg-grid'); ?>
 
     <?php  if ($this->params['action'] == 'display' && $this->params['controller'] == "pages"):?>   
-<link rel="stylesheet" href="css/theme/tabs/css/tabs-style.css" type="text/css">
+<link rel="stylesheet" href="css/tabs/css/tabs-style.css" type="text/css">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
