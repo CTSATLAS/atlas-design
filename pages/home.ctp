@@ -45,7 +45,8 @@
 <div class="row-fluid">
     <div class="span3 hide-social  hidden-phone hidden-tablet">	
         
-        <?php echo $this->element('social/tabs') ?>
+        <?php // echo $this->element('social/tabs') ?>
+	    <?php echo $this->element('css-tabs/social'); ?>
         
         <!-- <p>
             <a class="twitter-timeline" data-dnt="true" data-widget-id="294865633122844672" href="https://twitter.com/OneStopAhead">Tweets by @OneStopAhead</a> <script>!function(d, s, id) {
