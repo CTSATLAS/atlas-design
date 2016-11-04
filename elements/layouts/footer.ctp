@@ -1,4 +1,7 @@
 <footer>
+	<div class="row">
+		<?php echo $this->element('featured-employers/banner') ?>
+	</div>
 	<!--<div class="container">
 		<div class="row">
 			<div class="span12">
