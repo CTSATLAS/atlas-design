@@ -35,7 +35,7 @@
 	<!--[if IE 7]>
 		<link rel="stylesheet" href="/css/theme/font-awesome-ie7.min.css" type="text/css">
 	<![endif]-->
-	-->
+
 
 	<!--[if lt IE 9]>
 		<link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
