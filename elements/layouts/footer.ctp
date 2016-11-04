@@ -6,6 +6,11 @@
 			</div>
 		</div>
 	</div>-->
+
+	<div class="row">
+
+		<?php echo $this->element('featured-employers/banner') ?>
+	</div>
 	<div class="maps-holder">
 		<div class="container">
 			<div class="row">
