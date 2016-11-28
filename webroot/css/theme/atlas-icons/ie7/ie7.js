@@ -1,5 +1,5 @@
 /* To avoid CSS expressions while still supporting IE 7 and IE 6, use this script */
-/* The script tag referring to this file must be placed before the ending body tag. */
+/* The script tag referencing this file must be placed before the ending body tag. */
 
 /* Use conditional comments in order to target IE 7 and older:
 	<!--[if lt IE 8]><!-->
@@ -13,6 +13,7 @@
 		el.innerHTML = '<span style="font-family: \'atlas-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'icon-google-plus3': '&#xea8d;',
 		'icon-vimeo': '&#xe600;',
 		'icon-twitter': '&#xe601;',
 		'icon-facebook': '&#xe602;',

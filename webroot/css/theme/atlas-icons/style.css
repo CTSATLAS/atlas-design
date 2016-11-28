@@ -1,49 +1,54 @@
 @font-face {
-	font-family: 'atlas-icons';
-	src:url('fonts/atlas-icons.eot?yos9pp');
-	src:url('fonts/atlas-icons.eot?#iefixyos9pp') format('embedded-opentype'),
-		url('fonts/atlas-icons.woff?yos9pp') format('woff'),
-		url('fonts/atlas-icons.ttf?yos9pp') format('truetype'),
-		url('fonts/atlas-icons.svg?yos9pp#atlas-icons') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'atlas-icons';
+  src:  url('fonts/atlas-icons.eot?4wplri');
+  src:  url('fonts/atlas-icons.eot?4wplri#iefix') format('embedded-opentype'),
+    url('fonts/atlas-icons.ttf?4wplri') format('truetype'),
+    url('fonts/atlas-icons.woff?4wplri') format('woff'),
+    url('fonts/atlas-icons.svg?4wplri#atlas-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'atlas-icons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'atlas-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-google-plus3:before {
+  content: "\ea8d";
+}
 .icon-vimeo:before {
-	content: "\e600";
+  content: "\e600";
 }
 .icon-twitter:before {
-	content: "\e601";
+  content: "\e601";
 }
 .icon-facebook:before {
-	content: "\e602";
+  content: "\e602";
 }
 .icon-linkedin:before {
-	content: "\e603";
+  content: "\e603";
 }
 .icon-evernote:before {
-	content: "\e604";
+  content: "\e604";
 }
 .icon-blogger:before {
-	content: "\e605";
+  content: "\e605";
 }
 .icon-youtube:before {
-	content: "\78";
+  content: "\78";
 }
 .icon-blogger3:before {
-	content: "\e607";
+  content: "\e607";
 }
+
