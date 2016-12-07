@@ -1,6 +1,6 @@
 <?php
 $img_path = '';
-if(!file_exists('/img/admin_header_logo.png'))
+if(!file_exists('/img/admin_header_logo.gif'))
     $img_path = APP ;
 ob_start() ?>
 <?php ob_start() ?>
