@@ -1,0 +1,27 @@
+body {
+    background: image_url('default/header-bg.jpg') 0 0 repeat-x #d2d2d2;
+}
+
+#homepage-carousel {
+    height: 517px;
+    position: relative;
+
+    .carousel-indicators {
+        bottom: 60px;
+        left: 70px;
+
+        li {
+            background-color: #b2b2b2;
+            border-color: #b2b2b2;
+
+            &.active {
+                background-color: #434343;
+                border-color: #434343;
+            }
+        }
+    }
+
+    .item {
+        height: 535px;
+    }
+}

@@ -1,0 +1,85 @@
+@import 'default/variables';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 0 0;
+
+    .brand {
+        display: inline-block;
+        padding: 15px 30px 15px;
+    }
+
+    .fa-circle {
+        color: $darkGreen;
+    }
+}
+
+header .navbar.navbar-default {
+    background: image_url('default/navbar-bg.png') 0 0 repeat-x;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+
+    .nav.navbar-nav {
+        a {
+            color: #fff;
+            font: {
+                size: 13px;
+                weight: 600;
+            }
+            text-shadow: none;
+            text-transform: uppercase;
+
+            &:hover {
+                color: #A0CF67;
+            }
+        }
+    }
+}
+
+#content {
+    background: #fff;
+    padding-top: 35px;
+}
+
+#location-maps {
+    background-color: $green;
+    padding: 40px 0 70px;
+
+    h5 {
+        color: #fff;
+        font: {
+            size: 12px;
+            weight: 400;
+        }
+        margin-bottom: 20px;
+    }
+
+    img {
+        border: 5px solid #fff;
+    }
+}
+
+footer {
+    background: #fff;
+    padding: 20px 0;
+
+    p {
+        color: #808080;
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    a {
+        color: #494949;
+        text-decoration: none;
+    }
+}
