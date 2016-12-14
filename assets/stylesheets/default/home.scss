@@ -25,3 +25,50 @@ body {
         height: 535px;
     }
 }
+
+.panel.panel-primary {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 28px;
+
+    .panel-heading {
+        background: image_url('default/panel-heading-bg.png') #0d76bd !important;
+        background-size: cover;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        padding: 20px 20px 21px;
+
+        .panel-title {
+            font: {
+                size: 28px;
+                weight: 300;
+            }
+            text-transform: uppercase;
+        }
+    }
+
+    .list-group {
+        background-color: #3475BE;
+        border-radius: 0;
+        padding: 25px 20px 30px 21px;
+
+        .list-group-item {
+            background-color: #3475BE;
+            border: {
+                top: 0;
+                right: 0;
+                bottom: 1px dotted #1259AA;
+                left: 0;
+            }
+            margin-bottom: 0;
+        }
+
+        .list-group-item a {
+            color: #fff;
+            font: {
+                size: 14px;
+                weight: 400;
+            }
+        }
+    }
+}
