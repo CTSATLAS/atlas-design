@@ -57,8 +57,8 @@
                                                         <?=
                                                         $this->Html->link(__('Edit Profile', true), array(
                                                             'controller' => 'users',
-                                                            'action' => 'edit',
-                                                            'kiosk' => false,
+                                                            'action' => 'edit_admin',
+                                                            'admin' => true,
                                                             $this->Session->read('Auth.User.id')
                                                         ))
                                                         ?>
