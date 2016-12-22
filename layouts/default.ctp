@@ -5,17 +5,19 @@
  * @link http://ctsfla.com
  * @since 02/06/2014
  */
-?>
 
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your description">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="description" content="Career source">
 	<meta name="keywords" content="Your keywords">
 	<meta name="author" content="Your name">
+    <meta charset="UTF-8">
 
 	<!-- css -->
 	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
@@ -57,7 +59,6 @@
 	<?= $this->Html->css('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/themes/south-street/jquery-ui.css') ?>
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js') ?>
 
-
 	<!-- favicon -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -70,7 +71,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Pasco Hernando') ?>
+		<?php __('CareerSource CLM') ?>
 	</title>
 </head>
 <body>
@@ -187,6 +188,8 @@
 		});
 	</script>
 
+	<?= $this->element('timeout-settings') ?>
+
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-24254812-1']);
@@ -198,20 +201,5 @@
           })();
         </script>
 
-<script type="text/javascript">
-		var LHCChatOptions = {};
-		LHCChatOptions.opt = {widget_height:340,widget_width:300,popup_height:520,popup_width:500,domain:'careersourcepascohernando.com'};
-		(function() {
-			var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-			var referrer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
-			var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
-			po.src = '//atlas.careersourcepascohernando.com/livechat/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+referrer+'&l='+location;
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-		})();
-</script>
-
-	<?= $this->element('timeout-settings') ?>
-
-	<?= $this->element('scripts/mos-geocode') ?>
 </body>
 </html>
