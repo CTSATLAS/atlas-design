@@ -44,7 +44,7 @@
 <div class="row" id="esign">
 	<div class="span8 offset2">
 		<p>
-		Please read the agreement below then sign on the signature pad with your mousedddddd
+		Please read the agreement below then sign on the signature pad with your mouse
 		</p>
 
 		<div class="tos">
