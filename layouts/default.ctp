@@ -125,8 +125,6 @@
 	</div>
 </div>
 
-
-
 </div>
 <?= $this->element('layouts/footer'); ?>
 
