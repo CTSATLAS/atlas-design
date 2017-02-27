@@ -2,12 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="span12">
-                    <div id="google_translate_element"></div>
-                    <script type="text/javascript">
-                        function googleTranslateElementInit() {
-                            new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-                        }
-                    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <div id="google_translate_element"></div>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en',
+                            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                        }, 'google_translate_element');
+                    }
+                </script>
+                <script type="text/javascript"
+                        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
                 <div class="header-block clearfix">
                     <div class="row masthead">
@@ -18,22 +23,29 @@
                         </div>
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
                             <div class="row">
-                            <div class="row search">
-                                <div class="span8 hidden-phone hidden-tablet">
-                                    <div class="social-icn pull-right">
-                            <ul>
-                                <li> <a href="//twitter.com/CareerSourceCLM" target="_blank"><span class="icon-twitter"></span> </a></li>
-                                <li><a href="//www.facebook.com/pages/Workforce-Connection-Citrus-Levy-and-Marion-Counties/87942865739" target="_blank"><span class="icon-facebook"></span> </a></li>
-                                 <li><a href="//www.linkedin.com/company/careersource-citrus-levy-marion/" target="_blank"><span class="icon-linkedin"></span> </a></li>
-                                 <li><a href="//plus.google.com/115597822348232168515" target="_blank"><span class="icon-google-plus3"></span> </a></li>
-                                 <li><a href="//youtube.com/channel/UCbKvkHfcclHB8btHFhFPk8g" target="_blank"><span class="icon-youtube"></span> </a></li>
-<!--                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>-->
+                                <div class="row search">
+                                    <div class="span8 hidden-phone hidden-tablet">
+                                        <div class="social-icn pull-right">
+                                            <ul>
+                                                <li><a href="//twitter.com/CareerSourceCLM" target="_blank"><span
+                                                                class="icon-twitter"></span> </a></li>
+                                                <li>
+                                                    <a href="//www.facebook.com/pages/Workforce-Connection-Citrus-Levy-and-Marion-Counties/87942865739"
+                                                       target="_blank"><span class="icon-facebook"></span> </a></li>
+                                                <li>
+                                                    <a href="//www.linkedin.com/company/careersource-citrus-levy-marion/"
+                                                       target="_blank"><span class="icon-linkedin"></span> </a></li>
+                                                <li><a href="//plus.google.com/115597822348232168515"
+                                                       target="_blank"><span class="icon-google-plus3"></span> </a></li>
+                                                <li><a href="//youtube.com/channel/UCbKvkHfcclHB8btHFhFPk8g"
+                                                       target="_blank"><span class="icon-youtube"></span> </a></li>
+                                                <!--                                 <li><a href="//www.youtube.com/careersourcetampabay"><span class="icon-youtube"></span> </a></li>-->
 
-                            </ul>
-                        </div>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!--search form-->
                                 </div>
-                                <!--search form-->
-                            </div>
                                 <div id="header-login" class="span8">
                                     <div class="row-fluid">
 
@@ -82,7 +94,7 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <?php else: ?>
+                                        <?php else: ?>
 
                                             <div class="btn-group-1">
                                                 <?=
@@ -90,7 +102,7 @@
                                                     'controller' => 'users',
                                                     'action' => 'login',
                                                     'kiosk' => false
-                                                        ), array(
+                                                ), array(
                                                     'class' => 'btn-'
                                                 ))
                                                 ?>
@@ -99,26 +111,26 @@
                                                     'controller' => 'users',
                                                     'action' => 'registration',
                                                     'kiosk' => false
-                                                        ), array(
+                                                ), array(
                                                     'class' => 'btn-'
                                                 ))
                                                 ?>
                                             </div>
-<?php endif ?>
+                                        <?php endif ?>
+                                        <div style="margin-right:15px; padding-right: 20px">
+                                            Call : 18004325627
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-
-
-                        </div>
+                       </div>
                     </div>
-        <?= $this->element('layouts/nav') ?>
+                    <?= $this->element('layouts/nav') ?>
                 </div>
             </div>
         </div>
-<?php if (!empty($this->params['pass']) && $this->params['pass'][0] == 'home'): ?>
-    <?= $this->element('layouts/middle_nav') ?>
-<?php endif; ?>
+        <?php if (!empty($this->params['pass']) && $this->params['pass'][0] == 'home'): ?>
+            <?= $this->element('layouts/middle_nav') ?>
+        <?php endif; ?>
     </div>
 </header>
