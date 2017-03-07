@@ -1,0 +1,52 @@
+<p>​
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</p>
+
+<div>
+    <h2>Thank you for contacting CareerSource Tampa Bay</h2>
+
+    <div>
+        <p>Please fill out the form below and a CareerSource Tampa Bay representative will be with you within 48
+            hours</p>
+
+        <form action="https://www.careersourcetampabay.com/files/public/contact/contact.php" method="POST">
+            <p>Your Name:<br/>
+                <input name="name" type="text" value=""/></p>
+
+            <p>Your Email<br/>
+                <input name="email" type="text" value=""/></p>
+
+            <p>Your Phone<br/>
+                <input name="phone" type="text" value=""/></p>
+
+            <p>I am Interested in learning about<br/>
+                <select id="interest" name="interests">
+                    <option value=""></option>
+                    <option value="Recruitment Services">Recruitment Services</option>
+                    <option value="Disability Services">Disability Services</option>
+                    <option value="Career Seeker Services">Resume Assistance, Interview Skills, Job Search</option>
+                    <option value="Training Grant For Business">Training Grant For Business</option>
+                    <option value="Supplemental Nutrition Assistance Program">Supplemental Nutrition Assistance Program
+                        (Span)
+                    </option>
+                    <option value="Tampa Bay Intern">Tampa Bay Intern</option>
+                    <option value="Training Assistance For Job Seekers">Training Assistance For Job Seekers</option>
+                    <option value="Training Assistance Young Adults">Training Assistance For Young Adults</option>
+                    <option value="Veteran Services">Veteran Services</option>
+                    <option value="Welfare Transition Program">Welfare Transition Program (WTP)</option>
+                    <option value="other">Other</option>
+                </select></p>
+
+            <p>Message<br/>
+                <textarea cols="25" name="message" rows="6" type="text"></textarea></p>
+            &nbsp;
+
+            <div class="g-recaptcha" data-sitekey="6LciMAoUAAAAAFbDytCH0eqwdmyvOKsEWYb2YFtp">&nbsp;</div>
+            <input type="submit" value="Send Your Message" name="submit" id="submitButton" class="btn btn-primary" title="Click here to submit your message!" />
+            <input type="reset" value="Clear Form" class="btn btn-danger" title="Remove all the data from the form." />
+<!--            <p><input name="submit" type="submit" value="SUBMIT"/> <input type="reset" value="Clear"/></p>-->
+        </form>
+        <p> &nbsp;</p>
+    </div>
+</div>
+
