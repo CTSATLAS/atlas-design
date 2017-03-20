@@ -12,16 +12,16 @@
                         <div class="span8" id="login-or-register">
                             <div class="row">
                                 <div class="row search">
-                                    <div class="span8 hidden-phone hidden-tablet">
-                                        <div>
-                                            <form id="search-form" action="search.php" method="GET"
-                                                  accept-charset="utf-8" class="navbar-form">
-                                                <input type="text" placeholder="Search" name="s">
-                                                <a href="#"
-                                                   onClick="document.getElementById('search-form').submit()"></a>
-                                            </form>
-                                        </div>
-                                    </div>
+<!--                                    <div class="span8 hidden-phone hidden-tablet">-->
+<!--                                        <div>-->
+<!--                                            <form id="search-form" action="search.php" method="GET"-->
+<!--                                                  accept-charset="utf-8" class="navbar-form">-->
+<!--                                                <input type="text" placeholder="Search" name="s">-->
+<!--                                                <a href="#"-->
+<!--                                                   onClick="document.getElementById('search-form').submit()"></a>-->
+<!--                                            </form>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
                                     <!--search form-->
                                 </div>
                             </div>
