@@ -105,7 +105,7 @@
 	echo $this->Form->input('address_1', array(
 		'label' => __('Address', true),
 		'before' => '<br />',
-		'after' => '<strong>&nbspNo P.O. Box Addresses accepted.<strong></span><br />'
+		'after' => '<strong>&nbspNo P.O. Box Addresses accepted.</strong></span><br />'
 	));
 	echo $this->Form->input('city', array(
 		'label' => __('City', true),
@@ -179,7 +179,7 @@
 	));
 
 	echo $this->Form->input('veteran', array(
-		'label' => __('Are you a US veteran', true),
+		'label' => __('Are you a veteran of the U.S. Armed Forces?', true),
 		'type' => 'select',
 		'empty' => 'Please Select',
 		'options' => array('1' => 'Yes', '0' => 'No'),
