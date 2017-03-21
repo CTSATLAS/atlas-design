@@ -90,7 +90,7 @@
 	));
 
 	echo $this->Form->input('veteran', array(
-		'label' => __('Are you a US veteran?', true),
+		'label' => __('Are you a veteran of the U.S. Armed Forces?', true),
 		'type' => 'select',
     'options' => array('0' => 'No', '1' => 'Yes', '2' => 'I do not wish to answer'),
 		'before' => '<br />',
