@@ -101,11 +101,11 @@
                 </div>
                 <?php else: ///display content page ?>
                 <div class="row-fluid">
-                    <div class="span11 offset1" id="main-content">
+                    <div class="span12" id="main-content" style="padding: 20px">
                         <?php if ($title_for_layout !== 'Home'): ?>
                         <h1 id="page-title"><?= $title_for_layout ?></h1>
                         <?php endif ?>
-                        <div class="post">
+                        <div class="post" style="padding: 0">
                             <?php echo $content_for_layout ?>
                             <?php if($title_for_layout === "Contact"): ?>
                         <?php echo $this->element('layouts/contactpage'); ?>
