@@ -6,9 +6,9 @@
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Your description">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
+	<meta name="description" content="<?= Configure::read('Company.name') ?>">
+	<meta name="keywords" content="<?= Configure::read('Company.name') ?>">
+	<meta name="author" content="<?= Configure::read('Company.name') ?>">
 
 	<!-- css -->
 	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>
@@ -57,7 +57,7 @@
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource Suncoast') ?>
+		<?= Configure::read('Company.name') ?>
 	</title>
 
 	<?= $this->Html->script('https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js') ?>
