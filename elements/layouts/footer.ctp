@@ -10,12 +10,7 @@
     <div class="container-fluid">
         <div class="row-fluid">
             <div class="span6 offset4">
-                <p style="margin-bottom:0px">
-                    <a href="http://careersourceflorida.com" target="_blank">
-                        <img src="/img/theme/florida-small.png" alt="" style="width:150px;display:inline-block">
-                    </a>
-                    A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
-                </p>
+                <?php echo $this->element('cs-attributions') ?>
             </div>
         </div>
         <div class="row-fluid copyright">
