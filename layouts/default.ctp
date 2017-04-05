@@ -13,11 +13,9 @@
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="description" content="Career source">
-	<meta name="keywords" content="Your keywords">
-	<meta name="author" content="Your name">
-    <meta charset="UTF-8">
+	<meta name="description" content="<?= Configure::read('Company.name') ?>">
+	<meta name="keywords" content="<?= Configure::read('Company.name') ?>">
+	<meta name="author" content="<?= Configure::read('Company.name') ?>">
 
 	<!-- css -->
 	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' type='text/css'>

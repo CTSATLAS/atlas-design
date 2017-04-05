@@ -34,15 +34,7 @@ Dade City, FL 33523" target="_blank">
 	<div class="container">
 		<div class="row">
 			<div class="span6 offset3">
-				<p style="margin-bottom:0px">
-					<a href="https://goo.gl/DGe7HF" target="_blank">
-						<img src="/img/theme/florida.png" alt="" style="width:150px;display:inline-block">
-					</a>
-                    <a href="https://goo.gl/aSMtOs" target="_blank" title="">
-                        A proud partner of the <img src="/img/theme/ajobs.png" style="margin-top:-19px" /> Network.
-                    </a>
-
-				</p>
+                <?php echo $this->element('cs-attributions') ?>
 			</div>
 		</div>
 		<div class="row copyright">
