@@ -10,9 +10,8 @@
 <?php echo $this->Html->script('theme/users/login', array('inline' => 'false')) ?>
 <div id="UserLoginForm">
 	<p>
-        <?php printf(__("Welcome to the %s Online Services System. To begin, please log in with
-                         your last name and your full social security
-                         number.", true), Configure::read('Company.name')) ?>
+        <?php printf(__("Welcome to the %s Online Services System. To begin, please log in with your last name and your full social security number. 
+ATLAS will never distribute your Social Security Number to any 3rd party companies. Your Social Security Number will never be exposed to other users on the system. Administrators will never ask you for your Social Security Number. Do not disclose your account information to anyone else.", true), Configure::read('Company.name')) ?>
 	</p>
 	<?php $settings = Cache::read('settings'); ?>
 	<?php if(isset($settings['Users']['LoginAdditionalText'])) : ?>
@@ -28,9 +27,6 @@
 	<?= $this->element('users/login_form', array('login_method' => Configure::read('Login.method'))) ?>
 
 	<p>
-		*PRIVACY ACT STATEMENT: Pursuant to 42 U.S.C. 1320b-7(a)(1) (Social Security Act)
-		and 7 C.F.R. 273.6, disclosure of your social security number is mandatory. Social
-		security numbers will be used by the Agency for program administration including verification
-		purposes, distinguishing one individual from another, and for tracking and reporting purposes.
+        *PRIVACY ACT STATEMENT: Pursuant to Federal Law (42 USC 405 (c)(2)(C)(v) and ) disclosure of your social security number is mandatory. Social Security numbers will be used by CareerSource Capital Region for the purpose of determining eligibility for receipt of initial or on-going services. In addition, it will be used to measure program performance relative to individual customer involvement. (Privacy Act of 1974) Chapter 119, F.S. includes Section 119.071(5)2.
 	</p>
 </div>
