@@ -12,7 +12,7 @@
 	<!-- meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-	<meta name="description" content="Need to find work or hire talent? CareerSource Citrus Levy Marion has employment solutions that work for you">
+	<meta name="description" content="Need to find work or hire talent? CareerSource Citrus Levy Marion has employment solutions that work">
 	<meta name="keywords" content="employment, Ocala, jobs, job search, careers, Marion County, work, hire, job seekers, jobseekers, employers, talent, skill, human resources, HR, Citrus County, Levy County, CareerSource, Ocala, Lecanto, Chiefland">
 	<meta name="author" content="<?= Configure::read('Company.name') ?>">
 
