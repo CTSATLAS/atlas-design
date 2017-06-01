@@ -118,7 +118,7 @@
                                             </div>
                                         <?php endif ?>
                                         <div style="margin-right:15px; padding-right: 20px">
-                                            <abbr title="Phone">Phone : </abbr> 18004325627
+                                            
                                         </div>
                                     </div>
                                 </div>
