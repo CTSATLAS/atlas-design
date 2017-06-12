@@ -1,5 +1,27 @@
 <header class="p0">
     <div class="container">
+        <div class="google-search clearfix" style="margin: 20px 0">
+            <div class="pull-right">
+
+                <div class="span4">
+                    <script>
+                        (function() {
+                            var cx = '009103780951778822648:qdtaugxoqww';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="row">
             <div class="span12">
                 <div class="header-block clearfix">
@@ -12,9 +34,13 @@
                         <div class="span8 hidden-phone hidden-tablet" id="login-or-register">
                             <div class="row">
                             <div class="row search">
+
                                 <div class="span8 hidden-phone hidden-tablet">
                                     <div class="social-icn pull-right">
                             <ul>
+                                <li>
+
+                                </li>
 
                                 <li> <a href="//www.twitter.com/CareersourcePH" target="_blank"><span class="icon-twitter"></span> </a></li>
                                 <li><a href="//www.facebook.com/CareersourcePH" target="_blank"><span class="icon-facebook"></span> </a></li>
@@ -99,10 +125,18 @@
                                                 ?>
                                             </div>
 <?php endif ?>
+                                        <div>
+
+                                        </div>
+
                                     </div>
                                     <!-- Place this tag where you want the Live Helper Status to render. -->
-                                    <div class="row-fluid" style="padding-right: 20px;">
-                                      
+                                    <div class="row-fluid" style="margin-right: -60px;">
+                                        <div class="span4">
+
+                                        </div>
+
+
                                     </div>
                                     </div>
 
