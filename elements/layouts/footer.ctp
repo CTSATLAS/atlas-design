@@ -21,10 +21,9 @@
 					</a>
 				</div>
 				<div class="span3">
-					<h5 style="font-size:13pt">CareerSource Tampa Bay center in Plant City</h5>
-					<a href="//maps.google.com/maps?q=2001+E.+Cherry+Street+HCC+Campus%2C+Plant+City%2C+FL+33563" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=2001+E.+Cherry+Street+HCC+Campus%2C+Plant+City%2C+FL+33563&amp;zoom=15&amp;size=370x230&amp;sensor=false&amp;markers=color:blue%7C2001+E.+Cherry+Street+HCC+Campus%2C+Plant+City%2C+FL+33563">
-					</a>
+					<h5 style="font-size:13pt">Career Source Tampa Bay Prep Center</h5>
+
+                        <a href="https://www.google.com/maps/place/2605+N.+43rd+Street+Tampa,+FL+33605/" target="_blank"><img src="https://maps.googleapis.com/maps/api/staticmap?center=2605+N.+43rd+Street+Tampa,+FL+33605&zoom=13&scale=1&size=370x230&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of 2605 N. 43rd Street Tampa, FL 33605"></a>
 				</div>
 				<div class="span3">
 					<h5>CareerSource Tampa Bay center in Brandon</h5>
