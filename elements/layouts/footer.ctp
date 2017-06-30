@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="span3">
-					<h5>CareerSource Tampa Bay center in Tampa</h5>
+					<h5>Career Source Tampa Bay Career Prep Center</h5>
 					<a href="//maps.google.com/maps?q=9215+N.+Florida+Avenue+Suite+101%2C+Tampa%2C+FL+33612" target="_blank">
 						<img src="//maps.google.com/maps/api/staticmap?center=9215+N.+Florida+Avenue+Suite+101%2C+Tampa%2C+FL+33612&amp;zoom=15&amp;size=370x230&amp;sensor=false&amp;markers=color:blue%7C9215+N.+Florida+Avenue+Suite+101%2C+Tampa%2C+FL+33612">
 					</a>
