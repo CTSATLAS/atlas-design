@@ -9,23 +9,19 @@
 
 	<div class="row">
 
-		<?php echo $this->element('featured-employers/banner') ?>
+<!--		--><?php //echo $this->element('featured-employers/banner') ?>
 	</div>
 	<div class="maps-holder">
 		<div class="container">
 			<div class="row">
 				<div class="span6" style="text-align: center">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Fort Walton Beach Center</h5>
-					<a href="//maps.google.com/maps?q=409 NE Racetrack Road Fort Walton Beach, FL 32547" target="_blank">
-						<img style="width: 80%" src="https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,N4Cue0hhWU-z02XzZ-0gAv-nAztLf75SMNauIJvhxrYnm0X8OqW2rvAo0qEKixdLENaxFa3YdCcJV00IsrVNTEAZ7bBzEYZwhlaoZ13IPNWufIngUcHv_gGMiPs9dH60GJXT">
-					</a>
+                    <img width="500" height="auto" class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center=409+NE+Racetrack+Road+Fort+Walton+Beach,+FL+32547&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C409+NE+Racetrack+Road+Fort+Walton+Beach,+FL+32547" alt="Google Map of 409 NE Racetrack Road Fort Walton Beach, FL 32547">
 				</div>
 
 				<div class="span6" style="text-align: center">
 					<h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Walton County Center</h5>
-					<a href="//maps.google.com/maps?q=761 N.20th St., DeFuniak Springs, FL 32433" target="_blank">
-                        <img style="width: 80%" style="width: 80%"  src="https://www.google.com/maps/vt/data=RfCSdfNZ0LFPrHSm0ublXdzhdrDFhtmHhN1u-gM,rHs1yb04hTN2a01zrTkZwFzqmNi-ji6BY-KdVuZZmlfHjSjibbAqVsWqANHrF8VnmLeBcy0SvtYlA4nG_n7t6yRi9Y_uJTajf0OCeLFgEm8qDa2IWg3kG9aznPyHdBI">
-					</a>
+                    <a href="https://www.google.com/maps/place/761+N.20th+St.+DeFuniak+Springs,+FL+32433/"><img class="img-responsive" width="500" height="auto" src="https://maps.googleapis.com/maps/api/staticmap?center=761+N.20th+St.+DeFuniak+Springs,+FL+32433&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C761+N.20th+St.+DeFuniak+Springs,+FL+32433" alt="Google Map of 761 N.20th St. DeFuniak Springs, FL 32433"></a>
 				</div>
 
 			</div>
