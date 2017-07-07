@@ -45,7 +45,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="span6 offset3">
-				<?php echo $this->element('footer/cs-attributions') ?>
+				<?php echo $this->element('cs-attributions') ?>
 			</div>
 		</div>
 		<div class="row copyright">
