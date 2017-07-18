@@ -66,10 +66,11 @@
 	<![endif]-->
 
 	<!-- title -->
+	
 	<title>
 		<?= $title_for_layout ?>
 		&mdash;
-		<?php __('CareerSource CLM') ?>
+		<?= Configure::read('Company.name') ?>
 	</title>
 </head>
 <body>
