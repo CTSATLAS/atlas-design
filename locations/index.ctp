@@ -1,3 +1,4 @@
+
 <div class="locations">
         <?php foreach ($locations as $location): ?>
     <div class="row-fluid">       
