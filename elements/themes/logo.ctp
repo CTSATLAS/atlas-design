@@ -1,4 +1,3 @@
 <h1>
-    <a href="/"><img src="https://www.careersourcepinellas.com/img/theme/pinellas.png"
-                     alt=""></a>
+    <a href="/"><img src="/img/theme/okaloosa.png" alt=""></a>
 </h1>
