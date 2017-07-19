@@ -4,48 +4,18 @@
         <div class="container-fluid">
             <div class="row">
 
-                <div class="col-md-4">
-                    <h5>CareerSource Pinellas center in South Clearwater</h5>
-                    <a href="//maps.google.com/maps?q=16432 US Highway 19 N. Clearwater, FL 33764" target="_blank">
-                        <img src="//maps.google.com/maps/api/staticmap?center=27.9208719,-82.7302986&amp;zoom=14&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|27.9208719,-82.7302986">
-                    </a>
+                <div class="col-md-6" style="text-align: center">
+                    <h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Fort Walton Beach Center</h5>
+                    <img width="100%" height="auto" class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center=409+NE+Racetrack+Road+Fort+Walton+Beach,+FL+32547&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C409+NE+Racetrack+Road+Fort+Walton+Beach,+FL+32547" alt="Google Map of 409 NE Racetrack Road Fort Walton Beach, FL 32547">
                 </div>
 
-                <div class="col-md-4">
-                    <h5>CareerSource Pinellas center on Gulf-to-Bay</h5>
-                    <a href="//maps.google.com/maps?q=2312 Gulf-To-Bay Boulevard Clearwater, FL 33765" target="_blank">
-                        <img src="//maps.google.com/maps/api/staticmap?center=27.9611490,-82.7414570&amp;zoom=14&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|27.9611490,-82.7414570">
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <h5>CareerSource Pinellas center in St. Petersburg</h5>
-                    <a href="//maps.google.com/maps?q=3420 8th Avenue South St. Petersburg, FL 33711" target="_blank">
-                        <img src="//maps.google.com/maps/api/staticmap?center=27.7619456,-82.6804225&amp;zoom=14&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|27.7619456,-82.6804225">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-md-offset-2">
-                    <h5>
-                        CareerSource Pinellas center in Tarpon Springs
-                    </h5>
-                    <a href="//maps.google.com/maps?q=St. Petersburg College Campus 682 E. Klosterman Road Tarpon Springs, FL 34689"
-                       target="_blank">
-                        <img src="//maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&amp;zoom=14&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|28.1229205,-82.7454361">
-                    </a>
-                </div>
-
-                <div class="col-md-4">
-                    <h5>
-                        CareerSource Pinellas center at Tyrone
-                    </h5>
-                    <a href="//maps.google.com/maps?q=7701 22nd Ave North St. Petersburg, FL 33710" target="_blank">
-                        <img src="//maps.google.com/maps/api/staticmap?center=27.7929817,-82.7445469&amp;zoom=14&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|27.7929817,-82.7445469">
-                    </a>
+                <div class="col-md-6" style="text-align: center">
+                    <h5 style="font-size:12pt">CareerSource Okaloosa | Walton, Walton County Center</h5>
+                    <a href="https://www.google.com/maps/place/761+N.20th+St.+DeFuniak+Springs,+FL+32433/"><img class="img-responsive" width="100%" height="auto" src="https://maps.googleapis.com/maps/api/staticmap?center=761+N.20th+St.+DeFuniak+Springs,+FL+32433&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:1%7C761+N.20th+St.+DeFuniak+Springs,+FL+32433" alt="Google Map of 761 N.20th St. DeFuniak Springs, FL 32433"></a>
                 </div>
 
             </div>
+
         </div>
 
     </div>
