@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <h5 style="">Career Source Tampa Bay Career Prep Center</h5>
+                    <h5 style="">Career Source Tampa Bay Career Prep <br>  Center</h5>
 
                     <a href="https://www.google.com/maps/place/2605+N.+43rd+Street+Tampa,+FL+33605/" target="_blank">
                         <img class="img-responsive" src="https://maps.googleapis.com/maps/api/staticmap?center=2605+N.+43rd+Street+Tampa,+FL+33605&zoom=13&scale=1&size=370x230&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of 2605 N. 43rd Street Tampa, FL 33605"></a>
