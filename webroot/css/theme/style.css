@@ -11,6 +11,11 @@ a[href^="tel:"] {
   text-decoration: none;
 }
 
+a, p, div, li {
+  word-wrap: break-word;
+}
+
+
 #wrapper.container-fluid {
   padding: 0px;
 }
