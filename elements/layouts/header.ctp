@@ -85,6 +85,7 @@
                                                             'controller' => 'users',
                                                             'action' => 'edit',
                                                             $this->Session->read('Auth.User.id')
+                                                            
                                                         ))
                                                         ?>
                                                     </li>
