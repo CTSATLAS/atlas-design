@@ -75,7 +75,7 @@
                                                         $this->Html->link(__('My Dashboard', true), array(
                                                             'controller' => 'users',
                                                             'action' => 'dashboard',
-                                                            'admin' => ($this->Session->read('Auth.User.role_id') === 1) ? false : true,
+                                                            'admin' => ($this->Session->read('Auth.User.role_id') == 1) ? false : true,
                                                         ))
                                                         ?>
                                                     </li>
@@ -83,7 +83,7 @@
                                                         <?=
                                                         $this->Html->link(__('Edit Profile', true), array(
                                                             'controller' => 'users',
-                                                            'action' => 'edit_admin',
+                                                            'action' => 'edit',
                                                             'admin' => true,
                                                             $this->Session->read('Auth.User.id')
                                                         ))
