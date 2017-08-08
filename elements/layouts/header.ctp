@@ -7,6 +7,7 @@
                         <div class="container">
                           <div class="span4">
                             <?php echo $this->element('core/themelogo'); ?>
+
                         </div>
                         <div class="span8" id="login-or-register">
                             <div class="row-fluid">                           
