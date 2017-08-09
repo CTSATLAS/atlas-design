@@ -9,7 +9,7 @@
                         <a href="/admin/users/dashboard"><strong><?php echo Configure::read('Company.name') ?> Administration</strong></a>
                     </li>
                 <?php endif ?>
-                <?php var_dump($this->Session->read('Auth.User.role_id')) ?>
+                
             </ul>
         </div>
     </div>
