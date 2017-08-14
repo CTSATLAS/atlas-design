@@ -28,7 +28,7 @@
                                                         $this->Html->link(__('My Dashboard', true), array(
                                                             'controller' => 'users',
                                                             'action' => 'dashboard',
-                                                            'admin' => false,
+                                                            'admin' => ($this->Session->read('Auth.User.role_id') == 1) ? false : true,
                                                         ))
                                                         ?>
                                                     </li>
