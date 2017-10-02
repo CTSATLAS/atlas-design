@@ -1,0 +1,9 @@
+root = true
+
+indent_style = space
+
+[*.{php,js,rake,rb}]
+charset = utf8
+
+[*.{php, ctp, html}]
+indent_size = 4
