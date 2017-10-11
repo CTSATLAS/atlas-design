@@ -13,24 +13,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="span4">
-					<h5>CareerSource Pinellas center in South Clearwater</h5>
-					<a href="//maps.google.com/maps?q=16432 US Highway 19 N. Clearwater, FL 33764" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=27.9208719,-82.7302986&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9208719,-82.7302986">
-					</a>
-				</div>
-				<div class="span4">
-					<h5>CareerSource Pinellas center on Gulf-to-Bay</h5>
-					<a href="//maps.google.com/maps?q=2312 Gulf-To-Bay Boulevard Clearwater, FL 33765" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=27.9611490,-82.7414570&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9611490,-82.7414570">
-					</a>
-				</div>
-				<div class="span4">
 					<h5>CareerSource Pinellas center in St. Petersburg</h5>
 					<a href="//maps.google.com/maps?q=3420 8th Avenue South St. Petersburg, FL 33711" target="_blank">
 						<img src="//maps.google.com/maps/api/staticmap?center=27.7619456,-82.6804225&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7619456,-82.6804225">
 					</a>
 				</div>
-				<div class="span4 offset2">
+				<div class="span4">
 					<h5>
 						CareerSource Pinellas center in Tarpon Springs
 					</h5>
@@ -38,7 +26,7 @@
 						<img src="//maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.1229205,-82.7454361" />
 					</a>
 				</div>
-				<div class="span4">
+				<div class="span4 offset4">
 					<h5>
 						CareerSource Pinellas center at <br>Tyrone
 					</h5>
