@@ -124,7 +124,10 @@
 
 	<script>
 		$(function () {
-			$('.camera_wrap').camera();
+			if ($('.camera_wrap').length) {
+				$('.camera_wrap').camera();
+			}
+
 			$('ul.nav li:first').addClass('li-first');
 			$('.message').fadeOut(10000);
 
