@@ -6,7 +6,7 @@
  * @package ATLAS V3
  */
 ?>
-<?php echo $this->Html->script('theme/users/registration', array('inline' => 'false')) ?>
+<?php echo $this->Html->script('users/registration', array('inline' => 'false')) ?>
 <?php echo $this->Html->script('jquery.autotab-1.1b', array('inline' => false)) ?>
 <?php echo $this->Html->scriptStart(array('inline' => false)) ?>
 $(document).ready(function() {
