@@ -105,6 +105,15 @@
 		'after' => '<br />'
 	));
 
+	echo $this->Form->input('migrant_seasonal_worker', array(
+		'label' => __('Are you a Migrant Seasonal Farm Worker?', true),
+		'type' => 'select',
+		'empty' => 'Please Select',
+		'options' => array('1' => 'Yes', '0' => 'No'),
+		'before' => '<br />',
+		'after' => '<br />'
+	));
+
 	echo $this->Form->hidden('registration', array('value' => 'website'));
 ?>
 	</fieldset>
