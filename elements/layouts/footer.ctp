@@ -25,9 +25,9 @@
 				<div class="span4">
 					<h5 style="font-size:13pt">CareerSource CLM <br>Levy  County </h5>
 
-					<a href="https://maps.google.com/maps?q=2175+NW+11th+Drive+chiefland,+fl+32626&hl=en&sll=29.485893,-82.878714&sspn=0.035638,0.066047&hnear=109+NW+3rd+Ave,+Chiefland,+Florida+32626&t=m&z=16" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=29.5012555,-82.8710741&zoom=16&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:red|label:none|29.4803313,-82.8609396">
-					</a>
+                                        <a href="https://maps.google.com/maps?q=2175+NW+11th+Drive+chiefland,+fl+32626&hl=en&sll=29.485893,-82.878714&sspn=0.035638,0.066047&hnear=109+NW+3rd+Ave,+Chiefland,+Florida+32626&t=m&z=16" target="_blank">
+                                                <img src="//maps.google.com/maps/api/staticmap?center=29.5012555,-82.868885&zoom=16&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:red|label:none|29.5012555,-82.868885">
+                                        </a>
 				</div>
 
 <!--				<div class="span3">-->
