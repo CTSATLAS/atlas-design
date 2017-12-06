@@ -11,7 +11,7 @@
 			<li class="span4">
 				<div class="thumbnail">
 					<div class="caption">
-						<h3>Employers</h3>
+						<h3>Businesses</h3>
 					</div>
 					<div class="thumbnail-pad">
 						<?= $this->Nav->links('Employers Middle', false, 'nav sf-menu') ?>
@@ -21,7 +21,7 @@
 			<li class="span4">
 				<div class="thumbnail">
 					<div class="caption">
-						<h3>Career Seekers</h3>
+						<h3>Candidates</h3>
 					</div>
 					<div class="thumbnail-pad">
 						<?= $this->Nav->links('Career Seekers Middle', false, 'nav sf-menu') ?>
