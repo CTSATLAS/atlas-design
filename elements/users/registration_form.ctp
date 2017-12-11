@@ -195,6 +195,35 @@
 		'before' => '<br />',
 		'after' => '<br />'
 	));
+	
+
+	echo $this->Form->input('migrant_seasonal_worker', array(
+		'label' => __('Are you a Migrant Seasonal Farm Worker?', true),
+		'type' => 'select',
+		'empty' => 'Please Select',
+		'options' => array('1' => 'Yes', '0' => 'No'),
+		'before' => '<br />',
+		'after' => '<br />'
+	));
+
+  if (isset($referralQuestions) && !empty($referralQuestions)) {
+    $options = array();
+
+    foreach ($referralQuestions as $key => $value) {
+      $options[$value['ReferralQuestion']['text']] = $value['ReferralQuestion']['text'];
+    }
+
+    $options['Other'] = 'Other';
+
+    echo $this->Form->input('referred_by', array(
+      'label' => 'Who were you referred by',
+      'type' => 'select',
+      'empty' => 'Please Select',
+      'options' => $options,
+      'before' => '<br/>',
+      'after' => '<br/>'
+    ));
+  }
 
 	echo $this->Form->hidden('registration', array('value' => 'website'));
 ?>
