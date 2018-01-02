@@ -11,7 +11,7 @@
             <!-- <a href="/chat/pendingchats"><button class="btn btn-info">Pending Chats</button></a>
             <a href="/chat/activechats"><button class="btn btn-info">Active Chats</button></a> -->
             <hr />
-          <iframe src="https://atlas.careersourceclm.com/livechat/index.php/site_admin/" width="100%" height="800px" style="border:1px dotted #fff; width:100%">
+          <iframe src="https://careersourceclm.com/livechat/index.php/site_admin/" width="100%" height="800px" style="border:1px dotted #fff; width:100%">
 
           </iframe>
 
