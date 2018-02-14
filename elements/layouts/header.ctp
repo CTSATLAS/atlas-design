@@ -1,19 +1,22 @@
 <header class="p0">
     <div class="container">
-        <div class="google-search clearfix" style="margin: 20px 0">
-            <?php if (isset($nearestLocation)): ?>
+        <?php if (isset($nearestLocation)): ?>
+            <div class="row">
                 <div class="span4">
                     <h6><strong>Your nearest CareerSource office</strong></h6>
                     <?php
-                        $addressString = "{$nearestLocation['address_1']}";
-                        if (isset($nearestLocation['address_2']) && !empty($nearestLocation['address_2'])) { $addressString .= ", {$nearestLocation['address_2']}"; }
-                        $addressString .= ", {$nearestLocation['city']}";
-                        $addressString .= ", {$nearestLocation['state']}";
-                        $addressString .= ", {$nearestLocation['zip']}";
-                        echo $addressString
+                    $addressString = "{$nearestLocation['address_1']}";
+                    if (isset($nearestLocation['address_2']) && !empty($nearestLocation['address_2'])) { $addressString .= ", {$nearestLocation['address_2']}"; }
+                    $addressString .= ", {$nearestLocation['city']}";
+                    $addressString .= ", {$nearestLocation['state']}";
+                    $addressString .= ", {$nearestLocation['zip']}";
+                    echo "<address>$addressString</address>";
                     ?>
                 </div>
-            <?php endif ?>
+            </div>
+        <?php endif ?>
+
+        <div class="google-search clearfix" style="margin: 20px 0">
             <div class="pull-right">
                 <div class="span4">
                     <script>
