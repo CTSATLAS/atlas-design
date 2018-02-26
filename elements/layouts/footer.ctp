@@ -21,12 +21,12 @@
 						<img src="//maps.google.com/maps/api/staticmap?center=30.4448940,-85.0452100&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.4448940,-85.0452100">
 					</a>
 				</div>
-				<div class="span3">
-					<h5 style="font-size:12pt">CareerSource Chipola, Chipley Center</h5>
-					<a href="//maps.google.com/maps?q=680 Second Street, Room 7 Chipley, Fl 32428" target="_blank">
-						<img src="//maps.google.com/maps/api/staticmap?center=30.7814890,-85.5459540&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7814890,-85.5459540">
-					</a>
-				</div>
+                                <div class="span3">
+                                        <h5 style="font-size:12pt">CareerSource Chipola, Chipley Center</h5>
+                                        <a href="//maps.google.com/maps?q=757 Hoyt Street, Chipley FL 32428" target="_blank">
+                                                <img src="//maps.google.com/maps/api/staticmap?center=30.7742983,-85.5539793&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|30.7742983,-85.5539793">
+                                        </a>
+                                </div>
 				<div class="span3">
 					<h5 style="font-size:12pt">CareerSource Chipola, Management Office</h5>
 					<a href="//maps.google.com/maps?q=4636 Highway 90 East, Suite K Marianna, FL 32446" target="_blank">
