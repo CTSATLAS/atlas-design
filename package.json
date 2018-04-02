@@ -18,7 +18,18 @@
   "homepage": "https://github.com/CTSATLAS/atlas-design#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.0",
     "jquery": "^3.3.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
     "npm": "^5.8.0",
     "popper.js": "^1.14.1"
   }
