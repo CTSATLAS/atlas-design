@@ -4,6 +4,7 @@
             <div class="row">
                 <div class="span4">
                     <h6><strong>Your nearest CareerSource office</strong></h6>
+
                     <?php
                     $addressString = "{$nearestLocation['address_1']}";
                     if (isset($nearestLocation['address_2']) && !empty($nearestLocation['address_2'])) {
@@ -32,6 +33,7 @@
                         s.parentNode.insertBefore(gcse, s);
                       })();
                     </script>
+
                     <gcse:search></gcse:search>
                 </div>
             </div>
@@ -73,7 +75,6 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <!--search form-->
                                 </div>
 
                                 <div id="header-login" class="span8">
@@ -81,7 +82,7 @@
                                         <?php if ($this->Session->read('Auth.User')): ?>
                                             <?php
                                             $firstname = $this->Session->read('Auth.User.firstname');
-                                            $lastname = $this->Session->read('Auth.User.lastname');
+                                            $lastname  = $this->Session->read('Auth.User.lastname');
                                             ?>
 
                                             <div class="btn-group" style="margin-right:15px">
@@ -98,19 +99,22 @@
                                                             'admin' => ($this->Session->read('Auth.User.role_id') == 1) ? false : true,
                                                         )) ?>
                                                     </li>
+
                                                     <li>
                                                         <?= $this->Html->link(__('Edit Profile', true), array(
                                                             'controller' => 'users',
-                                                            'action' => 'edit',
+                                                            'action'     => 'edit',
                                                             $this->Session->read('Auth.User.id')
                                                         )) ?>
                                                     </li>
+
                                                     <li class="divider"></li>
+
                                                     <li>
                                                         <?= $this->Html->link(__('Logout', true), array(
                                                             'controller' => 'users',
-                                                            'action' => 'logout',
-                                                            'kiosk' => false,
+                                                            'action'     => 'logout',
+                                                            'kiosk'      => false,
                                                             'web'
                                                         )) ?>
                                                     </li>
