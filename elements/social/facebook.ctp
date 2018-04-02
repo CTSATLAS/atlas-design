@@ -1,1 +1,0 @@
-<div class="fb-like-box" width='270' height= data-href="<?php echo $fb_url ?>" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div>
