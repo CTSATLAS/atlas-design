@@ -42,12 +42,11 @@
 	</div>
 </div>
 
-<div class="row-fluid">
-    <div class="span3 hide-social  hidden-phone hidden-tablet">
-        <?php // echo $this->element('social/tabs'); ?>
-	    <?php echo $this->element('css-tabs/social'); ?>
+<div class="row-fluid" style="min-height: 475px">
+    <div class="span4 hide-social  hidden-phone hidden-tablet">
+        <?= $this->element('social/tabs'); ?>
 	</div>
-        <div class="span9 home-content">
+        <div class="span8 home-content">
 
 		<?php echo $this->element('homepage') ?>
 	</div>

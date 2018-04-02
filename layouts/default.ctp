@@ -183,10 +183,10 @@
 				method: 'static',
 				height: 450,
 				width: 270,
-				widgets: 'facebook,youtube',
+				widgets: 'facebook,youtube,linkedin',
 				facebookId: 132438623509873,
-				twitterId: 'careersourcetampabay',
-				youtubeId: 'careersourcetampabay',
+				twitterId: 'careersourceph',
+				youtubeId: 'careersourceph',
 				twitter: {
 					thumb: true
 
