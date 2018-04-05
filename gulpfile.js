@@ -6,8 +6,8 @@ const gulp = require('gulp'),
     rename = require('gulp-rename');
 
 gulp.task('sass', function() {
-  return gulp.src(['webroot/scss/**/*.scss'])
-      .pipe(sass())
+  return gulp.src(['webroot/scss/application.scss'])
+      .pipe(sass({ includePaths: ['./node_modules']}))
       .pipe(gulp.dest('webroot/css'));
 });
 

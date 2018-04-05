@@ -1,54 +1,31 @@
-<?php
-/**
- * @author Brandon Cordell
- * @copyright Complete Technology Solutions 2011
- * @link http://ctsfla.com
- */
-?>
 <div class="row">
-	<div class="span12" id="middle-nav">
-		<ul class="thumbnails">
-			<li class="span4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h3>Employers</h3>
-					</div>
-					<div class="thumbnail-pad">
-						<?= $this->Nav->links('Employers Middle', false, 'nav sf-menu') ?>
-					</div>
-				</div>
-			</li>
-			<li class="span4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h3>Career Seekers</h3>
-					</div>
-					<div class="thumbnail-pad">
-						<?= $this->Nav->links('Career Seekers Middle', false, 'nav sf-menu') ?>
-					</div>
-				</div>
-			</li>
-			<li class="span4">
-				<div class="thumbnail">
-					<div class="caption">
-						<h3>Programs</h3>
-					</div>
-					<div class="thumbnail-pad">
-						<?= $this->Nav->links('Programs Middle', false, 'nav sf-menu') ?>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</div>
-</div>
+    <div class="col-xs-12 col-md-4">
+        <div class="navigation card">
+            <h3 class="card-header">Employers</h3>
 
-<div class="row-fluid">
-    <div class="span3 hide-social  hidden-phone hidden-tablet">
-        <?php // echo $this->element('social/tabs'); ?>
-	    <?php echo $this->element('css-tabs/social'); ?>
-	</div>
-        <div class="span9 home-content">
+            <div class="card-body">
+                <?= $this->Nav->links('Employers Middle', false, 'sf-menu') ?>
+            </div>
+        </div>
+    </div>
 
-		<?php echo $this->element('homepage') ?>
-	</div>
+    <div class="col-xs-12 col-md-4">
+        <div class="navigation card">
+            <h3 class="card-header">Career Seekers</h3>
+
+            <div class="card-body">
+                <?= $this->Nav->links('Career Seekers Middle', false, 'sf-menu') ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-md-4">
+        <div class="navigation card">
+            <h3 class="card-header">Programs</h3>
+
+            <div class="card-body">
+                <?= $this->Nav->links('Programs Middle', false, 'sf-menu') ?>
+            </div>
+        </div>
+    </div>
 </div>

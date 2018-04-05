@@ -1,0 +1,63 @@
+header {
+  background: url('../img/header-bg.jpg') 0 0 repeat-x #d2d2d2;
+  padding: 40px 0 0;
+
+  .masthead {
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    margin: {
+      right: 0;
+      left: 0;
+    }
+  }
+
+  .logo { padding: 15px 30px }
+
+  .social-icons {
+    margin: 0.875rem 1rem;
+
+    a:hover {
+      text-decoration: none;
+
+      .social-icon-background { color: $orange-lighter }
+    }
+
+    .social-icon-background { color: $green }
+    .social-icon-brand { color: $white }
+  }
+}
+
+footer {
+  a:hover { text-decoration: none;}
+
+  h5 {
+    color: $white;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+
+  p {
+    color: $gray-700;
+    font-size: 0.675rem;
+  }
+
+  .american-job-center-logo { margin-top: -20px }
+  .career-source-florida-logo { margin-top: -5px }
+  .locations { background-color: $green-lighter }
+  .map-image { border: 5px solid $white }
+}
+
+
+@include media-breakpoint-down(md) {
+  footer {
+    .map-title { font-size: 0.85rem }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  footer {
+    .map { margin-bottom: 1.5rem }
+    .map-title { font-size: 1rem }
+  }
+}
+

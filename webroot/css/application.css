@@ -1,3 +1,58 @@
+header {
+  background: url("../img/header-bg.jpg") 0 0 repeat-x #d2d2d2;
+  padding: 40px 0 0; }
+  header .masthead {
+    background-color: #fff;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 0;
+    margin-left: 0; }
+  header .logo {
+    padding: 15px 30px; }
+  header .social-icons {
+    margin: 0.875rem 1rem; }
+    header .social-icons a:hover {
+      text-decoration: none; }
+      header .social-icons a:hover .social-icon-background {
+        color: #ef9c2b; }
+    header .social-icons .social-icon-background {
+      color: #37ab26; }
+    header .social-icons .social-icon-brand {
+      color: #fff; }
+
+footer a:hover {
+  text-decoration: none; }
+
+footer h5 {
+  color: #fff;
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem; }
+
+footer p {
+  color: #495057;
+  font-size: 0.675rem; }
+
+footer .american-job-center-logo {
+  margin-top: -20px; }
+
+footer .career-source-florida-logo {
+  margin-top: -5px; }
+
+footer .locations {
+  background-color: #a0cf67; }
+
+footer .map-image {
+  border: 5px solid #fff; }
+
+@media (max-width: 991.98px) {
+  footer .map-title {
+    font-size: 0.85rem; } }
+
+@media (max-width: 767.98px) {
+  footer .map {
+    margin-bottom: 1.5rem; }
+  footer .map-title {
+    font-size: 1rem; } }
+
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -56,7 +111,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -1251,7 +1306,7 @@ pre {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -1611,7 +1666,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   user-select: none;
   border: 1px solid transparent;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
@@ -2090,7 +2145,7 @@ tbody.collapse.show {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #212529;
   text-align: left;
   list-style: none;
@@ -2380,7 +2435,7 @@ tbody.collapse.show {
   align-items: center;
   padding: 0.375rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
@@ -3923,7 +3978,7 @@ button.close {
 .popover-header {
   padding: 0.5rem 0.75rem;
   margin-bottom: 0;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: inherit;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
@@ -6037,3 +6092,50 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
+
+.gsc-control-cse {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  padding-top: 0 !important; }
+
+.navbar.navbar-dark.bg-success {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  z-index: 2; }
+  .navbar.navbar-dark.bg-success .navbar-nav .nav-link {
+    color: #fff; }
+
+@media (min-width: 768px) {
+  .navbar.navbar-dark.bg-success {
+    background-image: url(../img/navigation-background.png);
+    background-position-y: -53px;
+    background-repeat: no-repeat; } }
+
+.navigation.card {
+  background-color: #3475be; }
+  .navigation.card .card-header {
+    background-image: url(../img/middle-navigation-header-background.png);
+    background-size: cover;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 300;
+    padding: 20px;
+    text-transform: uppercase; }
+  .navigation.card .card-body {
+    padding-bottom: 1.875rem; }
+    .navigation.card .card-body .nav {
+      display: block; }
+      .navigation.card .card-body .nav li {
+        border-bottom: 1px dotted #1259aa; }
+      .navigation.card .card-body .nav a {
+        color: #fff;
+        display: block;
+        padding: 8px 0 8px 20px; }
+
+@media (max-width: 991.98px) {
+  .navigation.card {
+    margin-bottom: 1rem; }
+    .navigation.card .card-header {
+      font-size: 1.25rem; }
+    .navigation.card .card-body .nav a {
+      padding-left: 0; } }

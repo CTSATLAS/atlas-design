@@ -1,0 +1,43 @@
+.navigation.card {
+  background-color: #3475be;
+
+  .card-header {
+    background: {
+      image: url(../img/middle-navigation-header-background.png);
+      size: cover;
+    }
+    border: none;
+    border-radius: 2px;
+    color: $white;
+    font-weight: 300;
+    padding: 20px;
+    text-transform: uppercase;
+  }
+
+  .card-body {
+    padding-bottom: 1.875rem;
+
+    .nav {
+      display: block;
+
+      li {
+        border-bottom: 1px dotted #1259aa;
+      }
+
+      a {
+        color: #fff;
+        display: block;
+        padding: 8px 0 8px 20px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .navigation.card {
+    margin-bottom: 1rem;
+
+    .card-header { font-size: 1.25rem }
+    .card-body .nav a { padding-left: 0 }
+  }
+}
