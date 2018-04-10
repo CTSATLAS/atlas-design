@@ -67,7 +67,9 @@
 
                 <div class="row masthead">
                     <div class="col-md-4">
-                        <img src="/img/default_header_logo.png" class="img-fluid logo">
+                        <a href="/">
+                            <?= $this->Html->image('default_header_logo.png', array('class' => 'img-fluid logo')) ?>
+                        </a>
                     </div>
 
                     <div class="col-md-8 text-right">

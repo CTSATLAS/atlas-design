@@ -16778,3 +16778,21 @@ Object.defineProperty(exports, '__esModule', { value: true });
 })));
 //# sourceMappingURL=bootstrap.js.map
 
+$(function() {
+  $(document).on('click', '.nav-link', function (event) {
+    event.stopPropagation();
+
+    var $target = $(event.target);
+
+    if ($target.attr('href') !== undefined) {
+      window.location = $target.attr('href');
+    }
+  });
+});
+
+$('body').on('mouseenter mouseleave','.dropdown',function(e){
+  var _d=$(e.target).closest('.dropdown');_d.addClass('show');
+  setTimeout(function(){
+    _d[_d.is(':hover')?'addClass':'removeClass']('show');
+  },300);
+});

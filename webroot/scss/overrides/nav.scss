@@ -5,7 +5,33 @@
   .navbar-nav {
     .nav-link {
       color: $white;
+      padding: {
+        top: 1rem;
+        bottom: 1rem;
+      }
     }
+
+    .dropdown-menu {
+      background-color: $gray-600;
+      border-radius: 0;
+      top: 45px;
+
+      .dropdown-item {
+        color: #fff;
+        font: {
+          size: 0.75rem;
+          weight: 300;
+        }
+        letter-spacing: 0.25px;
+      }
+
+      .dropdown-item:hover {
+        background-color: inherit;
+        color: $green-lighter;
+      }
+    }
+
+    .dropdown:hover > .dropdown-menu { display: block }
   }
 }
 
@@ -15,6 +41,19 @@
       image: url(../img/navigation-background.png);
       position-y: -53px;
       repeat: no-repeat;
+    }
+    padding: {
+      top: 0;
+      bottom: 0;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        padding: {
+          top: 1rem;
+          bottom: 1rem;
+        }
+      }
     }
   }
 }
