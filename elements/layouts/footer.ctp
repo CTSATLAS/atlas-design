@@ -26,7 +26,7 @@
 						<img src="//maps.google.com/maps/api/staticmap?center=28.1229205,-82.7454361&zoom=14&size=380x240&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.1229205,-82.7454361" />
 					</a>
 				</div>
-				<div class="span4 offset4">
+				<div class="span4">
 					<h5>
 						CareerSource Pinellas center at <br>Tyrone
 					</h5>
