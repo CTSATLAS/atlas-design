@@ -13,7 +13,7 @@
 
             <?php if (!empty($rfp['Rfp']['file'])): ?>
                 <br />
-                <a class="rfp_download" href="<?php echo $rfp['Rfp']['file'] ?>"><img src="/img/icons/rfp_download_big.png" /><br />Download Public Notice</a>
+                <a class="rfp_download" href="/<?php echo $rfp['Rfp']['file'] ?>"><img src="/img/icons/rfp_download_big.png" /><br />Download Public Notice</a>
             <?php endif ?>
         </div>
     <?php endforeach; ?>
