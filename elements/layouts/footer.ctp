@@ -1,3 +1,12 @@
+<style>
+.footer-map {
+    float: left;
+    width: 18%;
+    display: inline-block;
+    margin-right: 20px;
+    }
+</style>
+
 <footer>
         <div class="row">
 
@@ -14,33 +23,40 @@
         <div class="maps-holder">
                 <div class="container">
                         <div class="row">
-								<div class="span3">
+                                                                <div class="footer-map">
                                         <h5 style="font-size: 12pt">CareerSource Tampa Bay center in Tampa</h5>
 
                                         <a href="//www.google.com/maps/place/9215 N Florida Ave, Tampa, FL 33612" target="_blank">
-                                                <img src="https://maps.google.com/maps/api/staticmap?center=28.033721,-82.4594297&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|28.033721,-82.4594297&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="https://maps.google.com/maps/api/staticmap?center=28.033721,-82.4594297&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue%7Clabel:none%7C28.033721,-82.4594297&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
-								<div class="span3">
+                                                                <div class="footer-map">
                                         <h5 style="font-size: 12pt">Career Source Tampa Bay Career Prep Center</h5>
 
                                         <a href="//www.google.com/maps/place/2605 N 43rd St, Tampa, FL 33605" target="_blank">
-                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.9660747,-82.4118586&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.9660747,-82.4118586&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.9660747,-82.4118586&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue%7Clabel:none%7C27.9660747,-82.4118586&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
-								<div class="span3">
+                                        <div class="footer-map">
                                         <h5 style="font-size: 12pt">CareerSource Tampa Bay center in Brandon</h5>
 
                                         <a href="//www.google.com/maps/place/9350 Bay Plaza Blvd #121, Tampa, FL 33619" target="_blank">
-                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.94595,-82.3500477&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.94595,-82.3500477&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.94595,-82.3500477&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue%7Clabel:none%7C27.94595,-82.3500477&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
 
-                                <div class="span3">
+                                        <div class="footer-map">
                                         <h5 style="font-size: 12pt">CareerSource Tampa Bay center in Ruskin</h5>
 
                                         <a href="//www.google.com/maps/place/201 14th Ave SE, Ruskin, FL 33570" target="_blank">
-                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.7049050,-82.4327030&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue|label:none|27.7049050,-82.4327030&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="https://maps.google.com/maps/api/staticmap?center=27.7049050,-82.4327030&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue%7Clabel:none%7C27.7049050,-82.4327030&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
+                                        </a>
+                                </div>
+                                        <div class="footer-map">
+                                        <h5 style="font-size: 12pt">CareerSource Tampa Bay center in Plant City</h5>
+
+                                        <a href="//www.google.com/maps/place/307 North Michigan Avenue Plant City, FL 33563" target="_blank">
+                                                <img src="https://maps.google.com/maps/api/staticmap?center=28.017116,-82.1233095&zoom=15&size=370x230&maptype=roadmap&sensor=false&language=&markers=color:blue%7Clabel:none%7C28.01711,-82.1233095&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
                         </div>
