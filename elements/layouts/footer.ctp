@@ -12,20 +12,20 @@
                                 <div class="span4">
                                         <h5 style="font-size:12pt">CareerSource Pasco | Hernando, Brooksville</h5>
                                         <a href="//maps.google.com/maps?q=16336+Cortez+Blvd%2C+Broolsville%2C+FL+34601" target="_blank">
-                                                <img src="//maps.google.com/maps/api/staticmap?center=28.5402838,-82.4583723&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|28.5402838,-82.4583723&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="//maps.google.com/maps/api/staticmap?center=28.5402838,-82.4583723&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue%7Clabel:none%7C28.5402838,-82.4583723&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
                                 <div class="span4">
                                         <h5 style="font-size:11pt">CareerSource Pasco | Hernando, New Port Richey</h5>
                                         <a href="//maps.google.com/maps?q=4440 Grand Blvd. New Port Richey, FL 34652" target="_blank">
-                                                <img src="//maps.google.com/maps/api/staticmap?center=28.2235843,-82.7229016&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|28.2235843,-82.7229016&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="//maps.google.com/maps/api/staticmap?center=28.2235843,-82.7229016&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue%7Clabel:none%7C28.2235843,-82.7229016&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
                                 <div class="span4">
                                         <h5 style="font-size:12pt">CareerSource Pasco | Hernando, Dade City</h5>
                                         <a href="//maps.google.com/maps?q=15000 Citrus Country Dr. Suite 303
 Dade City, FL 33523" target="_blank">
-                                                <img src="//maps.google.com/maps/api/staticmap?center=28.3768332,-82.1903938&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue|label:none|28.3768332,-82.1903938&key=AIzaSyArv6UvGE2gt12YZOk7Zpl1d8MPL81lZGw">
+                                                <img src="//maps.google.com/maps/api/staticmap?center=28.3768332,-82.1903938&amp;zoom=15&amp;size=380x240&amp;maptype=roadmap&amp;sensor=false&amp;language=&amp;markers=color:blue%7Clabel:none%7C28.3768332,-82.1903938&key=AIzaSyAJJeA8ALX8VWoCI8npsRLh0dhscoBAPok">
                                         </a>
                                 </div>
                         </div>
